@@ -47,4 +47,4 @@ What happens if you click the A or B buttons?
 5. Upgrade / choices: Start with a song or not. Different songs / Make your own song / volume controls
 6. General points: boxouts: MIDI / volume / classical music and computers / amplitude / pitch and frequency and duration etc. / how sound links to wellbeing.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:50%;height:50%;" src="https://makecode.microbit.org/---codeembed#pub:_aT34qFaDbfXu" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:50%;height:50%;" src="https://makecode.microbit.org/---codeembed#pub:_aT34qFaDbfXu" allowfullscreen="allowfullscreen" scrolling="False" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
