@@ -70,5 +70,16 @@ In the centre there is the **blocks panel** which is colour coded and allows you
 
 On the right side there is a main **code editor panel** to drag and drop blocks into when creating your program.
 
+### Play melody
+
+The MakeCode editor panel already contains two blocks: `on start` and `forever`.
+
+You are going to use the `forever` block to make use of the speaker output on the micro:bit.
+
+--- task ---
+
+From the music block,
+
+--- /task ---
 
 --- save ---

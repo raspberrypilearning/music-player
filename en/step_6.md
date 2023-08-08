@@ -20,7 +20,8 @@ Summary or upgrade project task
 title: Completed project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
+You can view the [completed project here](https://makecode.microbit.org/_MKmiREJkzhJL){:target="_blank"}.
+
 
 --- /collapse ---
 
