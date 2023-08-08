@@ -9,6 +9,11 @@ Summary or upgrade project task
 </div>
 </div>
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+ <span style="color: #0faeb0">Mental Health Awareness week</span> is a campaign to raise understanding of mental health issues, promote good well-being, and break down stigma surrounding mental illness. This event has been recognised in various countries and is celebrated in May in the UK.
+</p>
+
+
 --- collapse ---
 
 ---

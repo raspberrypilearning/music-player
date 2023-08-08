@@ -1,21 +1,29 @@
 ---
-title: explore-project-template
+title: Music player
 hero_image: images/banner.png
-description: explore-project-template description
+description: 
+  Create a music box so you can choose some tunes to relax to.
 version: 4
 listed: false
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: '2023-08-08'
 steps:
-- title: Introduction
-- title: Step title
-- title: Step title
-- title: Step title
-- title: Reflection
+- title: You will make
+- title: Play a tune
+  completion:
+    - engaged
+- title: Choose some tunes
+- title: Skip through tunes
+- title: Stop or shuffle
+  completion:
+    - internal
+- title: Quick quiz
   knowledge_quiz:
     path: quiz1
     version: 1
     questions: 3
     passing_score: 3
+  completion:
+      - external
 - title: Upgrade your project
 - title: What next?
