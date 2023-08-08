@@ -1,5 +1,12 @@
 ## Introduction
 
+1. Play some music: Forever > Play melody (output)
+2. Allowing choices: Create music Variable and set it to 1 in on start and include the logic if block in forever
+3. Skip tracks: Both the on button pressed blocks
+4. Stop or Shuffle: On shake - shuffle or stop.
+5. Upgrade / choices: Start with a song or not. Different songs / Make your own song / volume controls
+6. General points: boxouts: MIDI / volume / classical music and computers / amplitude / pitch and frequency and duration etc. / how sound links to wellbeing.
+
 In this project, <mark> short project description </mark>
 
 <mark>Boxout (wherever wanted/needed) </mark>
