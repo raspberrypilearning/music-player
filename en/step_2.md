@@ -64,28 +64,11 @@ It has all the features and buttons found on a V2 micro:bit, including:
 + Input buttons
     + A
     + B
-    + Logo
+    + Shake
 
 In the centre there is the **blocks panel** which is colour coded and allows you to access various code blocks.
 
 On the right side there is a main **code editor panel** to drag and drop blocks into when creating your program.
 
---- task ---
-
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
-
-[[[working-offline]]]
-
---- /task ---
-
---- task ---
-
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
-
---- /task ---
 
 --- save ---
