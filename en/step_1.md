@@ -51,3 +51,7 @@ What happens if you click the A or B buttons?
 
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:50%;height:50%;" src="https://makecode.microbit.org/---codeembed#pub:_L8h6500jFdDL" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:50%;height:50%;" src="https://makecode.microbit.org/---codeembed#pub:_PL7a0MaJA7b5" allowfullscreen="allowfullscreen" scrolling="False" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
