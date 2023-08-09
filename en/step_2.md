@@ -1,14 +1,5 @@
 ## Play a tune
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
-</div>
-<div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
-</div>
-</div>
-
 ### Opening MakeCode
 
 To get started creating your micro:bit project, you will need to open the MakeCode editor.
@@ -49,37 +40,31 @@ Give your new project the name `music player` and click **Create**.
 
 --- /task ---
 
-### The MakeCode Editor
-
-Created by the micro:bit Foundation, the **MakeCode editor** has everything you need to get started coding on micro:bit. 
-
-![](images/makecode-tour.png)
-
-On the left side there is a **simulator**, this contains a virtual micro:bit that you can use to test your code! 
-
-It has all the features and buttons found on a V2 micro:bit, including:
-+ LED Display
-+ Speaker
-+ Microphone
-+ Input buttons
-    + A
-    + B
-    + Shake
-
-In the centre there is the **blocks panel** which is colour coded and allows you to access various code blocks.
-
-On the right side there is a main **code editor panel** to drag and drop blocks into when creating your program.
+[[[makecode-tour]]]
 
 ### Play melody
 
-The MakeCode editor panel already contains two blocks: `on start` and `forever`.
 
 You are going to use the `forever` block to make use of the speaker output on the micro:bit.
 
 --- task ---
 
-From the music block,
+From the music block, drag the `play melody... dadadum.. in background` block and place it inside the `forever` block.
+
+![The Music block menu, open with the "play melody' button highlighted](images/play-melody.png)
 
 --- /task ---
+
+--- task ---
+
+Click on the down arrow next to the 'in background' button. Choose 'until done' as the option for how long the melody will play.
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_Tr00PpKK07YM" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- /task ---
+
+**Test** When the program runs, you should now hear the melody play. 
+
+Well done, you have created your first music program on a micro:bit.
 
 --- save ---
