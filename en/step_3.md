@@ -15,7 +15,7 @@ A variable is like a special box where we can keep different pieces of informati
 
 Click on the `Variables` block menu to expand it. When open, click on the `Make a Variable` button.
 
-![The 'Make a variable' button highlighted inside the Variables block menu.](images/variable-menu.png)
+![The 'Make a variable' block highlighted inside the Variables block menu.](images/variable-menu.png)
 
 --- /task ---
 
@@ -45,10 +45,69 @@ In order for your music player to play different melody choices, you will need t
 
 --- task ---
 
-From the Logic menu, click on the `if.. true.. then.. else` block and drag it inside the `forever` block. It should click below the `play melody... dadadum.. until forever` block
+From the Logic block menu, click on the `if.. true.. then` block and drag it inside the `forever` block. It should click in place above the `play melody... dadadum.. until forever` block
 
 ![The Logic block menu - with the `if.. true.. then.. else` block highlighted.](images/logicif-block.png)
 
+--- /task ---
+
+--- task ---
+
+Click on the Logic block menu again and this time, you will need to drag out a comparison `0=0` block. Drag this into the `true` area on the `if.. true.. then` block and make sure it fits in place.
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_WrzDXU4KKeRY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- /task ---
+
+--- task ---
+
+From the Variables block menu, drag out a `tune` variable block. Place it into the first `0` area on the comparison block inside the C. Change the second `0` to `1`.
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_HyH5uA1iA80o" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- /task ---
+
+--- task ---
+
+Now click on the `play melody... dadadum.. until done` block and place it inside the `if.. tune = 0.. then` block.
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_40uahb1ahe5k" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- /task ---
+
+To add more melody choices, you need to create more conditions within the `if.. true.. then` block. This will create `else.. if` conditions.
+
+--- task ---
+
+Click on the `+` symbol on the bottom left of the `if... then` block. This will create an `else` block. 
+
+--- /task ---
+
+--- task ---
+
+Click on the `+` symbol below the  `else` block. This will create an `else if... then` block. Repeat this two more times until you have three `else if... then` blocks.
+
+--- /task ---
+
+--- task ---
+
+Now click on the `-` symbol next to the `else` block to remove the `else` block.
+
+![Using the + symbol, three else if blocks are added to a condition. Finally, the else is removed from the end by clicking the - symbol next to it](images/elseif-blocks.gif)
+
+--- /task ---
+
+--- task ---
+
+Right click on the entire comparison `tune = 1` block and then duplicate it.
+
+![The comparison block on an 'if.. else condition' highlighted, with the right click menu expandedshowing options inluding 'Duplicate'.](images/duplicate-comparison.png)
+
+--- /task ---
+
+--- task ---
+
+Place the duplicated comparison block inside the empty shaped space on the 
 --- /task ---
 
 --- task ---

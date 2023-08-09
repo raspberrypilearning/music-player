@@ -13,7 +13,7 @@ steps:
   completion:
     - engaged
 - title: Choose some tunes
-- title: Skip through tunes
+- title: Skip tunes
 - title: Stop or shuffle
   completion:
     - internal
