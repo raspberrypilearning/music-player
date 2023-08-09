@@ -36,7 +36,7 @@ Click on the `Music` block menu to expand it and drag the `stop all sounds` bloc
 
 ![The Music block menu selected, with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_6FTWXk9WTLym" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:50%;" src="https://makecode.microbit.org/---codeembed#pub:_6FTWXk9WTLym" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -63,7 +63,7 @@ In the `change [tune] to [1]` block, change the value `1` to `-1`.
 If the value of the variable is `1`, then changing it by `-1` will make the value `0`.
 (1 - 1 = 0)
 
-🚨 **But there is no melody associated with the value 0!** 🚨
+🚨 But there is no melody associated with the value `0`! 🚨
 
 And if you keep going, you will go from 0 to -1, then -2, -3, -4, -5 and so on!
 
@@ -71,7 +71,7 @@ We need to deal with this and stop this from happening!
 
 We need to make sure the lowest number that the variable value can be is `1`, because our melodies start at 1:
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- task ---
 
@@ -83,7 +83,9 @@ Click on the `Variables` block menu to expand it and drag the `tune` variable va
 
 Change the second `0` to a `1`.
 
-Finally, click on the `Variables` block menu to expand it and drag the `set [tune] to 0` block inside the `if [tune] < 1 then` block in your code. Change the `0` to `4`.
+Click on the `Variables` block menu to expand it and drag the `set [tune] to 0` block inside the `if [tune] < 1 then` block in your code. 
+
+Change the `0` to `4`.
 
 Your code should look like this:
 
@@ -91,26 +93,38 @@ Your code should look like this:
 
 --- /task ---
 
+#### Decreasing the  the value of the variable
 
+Button B is on the right, so we will use this button to skip to the next track.
 
---- task ---
+To do this we need to change the value of the `tune` variable by `1`.
 
-
-
---- /task ---
-
-
+We can re-use our code we created to control what happens when Button A is pressed.
 
 --- task ---
 
-**Debug** Make sure you have changed the correct values in the blocks used to change the value of the variables. `Button A` should change the variable by `-1` and Button B should change the variable value by `1`.
+**Right click** on the top part of the `on button A pressed` block that you now have in the code editor panel. 
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+Click `Duplicate` to make a copy of the whole block. 
+
+Make these changes:
+
++ Change the button from A to B
++ Change the `-1` to `1`
++ Change the `<` to `>`
++ Change the `1` to `4`
++ Change the `4` to `1`
+
+Your code should look like this:
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_CbfbVkYrt0iW" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
---- save ---
+**Debug** Make sure you have changed the correct values in the blocks used to change the value of the variables. For example: `Button A` should change the variable by `-1` and Button B should change the variable value by `1`.
+
+When you make a change to a code block in the code editor panel, the simulator will restart.
+
+**Test** When the program runs, you should now be able to change the tune by pressing the buttons.
+
+Well done, you can now skip your tracks!

@@ -129,18 +129,36 @@ You will now need to select a different melody for each `else if.. then` block. 
 
 From inside the Music block menu, drag out a `play melody... dadadum.. in background` block. Place it below the first `else if.. then` block.
 
-Click on the down arrow next to `melody dadadum` to see more melody options. You can scroll to view all the available melodies. Choose a melody of your choice.
+Click on the down arrow next to `melody dadadum` to see more melody options. You can scroll to view all the available melodies. Choose a melody of your choice. 
 
-
+![The drop down menu on 'melody dadadum' showing various melody choices .](images/melody-choices.png)
 
 --- /task ---
+
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+Change the `in background` option to `until done` on your newly selected melody block. We have chosen `melody punchline` in our example.
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_edEDeFfasJuL" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- /task ---
+
+--- task ---
+
+Right click and Duplicate the second `play melody... punchline.. until done` block. Place it below the second `else if.. then` block. 
+
+Ensure you change the melody from `melody punchline` to another choice,
+
+Repeat these steps one more time for the third, `else if.. then` block. You should now have four melodies for the four conditions.
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_f5DefxebuH6c" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- /task ---
+
+--- task ---
+
+**Test:** Check that all your code is working well. 
+
 
 --- /task ---
 
