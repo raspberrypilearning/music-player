@@ -107,7 +107,20 @@ Right click on the entire comparison `tune = 1` block and then duplicate it.
 
 --- task ---
 
-Place the duplicated comparison block inside the empty shaped space on the 
+Place the duplicated comparison block inside the empty shaped space on the first `else if.. then` block. Duplicate more comparison blocks and repeat placing them inside the empty shaped spaces on the two remaining `else if.. then` blocks.
+
+![A duplicated comparison block showing the 'tune' variable is dragged into an empty shaped space on an 'else..if' condition block. This is repeated twice until all condition blocks have comparison blocks in them.](images/elseif-tune.gif)
+
+--- /task ---
+
+--- task ---
+
+Inside the first `else if.. then` block, change the `tune = 1` comparison from `1` to `2`.
+
+Repeat this for the second, change the `tune = 1` comparison from `1` to `3` and then repeat this one more time change the `tune = 1` comparison from `1` to `4`
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
 --- /task ---
 
 --- task ---

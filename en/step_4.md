@@ -69,7 +69,21 @@ And if you keep going, you will go from 0 to -1, then -2, -3, -4, -5 and so on!
 
 We need to deal with this and stop this from happening!
 
-We need to make sure the lowest number that the variable value can be is `1`.
+We need to make sure the lowest number that the variable value can be is `1`, because our melodies start at 1:
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- task ---
+
+Click on the `Logic` block menu to expand it and drag the `if <true> then` block below the `change [tune] by [1]` block in your code.
+
+In the `change [tune] to [1]` block, change the value `1` to `-1`.
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_bk1aXfP6ob1E" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- /task ---
+
+
 
 --- task ---
 
