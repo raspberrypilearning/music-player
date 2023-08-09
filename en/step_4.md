@@ -7,7 +7,7 @@ Instead of changing the melody by changing the `tune` variable value in the `on 
 <div>
 
 ![TODO: Include embed of finished step here]()
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_XXXXXXXXXXXX" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_XXXXXXXXXXXX" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 </div>
 </div>
@@ -60,13 +60,19 @@ In the `change [tune] to [1]` block, change the value `1` to `-1`.
 
 #### Dealing with 'out of range'
 
-If the value of the variable is 1, then changing it by -1 will make the value 0 
+If the value of the variable is `1`, then changing it by `-1` will make the value `0`.
+(1 - 1 = 0)
 
 🚨 **But there is no melody associated with the value 0!** 🚨
 
-We need to deal with this!
+And if you keep going, you will go from 0 to -1, then -2, -3, -4, -5 and so on!
+
+We need to deal with this and stop this from happening!
+
+We need to make sure the lowest number that the variable value can be is `1`.
 
 --- task ---
+
 
 
 --- /task ---
