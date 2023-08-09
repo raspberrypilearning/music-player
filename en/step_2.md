@@ -34,7 +34,7 @@ Click on the **New Project** button.
 
 Give your new project the name `music player` and click **Create**.
 
-![The name 'music player' written in the New Project dialogue box.](images/new-project.png)
+![The name 'music player' written in the New Project dialogue box.](images/music-player.png)
 
 **Tip:** Give your project a helpful name that relates to the activity you’re creating. This will make it easier to find if you create other projects on MakeCode.
 
