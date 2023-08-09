@@ -63,7 +63,7 @@ Click on the down arrow next to the 'in background' button. Choose 'until done' 
 
 --- /task ---
 
-**Test** When the program runs, you should now hear the melody play. 
+**Test** When the program runs, you should now hear the melody playing until it's done. 
 
 Well done, you have created your first music program on a micro:bit.
 
