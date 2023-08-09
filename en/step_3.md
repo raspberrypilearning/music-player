@@ -27,7 +27,7 @@ Name your variable `music`, then click the `OK` button.
 
 There will now be new blocks available that you can use to set, change or use the value stored in the `music` variable. 
 
-![The Variable block menu - with new blocks to set, change and use the value of the music variable.](images/variableblocks-music.png)
+![The Variables block menu - with new blocks to set, change and use the value of the music variable.](images/variableblocks-music.png)
 
 --- task ---
 
@@ -38,6 +38,16 @@ Drag out the `set [music] to 0` block inside the `onstart` block and change the 
 --- /task ---
 
 ### Using Conditional logic
+
+In order for your music player to play different melody choices, you will need to make use of a logic block for each melody block.
+
+--- task ---
+
+From the Logic menu, click on the `if.. true.. then.. else` block and drag it inside the `forever` block. It should click below the `play melody... dadadum.. until forever` block
+
+![The Logic block menu - with the `if.. true.. then.. else` block highlighted.](images/logicif-block.png)
+
+--- /task ---
 
 --- task ---
 
