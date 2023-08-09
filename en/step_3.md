@@ -157,7 +157,7 @@ Repeat these steps one more time for the third, `else if.. then` block. You shou
 
 --- task ---
 
-**Test:** Check that all your code is working well. 
+**Test:** Check that all your code is working well. Change the variable 
 
 
 --- /task ---
