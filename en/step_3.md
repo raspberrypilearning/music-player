@@ -21,21 +21,21 @@ Click on the `Variables` block menu to expand it. When open, click on the `Make 
 
 --- task ---
 
-Name your variable `music`, then click the `OK` button.
+Name your variable `tune`, then click the `OK` button.
 
-![The 'New Variable name' window, with 'music' written in the box](images/variable-music.png)
+![The 'New Variable name' window, with 'tune' written in the box](images/variable-tune.png)
 
 --- /task ---
 
-There will now be new blocks available that you can use to set, change or use the value stored in the `music` variable. 
+There will now be new blocks available that you can use to set, change or use the value stored in the `tune` variable. 
 
-![The Variables block menu - with new blocks to set, change and use the value of the music variable.](images/variableblocks-music.png)
+![The Variables block menu - with new blocks to set, change and use the value of the tune variable.](images/variableblocks-tune.png)
 
 --- task ---
 
-Drag out the `set [music] to 0` block inside the `on start` block and change the `0` to `1`.
+Drag out the `set [tune] to 0` block inside the `on start` block and change the `0` to `1`.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_asyaxWJeTWpw" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_MHwLMFgh3Duz" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
