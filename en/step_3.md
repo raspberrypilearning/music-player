@@ -5,15 +5,17 @@
 Throughout creating your music player, you will need to use variables. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-What is a <span style="color: #0faeb0">variable?</span> 
-A variable is a special box where we can keep different pieces of information. Sometimes it might hold a number like '10' or it might hold a word like 'dinosaur'. 
+What is a <span style="color: #0faeb0">variable?</span>
+
+A variable is like a special box where we can keep different pieces of information. Sometimes it might hold a number like `10` or it might hold a word like `dinosaur`.
+
 </p>
 
 --- task ---
 
-Click on the `Variables` menu to expand it. When open, click on the `Make a Variable` button.
+Click on the `Variables` block menu to expand it. When open, click on the `Make a Variable` button.
 
-![The 'Make a variable' button highlighted inside the Variables menu.](images/variable-menu.png)
+![The 'Make a variable' button highlighted inside the Variables block menu.](images/variable-menu.png)
 
 --- /task ---
 
@@ -21,7 +23,7 @@ Click on the `Variables` menu to expand it. When open, click on the `Make a Vari
 
 Name your variable `music`, then click the `OK` button.
 
-![The 'New Variable' name window, with the name 'music' written in the box](images/variable-music.png)
+![The 'New Variable name' window, with 'music' written in the box](images/variable-music.png)
 
 --- /task ---
 
@@ -31,15 +33,15 @@ There will now be new blocks available that you can use to set, change or use th
 
 --- task ---
 
-Drag out the `set [music] to 0` block inside the `onstart` block and change the `0` to `1`.
+Drag out the `set [music] to 0` block inside the `on start` block and change the `0` to `1`.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_Uc9i2pPpFgYU" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_iJ78mcg0dgvY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
-### Using Conditional logic
+### Using conditional logic
 
-In order for your music player to play different melody choices, you will need to make use of a logic block for each melody block.
+In order for your music player to play different melody choices, you will need to make use of a logic block for each melody.
 
 --- task ---
 

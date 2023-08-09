@@ -45,26 +45,36 @@ Give your new project the name `music player` and click **Create**.
 ### Play melody
 
 
-You are going to use the `forever` block to make use of the speaker output on the micro:bit.
+You are going to use the `forever` block to make use of the speaker output on the micro:bit (V2 users only).
+
+--- collapse ---
+---
+title: V1 micro:bit users
+---
+
+The speaker output is only available on the V2 of the micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
+
+--- /collapse ---
+
 
 --- task ---
 
 From the music block, drag the `play melody... dadadum.. in background` block and place it inside the `forever` block.
 
-![The Music block menu, open with the "play melody' button highlighted](images/play-melody.png)
+![The Music block menu, open with the 'play melody' block highlighted](images/play-melody.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the down arrow next to the 'in background' button. Choose 'until done' as the option for how long the melody will play.
+On the `play melody... dadadum.. in background` block, click on the down arrow next to the 'in background' button. Choose 'until done' as the option for how long the melody will play.
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_Tr00PpKK07YM" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
+When you make a change to a code block in the code editor panel, the simulator will restart.
+
 **Test** When the program runs, you should now hear the melody playing until it's done. 
 
-Well done, you have created your first music program on a micro:bit.
-
---- save ---
+Well done, you have created your first music program on a micro:bit!
