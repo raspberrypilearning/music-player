@@ -16,7 +16,7 @@ You can use a block to control what happens when a button is pressed.
 
 Click on the `Input` block menu to expand it and drag the `on button [A] pressed` block to the code editor panel.
 
-![The Input block menu selected, with the 'on button A pressed' block highlighted.](images/input-onButtonA.png)
+![The Input block menu selected, with the 'on button A pressed' block highlighted.](images/input-on-ButtonA.png)
 
 --- /task ---
 
