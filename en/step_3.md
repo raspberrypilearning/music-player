@@ -123,6 +123,17 @@ Repeat this for the second, change the `tune = 1` comparison from `1` to `3` and
 
 --- /task ---
 
+You will now need to select a different melody for each `else if.. then` block. This will mean each time the variable value is changed, a different melody will play.
+
+--- task ---
+
+From inside the Music block menu, drag out a `play melody... dadadum.. in background` block. Place it below the first `else if.. then` block.
+
+Click on the down arrow next to `melody dadadum` to see more melody options. You can scroll to view all the available melodies. Choose a melody of your choice.
+
+
+
+--- /task ---
 --- task ---
 
 Step content... 

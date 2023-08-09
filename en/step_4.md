@@ -77,9 +77,17 @@ We need to make sure the lowest number that the variable value can be is `1`, be
 
 Click on the `Logic` block menu to expand it and drag the `if <true> then` block below the `change [tune] by [1]` block in your code.
 
-In the `change [tune] to [1]` block, change the value `1` to `-1`.
+Also from the `Logic` block menu, drag a `0 < 0` block over the `<true>` part of the `if <true> then` block.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_bk1aXfP6ob1E" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+Click on the `Variables` block menu to expand it and drag the `tune` variable value block to the first `0` in the `0 < 0` block.
+
+Change the second `0` to a `1`.
+
+Finally, click on the `Variables` block menu to expand it and drag the `set [tune] to 0` block inside the `if [tune] < 1 then` block in your code. Change the `0` to `4`.
+
+Your code should look like this:
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_TkfFaLTMeRW5" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
