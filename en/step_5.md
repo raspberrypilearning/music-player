@@ -107,3 +107,9 @@ Your code should look like this:
 **Test** When the program runs, you should now be able to stop and shuffle by shaking the micro:bit.
 
 --- /task ---
+
+--- task ---
+
+[[[download-to-microbit]]]
+
+--- /task ---
