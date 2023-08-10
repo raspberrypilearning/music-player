@@ -19,7 +19,7 @@ You can use a block to control what happens when a button is pressed.
 
 --- task ---
 
-Click on the `Input` block menu to expand it and drag the `on button [A] pressed` block to the code editor panel.
+Click on the `Input` block menu and drag the `on button [A] pressed` block to the code editor panel.
 
 ![The Input block menu selected, with the 'on button A pressed' block highlighted.](images/input-on-ButtonA.png)
 
@@ -31,7 +31,7 @@ First, we need to stop the current tune.
 
 --- task ---
 
-Click on the `Music` block menu to expand it and drag the `stop all sounds` block to the `on button [A] pressed` block in the code editor panel.
+Click on the `Music` block menu and drag the `stop all sounds` block to the `on button [A] pressed` block in the code editor panel.
 
 ![The Music block menu selected, with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
 
@@ -47,7 +47,7 @@ To do this we need to change the value of the `tune` variable by `-1`.
 
 --- task ---
 
-Click on the `Variables` block menu to expand it and drag the `change [tune] by [1]` block below the `stop all sounds` block in your code.
+Click on the `Variables` block menu and drag the `change [tune] by [1]` block below the `stop all sounds` block in your code.
 
 ![The Variables block menu selected, with the 'change tune by 1' block highlighted.](images/change-tune-by-1.png)
 
@@ -74,15 +74,15 @@ We need to make sure the lowest number that the variable value can be is `1`, be
 
 --- task ---
 
-Click on the `Logic` block menu to expand it and drag the `if <true> then` block below the `change [tune] by [1]` block in your code.
+Click on the `Logic` block menu and drag the `if <true> then` block below the `change [tune] by [1]` block in your code.
 
 Also from the `Logic` block menu, drag a `0 < 0` block over the `<true>` part of the `if <true> then` block.
 
-Click on the `Variables` block menu to expand it and drag the `tune` variable value block to the first `0` in the `0 < 0` block.
+Click on the `Variables` block menu and drag the `tune` variable value block to the first `0` in the `0 < 0` block.
 
 Change the second `0` to a `1`.
 
-Click on the `Variables` block menu to expand it and drag the `set [tune] to 0` block inside the `if [tune] < 1 then` block in your code. 
+Click on the `Variables` block menu and drag the `set [tune] to 0` block inside the `if [tune] < 1 then` block in your code. 
 
 Change the `0` to `4`.
 
