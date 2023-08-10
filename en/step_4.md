@@ -123,15 +123,17 @@ We can re-use our code we created to control what happens when Button A is press
 
 Click `Duplicate` to make a copy of the whole block. 
 
-Make these changes:
+You should now have a second `on button A pressed` block that will be 'greyed out'.
 
-+ Change the button from A to B
+Make these changes to the 'greyed out' block:
+
++ Change the button from `A` to `B` (doing this will stop the block from being greyed out).
 + Change the `-1` to `1`
 + Change the `<` to `>`
 + Change the `1` to `4`
 + Change the `4` to `1`
 
-Your code should look like this:
+You should now have an `on button A pressed` block of code and an `on button B pressed` block of code:
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_CbfbVkYrt0iW" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
