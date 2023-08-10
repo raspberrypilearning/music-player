@@ -157,7 +157,11 @@ Repeat these steps one more time for the third, `else if.. then` block. You shou
 
 --- task ---
 
-**Test:** Check that all your code is working well. Change the variable 
+**Debug:** Ensure you have changed all the comparison operators after duplicating them, so you have `1` in the `if.. then` block and then `2,3,4` in the other `else if` blocks.
+
+When you make a change to a code block in the code editor panel, the simulator will restart.
+
+**Test:** Check that all your code is working well. Well done, you have chosen different melodies for your music player.
 
 
 --- /task ---
