@@ -64,6 +64,8 @@ Click on the `Variables` block menu and drag out the `set [tune] to 0` block.
 
 Place it inside the `else` part of the `if.. true.. then.. else` block.
 
+--- /task ---
+
 --- task ---
 
 From the `Math` block menu drag out a `pick random 0 to 10` block.
