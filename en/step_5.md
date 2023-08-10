@@ -24,13 +24,17 @@ From the `Logic` block menu, drag out an `if.. true.. then.. else` block and pla
 
 --- task ---
 
-Click on the `Logic` block menu again and drag a comparison `0 = 0` block. Place it inside the `<true>` part of the `if.. true.. then.. else` block.
+Click on the `Logic` block menu again and drag a comparison `0 = 0` block. 
+
+Place it inside the `<true>` part of the `if.. true.. then.. else` block.
 
 --- /task ---
 
 --- task ---
 
-Click on the arrow next to the `=` on the comparison block. Choose the not equal to `≠` symbol.
+Click on the arrow next to the `=` on the comparison block. 
+
+Choose the not equal to `≠` symbol.
 
 --- /task ---
 
@@ -42,13 +46,17 @@ From the `Variables` block menu, drag out the `tune` variable block and place it
 
 --- task ---
 
-From the `Music` block menu, drag out a `stop all sounds` block. Place it inside the `if.. then` part of the `if.. true.. then.. else` block.
+From the `Music` block menu, drag out a `stop all sounds` block. 
+
+Place it inside the `if.. then` part of the `if.. true.. then.. else` block.
 
 --- /task ---
 
 --- task ---
 
-Click on the `Variables` block menu again and drag out a `set [tune] to 0` block. Place it below the `stop all sounds` block.
+Click on the `Variables` block menu again and drag out a `set [tune] to 0` block. 
+
+Place it below the `stop all sounds` block.
 
 --- /task ---
 
