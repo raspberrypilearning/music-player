@@ -1,10 +1,8 @@
-## Reflection
+## Quick quiz
 
-Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Answer the three questions below to reflect on what you've learned.
-
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+When you have answered each question, click on **Check my answer**.
 
 Have fun!
 
@@ -14,30 +12,31 @@ Have fun!
 legend: Question 1 of 3
 ---
 
+Which two blocks are always shown on the MakeCode editor when you load it for the first time?
 
 --- choices ---
 
-- ( )
+- ( ) `on start` and `on shake`
 
   --- feedback ---
+
+`on start` is one of them, but `on shake` has to be dragged in manually.
 
   --- /feedback ---
 
-- ( )
+- ( ) `on shake` and `forever`
 
   --- feedback ---
+
+`forever` is one of them, but `on shake` has to be dragged in manually.
 
   --- /feedback ---
 
-- (x) 
+- (x) `on start` and `forever`
 
   --- feedback ---
 
-  --- /feedback ---
-
-- ( ) 
-
-  --- feedback ---
+Awesome! You have answered correctly, the `on start` and `forever` blocks are show on the code editor panel every time you start a new project.
 
   --- /feedback ---
 
