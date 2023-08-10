@@ -40,7 +40,9 @@ Choose the not equal to `≠` symbol.
 
 --- task ---
 
-From the `Variables` block menu, drag out the `tune` variable block and place it in the first `0` on the `0 ≠ 0` comparison block.
+From the `Variables` block menu, drag out the `tune` variable block. 
+
+Place it in the first `0` on the `0 ≠ 0` comparison block.
 
 --- /task ---
 
