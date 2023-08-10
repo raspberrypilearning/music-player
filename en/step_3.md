@@ -39,7 +39,7 @@ Drag out the `set [tune] to 0` block inside the `on start` block and change the 
 
 --- /task ---
 
-### Using conditional logic
+### Using if... then
 
 In order for your music player to play different melody choices, you will need to make use of a logic block for each melody.
 

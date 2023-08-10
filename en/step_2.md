@@ -6,7 +6,7 @@ To get started creating your micro:bit project, you will need to open the MakeCo
 
 --- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org)
+Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}
 
 --- collapse ---
 
@@ -14,7 +14,7 @@ Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.or
 title: Offline version of the editor
 ---
 
-There is also a [downloadable version of the MakeCode editor](https://makecode.microbit.org/offline-app).
+There is also a [downloadable version of the MakeCode editor](https://makecode.microbit.org/offline-app){:target="_blank"}.
 
 --- /collapse ---
 
@@ -75,6 +75,6 @@ On the `play melody... dadadum.. in background` block, click on the down arrow n
 
 When you make a change to a code block in the code editor panel, the simulator will restart.
 
-**Test** When the program runs, you should now hear the melody playing until it's done. 
+**Test** When the program runs, you should now hear the melody playing until it's done (and then looping because of the forever loop!).
 
 Well done, you have created your first music program on a micro:bit!
