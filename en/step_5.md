@@ -1,16 +1,16 @@
-## Stop the tune
+## Stop and shuffle
 
 Great job so far! You have chosen melodies to play and you have programmed the `A` and `B` buttons to skip through tracks. What happens if you want to stop the tunes from playing?
 
 In this step, you will make use of the `on shake` gesture to stop the tunes from playing.
 
-### Using gestures
+### Shake to stop
 
 --- task ---
 
 From the `Input` block menu, drag out an `on shake` block and place it on the code editor panel.
 
-<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:50%;" src="https://makecode.microbit.org/---codeembed#pub:_Wff4v7MYXLrR" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:50%;" src="https://makecode.microbit.org/---codeembed#pub:_Wff4v7MYXLrR" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -66,7 +66,7 @@ Place it below the `stop all sounds` block.
 
 Now, each time a melody is playing, once you shake the micro:bit it will stop playing the melody.
 
-### Creating a shuffle function
+### Shake again to shuffle
 
 You will now add a condition so the micro:bit plays a random melody from your chosen melodies. This is similar to the shuffle function on a music player app.
 
