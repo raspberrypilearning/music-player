@@ -37,7 +37,7 @@ Click on the `Music` block menu and drag the `stop all sounds` block to the `on 
 
 --- /task ---
 
-#### Increase the value of the variable
+#### Skipping to the previous track
 
 Button A is on the left, so we will use this button to skip to the previous track.
 
@@ -72,25 +72,44 @@ We need to make sure the lowest number that the variable value can be is `1`, be
 
 --- task ---
 
-Click on the `Logic` block menu and drag the `if <true> then` block below the `change [tune] by [1]` block in your code.
+Click on the `Logic` block menu and drag out the `if <true> then` block.
 
-Also from the `Logic` block menu, drag a `0 < 0` block over the `<true>` part of the `if <true> then` block.
+Place it below the `change [tune] by [1]` block in your code.
 
-Click on the `Variables` block menu and drag the `tune` variable value block to the first `0` in the `0 < 0` block.
+--- /task ---
+
+--- task ---
+
+Also from the `Logic` block menu, drag a `0 < 0` block.
+
+Place it over the `<true>` part of the `if <true> then` block.
+
+--- /task ---
+
+--- task ---
+
+Click on the `Variables` block menu and drag out the `tune` variable value block.
+
+Place it on the first `0` in the `0 < 0` block.
 
 Change the second `0` to a `1`.
+--- /task ---
 
-Click on the `Variables` block menu and drag the `set [tune] to 0` block inside the `if [tune] < 1 then` block in your code. 
+--- task ---
+
+Click on the `Variables` block menu and drag out the `set [tune] to 0` block.
+
+Place it inside the `if [tune] < 1 then` block in your code. 
 
 Change the `0` to `4`.
+
+--- /task ---
 
 Your code should look like this:
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_TkfFaLTMeRW5" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
---- /task ---
-
-#### Decreasing the  the value of the variable
+#### Skipping to the next track
 
 Button B is on the right, so we will use this button to skip to the next track.
 
