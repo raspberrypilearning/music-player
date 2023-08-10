@@ -24,7 +24,7 @@ From the Logic block menu, drag out an `if.. true.. then.. else` block and place
 
 --- task ---
 
-Click on the Logic block menu again and drag out a comparison `0=0` block. Place it inside the `true` part of the `if.. true.. then.. else` block.
+Click on the Logic block menu again and drag out a comparison `0 = 0` block. Place it inside the `<true>` part of the `if.. true.. then.. else` block.
 
 --- /task ---
 
@@ -42,13 +42,13 @@ From the Variables block menu, drag out the `music` variable block and place it 
 
 --- task ---
 
-Using the Music blocks menu, drag out a `stop melody all` block. Place it inside the `if.. then` part of the `if.. true.. then.. else` block.
+Using the Music blocks menu, drag out a `stop all sounds` block. Place it inside the `if.. then` part of the `if.. true.. then.. else` block.
 
 --- /task ---
 
 --- task ---
 
-Click on the Variables block menu again and drag out a `set music to 0` block. Place it below the `stop melody all` block.
+Click on the Variables block menu again and drag out a `set [tune] to 0` block. Place it below the `stop all sounds` block.
 
 --- /task ---
 
