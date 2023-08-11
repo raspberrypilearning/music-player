@@ -28,6 +28,9 @@ Click on the `Logic` block menu again and drag a comparison `0 = 0` block.
 
 Place it inside the `<true>` part of the `if.. true.. then.. else` block.
 
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_AA9huPHi1YsX" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+
 --- /task ---
 
 --- task ---
@@ -44,6 +47,8 @@ From the `Variables` block menu, drag out the `tune` variable block.
 
 Place it in the first `0` on the `0 ≠ 0` comparison block.
 
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_LA4CUmC8HgcM" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
 --- /task ---
 
 --- task ---
@@ -51,6 +56,8 @@ Place it in the first `0` on the `0 ≠ 0` comparison block.
 From the `Music` block menu, drag out a `stop all sounds` block. 
 
 Place it inside the `if.. then` part of the `if.. true.. then.. else` block.
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_Pt5h7M8UzMTJ" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -76,6 +83,8 @@ Click on the `Variables` block menu and drag out the `set [tune] to 0` block.
 
 Place it inside the `else` part of the `if.. true.. then.. else` block.
 
+<div style="position:relative;height:calc(300px + 5em);width:80%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_djJ03JPU4X2u" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
 --- /task ---
 
 --- task ---
@@ -83,6 +92,9 @@ Place it inside the `else` part of the `if.. true.. then.. else` block.
 From the `Math` block menu drag out a `pick random 0 to 10` block.
 
 Place it inside the `0` part of the `set tune to 0` block. 
+
+<div style="position:relative;height:calc(300px + 5em);width:80%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_01fgmFYmVfaC" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
 
 --- /task ---
 
