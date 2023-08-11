@@ -54,6 +54,8 @@ title: V1 micro:bit users
 
 The speaker output is only available on the V2 of the micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
 
+There is also a [guide to connecting headphones/speakers to the V1 micro:bit](https://makecode.microbit.org/projects/hack-your-headphones/make#:~:text=The%20tip%20of%20your%20headphone,headphone%20jack%20to%20play%20sounds.){:target="_blank"}.
+
 --- /collapse ---
 
 
@@ -68,6 +70,8 @@ From the music block, drag the `play melody... dadadum.. in background` block an
 --- task ---
 
 On the `play melody... dadadum.. in background` block, click on the down arrow next to the 'in background' button. Choose 'until done' as the option for how long the melody will play.
+
+![The melody drop down menu, open with the 'until done' button selected](images/melody-untildone.gif)
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_Tr00PpKK07YM" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 

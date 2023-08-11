@@ -161,7 +161,13 @@ Repeat these steps one more time for the third, `else if.. then` block. You shou
 
 When you make a change to a code block in the code editor panel, the simulator will restart.
 
-**Test:** Check that all your code is working well. Well done, you have chosen different melodies for your music player.
+**Test:** Change the variable value from `1` to `2` in the `set tune to 1` on the `on start block`. You should hear a different melody play.
+
+You can also change the variable value to `3` then `4` to hear your other chosen melodies play.
+
+**Change:** the variable value back to `1` to reset the tune for the next step.
+
+Well done, you have chosen different melodies for your music player.
 
 
 --- /task ---
