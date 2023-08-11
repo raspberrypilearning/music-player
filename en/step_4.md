@@ -72,7 +72,7 @@ We need to make sure the lowest number that the variable value can be is `1`, be
 
 --- task ---
 
-Click on the `Logic` block menu and drag out the `if <true> then` block.
+Click on the `Logic` block menu and drag out the `if [true] then` block.
 
 Place it below the `change [tune] by [1]` block in your code.
 
@@ -82,7 +82,7 @@ Place it below the `change [tune] by [1]` block in your code.
 
 Also from the `Logic` block menu, drag a `0 < 0` block.
 
-Place it over the `<true>` part of the `if <true> then` block.
+Place it over the `true` part of the `if [true] then` block.
 
 --- /task ---
 
