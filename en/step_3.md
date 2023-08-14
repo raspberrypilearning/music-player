@@ -15,15 +15,15 @@ A variable is like a special box where we can keep different pieces of informati
 
 Open the `Variables` block menu, and click **Make a variable**.
 
-![The 'Make a variable' block highlighted inside the Variables block menu.](images/variable-menu.png)
+![The Variables block menu, open with the 'Make a variable' button highlighted](images/variable-menu.png)
 
 --- /task ---
 
 --- task ---
 
-Name your variable `tune`, then click the `OK` button.
+Name the new variable `tune`, then click the `Ok` button.
 
-![The 'New Variable name' window, with 'tune' written in the box](images/variable-tune.png)
+![The 'New Variable name' window, with the name 'tune' written in the box](images/variable-tune.png)
 
 --- /task ---
 
