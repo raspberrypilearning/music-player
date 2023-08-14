@@ -13,7 +13,7 @@ A variable is like a special box where we can keep different pieces of informati
 
 --- task ---
 
-Click on the `Variables` block menu to expand it. When open, click on the `Make a Variable` button.
+Open the `Variables` block menu, and click **Make a variable**.
 
 ![The 'Make a variable' block highlighted inside the Variables block menu.](images/variable-menu.png)
 
@@ -101,7 +101,7 @@ Now click on the `-` symbol next to the `else` block to remove the `else` block.
 
 Right click on the entire comparison `tune = 1` block and then duplicate it.
 
-![The comparison block on an 'if.. else condition' highlighted, with the right click menu expandedshowing options inluding 'Duplicate'.](images/duplicate-comparison.png)
+![The comparison block on an 'if.. else condition' highlighted, with the right click menu expanded showing options including 'Duplicate'.](images/duplicate-comparison.png)
 
 --- /task ---
 
@@ -161,15 +161,7 @@ Repeat these steps one more time for the third, `else if.. then` block. You shou
 
 When you make a change to a code block in the code editor panel, the simulator will restart.
 
-**Test:** Change the variable value from `1` to `2` in the `set tune to 1` on the `on start block`. You should hear a different melody play.
-
-You can also change the variable value to `3` then `4` to hear your other chosen melodies play.
-
-**Change:** the variable value back to `1` to reset the tune for the next step.
-
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:50%;" src="https://makecode.microbit.org/---codeembed#pub:_MHwLMFgh3Duz" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
-
-Well done, you have chosen different melodies for your music player.
+**Test:** Check that all your code is working well. Well done, you have chosen different melodies for your music player.
 
 
 --- /task ---
