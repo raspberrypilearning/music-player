@@ -2,7 +2,7 @@
 
 ### Opening MakeCode
 
-To get started creating your micro:bit project, you will need to open the MakeCode editor.
+To start creating your micro:bit project, you need to open the MakeCode editor.
 
 --- task ---
 
