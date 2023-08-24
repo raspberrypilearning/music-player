@@ -45,7 +45,7 @@ Give your new project the name `music player` and click **Create**.
 ### Play melody
 
 
-You are going to use the `forever` block to make use of the speaker output on the micro:bit (V2 users only).
+You are going to use the <code style="background-color: #1E90FF">forever</code> block to make use of the speaker output on the micro:bit (V2 users only).
 
 --- collapse ---
 ---
@@ -61,7 +61,7 @@ There is also a [guide to connecting headphones/speakers to the V1 micro:bit](ht
 
 --- task ---
 
-From the music block, drag the `play melody... dadadum.. in background` block and place it inside the `forever` block.
+From the music block, drag the <code style="background-color: #E63022">play melody dadadum</code> block and place it inside the <code style="background-color: #1E90FF">forever</code> block.
 
 ![The Music block menu, open with the 'play melody' block highlighted](images/play-melody.png)
 
@@ -69,7 +69,7 @@ From the music block, drag the `play melody... dadadum.. in background` block an
 
 --- task ---
 
-On the `play melody... dadadum.. in background` block, click on the down arrow next to the 'in background' button. Choose 'until done' as the option for how long the melody will play.
+On the <code style="background-color: #E63022">play melody dadadum</code> block, click on the down arrow next to the 'in background' button. Choose 'until done' as the option for how long the melody will play.
 
 ![The melody drop down menu, open with the 'until done' button selected](images/melody-untildone.gif)
 
