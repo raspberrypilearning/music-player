@@ -55,13 +55,13 @@ From the <code style="background-color: #00A4A6">Logic</code> menu, grab an <cod
 
 --- task ---
 
- Place it above the <code style="background-color: #E63022">play melody dadadum</code> block.
+Place it above the <code style="background-color: #E63022">play melody dadadum</code> block.
  
- Click on the <code style="background-color: #00A4A6">Logic</code> menu and drag out a comparison <code style="background-color: #00A4A6">0 = 0</code> block. 
+Click on the <code style="background-color: #00A4A6">Logic</code> menu and drag out a comparison <code style="background-color: #00A4A6">0 = 0</code> block. 
 
 Place this in the <code style="background-color: #00A4A6">true</code> area of the <code style="background-color: #00A4A6">if</code> block.
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WrzDXU4KKeRY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WrzDXU4KKeRY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -81,7 +81,7 @@ Change the second `0` to `1`.
 
 Move the <code style="background-color: #E63022">play melody dadadum</code> block inside the <code style="background-color: #00A4A6">if</code> block.
 
-<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_40uahb1ahe5k" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_40uahb1ahe5k" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
