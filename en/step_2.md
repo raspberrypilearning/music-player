@@ -20,7 +20,13 @@ There is also a [downloadable version of the MakeCode editor](https://makecode.m
 
 --- /task ---
 
-Once the editor is open, you will need to create a New Project and give your project a name. 
+### First micro:bit project?
+
+[[[makecode-tour]]]
+
+### Create your project
+
+Once the editor is open, you will need to create a new project and give your project a name. 
 
 --- task ---
 
@@ -39,8 +45,6 @@ Give your new project the name `music player` and click **Create**.
 **Tip:** Give your project a helpful name that relates to the activity you’re creating. This will make it easier to find if you create other projects on MakeCode.
 
 --- /task ---
-
-[[[makecode-tour]]]
 
 ### Play melody
 
