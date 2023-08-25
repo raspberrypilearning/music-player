@@ -105,7 +105,7 @@ Repeat this twice, so you have three <code style="background-color: #00A4A6">els
 
 Click on the `-` symbol next to the <code style="background-color: #00A4A6">else</code> section to remove the <code style="background-color: #00A4A6">else</code> section.
 
-<img src="elseif-blocks.gif" alt="An animation showing the + symbol used to add three 'else if' sections. Finally, the 'else' is removed from the end by clicking the '-' symbol next to it" width="350"/>
+<img src="images/elseif-blocks.gif" alt="An animation showing the + symbol used to add three 'else if' sections. Finally, the 'else' is removed from the end by clicking the '-' symbol next to it" width="350"/>
 
 --- /task ---
 
