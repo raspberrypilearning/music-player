@@ -15,7 +15,7 @@ A variable is like a special box where we can keep different pieces of informati
 
 Open the <code style="background-color: #DC143C">Variables</code> menu, and click **Make a Variable**.
 
-![The Variables block menu, open with the 'Make a Variable' button highlighted](images/variable-menu.png)
+![The Variables menu, open with the 'Make a Variable' button highlighted](images/variable-menu.png)
 
 --- /task ---
 
@@ -29,7 +29,8 @@ Name the new variable `tune`, then click the `Ok` button.
 
 There will now be new blocks available that you can use to set, change or use the value stored in the <code style="background-color: #DC143C">tune</code> variable. 
 
-![The Variables block menu - with new blocks to set, change and use the value of the tune variable.](images/variableblocks-tune.png)
+![The Variables menu - with new blocks to set, change and use the value of the tune variable.](images/variableblocks-tune.png)
+<img src="images/variableblocks-tune.png" alt="The Variables menu - with new blocks to set, change and use the value of the tune variable." width="350"/>
 
 --- task ---
 
@@ -37,7 +38,7 @@ Drag out the <code style="background-color: #DC143C">set</code>block and place i
 
 Change the `0` to `1`.
 
-<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_MHwLMFgh3Duz" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_MHwLMFgh3Duz" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -47,9 +48,9 @@ In order for your music player to play different melody choices, you will need t
 
 --- task ---
 
-From the Logic block menu, grab an <code style="background-color: #00A4A6">if</code> block and place it above the <code style="background-color: #E63022">play melody dadadum</code> block.
+From the <code style="background-color: #00A4A6">Logic</code> menu, grab an <code style="background-color: #00A4A6">if</code> block and place it above the <code style="background-color: #E63022">play melody dadadum</code> block.
 
-<img src="if-block-location.png" alt="The Logic block menu with the `if true then` block highlighted" width="350"/>
+<img src="images/if-block-location.png" alt="The Logic menu with the `if` block highlighted" width="350"/>
 
 --- /task ---
 
@@ -59,7 +60,7 @@ Click on the <code style="background-color: #00A4A6">Logic</code> menu and drag 
 
 Place this in the <code style="background-color: #00A4A6">true</code> area of the <code style="background-color: #00A4A6">if</code> block.
 
-<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WrzDXU4KKeRY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WrzDXU4KKeRY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -71,7 +72,7 @@ Place it into the first `0` in the <code style="background-color: #00A4A6">0 = 0
 
 Change the second `0` to `1`.
 
-<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_HyH5uA1iA80o" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_HyH5uA1iA80o" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -79,11 +80,11 @@ Change the second `0` to `1`.
 
 Move the <code style="background-color: #E63022">play melody dadadum</code> block inside the <code style="background-color: #00A4A6">if</code> block.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_40uahb1ahe5k" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_40uahb1ahe5k" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
-To add more melody choices, you need to create more conditions within the <code style="background-color: #00A4A6">if</code> block.
+To add more melody choices, you need to create more conditions in the <code style="background-color: #00A4A6">if</code> block.
 
 --- task ---
 
@@ -119,9 +120,9 @@ Right click on the <code style="background-color: #DC143C">tune</code> <code sty
 
 --- task ---
 
-Place the duplicated <code style="background-color: #DC143C">tune</code> <code style="background-color: #00A4A6">=</code> `1` block inside the space between the first <code style="background-color: #00A4A6">else if</code> and <code style="background-color: #00A4A6">then</code>section. 
+Place the duplicated <code style="background-color: #DC143C">tune</code> <code style="background-color: #00A4A6">=</code> `1` block between the first <code style="background-color: #00A4A6">else if</code> and <code style="background-color: #00A4A6">then</code>. 
 
-Duplicate more comparison blocks and place them inside the empty shaped spaces on the two remaining <code style="background-color: #00A4A6">else if</code> sections.
+Duplicate two more comparison blocks and place them between the other <code style="background-color: #00A4A6">else if</code> and <code style="background-color: #00A4A6">then</code> parts.
 
 <img src="images/elseif-tune.gif" alt="A duplicated comparison block showing the 'tune' variable is dragged into an empty shaped space on an 'else..if' condition block. This is repeated twice until all condition blocks have comparison blocks in them" width="350"/>
 
@@ -135,7 +136,7 @@ For the second <code style="background-color: #00A4A6">else if</code> section, c
 
 For the third <code style="background-color: #00A4A6">else if</code> section, change the `1` to `4`
 
-<div style="position:relative;height:calc(350px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height 100%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(350px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height 100%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -153,19 +154,9 @@ Click on the arrow next to <code style="background-color: #E63022">melody dadadu
 
 Scroll to view all the melodies and choose one. 
 
-We have chosen `melody punchline` in our example.
+Repeat these steps for the second and third <code style="background-color: #00A4A6">else if</code> sections. 
 
-![TODO: up to here]()
-![TODO: Redo this as duplicated now]()
-<img src="images/melody-choices.png" alt="The drop down menu on 'melody dadadum' showing various melody choices" width="350"/>
-
---- /task ---
-
---- task --
-
-Repeat these steps for the second and third <code style="background-color: #00A4A6">else if</code> section. 
-
-You should now have four melodies for the four conditions.
+You should now have four melodies, one for each of the four conditions.
 
 <div style="position:relative;height:calc(350px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_f5DefxebuH6c" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -177,9 +168,11 @@ You should now have four melodies for the four conditions.
 
 You should have `1` in the <code style="background-color: #00A4A6">if</code> section and then `2,3,4` in the <code style="background-color: #00A4A6">else if</code> sections.
 
-**Test:** your program.
+--- /task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+--- task ---
+
+**Test:** your program.
 
 Check that all your code is working well. 
 
