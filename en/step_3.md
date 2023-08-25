@@ -47,7 +47,7 @@ In order for your music player to play different melody choices, you will need t
 
 --- task ---
 
-From the <code style="background-color: #00A4A6">Logic</code> menu, grab an <code style="background-color: #00A4A6">if</code> block and place it above the <code style="background-color: #E63022">play melody dadadum</code> block.
+From the <code style="background-color: #00A4A6">Logic</code> menu, grab an <code style="background-color: #00A4A6">if</code> block.
 
 <img src="images/if-block-location.png" alt="The Logic menu with the `if` block highlighted" width="350"/>
 
@@ -55,11 +55,13 @@ From the <code style="background-color: #00A4A6">Logic</code> menu, grab an <cod
 
 --- task ---
 
-Click on the <code style="background-color: #00A4A6">Logic</code> menu and drag out a comparison <code style="background-color: #00A4A6">0 = 0</code> block. 
+ Place it above the <code style="background-color: #E63022">play melody dadadum</code> block.
+ 
+ Click on the <code style="background-color: #00A4A6">Logic</code> menu and drag out a comparison <code style="background-color: #00A4A6">0 = 0</code> block. 
 
 Place this in the <code style="background-color: #00A4A6">true</code> area of the <code style="background-color: #00A4A6">if</code> block.
 
-<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WrzDXU4KKeRY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WrzDXU4KKeRY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -135,7 +137,7 @@ For the second <code style="background-color: #00A4A6">else if</code> section, c
 
 For the third <code style="background-color: #00A4A6">else if</code> section, change the `1` to `4`
 
-<div style="position:relative;height:calc(350px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height 100%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(350px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
