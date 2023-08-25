@@ -26,7 +26,7 @@ Once the editor is open, you will need to create a New Project and give your pro
 
 Click on the **New Project** button.
 
-![The new project button inside of MakeCode.](images/new-project-button.png)
+<img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250"/>
 
 --- /task ---
 
@@ -34,7 +34,7 @@ Click on the **New Project** button.
 
 Give your new project the name `music player` and click **Create**.
 
-![The name 'music player' written in the New Project dialogue box.](images/music-player.png)
+<img src="images/music-player.png" alt="The name 'music player' written in the Create a Project dialogue box." width="400"/>
 
 **Tip:** Give your project a helpful name that relates to the activity you’re creating. This will make it easier to find if you create other projects on MakeCode.
 
@@ -61,24 +61,31 @@ There is also a [guide to connecting headphones/speakers to the V1 micro:bit](ht
 
 --- task ---
 
-From the music block, drag the <code style="background-color: #E63022">play melody dadadum</code> block and place it inside the <code style="background-color: #1E90FF">forever</code> block.
+From the <code style="background-color: #E63022">Music</code> menu, drag the <code style="background-color: #E63022">play melody dadadum</code> block and place it inside the <code style="background-color: #1E90FF">forever</code> block.
 
-![The Music block menu, open with the 'play melody' block highlighted](images/play-melody.png)
+<img src="images/play-melody.png" alt="The Music menu open with the 'play melody dadadum' block highlighted" width="400"/>
 
 --- /task ---
 
 --- task ---
 
-On the <code style="background-color: #E63022">play melody dadadum</code> block, click on the down arrow next to the 'in background' button. Choose 'until done' as the option for how long the melody will play.
+On the <code style="background-color: #E63022">play melody dadadum</code> block, click on the down arrow next to <code style="background-color: #E63022">in background</code>. Choose 'until done' (for how long the melody will play).
 
-![The melody drop down menu, open with the 'until done' button selected](images/melody-untildone.gif)
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_Tr00PpKK07YM" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<img src="images/melody-untildone.gif" alt="The melody drop down menu, open with the 'until done' button selected" width="300"/>
+
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Tr00PpKK07YM" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
+--- task ---
+
+**Test** 
+
 When you make a change to a code block in the code editor panel, the simulator will restart.
 
-**Test** When the program runs, you should now hear the melody playing until it's done (and then looping because of the forever loop!).
+You should now hear the melody playing until it's done (and then looping because of the forever loop).
+
+--- /task ---    
 
 Well done, you have created your first music program on a micro:bit!
