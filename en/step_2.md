@@ -63,18 +63,17 @@ There is also a [guide to connecting headphones/speakers to the V1 micro:bit](ht
 
 From the <code style="background-color: #E63022">Music</code> menu, drag the <code style="background-color: #E63022">play melody dadadum</code> block and place it inside the <code style="background-color: #1E90FF">forever</code> block.
 
-<img src="images/play-melody.png" alt="The Music menu open with the 'play melody dadadum' block highlighted" width="400"/>
+<img src="images/play-melody.png" alt="The Music menu open with the 'play melody dadadum' block highlighted" width="450"/>
 
 --- /task ---
 
 --- task ---
 
-On the <code style="background-color: #E63022">play melody dadadum</code> block, click on the down arrow next to <code style="background-color: #E63022">in background</code>. Choose 'until done' (for how long the melody will play).
+On the <code style="background-color: #E63022">play melody dadadum</code> block, click on the down arrow next to `in background`. 
 
+Choose `until done`.
 
-<img src="images/melody-untildone.gif" alt="The melody drop down menu, open with the 'until done' button selected" width="300"/>
-
-<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Tr00PpKK07YM" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<img src="images/melody-untildone.gif" alt="The melody drop down menu, open with the 'until done' button selected" width="400"/>
 
 --- /task ---
 
