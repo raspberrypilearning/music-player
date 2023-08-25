@@ -29,7 +29,6 @@ Name the new variable `tune`, then click the `Ok` button.
 
 There will now be new blocks available that you can use to set, change or use the value stored in the <code style="background-color: #DC143C">tune</code> variable. 
 
-![The Variables menu - with new blocks to set, change and use the value of the tune variable.](images/variableblocks-tune.png)
 <img src="images/variableblocks-tune.png" alt="The Variables menu - with new blocks to set, change and use the value of the tune variable." width="350"/>
 
 --- task ---
