@@ -17,7 +17,7 @@ You can use a block to control what happens when a button is pressed.
 
 --- task ---
 
-Click on the `Input` block menu and drag the `on button [A] pressed` block to the code editor panel.
+Click on the <code style="background-color: #D400D4">Input</code> block menu and drag the <code style="background-color: #D400D4">on button [A] pressed</code> block to the code editor panel.
 
 ![The Input block menu selected, with the 'on button A pressed' block highlighted.](images/input-on-ButtonA.png)
 
@@ -29,7 +29,7 @@ First, we need to stop the current tune.
 
 --- task ---
 
-Click on the `Music` block menu and drag the `stop all sounds` block to the `on button [A] pressed` block in the code editor panel.
+Click on the <code style="background-color: #E63022">Music</code> block menu and drag the <code style="background-color: #E63022">stop all sounds</code> block to the <code style="background-color: #D400D4">on button [A] pressed</code> block in the code editor panel.
 
 ![The Music block menu selected, with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
 
@@ -45,7 +45,7 @@ To do this we need to change the value of the `tune` variable by `-1`.
 
 --- task ---
 
-Click on the `Variables` block menu and drag the `change [tune] by [1]` block below the `stop all sounds` block in your code.
+Click on the <code style="background-color: #DC143C">Variables</code> block menu and drag the `change [tune] by [1]` block below the `stop all sounds` block in your code.
 
 ![The Variables block menu selected, with the 'change tune by 1' block highlighted.](images/change-tune-by-1.png)
 
