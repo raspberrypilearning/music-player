@@ -11,13 +11,13 @@ In this step you will create code to skip tracks using the micro:bit's `A` and `
 
 ### Adding button controls
 
-The micro:bit contains an `A` button, and a `B` button.
+The micro:bit contains a Button `A` and a Button `B`.
 
 You can use a block to control what happens when a button is pressed.
 
 --- task ---
 
-Click on the <code style="background-color: #D400D4">Input</code> block menu and drag the <code style="background-color: #D400D4">on button [A] pressed</code> block to the code editor panel.
+Click on the <code style="background-color: #D400D4">Input</code> menu and drag the <code style="background-color: #D400D4">on button [A] </code> block to the code editor panel.
 
 ![The Input block menu selected, with the 'on button A pressed' block highlighted.](images/input-on-ButtonA.png)
 
@@ -29,7 +29,7 @@ First, we need to stop the current tune.
 
 --- task ---
 
-Click on the <code style="background-color: #E63022">Music</code> block menu and drag the <code style="background-color: #E63022">stop all sounds</code> block to the <code style="background-color: #D400D4">on button [A] pressed</code> block in the code editor panel.
+Click on the <code style="background-color: #E63022">Music</code> menu and drag the <code style="background-color: #E63022">stop all sounds</code> block to the <code style="background-color: #D400D4">on button [A]</code> block in the code editor panel.
 
 ![The Music block menu selected, with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
 
@@ -45,11 +45,11 @@ To do this we need to change the value of the `tune` variable by `-1`.
 
 --- task ---
 
-Click on the <code style="background-color: #DC143C">Variables</code> block menu and drag the `change [tune] by [1]` block below the `stop all sounds` block in your code.
+Click on the <code style="background-color: #DC143C">Variables</code> menu and drag the <code style="background-color: #DC143C">change [tune] by [1]</code> block below the <code style="background-color: #E63022">stop all sounds</code> block in your code.
 
 ![The Variables block menu selected, with the 'change tune by 1' block highlighted.](images/change-tune-by-1.png)
 
-In the `change [tune] to [1]` block, change the value `1` to `-1`.
+In the <code style="background-color: #DC143C">change [tune] by [1]</code> block, change the value `1` to `-1`.
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_bk1aXfP6ob1E" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -72,34 +72,34 @@ We need to make sure the lowest number that the variable value can be is `1`, be
 
 --- task ---
 
-Click on the `Logic` block menu and drag out the `if [true] then` block.
+Click on the <code style="background-color: #00A4A6">Logic</code> menu and drag out the <code style="background-color: #00A4A6">if</code> block.
 
-Place it below the `change [tune] by [1]` block in your code.
-
---- /task ---
-
---- task ---
-
-Also from the `Logic` block menu, drag a `0 < 0` block.
-
-Place it over the `true` part of the `if [true] then` block.
+Place it below the <code style="background-color: #DC143C">change [tune] by [1]</code> block in your code.
 
 --- /task ---
 
 --- task ---
 
-Click on the `Variables` block menu and drag out the `tune` variable value block.
+Also from the <code style="background-color: #00A4A6">Logic</code> menu, drag a <code style="background-color: #00A4A6">0 < 0</code> block.
 
-Place it on the first `0` in the `0 < 0` block.
+Place it over the `true` part of the <code style="background-color: #00A4A6">if</code> block.
+
+--- /task ---
+
+--- task ---
+
+Click on the <code style="background-color: #DC143C">Variables</code> menu and drag out the <code style="background-color: #DC143C">tune</code> variable value block.
+
+Place it on the first `0` in the <code style="background-color: #00A4A6">0 < 0</code> block.
 
 Change the second `0` to a `1`.
 --- /task ---
 
 --- task ---
 
-Click on the `Variables` block menu and drag out the `set [tune] to 0` block.
+Click on the <code style="background-color: #DC143C">Variables</code> menu and drag out the <code style="background-color: #DC143C">set [tune] to 0</code> block.
 
-Place it inside the `if [tune] < 1 then` block in your code. 
+Place it inside the `code style="background-color: #00A4A6">if</code> block in your code. 
 
 Change the `0` to `4`.
 
@@ -113,17 +113,17 @@ Your code should look like this:
 
 Button B is on the right, so we will use this button to skip to the next track.
 
-To do this we need to change the value of the `tune` variable by `1`.
+To do this we need to change the value of the <code style="background-color: #DC143C">tune</code> variable by `1`.
 
 We can re-use our code we created to control what happens when Button A is pressed.
 
 --- task ---
 
-**Right click** on the top part of the `on button A pressed` block that you now have in the code editor panel. 
+**Right click** on the top part of the <code style="background-color: #D400D4">on button A pressed</code> block that you now have in the code editor panel. 
 
 Click `Duplicate` to make a copy of the whole block. 
 
-You should now have a second `on button A pressed` block that will be 'greyed out'.
+You should now have a second code style="background-color: #D400D4">on button A pressed</code> block that will be 'greyed out'.
 
 Make these changes to the 'greyed out' block:
 
@@ -133,7 +133,7 @@ Make these changes to the 'greyed out' block:
 + Change the `1` to `4`
 + Change the `4` to `1`
 
-You should now have an `on button A pressed` block of code and an `on button B pressed` block of code:
+You should now have an code style="background-color: #D400D4">on button A pressed</code> block of code and an code style="background-color: #D400D4">on button B pressed</code> block of code:
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_CbfbVkYrt0iW" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
