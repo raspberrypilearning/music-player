@@ -8,7 +8,7 @@ In this step, you will make use of the `on shake` gesture to stop the tunes from
 
 --- task ---
 
-From the `Input` block menu, drag out an `on shake` block and place it on the code editor panel.
+From the <code style="background-color: #D400D4">Input</code> menu, drag out an <code style="background-color: #D400D4">on shake</code> block and place it on the code editor panel.
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:50%;" src="https://makecode.microbit.org/---codeembed#pub:_Wff4v7MYXLrR" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -16,7 +16,7 @@ From the `Input` block menu, drag out an `on shake` block and place it on the co
 
 --- task ---
 
-From the `Logic` block menu, drag out an `if.. true.. then.. else` block and place it inside the `on shake` block.
+From the <code style="background-color: #00A4A6">Logic</code> menu, drag out an <code style="background-color: #00A4A6">if..else</code> block and place it inside the <code style="background-color: #D400D4">on shake</code> block.
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_gJtA1VWgueHk" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -24,9 +24,9 @@ From the `Logic` block menu, drag out an `if.. true.. then.. else` block and pla
 
 --- task ---
 
-Click on the `Logic` block menu again and drag a comparison `0 = 0` block. 
+Click on the <code style="background-color: #00A4A6">Logic</code> menu again and drag a comparison <code style="background-color: #00A4A6">0 = 0</code> block. 
 
-Place it inside the `<true>` part of the `if.. true.. then.. else` block.
+Place it inside the `<true>` part of the `<code style="background-color: #00A4A6">if..else</code> block.
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_AA9huPHi1YsX" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -43,9 +43,9 @@ Choose the not equal to `≠` symbol.
 
 --- task ---
 
-From the `Variables` block menu, drag out the `tune` variable block. 
+From the <code style="background-color: #DC143C">Variables</code> menu, drag out the <code style="background-color: #DC143C">tune </code> variable block. 
 
-Place it in the first `0` on the `0 ≠ 0` comparison block.
+Place it in the first `0` on the <code style="background-color: #00A4A6">0 ≠ 0 </code> block.
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_LA4CUmC8HgcM" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -53,9 +53,9 @@ Place it in the first `0` on the `0 ≠ 0` comparison block.
 
 --- task ---
 
-From the `Music` block menu, drag out a `stop all sounds` block. 
+From the <code style="background-color: #E63022">Music</code> block menu, drag out a <code style="background-color: #E63022">stop all sounds</code> block. 
 
-Place it inside the `if.. then` part of the `if.. true.. then.. else` block.
+Place it inside the <code style="background-color: #00A4A6">if</code> part of the <code style="background-color: #00A4A6">if..else</code> block.
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_Pt5h7M8UzMTJ" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -63,9 +63,9 @@ Place it inside the `if.. then` part of the `if.. true.. then.. else` block.
 
 --- task ---
 
-Click on the `Variables` block menu again and drag out a `set [tune] to 0` block. 
+Click on the <code style="background-color: #DC143C">Variables</code> menu and drag out a <code style="background-color: #DC143C">set [tune] to 0</code> block. 
 
-Place it below the `stop all sounds` block.
+Place it below the <code style="background-color: #E63022">stop all sounds</code> block. 
 
 <div style="position:relative;height:calc(300px + 5em);width:80%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_UT3Hzm0Wy69u" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -79,9 +79,9 @@ You will now add a condition so the micro:bit plays a random melody from your ch
 
 --- task ---
 
-Click on the `Variables` block menu and drag out the `set [tune] to 0` block. 
+Click on the <code style="background-color: #DC143C">Variables</code> block menu and drag out the <code style="background-color: #DC143C">set [tune] to 0</code> block. 
 
-Place it inside the `else` part of the `if.. true.. then.. else` block.
+Place it inside the <code style="background-color: #00A4A6">else</code> part of the <code style="background-color: #00A4A6">if..else</code> block.
 
 <div style="position:relative;height:calc(300px + 5em);width:80%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_djJ03JPU4X2u" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -89,9 +89,9 @@ Place it inside the `else` part of the `if.. true.. then.. else` block.
 
 --- task ---
 
-From the `Math` block menu drag out a `pick random 0 to 10` block.
+From the <code style="background-color: #9400D3">Math</code> menu drag out a <code style="background-color: #9400D3">pick random</code> block.
 
-Place it inside the `0` part of the `set tune to 0` block. 
+Place it inside the `20` part of the <code style="background-color: #DC143C">set tune</code> block. 
 
 <div style="position:relative;height:calc(300px + 5em);width:80%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_01fgmFYmVfaC" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -104,9 +104,9 @@ You will need to update this range to match.
 
 --- task ---
 
-Change the `0` part of the `pick random 0 to 10` block to `1`.
+Change the `0` part of the <code style="background-color: #9400D3">pick random</code> block to `1`.
 
-Change the `10` part of the `pick random 0 to 10` block to `4`.
+Change the `10` part of the <code style="background-color: #9400D3">pick random</code> block to `4`.
 
 --- /task ---
 
