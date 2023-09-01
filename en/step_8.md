@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [TODO: Pathway name and slug](https://projects.raspberrypi.org/en/raspberrypi/path-name) path, you can move on to the [Sound level meter](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will use the sound or light sensor to measure the environment around you, you will also create an alarm to warn you if the sound levels get too high.
+If you are following the [TODO: Pathway name and slug](https://projects.raspberrypi.org/en/raspberrypi/path-name) path, you can move on to the [Sound level meter](https://projects.raspberrypi.org/en/projects/sound-meter) project. In this project, you will use the sound or light sensor to measure the environment around you, you will also create an alarm to warn you if the sound levels get too high.
 
 --- print-only ---
 

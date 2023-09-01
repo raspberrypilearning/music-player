@@ -4,10 +4,20 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Instead of changing the melody by changing the `tune` variable value in the `on start` block, you can use buttons to change the value (and, therefore, the melody). 
 
-In this step you will create code to skip tracks using the micro:bit's `A` and `B` buttons.
+In this step you will create code to skip tracks using the micro:bit's event handlers.
 
 </div>
 </div>
+
+p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+What is an<span style="color: #0faeb0">event handler?</span>
+
+An event handler is code that is associated with a particular event, such as “button A pressed”.
+
+You create (or register) the link between an event and an event handler by calling a function named “on “.
+
+</p>
+
 
 ### Adding button controls
 
@@ -29,11 +39,13 @@ First, we need to stop the current tune.
 
 --- task ---
 
-Click on the <code style="background-color: #E63022">Music</code> menu and drag the <code style="background-color: #E63022">stop all sounds</code> block to the <code style="background-color: #D400D4">on button [A]</code> block in the code editor panel.
+From the <code style="background-color: #E63022">Music</code> menu, drag the <code style="background-color: #E63022">stop all sounds</code> block.
+
+ Place it in the <code style="background-color: #D400D4">on button [A]</code> block in the code editor panel.
 
 ![The Music block menu selected, with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:50%;" src="https://makecode.microbit.org/---codeembed#pub:_6FTWXk9WTLym" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(120px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_6FTWXk9WTLym" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -51,7 +63,7 @@ Click on the <code style="background-color: #DC143C">Variables</code> menu and d
 
 In the <code style="background-color: #DC143C">change [tune] by [1]</code> block, change the value `1` to `-1`.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_bk1aXfP6ob1E" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_bk1aXfP6ob1E" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -68,7 +80,7 @@ We need to deal with this and stop this from happening!
 
 We need to make sure the lowest number that the variable value can be is `1`, because our melodies start at 1:
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- task ---
 
@@ -107,7 +119,7 @@ Change the `0` to `4`.
 
 Your code should look like this:
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_TkfFaLTMeRW5" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_TkfFaLTMeRW5" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 #### Skipping to the next track
 
@@ -135,7 +147,7 @@ Make these changes to the 'greyed out' block:
 
 You should now have an code style="background-color: #D400D4">on button A pressed</code> block of code and an code style="background-color: #D400D4">on button B pressed</code> block of code:
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:75%;height:75%;" src="https://makecode.microbit.org/---codeembed#pub:_CbfbVkYrt0iW" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_CbfbVkYrt0iW" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -143,6 +155,10 @@ You should now have an code style="background-color: #D400D4">on button A presse
 
 When you make a change to a code block in the code editor panel, the simulator will restart.
 
-**Test** When the program runs, you should now be able to change the tune by pressing the buttons.
+**Test** 
+
++ Press Button A 
+
++ Press Button B
 
 Well done, you can now skip your tracks!
