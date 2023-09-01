@@ -25,6 +25,6 @@ Great work! You have created your micro:bit music player. Here are some ideas to
 title: Completed project
 ---
 
-You can view the [completed project here](https://makecode.microbit.org/_MwPes879654M){:target="_blank"}.
+You can view the [completed project here](https://makecode.microbit.org/_5bFMMXWwjL6W){:target="_blank"}.
 
 --- /collapse ---
