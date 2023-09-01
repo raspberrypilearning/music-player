@@ -10,14 +10,11 @@ In this step you will create code to skip tracks using the micro:bit's event han
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-What is an<span style="color: #0faeb0">event handler?</span>
+What is an <span style="color: #0faeb0">event handler?</span>
 
-An event handler is code that is associated with a particular event, such as “button A pressed”.
-
-You create (or register) the link between an event and an event handler by calling a function named “on “.
+An event handler is code that will run when a particular event happens, such as “button A pressed”.
 
 </p>
-
 
 ### Adding button controls
 
@@ -79,22 +76,17 @@ Place it below the <code style="background-color: #E63022">stop all sounds</code
 
 #### Dealing with 'out of range'
 
-If the value of the variable is `1`, then changing it by `-1` will make the value `0`.
-(1 - 1 = 0)
+If the value of the variable is `4`, then changing it by `1` will make the value `5`.
 
-🚨 But there is no melody associated with the value `0`! 🚨
+🚨 But there is no melody associated with the value `5`! 🚨
 
-And if you keep going, you will go from 0 to -1, then -2, -3, -4, -5 and so on!
+Because you only have four melodies, if the variable changes to 5, you want to go back to the first melody.
 
-We need to deal with this and stop this from happening!
-
-We need to make sure the lowest number that the variable value can be is `1`, because our melodies start at 1:
-
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_f5DefxebuH6c" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- task ---
 
-Click on the <code style="background-color: #00A4A6">Logic</code> menu and drag out the <code style="background-color: #00A4A6">if</code> block.
+From the <code style="background-color: #00A4A6">Logic</code> menu, drag out the <code style="background-color: #00A4A6">if</code> block.
 
 Place it below the <code style="background-color: #DC143C">change tune</code> block in your code.
 
@@ -110,7 +102,7 @@ Place it inside the `true` part of the <code style="background-color: #00A4A6">i
 
 Change the `<` (less than) to `>` (greater than) by clicking on the arrow next to the `<` symbol.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_AbbWoKdWF49y" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_D4ACRhEUP3ae" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -120,11 +112,11 @@ From the <code style="background-color: #DC143C">Variables</code> menu, drag out
 
 Place it on the first `0` in the <code style="background-color: #00A4A6">0 < 0</code> block.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Ewj1DVgptdvg" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_6u0MChMKJUTi" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 Change the second `0` to a `4`.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Afad2qUqoerT" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_UfKAa33KUUYx" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -132,11 +124,11 @@ Change the second `0` to a `4`.
 
 From the <code style="background-color: #DC143C">Variables</code> menu and drag out the <code style="background-color: #DC143C">set</code> block.
 
-Place it inside the `code style="background-color: #00A4A6">if</code> block in your code. 
+Place it inside the <code style="background-color: #00A4A6">if</code> block in your code. 
 
 Change the `0` to `1`.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_CYoDaD5aC7jw" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_PrxidP2WEb33" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -155,29 +147,53 @@ We can re-use our code we created to control what happens when Button B is press
 
 Click `Duplicate` to make a copy of the whole block. 
 
-You should now have a second code style="background-color: #D400D4">on button B pressed</code> block that will be 'greyed out'.
+You should now have a second <code style="background-color: #D400D4">on button </code> block that will be 'greyed out'.
 
-Make these changes to the 'greyed out' block:
+Change the button from `B` to `A` (doing this will stop the block from being greyed out).
 
-+ Change the button from `B` to `A` (doing this will stop the block from being greyed out).
-+ Change the `-1` to `1`
-+ Change the `<` to `>`
+<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_PUj7f7TvzY1A" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- /task ---
+
+--- task ---
+Make these changes to the on button A pressed block:
+
+Change the `1` to `-1` in the change block
+
+In the comparison block:
+
++ Change the `<` to `>` 
+
 + Change the `1` to `4`
-+ Change the `4` to `1`
 
-You should now have an code style="background-color: #D400D4">on button A pressed</code> block of code and an code style="background-color: #D400D4">on button B pressed</code> block of code:
+Change the `1` to `4` in the set block
+
+--- /task ---
+
+
+You should now have an <code style="background-color: #D400D4">on button A pressed</code> block of code and an <code style="background-color: #D400D4">on button B pressed</code> block of code:
 
 <div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_CbfbVkYrt0iW" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
+
+--- task ---
+
 **Debug** Make sure you have changed the correct values in the blocks used to change the value of the variables. For example: `Button A` should change the variable by `-1` and Button B should change the variable value by `1`.
+
+--- /task ---
+
+--- task ---
 
 When you make a change to a code block in the code editor panel, the simulator will restart.
 
-**Test** 
+**Test your program** 
 
-+ Press Button A 
++ Press Button A to skip to previous tracks
 
-+ Press Button B
++ Press Button B to skip to the next track
+
+--- /task ---
+
 
 Well done, you can now skip your tracks!

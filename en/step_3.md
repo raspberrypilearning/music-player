@@ -23,7 +23,7 @@ Open the <code style="background-color: #DC143C">Variables</code> menu, and clic
 
 --- task ---
 
-Name the new variable `tune`, then click the `Ok` button.
+Name the new variable `tune`, then click the Ok button.
 
 <img src="images/variable-tune.png" alt="The 'New variable name' window, with the name 'tune' written in the box" width="450"/>
 
@@ -179,7 +179,7 @@ When you make a change to a code block in the code editor panel, the simulator w
 
 **Test:** your program.
 
-+ Change the <code style="background-color: #DC143C">set tune</code>  from `1` to `2` on the <code style="background-color: #1E90FF">on start/code>  block. 
++ Change the <code style="background-color: #DC143C">set tune</code>  from `1` to `2` on the <code style="background-color: #1E90FF">on start</code>  block. 
 The simulator will restart and play the melody for 2.
 
 + Repeat the same steps for melodies 3 and 4.
