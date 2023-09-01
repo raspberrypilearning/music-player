@@ -156,7 +156,7 @@ Change the button from `B` to `A` (doing this will stop the block from being gre
 --- /task ---
 
 --- task ---
-Make these changes to the on button A pressed block:
+Make these changes to the <code style="background-color: #D400D4">on button A pressed</code> block:
 
 Change the `1` to `-1` in the change block
 
@@ -175,11 +175,11 @@ You should now have an <code style="background-color: #D400D4">on button A press
 
 <div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_CbfbVkYrt0iW" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
---- /task ---
-
 --- task ---
 
-**Debug** Make sure you have changed the correct values in the blocks used to change the value of the variables. For example: `Button A` should change the variable by `-1` and Button B should change the variable value by `1`.
+**Debug** Make sure you have changed the correct values in the blocks used to change the value of the variables.
+
+For example: `Button A` should change the variable by `-1` and Button B should change the variable value by `1`.
 
 --- /task ---
 
@@ -196,4 +196,4 @@ When you make a change to a code block in the code editor panel, the simulator w
 --- /task ---
 
 
-Well done, you can now skip your tracks!
+Well done, you can now skip your tracks back and forth!
