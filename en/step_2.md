@@ -58,7 +58,7 @@ title: V1 micro:bit users
 
 The speaker output is only available on the V2 of the micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
 
-There is also a [guide to connecting headphones/speakers to the V1 micro:bit](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
+There is a [guide to connecting headphones/speakers to the V1 micro:bit.](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
 
 --- /collapse ---
 
@@ -81,6 +81,44 @@ Choose `until done`.
 
 --- /task ---
 
+### Style your song
+
+As well as playing a melody, you can add a picture to the LED display to add some more style! 
+
+--- task ---
+
+Open the <code style="background-color: #1e90ff">Basic</code> menu and find the <code style="background-color: #1e90ff">show icon</code> block.
+
+<img src="images/show-icon-location.png" alt="The Basic menu, with the 'show icon' block highlighted." width="350"/>
+
+--- /task ---
+
+--- task ---
+
+Drag the <code style="background-color: #1e90ff">show icon</code> block into the code editor. 
+
+Place it inside the <code style="background-color: #1e90ff">forever</code> block **above** your <code style="background-color: #e63022">melody</code> block. 
+
+--- /task ---
+
+--- task ---
+
+MakeCode has pre-programmed icons to display on the LED. 
+
+The default is a **heart** icon. 
+
+**Click** on the heart to see the other options. 
+
+**Choose** an icon that represents your melody. 
+
+<img src="images/choose-icon.gif" alt="The show icon block is expanded to show the multiple options for icons. After a bit of scrolling the duck is selected from the list." width="400"/>
+
+We have gone for this little duck! 
+
+<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_7LdLvFhbzYuD" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- /task ---
+
 --- task ---
 
 When you make a change to a code block in the code editor panel, the simulator will restart.
@@ -88,6 +126,7 @@ When you make a change to a code block in the code editor panel, the simulator w
 **Test your program** 
 
 + You should now hear the melody playing until it's done (and then looping because of the forever loop).
++ You should also see the icon you chose displayed on the LEDs
 
 --- /task ---    
 

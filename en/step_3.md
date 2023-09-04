@@ -63,7 +63,7 @@ Click on the <code style="background-color: #00A4A6">Logic</code> menu and drag 
 
 Place this in the <code style="background-color: #00A4A6">true</code> area of the <code style="background-color: #00A4A6">if</code> block.
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WrzDXU4KKeRY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_YR5CEE7P2Ayx" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -75,15 +75,17 @@ Place it into the first `0` in the <code style="background-color: #00A4A6">0 = 0
 
 Change the second `0` to `1`.
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_HyH5uA1iA80o" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_97gJjDDst9Ua" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
 --- task ---
 
-Move the <code style="background-color: #E63022">play melody dadadum</code> block inside the <code style="background-color: #00A4A6">if</code> block.
+Move the <code style="background-color: #1e90ff">show icon</code> and <code style="background-color: #E63022">play melody</code> blocks inside the <code style="background-color: #00A4A6">if</code> block.
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_40uahb1ahe5k" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+**Tip** Whever you grab a block, all the block beneath it will move as well, so try just dragging the <code style="background-color: #1e90ff">show icon</code>.
+
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_dyW611KRTKcj" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -127,7 +129,7 @@ Place the duplicated <code style="background-color: #DC143C">tune</code> <code s
 
 Duplicate two more comparison blocks and place them between the other <code style="background-color: #00A4A6">else if</code> and <code style="background-color: #00A4A6">then</code> parts.
 
-<img src="images/elseif-tune.gif" alt="A duplicated comparison block showing the 'tune' variable is dragged into an empty shaped space on an 'else..if' condition block. This is repeated twice until all condition blocks have comparison blocks in them" width="350"/>
+<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_H1dCqTAsefx6" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -139,7 +141,7 @@ For the second <code style="background-color: #00A4A6">else if</code> section, c
 
 For the third <code style="background-color: #00A4A6">else if</code> section, change the `1` to `4`
 
-<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_HM28gkfiieR4" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WavA8R5h04DY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -161,7 +163,39 @@ Repeat these steps for the second and third <code style="background-color: #00A4
 
 You should now have four melodies, one for each of the four conditions.
 
-<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_f5DefxebuH6c" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_DLYiFJcMrebk" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+--- /task ---
+
+You also need to select some **icons** for each of your new songs. 
+
+You can duplicate the <code style="background-color: #1e90ff">show icon</code> block.
+
+You can also use the <code style="background-color: #1e90ff">show leds</code> block to draw your own!
+
+--- collapse ---
+
+---
+title: Using the show leds block
+---
+
+Inside the <code style="background-color: #1E90FF">Basic</code> menu, drag the <code style="background-color: #1e90ff">show leds</code> block inside an <code style="background-color: #00a4a6">else if</code> to use it.
+
+<img src="images/show-leds.png" alt="The Basic menu with the 'show leds' block highlighted" width="350"/>
+
+You can click on each of the squares to draw your picture. White squares will be lit on the micro:bit.
+
+We drew a **birthday cake** for the `birthday` melody.
+
+<img src="images/draw-icon.png" alt="The 'show leds' block with a birthday cake with two candles created in white squares" width="350"/>
+
+--- /collapse ---
+
+--- task ---
+
+Add icons for each of your songs using either the <code style="background-color: #1e90ff">show icon</code> or <code style="background-color: #1e90ff">show leds</code> block. 
+
+<div style="position:relative;height:calc(400px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_0yCP24EifRFs" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 --- /task ---
 
@@ -180,7 +214,7 @@ When you make a change to a code block in the code editor panel, the simulator w
 **Test:** your program.
 
 + Change the <code style="background-color: #DC143C">set tune</code>  from `1` to `2` on the <code style="background-color: #1E90FF">on start</code>  block. 
-The simulator will restart and play the melody for 2.
+The simulator will restart and play the melody for 2, and show that icon.
 
 + Repeat the same steps for melodies 3 and 4.
 

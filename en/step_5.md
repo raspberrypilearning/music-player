@@ -42,7 +42,7 @@ Choose the not equal to `≠` symbol.
 
 --- task ---
 
-From the <code style="background-color: #DC143C">Variables</code> menu, drag out the <code style="background-color: #DC143C">tune </code> variable block. 
+From the <code style="background-color: #DC143C">Variables</code> menu, drag out the <code style="background-color: #DC143C">tune</code> variable block. 
 
 Place it in the first `0` on the <code style="background-color: #00A4A6">0 ≠ 0 </code> block.
 
