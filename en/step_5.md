@@ -8,7 +8,7 @@ In this step, you will make use of the `on shake` gesture to stop the tunes from
 
 --- task ---
 
-From the <code style="background-color: #D400D4">Input</code> menu, drag out an <code style="background-color: #D400D4">on shake</code> block and place it on the code editor panel.
+From the <code style="background-color: #D400D4">Input</code> menu, drag an <code style="background-color: #D400D4">on shake</code> block and place it on the code editor panel.
 
 <div style="position:relative;height:calc(100px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Wff4v7MYXLrR" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -16,7 +16,7 @@ From the <code style="background-color: #D400D4">Input</code> menu, drag out an 
 
 --- task ---
 
-From the <code style="background-color: #00A4A6">Logic</code> menu, drag out an <code style="background-color: #00A4A6">if else</code> block and place it inside the <code style="background-color: #D400D4">on shake</code> block.
+From the <code style="background-color: #00A4A6">Logic</code> menu, drag an <code style="background-color: #00A4A6">if...else</code> block and place it inside the <code style="background-color: #D400D4">on shake</code> block.
 
 <div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_gJtA1VWgueHk" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -26,7 +26,7 @@ From the <code style="background-color: #00A4A6">Logic</code> menu, drag out an 
 
 Click on the <code style="background-color: #00A4A6">Logic</code> menu again and drag a comparison <code style="background-color: #00A4A6">0 = 0</code> block. 
 
-Place it inside the `<true>` part of the `<code style="background-color: #00A4A6">if else</code> block.
+Place it inside the `<true>` part of the `<code style="background-color: #00A4A6">if...else</code> block.
 
 --- /task ---
 
@@ -42,7 +42,7 @@ Choose the not equal to `≠` symbol.
 
 --- task ---
 
-From the <code style="background-color: #DC143C">Variables</code> menu, drag out the <code style="background-color: #DC143C">tune</code> variable block. 
+From the <code style="background-color: #DC143C">Variables</code> menu, drag the <code style="background-color: #DC143C">tune</code> variable block. 
 
 Place it in the first `0` on the <code style="background-color: #00A4A6">0 ≠ 0 </code> block.
 
@@ -52,9 +52,9 @@ Place it in the first `0` on the <code style="background-color: #00A4A6">0 ≠ 0
 
 --- task ---
 
-From the <code style="background-color: #E63022">Music</code> block menu, drag out a <code style="background-color: #E63022">stop all sounds</code> block. 
+From the <code style="background-color: #E63022">Music</code> block menu, drag a <code style="background-color: #E63022">stop all sounds</code> block. 
 
-Place it inside the <code style="background-color: #00A4A6">if</code> part of the <code style="background-color: #00A4A6">if..else</code> block.
+Place it inside the <code style="background-color: #00A4A6">if</code> part of the <code style="background-color: #00A4A6">if...else</code> block.
 
 <div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Pt5h7M8UzMTJ" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -62,7 +62,7 @@ Place it inside the <code style="background-color: #00A4A6">if</code> part of th
 
 --- task ---
 
-Click on the <code style="background-color: #DC143C">Variables</code> menu and drag out a <code style="background-color: #DC143C">set [tune] to 0</code> block. 
+Click on the <code style="background-color: #DC143C">Variables</code> menu and drag a <code style="background-color: #DC143C">set [tune] to 0</code> block. 
 
 Place it below the <code style="background-color: #E63022">stop all sounds</code> block. 
 
@@ -70,7 +70,7 @@ Place it below the <code style="background-color: #E63022">stop all sounds</code
 
 --- /task ---
 
-Now, each time a melody is playing, once you shake the micro:bit it will stop playing the melody.
+Now, when a melody is playing, you can shake the micro:bit and it will stop playing the melody.
 
 ### Shake again to shuffle
 
@@ -78,9 +78,9 @@ You will now add a condition so the micro:bit plays a random melody from your ch
 
 --- task ---
 
-Click on the <code style="background-color: #DC143C">Variables</code> block menu and drag out the <code style="background-color: #DC143C">set [tune] to 0</code> block. 
+Click on the <code style="background-color: #DC143C">Variables</code> block menu and drag the <code style="background-color: #DC143C">set [tune] to 0</code> block. 
 
-Place it inside the <code style="background-color: #00A4A6">else</code> part of the <code style="background-color: #00A4A6">if..else</code> block.
+Place it inside the <code style="background-color: #00A4A6">else</code> part of the <code style="background-color: #00A4A6">if...else</code> block.
 
 <div style="position:relative;height:calc(150px + 5em);width:80%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_djJ03JPU4X2u" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -88,7 +88,7 @@ Place it inside the <code style="background-color: #00A4A6">else</code> part of 
 
 --- task ---
 
-From the <code style="background-color: #9400D3">Math</code> menu drag out a <code style="background-color: #9400D3">pick random</code> block.
+From the <code style="background-color: #9400D3">Math</code> menu, drag a <code style="background-color: #9400D3">pick random</code> block.
 
 Place it inside the `20` part of the <code style="background-color: #DC143C">set tune</code> block. 
 
@@ -125,13 +125,13 @@ When the program runs, you should now be able to stop and shuffle by shaking the
 
 --- task ---
 
-### Downloading your program to the micro:bit
+### Download your program to the micro:bit
 
 To run your program on your physical micro:bit, you will need to download your program file to it.
 
 Click on the `Download` button below the micro:bit simulator. 
 
-![the MakeCode editor showing the highlighted Download button](images/download-button.png)
+![The MakeCode editor showing the highlighted Download button.](images/download-button.png)
 
 You will be asked to plug in your micro:bit. Do that now, then click **Continue**. 
 
@@ -141,13 +141,13 @@ Click **Pair** and select your device from the list that appears, then click **C
 
 **Debug:** My micro:bit won't pair
 
-If your micro:bit won't pair using the method above, it will download the program for you. 
-
-**Windows:** Open **File Explorer** and check that you can see `MICROBIT` under `This PC` on the left hand side. If it is there, drag the downloaded `.HEX` file to it, your program will be saved to your micro:bit and you should be able to use it.
-
-**MacOS:** Open **Finder** and check that you can see `MICROBIT` under `Locations` on the left hand side. If it is there, drag the downloaded `.HEX` file to it, your program will be saved to your micro:bit and you should be able to use it.
-
 If your micro:bit isn't showing up, try unplugging it and plugging it back in. You can also try a different USB port or USB cable if they are available.
+
+If your micro:bit doesn't pair, you can use the Download button to download your program as a .HEX file. You can then move the program onto your micro:bit using your file system. 
+
+**Windows:** Open **File Explorer** and check that you can see `MICROBIT` under `This PC` on the left-hand side. If it is there, drag the downloaded `.HEX` file to it. Your program will be saved to your micro:bit and you should be able to use it.
+
+**MacOS:** Open **Finder** and check that you can see `MICROBIT` under `Locations` on the left-hand side. If it is there, drag the downloaded `.HEX` file to it. Your program will be saved to your micro:bit and you should be able to use it.
 
 
 --- /task ---
