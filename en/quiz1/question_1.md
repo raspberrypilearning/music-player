@@ -2,7 +2,7 @@
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-When you have answered each question, click on **Check my answer**.
+When you have answered each question, click **Check my answer**.
 
 Have fun!
 
@@ -12,7 +12,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-Which two blocks are always shown on the MakeCode editor when you load it for the first time?
+Which two blocks are always shown in the MakeCode editor when you load it for the first time?
 
 --- choices ---
 
@@ -36,7 +36,7 @@ Which two blocks are always shown on the MakeCode editor when you load it for th
 
   --- feedback ---
 
-Awesome! You have answered correctly, the `on start` and `forever` blocks are show on the code editor panel every time you start a new project.
+Awesome! You have answered correctly, the `on start` and `forever` blocks are shown in the code editor panel every time you start a new project.
 
   --- /feedback ---
 
