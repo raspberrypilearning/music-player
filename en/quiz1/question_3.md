@@ -20,7 +20,7 @@ Which melody will play when Button `B` is pressed?
   
   --- feedback ---
   
-Not quite. Button B skips the track forward and will add one to the variable value, meaning tune will be set to `2`, which is associated with the `punchline` melody
+Not quite. Button B skips the track forward and will add one to the variable value, meaning `tune` will be set to `2`, which is associated with the `punchline` melody.
 
   --- /feedback ---
 
@@ -28,7 +28,7 @@ Not quite. Button B skips the track forward and will add one to the variable val
 
   --- feedback ---
 
-Great! Pressing Button B will add one to the variable value, meaning tune will be set to `2`, which is associated with the `punchline` melody
+Great! Pressing Button B will add one to the variable value, meaning `tune` will be set to `2`, which is associated with the `punchline` melody.
 
   --- /feedback ---
 
