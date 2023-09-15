@@ -26,7 +26,7 @@ From the <code style="background-color: #00A4A6">Logic</code> menu, drag an <cod
 
 Click on the <code style="background-color: #00A4A6">Logic</code> menu again and drag a comparison <code style="background-color: #00A4A6">0 = 0</code> block. 
 
-Place it inside the `<true>` part of the `<code style="background-color: #00A4A6">if...else</code> block.
+Place it inside the `<true>` part of the <code style="background-color: #00A4A6">if...else</code> block.
 
 --- /task ---
 
@@ -90,7 +90,7 @@ Place it inside the <code style="background-color: #00A4A6">else</code> part of 
 
 From the <code style="background-color: #9400D3">Math</code> menu, drag a <code style="background-color: #9400D3">pick random</code> block.
 
-Place it inside the `20` part of the <code style="background-color: #DC143C">set tune</code> block. 
+Place it inside the `0` part of the <code style="background-color: #DC143C">set tune</code> block. 
 
 <div style="position:relative;height:calc(150px + 5em);width:80%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_01fgmFYmVfaC" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
