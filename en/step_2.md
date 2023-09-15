@@ -42,7 +42,7 @@ Give your new project the name `music player` and click **Create**.
 
 <img src="images/music-player.png" alt="The name 'music player' written in the Create a Project dialogue box." width="400"/>
 
-**Tip:** Give your project a helpful name that relates to the activity you’re creating. This will make it easier to find if you create other projects on MakeCode.
+**Tip:** To make it easier to find your project later, give it a helpful name that relates to the activity you’re creating.
 
 --- /task ---
 
