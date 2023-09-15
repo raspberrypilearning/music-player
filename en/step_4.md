@@ -54,7 +54,7 @@ Now, you need to stop the current tune.
 
 From the <code style="background-color: #E63022">Music</code> menu, drag the <code style="background-color: #E63022">stop all sounds</code> block.
 
- Place it in the <code style="background-color: #D400D4">on button [B]</code> block in the code editor panel.
+Place it in the <code style="background-color: #D400D4">on button [B]</code> block in the code editor panel.
 
 ![The Music block menu with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
 
@@ -114,7 +114,7 @@ Place it on the first `0` in the <code style="background-color: #00A4A6">0 > 0</
 
 <div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_6u0MChMKJUTi" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
-Change the second `0` to a `4`.
+Change the second `0` to `4`.
 
 <div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_UfKAa33KUUYx" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -143,7 +143,7 @@ You can re-use the code you created to control what happens when Button B is pre
 
 --- task ---
 
-**Right click** on the top part of the <code style="background-color: #D400D4">on button B pressed</code> block that you now have in the code editor panel. 
+**Right-click** on the top part of the <code style="background-color: #D400D4">on button B pressed</code> block that you now have in the code editor panel. 
 
 Click **Duplicate** to make a copy of the whole block. 
 
@@ -158,7 +158,7 @@ Change the button from `B` to `A`. This will stop the block from being greyed ou
 --- task ---
 Make these changes to the <code style="background-color: #D400D4">on button A pressed</code> block:
 
-Change the `1` to `-1` in the change block.
+Change the `1` to `-1` in the <code style="background-color: #DC143C">change</code> block.
 
 In the comparison block:
 
@@ -166,7 +166,7 @@ In the comparison block:
 
 + Change the `1` to `4`
 
-Change the `1` to `4` in the set block.
+Change the `1` to `4` in the <code style="background-color: #DC143C">set</code> block.
 
 --- /task ---
 
