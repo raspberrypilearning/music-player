@@ -43,7 +43,7 @@ Change the `0` to `1`.
 
 --- /task ---
 
-### Using if... then
+### Use of if...then
 
 For your music player to play different melody choices, you will need to make use of a logic block for each melody.
 
@@ -117,7 +117,7 @@ Click on the `-` symbol next to the <code style="background-color: #00A4A6">else
 
 --- task ---
 
-Right click on the <code style="background-color: #DC143C">tune</code> <code style="background-color: #00A4A6">=</code> `1` block and duplicate it.
+Right-click on the <code style="background-color: #DC143C">tune</code> <code style="background-color: #00A4A6">=</code> `1` block and duplicate it.
 
 <img src="images/duplicate-comparison.png" alt="The '=' comparison block highlighted, with the right click menu expanded showing options including 'Duplicate'." width="350"/>
 
@@ -211,7 +211,7 @@ You should have `1` in the <code style="background-color: #00A4A6">if</code> sec
 
 When you make a change to a code block in the code editor panel, the simulator will restart.
 
-**Test** your program.
+**Test your program**
 
 + Change the <code style="background-color: #DC143C">set tune</code> from `1` to `2` on the <code style="background-color: #1E90FF">on start</code> block. 
 The simulator will restart and play the melody for 2, and show that icon.
