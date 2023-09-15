@@ -6,7 +6,7 @@ To start creating your micro:bit project, you need to open the MakeCode editor.
 
 --- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}
+Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 
 --- collapse ---
 
@@ -56,9 +56,9 @@ You are going to use the <code style="background-color: #1E90FF">forever</code> 
 title: V1 micro:bit users
 ---
 
-The speaker output is only available on the V2 of the micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
+The speaker output is only available on the V2 micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
 
-There is a [guide to connecting headphones/speakers to the V1 micro:bit.](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
+There is a [guide to connecting headphones/speakers to the V1 micro:bit](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
 
 --- /collapse ---
 
@@ -103,7 +103,7 @@ Place it inside the <code style="background-color: #1e90ff">forever</code> block
 
 --- task ---
 
-MakeCode has pre-programmed icons to display on the LED. 
+MakeCode has pre-programmed icons that display on the LED panel. 
 
 The default is a **heart** icon. 
 
@@ -125,8 +125,8 @@ When you make a change to a code block in the code editor panel, the simulator w
 
 **Test your program** 
 
-+ You should now hear the melody playing until it is done (and then looping because of the forever loop).
-+ You should also see the icon you chose displayed on the LEDs
++ You should now hear the melody playing until it is done (and then looping because of the forever loop)
++ You should also see the icon you picked displayed on the LEDs
 
 --- /task ---    
 
