@@ -1,7 +1,7 @@
 ## You will make
 Do you listen to music on Spotify, Apple music, Alexa, or any other app? What if you could do the same on your micro:bit by creating your own music app?
 
-In this project, you are going to make a music player that lets you choose different songs to suit your mood.
+In this project, you are going to make a music player that lets you choose different tunes to suit your mood.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Listening to music can improve your <span style="color: #0faeb0">mood</span> and make you feel happier! When you listen to music you enjoy, your brain releases a special 'feel-good' chemical. So, the next time you feel a little down, try putting on your favorite tunes and let the music boost your mood!
