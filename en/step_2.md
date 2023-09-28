@@ -1,12 +1,12 @@
 ## Play a tune
 
-### Opening MakeCode
+### Open MakeCode
 
 To start creating your micro:bit project, you need to open the MakeCode editor.
 
 --- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}
+Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 
 --- collapse ---
 
@@ -42,7 +42,7 @@ Give your new project the name `music player` and click **Create**.
 
 <img src="images/music-player.png" alt="The name 'music player' written in the Create a Project dialogue box." width="400"/>
 
-**Tip:** Give your project a helpful name that relates to the activity you’re creating. This will make it easier to find if you create other projects on MakeCode.
+**Tip:** To make it easier to find your project later, give it a helpful name that relates to the activity you’re creating.
 
 --- /task ---
 
@@ -56,9 +56,9 @@ You are going to use the <code style="background-color: #1E90FF">forever</code> 
 title: V1 micro:bit users
 ---
 
-The speaker output is only available on the V2 of the micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
+The speaker output is only available on the V2 micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
 
-There is a [guide to connecting headphones/speakers to the V1 micro:bit.](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
+There is a [guide to connecting headphones/speakers to the V1 micro:bit](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
 
 --- /collapse ---
 
@@ -67,17 +67,17 @@ There is a [guide to connecting headphones/speakers to the V1 micro:bit.](https:
 
 From the <code style="background-color: #E63022">Music</code> menu, drag the <code style="background-color: #E63022">play melody dadadum</code> block and place it inside the <code style="background-color: #1E90FF">forever</code> block.
 
-<img src="images/play-melody.png" alt="The Music menu open with the 'play melody dadadum' block highlighted" width="450"/>
+<img src="images/play-melody.png" alt="The Music menu open with the 'play melody dadadum' block highlighted." width="450"/>
 
 --- /task ---
 
 --- task ---
 
-On the <code style="background-color: #E63022">play melody dadadum</code> block, click on the down arrow next to `in background`. 
+Click on the down arrow next to `in background` on the <code style="background-color: #E63022">play melody dadadum</code> block. 
 
 Choose `until done`.
 
-<img src="images/melody-untildone.gif" alt="The melody drop down menu, open with the 'until done' button selected" width="400"/>
+<img src="images/melody-untildone.gif" alt="The melody drop-down menu with the 'until done' button selected." width="400"/>
 
 --- /task ---
 
@@ -89,7 +89,7 @@ As well as playing a melody, you can add a picture to the LED display to add som
 
 Open the <code style="background-color: #1e90ff">Basic</code> menu and find the <code style="background-color: #1e90ff">show icon</code> block.
 
-<img src="images/show-icon-location.png" alt="The Basic menu, with the 'show icon' block highlighted." width="350"/>
+<img src="images/show-icon-location.png" alt="The Basic menu with the 'show icon' block highlighted." width="350"/>
 
 --- /task ---
 
@@ -103,7 +103,7 @@ Place it inside the <code style="background-color: #1e90ff">forever</code> block
 
 --- task ---
 
-MakeCode has pre-programmed icons to display on the LED. 
+MakeCode has pre-programmed icons that display on the LED panel. 
 
 The default is a **heart** icon. 
 
@@ -113,7 +113,7 @@ The default is a **heart** icon.
 
 <img src="images/choose-icon.gif" alt="The show icon block is expanded to show the multiple options for icons. After a bit of scrolling the duck is selected from the list." width="400"/>
 
-We have gone for this little duck! 
+We have chosen this little duck! 
 
 <div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_7LdLvFhbzYuD" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
@@ -125,8 +125,8 @@ When you make a change to a code block in the code editor panel, the simulator w
 
 **Test your program** 
 
-+ You should now hear the melody playing until it's done (and then looping because of the forever loop).
-+ You should also see the icon you chose displayed on the LEDs
++ You should now hear the melody playing until it is done (and then looping because of the forever loop)
++ You should also see the icon you picked displayed on the LEDs
 
 --- /task ---    
 

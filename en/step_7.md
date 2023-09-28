@@ -2,13 +2,13 @@
 
 Great work! You have created your micro:bit music player. Here are some ideas to upgrade your project and create a more advanced music player app:
 
-+ Add more melodies and increase the range on the shuffle.
-+ Use the Logo button (Or button A+B on the V1) to stop all sounds, leaving Shake to just control the shuffle.
-+ Use the Logo button (Or button A+B on the V1) to play a favourite melody.
++ Add more melodies and increase the range on the shuffle
++ Use the Logo button (or button A+B on the V1) to stop all sounds, leaving Shake to just control the shuffle
++ Use the Logo button (or button A+B on the V1) to play a favourite melody
 
 ### Play ▶️
 
-+ Use the logo at the top to select a favourite song. 
++ Use the logo at the top to select a favourite song 
 + How many tunes are there?
 + What happens if you press the logo after registering a favourite and changing the tune?
 

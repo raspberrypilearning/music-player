@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-In programming what is a variable?
+In programming, what is a variable?
 
 --- choices ---
 
@@ -13,7 +13,7 @@ In programming what is a variable?
 
   --- feedback ---
   
-  Great effort! A variable is a concept used across all programming languages. It is a storage box that can store data including text, integers and true/false values.
+  Great effort! A variable is a concept used across all programming languages. It is a storage box that can store data including text, integers, and true/false values.
 
   --- /feedback ---
 
