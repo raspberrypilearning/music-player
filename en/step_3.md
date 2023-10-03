@@ -79,7 +79,7 @@ basic.forever(function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"}</code> menu, drag a `tune`{:class="microbitvariables"} block. 
+From the `Variables`{:class="microbitvariables"} menu, drag a `tune`{:class="microbitvariables"} block. 
 
 Place it into the first `0` in the `0 = 0`{:class="microbitlogic"} block.
 
