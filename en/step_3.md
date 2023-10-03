@@ -15,7 +15,7 @@ Data stored in a variable might be a number like `10` or a word like `dinosaur`.
 
 --- task ---
 
-Open the <code style="background-color: #DC143C">Variables</code> menu, and click **Make a Variable**.
+Open the `Variables`{:class="microbitvariables"} menu, and click **Make a Variable**.
 
 ![The Variables menu with the 'Make a Variable' button highlighted.](images/variable-menu.png)
 
@@ -29,17 +29,19 @@ Name the new variable `tune`, then click the **OK** button.
 
 --- /task ---
 
-There will now be new blocks available that you can use to set, change, or use the value stored in the <code style="background-color: #DC143C">tune</code> variable. 
+There will now be new blocks available that you can use to set, change, or use the value stored in the `tune`{:class="microbitvariables"} variable. 
 
 <img src="images/variableblocks-tune.png" alt="The Variables menu with new blocks to set, change, and use the value of the tune variable." width="350"/>
 
 --- task ---
 
-Drag the <code style="background-color: #DC143C">set</code> block and place it inside the <code style="background-color: #1E90FF">on start</code> block.
+Drag the `set`{:class="microbitvariables"} block and place it inside the `on start`{:class="microbitbasic"} block.
 
 Change the `0` to `1`.
 
-<div style="position:relative;height:calc(120px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_MHwLMFgh3Duz" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 1
+```
 
 --- /task ---
 
@@ -49,7 +51,7 @@ For your music player to play different melody choices, you will need to make us
 
 --- task ---
 
-From the <code style="background-color: #00A4A6">Logic</code> menu, choose the <code style="background-color: #00A4A6">if</code> block.
+From the `Logic`{:class="microbitlogic"} menu, choose the `if`{:class="microbitlogic"} block.
 
 <img src="images/if-block-location.png" alt="The Logic menu with the `if` block highlighted." width="350"/>
 
@@ -57,59 +59,85 @@ From the <code style="background-color: #00A4A6">Logic</code> menu, choose the <
 
 --- task ---
 
-Place the <code style="background-color: #00A4A6">if</code> block above the <code style="background-color: #E63022">play melody dadadum</code> block.
+Place the `if`{:class="microbitlogic"} block above the `play melody dadadum`{:class="microbitmusic"} block.
  
-Click on the <code style="background-color: #00A4A6">Logic</code> menu and drag a comparison <code style="background-color: #00A4A6">0 = 0</code> block. 
+Click on the `Logic`{:class="microbitlogic"} menu and drag a comparison `0 = 0`{:class="microbitlogic"} block. 
 
-Place this in the <code style="background-color: #00A4A6">true</code> area of the <code style="background-color: #00A4A6">if</code> block.
+Place this in the `true`{:class="microbitlogic"} area of the `if`{:class="microbitlogic"} block.
 
-<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_YR5CEE7P2Ayx" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    if (0 == 0) {
+    	
+    }
+    basic.showIcon(IconNames.Duck)
+    music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+})
+```
 
 --- /task ---
 
 --- task ---
 
-From the <code style="background-color: #DC143C">Variables</code> menu, drag a <code style="background-color: #DC143C">tune</code> block. 
+From the `Variables`{:class="microbitvariables"}</code> menu, drag a `tune`{:class="microbitvariables"} block. 
 
-Place it into the first `0` in the <code style="background-color: #00A4A6">0 = 0</code> block.
+Place it into the first `0` in the `0 = 0`{:class="microbitlogic"} block.
 
 Change the second `0` to `1`.
 
-<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_97gJjDDst9Ua" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    let tune = 0
+    if (tune == 1) {
+    	
+    }
+    basic.showIcon(IconNames.Duck)
+    music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+})
+```
 
 --- /task ---
 
 --- task ---
 
-Move the <code style="background-color: #1e90ff">show icon</code> and <code style="background-color: #E63022">play melody</code> blocks inside the <code style="background-color: #00A4A6">if</code> block.
+Move the `show icon`{:class="microbitbasic"} and `show melody`{:class="microbitmusic"} blocks inside the `if`{:class="microbitlogic"} block.
 
-**Tip:** Whenever you grab a block, all the blocks beneath it will move as well, so just drag the <code style="background-color: #1e90ff">show icon</code> block and the others will follow.
+**Tip:** Whenever you grab a block, all the blocks beneath it will move as well, so just drag the `show icon`{:class="microbitbasic"} block and the others will follow.
 
-<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_dyW611KRTKcj" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    let tune = 0
+    if (tune == 1) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+        basic.showIcon(IconNames.Duck)
+    }
+})
+```
 
 --- /task ---
 
-To add more melody choices, you need to create more conditions in the <code style="background-color: #00A4A6">if</code> block.
+To add more melody choices, you need to create more conditions in the `if`{:class="microbitlogic"} 
+block.
 
 --- task ---
 
-Click on the `+` symbol on the bottom left of the <code style="background-color: #00A4A6">if</code> block. This will create an <code style="background-color: #00A4A6">else</code> section. 
+Click on the `+` symbol on the bottom left of the `if`{:class="microbitlogic"} block. This will create an `else`{:class="microbitlogic"} section. 
 
 --- /task ---
 
 --- task ---
 
-Click on the `+` symbol below the <code style="background-color: #00A4A6">else</code> section. 
+Click on the `+` symbol below the `else`{:class="microbitlogic"} section. 
 
 This will create an <code style="background-color: #00A4A6">else if</code> section. 
 
-Repeat this twice, so you have three <code style="background-color: #00A4A6">else if</code> sections and an <code style="background-color: #00A4A6">else</code> section.
+Repeat this twice, so you have three `else if`{:class="microbitlogic"} sections and an `else`{:class="microbitlogic"} section.
 
 --- /task ---
 
 --- task ---
 
-Click on the `-` symbol next to the <code style="background-color: #00A4A6">else</code> section to remove the <code style="background-color: #00A4A6">else</code> section.
+Click on the `-` symbol next to the `else`{:class="microbitlogic"} section to remove the `else`{:class="microbitlogic"} section.
 
 <img src="images/elseif-blocks.gif" alt="An animation showing the + symbol being used to add three 'else if' sections. Finally, the 'else' is removed from the end by clicking the '-' symbol next to it." width="350"/>
 
@@ -117,7 +145,7 @@ Click on the `-` symbol next to the <code style="background-color: #00A4A6">else
 
 --- task ---
 
-Right-click on the <code style="background-color: #DC143C">tune</code> <code style="background-color: #00A4A6">=</code> `1` block and duplicate it.
+Right-click on the `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` block and duplicate it.
 
 <img src="images/duplicate-comparison.png" alt="The '=' comparison block highlighted, with the right click menu expanded showing options including 'Duplicate'." width="350"/>
 
@@ -125,53 +153,109 @@ Right-click on the <code style="background-color: #DC143C">tune</code> <code sty
 
 --- task ---
 
-Place the duplicated <code style="background-color: #DC143C">tune</code> <code style="background-color: #00A4A6">=</code> `1` block between the first <code style="background-color: #00A4A6">else if</code> and <code style="background-color: #00A4A6">then</code>. 
+Place the duplicated `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` block between the first `else if`{:class="microbitlogic"} and `then`{:class="microbitlogic"}. 
 
 Duplicate two more comparison blocks and place them between the other <code style="background-color: #00A4A6">else if</code> and <code style="background-color: #00A4A6">then</code> parts.
 
-<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_H1dCqTAsefx6" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    let tune = 0
+    if (tune == 1) {
+        basic.showIcon(IconNames.Duck)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+    } else if (tune == 1) {
+    	
+    } else if (tune == 1) {
+    	
+    } else if (tune == 1) {
+    	
+    }
+})
+```
 
 --- /task ---
 
 --- task ---
 
-Inside the first <code style="background-color: #00A4A6">else if</code> section, change the `1` to `2`.
 
-For the second <code style="background-color: #00A4A6">else if</code> section, change the `1` to `3`. 
+basic.forever(function () {
+    let tune = 0
+    if (tune == 1) {
+        basic.showIcon(IconNames.Duck)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+    } else if (tune == 1) {
+    	
+    } else if (tune == 1) {
+    	
+    } else if (tune == 1) {
+    	
+    }
+})
+Inside the first `else if`{:class="microbitlogic"} section, change the `1` to `2`.
 
-For the third <code style="background-color: #00A4A6">else if</code> section, change the `1` to `4`.
+For the second `else if`{:class="microbitlogic"} section, change the `1` to `3`. 
 
-<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WavA8R5h04DY" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+For the third `else if`{:class="microbitlogic"} section, change the `1` to `4`.
+
+```microbit
+basic.forever(function () {
+    let tune = 0
+    if (tune == 1) {
+        basic.showIcon(IconNames.Duck)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+    } else if (tune == 2) {
+    	
+    } else if (tune == 3) {
+    	
+    } else if (tune == 4) {
+    	
+    }
+})
+```
 
 --- /task ---
 
-You now need to select a different melody for each <code style="background-color: #00A4A6">else if</code> section. 
+You now need to select a different melody for each `else if`{:class="microbitlogic"} section. 
 
 Each time the variable value is changed, a different melody will play.
 
 --- task ---
 
-Duplicate the <code style="background-color: #E63022">play melody dadadum</code> block. 
+Duplicate the `play melody dadadum`{:class="microbitmusic"} block. 
 
-Place the duplicated block inside the first <code style="background-color: #00A4A6">else if</code> section. 
+Place the duplicated block inside the first `else if`{:class="microbitlogic"} section. 
 
-Click on the arrow next to <code style="background-color: #E63022">melody dadadum</code> to see more melody options. 
+Click on the arrow next to `melody dadadum`{:class="microbitmusic"}</code> to see more melody options. 
 
 Scroll to view all the melodies and choose one. 
 
-Repeat these steps for the second and third <code style="background-color: #00A4A6">else if</code> sections. 
+Repeat these steps for the second and third `else if`{:class="microbitlogic"} sections. 
 
 You should now have four melodies, one for each of the four conditions.
 
-<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_DLYiFJcMrebk" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    let tune = 0
+    if (tune == 1) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+        basic.showIcon(IconNames.Duck)
+    } else if (tune == 2) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
+    } else if (tune == 3) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
+    } else if (tune == 4) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
+    }
+})
+```
 
 --- /task ---
 
 You also need to select some **icons** for each of your new songs. 
 
-You can duplicate the <code style="background-color: #1e90ff">show icon</code> block.
+You can duplicate the `show icon`{:class="microbitbasic"} block.
 
-You can also use the <code style="background-color: #1e90ff">show leds</code> block to draw your own!
+You can also use the `show leds`{:class="microbitbasic"} block to draw your own!
 
 --- collapse ---
 
@@ -179,7 +263,7 @@ You can also use the <code style="background-color: #1e90ff">show leds</code> bl
 title: The show leds block
 ---
 
-Inside the <code style="background-color: #1E90FF">Basic</code> menu, find the <code style="background-color: #1e90ff">show leds</code> block and drag it inside an <code style="background-color: #00a4a6">else if</code> to use it.
+Inside the `Basic`{:class="microbitbasic"} menu, find the `show leds`{:class="microbitbasic"} block and drag it inside an `else if`{:class="microbitlogic"} to use it.
 
 <img src="images/show-leds.png" alt="The Basic menu with the 'show leds' block highlighted." width="350"/>
 
@@ -193,9 +277,32 @@ We drew a **birthday cake** for the `birthday` melody.
 
 --- task ---
 
-Add icons for each of your songs using either the <code style="background-color: #1e90ff">show icon</code> or <code style="background-color: #1e90ff">show leds</code> block. 
+Add icons for each of your songs using either the `show icon`{:class="microbitbasic"} or `show leds`{:class="microbitbasic"} block. 
 
-<div style="position:relative;height:calc(400px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_0yCP24EifRFs" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    let tune = 0
+    if (tune == 1) {
+        basic.showIcon(IconNames.Duck)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+    } else if (tune == 2) {
+        basic.showIcon(IconNames.Silly)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
+    } else if (tune == 3) {
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
+    } else if (tune == 4) {
+        basic.showIcon(IconNames.Skull)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
+    }
+})
+```
 
 --- /task ---
 
@@ -203,7 +310,7 @@ Add icons for each of your songs using either the <code style="background-color:
 
 **Debug:** Ensure you have changed all the numbers in the comparisons after duplicating them. 
 
-You should have `1` in the <code style="background-color: #00A4A6">if</code> section and then `2, 3, 4` in the <code style="background-color: #00A4A6">else if</code> sections.
+You should have `1` in the `if`{:class="microbitlogic"} section and then `2, 3, 4` in the `else if`{:class="microbitlogic"} sections.
 
 --- /task ---
 
@@ -213,12 +320,12 @@ When you make a change to a code block in the code editor panel, the simulator w
 
 **Test your program**
 
-+ Change the <code style="background-color: #DC143C">set tune</code> from `1` to `2` on the <code style="background-color: #1E90FF">on start</code> block. 
++ Change the `set tune`{:class="microbitvariables"} from `1` to `2` on the `on start`{:class="microbitbasic"} block. 
 The simulator will restart and play the melody for 2, and show that icon.
 
 + Repeat the same steps for melodies 3 and 4.
 
-+ Ensure you change the <code style="background-color: #DC143C">set tune</code> back to `1` at the end of your tests.
++ Ensure you change the `set tune`{:class="microbitvariables"} back to `1` at the end of your tests.
 
 Well done, you have chosen different melodies for your music player!
 
