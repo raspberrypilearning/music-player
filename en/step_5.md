@@ -125,29 +125,14 @@ When the program runs, you should now be able to stop and shuffle by shaking the
 
 --- task ---
 
-### Download your program to the micro:bit
-
-To run your program on your physical micro:bit, you will need to download your program file to it.
-
-Click on the `Download` button below the micro:bit simulator. 
-
-![The MakeCode editor showing the highlighted Download button.](images/download-button.png)
-
-You will be asked to plug in your micro:bit. Do that now, then click **Continue**. 
-
-Click **Pair** and select your device from the list that appears, then click **Connect**.
-
-![The 'select micro:bit' dialog box showing a BBC micro:bit device.](images/select-microbit.png)
-
-**Debug:** My micro:bit won't pair
-
-If your micro:bit isn't showing up, try unplugging it and plugging it back in. You can also try a different USB port or USB cable if they are available.
-
-If your micro:bit doesn't pair, you can use the Download button to download your program as a .HEX file. You can then move the program onto your micro:bit using your file system. 
-
-**Windows:** Open **File Explorer** and check that you can see `MICROBIT` under `This PC` on the left-hand side. If it is there, drag the downloaded `.HEX` file to it. Your program will be saved to your micro:bit and you should be able to use it.
-
-**MacOS:** Open **Finder** and check that you can see `MICROBIT` under `Locations` on the left-hand side. If it is there, drag the downloaded `.HEX` file to it. Your program will be saved to your micro:bit and you should be able to use it.
-
+Download your program onto your micro:bit!
 
 --- /task ---
+
+[[[download-to-microbit]]]
+
+Well done! You now have a fully working music player!
+
+[[[microbit-share]]]
+
+Next, it is time to check what you have learnt!

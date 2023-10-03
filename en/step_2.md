@@ -49,7 +49,7 @@ Give your new project the name `music player` and click **Create**.
 ### Play melody
 
 
-You are going to use the <code style="background-color: #1E90FF">forever</code> block to make use of the speaker output on the micro:bit (V2 users only).
+You are going to use the `forever`{:class="microbitbasic"} block to make use of the speaker output on the micro:bit (V2 users only).
 
 --- collapse ---
 ---
@@ -65,7 +65,7 @@ There is a [guide to connecting headphones/speakers to the V1 micro:bit](https:/
 
 --- task ---
 
-From the <code style="background-color: #E63022">Music</code> menu, drag the <code style="background-color: #E63022">play melody dadadum</code> block and place it inside the <code style="background-color: #1E90FF">forever</code> block.
+From the `Music`{:class="microbitmusic"} menu, drag the `play melody dadadum`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
 
 <img src="images/play-melody.png" alt="The Music menu open with the 'play melody dadadum' block highlighted." width="450"/>
 
@@ -87,7 +87,7 @@ As well as playing a melody, you can add a picture to the LED display to add som
 
 --- task ---
 
-Open the <code style="background-color: #1e90ff">Basic</code> menu and find the <code style="background-color: #1e90ff">show icon</code> block.
+Open the `Basic`{:class="microbitbasic"} menu and find the `show icon`{:class="microbitbasic"} block.
 
 <img src="images/show-icon-location.png" alt="The Basic menu with the 'show icon' block highlighted." width="350"/>
 
@@ -95,9 +95,9 @@ Open the <code style="background-color: #1e90ff">Basic</code> menu and find the 
 
 --- task ---
 
-Drag the <code style="background-color: #1e90ff">show icon</code> block into the code editor. 
+Drag the `show icon`{:class="microbitbasic"} block into the code editor. 
 
-Place it inside the <code style="background-color: #1e90ff">forever</code> block **above** your <code style="background-color: #e63022">melody</code> block. 
+Place it inside the `forever`{:class="microbitbasic"} block **above** your `melody`{:class="microbitmusic"} block. 
 
 --- /task ---
 
