@@ -23,7 +23,7 @@ Open the `Variables`{:class="microbitvariables"} menu, and click **Make a Variab
 
 --- task ---
 
-Name the new variable `tune`, then click the **OK** button.
+Name the new variable `tune`{:class="microbitvariables"}, then click the **OK** button.
 
 <img src="images/variable-tune.png" alt="The 'New variable name' window, with the name 'tune' written in the box." width="450"/>
 
@@ -129,7 +129,7 @@ Click on the `+` symbol on the bottom left of the `if`{:class="microbitlogic"} b
 
 Click on the `+` symbol below the `else`{:class="microbitlogic"} section. 
 
-This will create an <code style="background-color: #00A4A6">else if</code> section. 
+This will create an `else if`{:class="microbitlogic"} section. 
 
 Repeat this twice, so you have three `else if`{:class="microbitlogic"} sections and an `else`{:class="microbitlogic"} section.
 
@@ -155,7 +155,7 @@ Right-click on the `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"
 
 Place the duplicated `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` block between the first `else if`{:class="microbitlogic"} and `then`{:class="microbitlogic"}. 
 
-Duplicate two more comparison blocks and place them between the other <code style="background-color: #00A4A6">else if</code> and <code style="background-color: #00A4A6">then</code> parts.
+Duplicate two more comparison blocks and place them between the other `else if`{:class="microbitlogic"} and `then`{:class="microbitlogic"} parts.
 
 ```microbit
 basic.forever(function () {
@@ -177,20 +177,6 @@ basic.forever(function () {
 
 --- task ---
 
-
-basic.forever(function () {
-    let tune = 0
-    if (tune == 1) {
-        basic.showIcon(IconNames.Duck)
-        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (tune == 1) {
-    	
-    } else if (tune == 1) {
-    	
-    } else if (tune == 1) {
-    	
-    }
-})
 Inside the first `else if`{:class="microbitlogic"} section, change the `1` to `2`.
 
 For the second `else if`{:class="microbitlogic"} section, change the `1` to `3`. 
@@ -225,7 +211,7 @@ Duplicate the `play melody dadadum`{:class="microbitmusic"} block.
 
 Place the duplicated block inside the first `else if`{:class="microbitlogic"} section. 
 
-Click on the arrow next to `melody dadadum`{:class="microbitmusic"}</code> to see more melody options. 
+Click on the arrow next to `melody dadadum`{:class="microbitmusic"} to see more melody options. 
 
 Scroll to view all the melodies and choose one. 
 
