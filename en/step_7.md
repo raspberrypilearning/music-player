@@ -12,7 +12,80 @@ Great work! You have created your micro:bit music player. Here are some ideas to
 + How many tunes are there?
 + What happens if you press the logo after registering a favourite and changing the tune?
 
-<div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_0HqXVg8uq7rA" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+```microbit
+input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
+    favourite = tune
+})
+input.onButtonPressed(Button.A, function () {
+    music.stopAllSounds()
+    tune += -1
+    if (tune < 1) {
+        tune = 7
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+    tune += 1
+    if (tune > 7) {
+        tune = 1
+    }
+})
+input.onGesture(Gesture.Shake, function () {
+    if (0 != 0) {
+        music.stopAllSounds()
+        tune = 0
+    } else {
+        tune = randint(1, 7)
+    }
+})
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    if (favourite == 0) {
+        favourite = tune
+    } else {
+        tune = favourite
+    }
+})
+let favourite = 0
+let tune = 0
+tune = 1
+favourite = 0
+basic.forever(function () {
+    if (tune == 1) {
+        basic.showIcon(IconNames.Duck)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+    } else if (tune == 2) {
+        basic.showIcon(IconNames.Silly)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
+    } else if (tune == 3) {
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
+    } else if (tune == 4) {
+        basic.showIcon(IconNames.Skull)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
+    } else if (tune == 5) {
+        basic.showIcon(IconNames.Heart)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Ode), music.PlaybackMode.UntilDone)
+    } else if (tune == 6) {
+        basic.showIcon(IconNames.Ghost)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Funk), music.PlaybackMode.UntilDone)
+    } else if (tune == 7) {
+        basic.showLeds(`
+            # . # . #
+            . # # # .
+            . . # . .
+            . # . # .
+            # . . . #
+            `)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Entertainer), music.PlaybackMode.UntilDone)
+    }
+})
+```
 
 <div>
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
