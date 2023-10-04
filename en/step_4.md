@@ -26,11 +26,11 @@ You can use an event to control what happens when a button is pressed.
 
 Button B is on the right of the micro:bit, so use this button to skip to the next track.
 
-To do this, you need to change the value of the <code style="background-color: #DC143C">tune</code> variable by `1`.
+To do this, you need to change the value of the `tune`{:class="microbitvariables"} variable by `1`.
 
 --- task ---
 
-From the <code style="background-color: #D400D4">Input</code> menu, drag the <code style="background-color: #D400D4">on button</code> block to the code editor panel.
+From the `Input`{:class="microbitinput"} menu, drag the `on button`{:class="microbitinput"} block to the code editor panel.
 
 ![The Input block menu with the 'on button A pressed' block highlighted.](images/input-on-ButtonA.png)
 
@@ -38,9 +38,9 @@ From the <code style="background-color: #D400D4">Input</code> menu, drag the <co
 
 --- task ---
 
-Click on the arrow next to `A` on the <code style="background-color: #D400D4">on button</code> block. 
+Click on the arrow next to `A`{:class="microbitinput"} on the `on button`{:class="microbitinput"} block. 
 
-Change the `A` to `B`.
+Change the `A`{:class="microbitinput"} to a `B`{:class="microbitinput"}
 
 ![The down arrow menu on the 'on button A pressed' block with B highlighted.](images/buttonA-arrow.png)
 
@@ -52,25 +52,35 @@ Now, you need to stop the current tune.
 
 --- task ---
 
-From the <code style="background-color: #E63022">Music</code> menu, drag the <code style="background-color: #E63022">stop all sounds</code> block.
+From the `Music`{:class="microbitmusic"} menu, drag the `stop all sounds`{:class="microbitmusic"} block.
 
-Place it in the <code style="background-color: #D400D4">on button [B]</code> block in the code editor panel.
+Place it in the `on button [B]`{:class="microbitinput"} block in the code editor panel.
 
 ![The Music block menu with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
 
-<div style="position:relative;height:calc(120px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_MLDi2adDz8u7" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+})
+```
 
 --- /task ---
 
 --- task ---
 
-From the <code style="background-color: #DC143C">Variables</code> menu, drag the <code style="background-color: #DC143C">change</code> block.
+From the `Variables`{:class="microbitvariables"} menu, drag the `change`{:class="microbitvariables"} block.
 
-Place it below the <code style="background-color: #E63022">stop all sounds</code> block.
+Place it below the `stop all sounds`{:class="microbitmusic"} block.
 
 ![The Variables block menu with the 'change tune by 1' block highlighted.](images/change-tune-by-1.png)
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_7oT6My8u3869" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 0
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+    tune += 1
+})
+```
 
 --- /task ---
 
@@ -82,53 +92,121 @@ If the value of the variable is `4`, then changing it by `1` will make the value
 
 Because you only have four melodies, if the variable changes to 5, you need to go back to the first melody.
 
-<div style="position:relative;height:calc(400px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_0yCP24EifRFs" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    let tune = 0
+    if (tune == 1) {
+        basic.showIcon(IconNames.Duck)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+    } else if (tune == 2) {
+        basic.showIcon(IconNames.Silly)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
+    } else if (tune == 3) {
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
+    } else if (tune == 4) {
+        basic.showIcon(IconNames.Skull)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
+    }
+})
+```
 
 --- task ---
 
-From the <code style="background-color: #00A4A6">Logic</code> menu, drag the <code style="background-color: #00A4A6">if</code> block.
+From the `Logic`{:class="microbitlogic"} menu, drag the `if`{:class="microbitlogic"} block.
 
-Place it below the <code style="background-color: #DC143C">change tune</code> block in your code.
+Place it below the `change tune`{:class="microbitvariables"} block in your code.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_0PcDtthUHHMv" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 0
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+    tune += 1
+    if (true) {
+    	
+    }
+})
+```
 
 --- /task ---
 
 --- task ---
 
-Also from the <code style="background-color: #00A4A6">Logic</code> menu, drag a <code style="background-color: #00A4A6">0 < 0</code> block.
+Also from the `Logic`{:class="microbitlogic"} menu, drag a `0 < 0`{:class="microbitlogic"} block.
 
-Place it inside the `true` part of the <code style="background-color: #00A4A6">if</code> block.
+Place it inside the `true` part of the `if`{:class="microbitlogic"} block.
 
 Change the `<` (less than) to `>` (greater than) by clicking on the arrow next to the `<` symbol.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_D4ACRhEUP3ae" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 0
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+    tune += 1
+    if (0 > 0) {
+    	
+    }
+})
+```
 
 --- /task ---
 
 --- task ---
 
-From the <code style="background-color: #DC143C">Variables</code> menu, drag the <code style="background-color: #DC143C">tune</code> variable  block.
+From the `Variables`{:class="microbitvariables"} menu, drag the `tune`{:class="microbitvariables"} variable  block.
 
-Place it on the first `0` in the <code style="background-color: #00A4A6">0 > 0</code> block.
+Place it on the first `0` in the `0 > 0`{:class="microbitlogic"} block.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_6u0MChMKJUTi" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 0
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+    tune += 1
+    if (tune > 0) {
+    	
+    }
+})
+```
 
 Change the second `0` to `4`.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_UfKAa33KUUYx" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 0
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+    tune += 1
+    if (tune > 4) {
+    	
+    }
+})
+```
 
 --- /task ---
 
 --- task ---
 
-From the <code style="background-color: #DC143C">Variables</code> menu, drag the <code style="background-color: #DC143C">set</code> block.
+From the `Variables`{:class="microbitvariables"} menu, drag the `set`{:class="microbitvariables"} block.
 
-Place it inside the <code style="background-color: #00A4A6">if</code> block in your code. 
+Place it inside the `if`{:class="microbitlogic"} block in your code. 
 
 Change the `0` to `1`.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_PrxidP2WEb33" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 0
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+    tune += 1
+    if (tune > 4) {
+        tune = 1
+    }
+})
+```
 
 --- /task ---
 
@@ -137,28 +215,44 @@ Change the `0` to `1`.
 
 Button A is on the left of the micro:bit, so use this button to skip to the previous track.
 
-To do this, you need to change the value of the `tune` variable by `-1`.
+To do this, you need to change the value of the `tune`{:class="microbitvariables"} variable by `-1`.
 
 You can re-use the code you created to control what happens when Button B is pressed.
 
 --- task ---
 
-**Right-click** on the top part of the <code style="background-color: #D400D4">on button B pressed</code> block that you now have in the code editor panel. 
+**Right-click** on the top part of the `on button B pressed`{:class="microbitinput"} block that you now have in the code editor panel. 
 
 Click **Duplicate** to make a copy of the whole block. 
 
-You should now have a second <code style="background-color: #D400D4">on button</code> block that will be 'greyed out'.
+You should now have a second `on button`{:class="microbitinput"} block that will be 'greyed out'.
 
 Change the button from `B` to `A`. This will stop the block from being greyed out.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_PUj7f7TvzY1A" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 0
+input.onButtonPressed(Button.A, function () {
+    music.stopAllSounds()
+    tune += 1
+    if (tune > 4) {
+        tune = 1
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+    tune += 1
+    if (tune > 4) {
+        tune = 1
+    }
+})
+```
 
 --- /task ---
 
 --- task ---
-Make these changes to the <code style="background-color: #D400D4">on button A pressed</code> block:
+Make these changes to the `on button A pressed`{:class="microbitinput"} block:
 
-Change the `1` to `-1` in the <code style="background-color: #DC143C">change</code> block.
+Change the `1` to `-1` in the `change`{:class="microbitvariables"} block.
 
 In the comparison block:
 
@@ -166,14 +260,30 @@ In the comparison block:
 
 + Change the `1` to `4`
 
-Change the `1` to `4` in the <code style="background-color: #DC143C">set</code> block.
+Change the `1` to `4` in the `set`{:class="microbitvariables"} block.
 
 --- /task ---
 
 
-You should now have an <code style="background-color: #D400D4">on button A pressed</code> block of code and an <code style="background-color: #D400D4">on button B pressed</code> block of code:
+You should now have an `on button A pressed`{:class="microbitinput"} block of code and an `on button B pressed`{:class="microbitinput"} block of code:
 
-<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_CbfbVkYrt0iW" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 0
+input.onButtonPressed(Button.A, function () {
+    music.stopAllSounds()
+    tune += -1
+    if (tune < 1) {
+        tune = 4
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+    tune += 1
+    if (tune > 4) {
+        tune = 1
+    }
+})
+```
 
 --- task ---
 

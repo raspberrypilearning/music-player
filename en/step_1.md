@@ -1,4 +1,13 @@
+## New to the micro:bit?
+
+See our [Getting Started Guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-microbit) to learn all about the micro:bit!
+
+You can also try out our amazing `Discover` projects:
+- [Hobby selector](https://projects.raspberrypi.org/en/projects/hobby-selector)
+- [Silly reminder](https://projects.raspberrypi.org/en/projects/silly-reminder)
+
 ## You will make
+
 Do you listen to music on Spotify, Apple music, Alexa, or any other app? What if you could do the same on your micro:bit by creating your own music app?
 
 In this project, you are going to make a music player that lets you choose different tunes to suit your mood.
