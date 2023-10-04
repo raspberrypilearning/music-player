@@ -2,7 +2,7 @@
 
 Great job so far! You have chosen melodies to play and you have programmed the `A` and `B` buttons to skip through tracks. What happens if you want to stop the tunes from playing?
 
-In this step, you will make use of the `on shake` gesture to stop the tunes from playing.
+In this step, you will make use of the `on shake`{:class="microbitinput"} gesture to stop the tunes from playing.
 
 ### Shake to stop
 
