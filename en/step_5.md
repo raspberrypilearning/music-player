@@ -8,25 +8,37 @@ In this step, you will make use of the `on shake` gesture to stop the tunes from
 
 --- task ---
 
-From the <code style="background-color: #D400D4">Input</code> menu, drag an <code style="background-color: #D400D4">on shake</code> block and place it on the code editor panel.
+From the `Input`{:class="microbitinput"} menu, drag an `on shake`{:class="microbitinput"} block and place it on the code editor panel.
 
-<div style="position:relative;height:calc(100px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Wff4v7MYXLrR" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
-
---- /task ---
-
---- task ---
-
-From the <code style="background-color: #00A4A6">Logic</code> menu, drag an <code style="background-color: #00A4A6">if...else</code> block and place it inside the <code style="background-color: #D400D4">on shake</code> block.
-
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_gJtA1VWgueHk" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+input.onGesture(Gesture.Shake, function () {
+	
+})
+```
 
 --- /task ---
 
 --- task ---
 
-Click on the <code style="background-color: #00A4A6">Logic</code> menu again and drag a comparison <code style="background-color: #00A4A6">0 = 0</code> block. 
+From the `Logic`{:class="microbitlogic"} menu, drag an `if...else`{:class="microbitlogic"} block and place it inside the `on shake`{:class="microbitinput"} block.
 
-Place it inside the `<true>` part of the <code style="background-color: #00A4A6">if...else</code> block.
+```microbit
+input.onGesture(Gesture.Shake, function () {
+    if (true) {
+    	
+    } else {
+    	
+    }
+})
+```
+
+--- /task ---
+
+--- task ---
+
+Click on the `Logic`{:class="microbitlogic"} menu again and drag a comparison `0 = 0`{:class="microbitlogic"} block. 
+
+Place it inside the `true`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
 
 --- /task ---
 
@@ -36,37 +48,73 @@ Click on the arrow next to the `=` on the comparison block.
 
 Choose the not equal to `≠` symbol.
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_AA9huPHi1YsX" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+input.onGesture(Gesture.Shake, function () {
+    if (0 != 0) {
+    	
+    } else {
+    	
+    }
+})
+```
 
 --- /task ---
 
 --- task ---
 
-From the <code style="background-color: #DC143C">Variables</code> menu, drag the <code style="background-color: #DC143C">tune</code> variable block. 
+From the `Variables`{:class="microbitvariables"} menu, drag the `tune`{:class="microbitvariables"} variable block. 
 
-Place it in the first `0` on the <code style="background-color: #00A4A6">0 ≠ 0 </code> block.
+Place it in the first `0` on the `0 ≠ 0`{:class="microbitlogic"} block.
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_LA4CUmC8HgcM" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+input.onGesture(Gesture.Shake, function () {
+    let tune = 0
+    if (tune != 0) {
+    	
+    } else {
+    	
+    }
+})
+```
 
 --- /task ---
 
 --- task ---
 
-From the <code style="background-color: #E63022">Music</code> block menu, drag a <code style="background-color: #E63022">stop all sounds</code> block. 
+From the `Music`{:class="microbitmusic"} block menu, drag a `stop all sounds`{:class="microbitmusic"} block. 
 
-Place it inside the <code style="background-color: #00A4A6">if</code> part of the <code style="background-color: #00A4A6">if...else</code> block.
+Place it inside the `if`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Pt5h7M8UzMTJ" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+input.onGesture(Gesture.Shake, function () {
+    let tune = 0
+    if (tune != 0) {
+        music.stopAllSounds()
+    } else {
+    	
+    }
+})
+```
 
 --- /task ---
 
 --- task ---
 
-Click on the <code style="background-color: #DC143C">Variables</code> menu and drag a <code style="background-color: #DC143C">set [tune] to 0</code> block. 
+Click on the `Variables`{:class="microbitvariables"} menu and drag a `set [tune] to 0`{:class="microbitvariables"} block. 
 
-Place it below the <code style="background-color: #E63022">stop all sounds</code> block. 
+Place it below the `stop all sounds`{:class="microbitmusic"} block. 
 
-<div style="position:relative;height:calc(150px + 5em);width:80%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_UT3Hzm0Wy69u" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 0
+input.onGesture(Gesture.Shake, function () {
+    if (tune != 0) {
+        music.stopAllSounds()
+        tune = 0
+    } else {
+    	
+    }
+})
+```
 
 --- /task ---
 
@@ -78,22 +126,41 @@ You will now add a condition so the micro:bit plays a random melody from your ch
 
 --- task ---
 
-Click on the <code style="background-color: #DC143C">Variables</code> block menu and drag the <code style="background-color: #DC143C">set [tune] to 0</code> block. 
+Click on the `Variables`{:class="microbitvariables"} block menu and drag the `set [tune] to 0`{:class="microbitvariables"} block. 
 
-Place it inside the <code style="background-color: #00A4A6">else</code> part of the <code style="background-color: #00A4A6">if...else</code> block.
+Place it inside the `else`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
 
-<div style="position:relative;height:calc(150px + 5em);width:80%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_djJ03JPU4X2u" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+let tune = 0
+input.onGesture(Gesture.Shake, function () {
+    if (tune != 0) {
+        music.stopAllSounds()
+        tune = 0
+    } else {
+        tune = 0
+    }
+})
+```
 
 --- /task ---
 
 --- task ---
 
-From the <code style="background-color: #9400D3">Math</code> menu, drag a <code style="background-color: #9400D3">pick random</code> block.
+From the `Math`{:class="microbitmath"} menu, drag a `pick random`{:class="microbitmath"} block.
 
-Place it inside the `0` part of the <code style="background-color: #DC143C">set tune</code> block. 
+Place it inside the `0` part of the `set tune`{:class="microbitvariables"} block. 
 
-<div style="position:relative;height:calc(150px + 5em);width:80%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_01fgmFYmVfaC" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
-
+```microbit
+let tune = 0
+input.onGesture(Gesture.Shake, function () {
+    if (tune != 0) {
+        music.stopAllSounds()
+        tune = 0
+    } else {
+        tune = randint(0, 10)
+    }
+})
+```
 
 --- /task ---
 
