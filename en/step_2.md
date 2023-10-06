@@ -73,7 +73,7 @@ From the `Music`{:class="microbitmusic"} menu, drag the `play melody dadadum`{:c
 
 --- task ---
 
-Click on the down arrow next to `in background` on the <code style="background-color: #E63022">play melody dadadum</code> block. 
+Click on the down arrow next to `in background` on the `play melody dadadum`{:class='microbitmusic'} block. 
 
 Choose `until done`.
 
