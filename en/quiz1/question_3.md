@@ -7,7 +7,44 @@ legend: Question 3 of 3
 
 Here is the code for the music player program.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_K2FhJU6MJ4V0" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+input.onButtonPressed(Button.A, function () {
+    music.stopAllSounds()
+    tune += -1
+    if (tune < 1) {
+        tune = 4
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    music.stopAllSounds()
+    tune += 1
+    if (tune > 4) {
+        tune = 1
+    }
+})
+input.onGesture(Gesture.Shake, function () {
+    if (tune != 0) {
+        music.stopAllSounds()
+        tune = 0
+    } else {
+        tune = randint(1, 4)
+    }
+})
+let tune = 0
+tune = 1
+basic.forever(function () {
+    if (tune == 1) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+    } else if (tune == 2) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
+    } else if (tune == 3) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.JumpDown), music.PlaybackMode.UntilDone)
+    } else if (tune == 4) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Wawawawaa), music.PlaybackMode.UntilDone)
+    }
+    basic.pause(200)
+})
+```
 
 The `tune` variable is currently set to `1`.
 
