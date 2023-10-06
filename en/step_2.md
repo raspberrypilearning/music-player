@@ -73,7 +73,7 @@ From the `Music`{:class="microbitmusic"} menu, drag the `play melody dadadum`{:c
 
 --- task ---
 
-Click on the down arrow next to `in background` on the <code style="background-color: #E63022">play melody dadadum</code> block. 
+Click on the down arrow next to `in background` on the `play melody dadadum`{:class='microbitmusic'} block. 
 
 Choose `until done`.
 
@@ -115,7 +115,12 @@ The default is a **heart** icon.
 
 We have chosen this little duck! 
 
-<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_7LdLvFhbzYuD" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    basic.showIcon(IconNames.Duck)
+    music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+})
+```
 
 --- /task ---
 
