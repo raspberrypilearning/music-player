@@ -59,7 +59,7 @@ From the `Logic`{:class="microbitlogic"} menu, choose the `if`{:class="microbitl
 
 --- task ---
 
-Place the `if`{:class="microbitlogic"} block above the `play melody dadadum`{:class="microbitmusic"} block.
+Place the `if`{:class="microbitlogic"} block above the `show icon`{:class="microbitbasic"} block.
  
 Click on the `Logic`{:class="microbitlogic"} menu and drag a comparison `0 = 0`{:class="microbitlogic"} block. 
 
@@ -108,8 +108,8 @@ Move the `show icon`{:class="microbitbasic"} and `show melody`{:class="microbitm
 basic.forever(function () {
     let tune = 0
     if (tune == 1) {
-        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
         basic.showIcon(IconNames.Duck)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
     }
 })
 ```
