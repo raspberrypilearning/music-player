@@ -9,9 +9,7 @@ What is a <span style="color: #0faeb0">variable?</span>
 
 A variable is a way to label and store data in your programs. Your program can use and change the data stored in a variable when it runs.
 
-Data stored in a variable might be a number like `10` or a word like `dinosaur`.
-
-</p>
+Data stored in a variable might be a number like `10` or a word like `dinosaur`.</p>
 
 --- task ---
 

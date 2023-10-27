@@ -1,13 +1,8 @@
 ## Use the buttons to skip tunes
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Instead of changing the melody by changing the `tune` variable value in the `on start` block, you can use buttons to change the value (and, therefore, the melody). 
 
 In this step, you will create code to skip tracks using the micro:bit's event handlers.
-
-</div>
-</div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 What is an <span style="color: #0faeb0">event handler</span>?
