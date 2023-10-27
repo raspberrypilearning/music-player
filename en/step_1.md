@@ -42,7 +42,3 @@ What happens if you click the A or B buttons?
 
 --- /task ---
 --- /no-print ---
-
---- print-only ---
-![Completed project](images/showcase_static.png)
---- /print-only ---
