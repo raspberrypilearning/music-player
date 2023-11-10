@@ -2,34 +2,34 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-In programming, what is a variable?
+Wat is een variabele bij het programmeren?
 
 --- choices ---
 
-- (x) A special box to store various pieces of information
+- (x) een speciale plaats voor het opslaan van verschillende stukken informatie
 
   --- feedback ---
 
-  Great effort! A variable is a concept used across all programming languages. It is a storage box that can store data including text, integers, and true/false values.
+  Goed zo! Een variabele is een concept dat in alle programmeertalen wordt gebruikt. Het is een opslagplaats waar gegevens kunnen worden opgeslagen waaronder tekst, getallen en waar/onwaar waarden.
 
   --- /feedback ---
 
-- ( ) A logic condition that controls what happens in a logic block
+- ( ) Een logische voorwaarde die bepaalt wat er in een logisch blok gebeurt
 
   --- feedback ---
 
-Not quite. A condition can be used to compare a variable value with something else.
+Niet helemaal. Een voorwaarde kan worden gebruikt om een variabele waarde met iets anders te vergelijken.
 
   --- /feedback ---
 
-- ( ) A melody block that can change and play a different melody
+- ( ) Een melodieblok dat kan veranderen en een andere melodie kan spelen
 
   --- feedback ---
 
-Not quite. Although you can have different melodies in a melody block, the term variable has a different meaning.
+Niet helemaal. Hoewel je in een melodieblok verschillende melodieën kunt hebben, heeft de term variabele een andere betekenis.
 
   --- /feedback ---
 
