@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-Here is the code for the music player program.
+Hier is de code voor het programma voor de muziekspeler.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -46,9 +46,9 @@ basic.forever(function () {
 })
 ```
 
-The `tune` variable is currently set to `1`.
+De variabele `deuntje` is momenteel ingesteld op `1`.
 
-Which melody will play when Button `B` is pressed?
+Welke melodie wordt afgespeeld als knop `B` wordt ingedrukt?
 
 
 --- choices ---
@@ -57,7 +57,7 @@ Which melody will play when Button `B` is pressed?
 
   --- feedback ---
 
-Not quite. Button B skips the track forward and will add one to the variable value, meaning `tune` will be set to `2`, which is associated with the `punchline` melody.
+Niet helemaal. Knop B slaat de volgende track over en voegt een toe aan de variabele waarde, wat betekent dat `deuntje` wordt ingesteld op `2`, die wordt geassocieerd met de `punchline` melodie.
 
   --- /feedback ---
 
@@ -65,7 +65,7 @@ Not quite. Button B skips the track forward and will add one to the variable val
 
   --- feedback ---
 
-Great! Pressing Button B will add one to the variable value, meaning `tune` will be set to `2`, which is associated with the `punchline` melody.
+Geweldig! Knop B voegt een toe aan de variabele waarde, wat betekent dat `deuntje` wordt ingesteld op `2`, die wordt geassocieerd met de `punchline` melodie.
 
   --- /feedback ---
 
@@ -73,7 +73,7 @@ Great! Pressing Button B will add one to the variable value, meaning `tune` will
 
   --- feedback ---
 
-Not quite. The variable value is `1` and Button B adds `1` to the variable value, meaning the melody associated with value 1 (`dadadum`) will no longer play.
+Niet helemaal. De variabele waarde is `1` en knop B voegt `1` toe aan de variabele waarde, wat betekent dat de melodie die hoort bij waarde 1 (`dadadum`) niet langer zal spelen.
 
   --- /feedback ---
 
