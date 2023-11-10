@@ -1,14 +1,14 @@
-## Stop and shuffle
+## Stop en shuffle
 
-Great job so far! You have chosen melodies to play and you have programmed the `A` and `B` buttons to skip through tracks. What happens if you want to stop the tunes from playing?
+Goed gedaan! Je hebt de melodietjes gekozen om af te spelen en je hebt de `A` en `B` knoppen geprogrammeerd om nummers over te kunnen slaan. Wat gebeurt er als je het afspelen van de muziek wil stoppen?
 
-In this step, you will make use of the `on shake`{:class="microbitinput"} gesture to stop the tunes from playing.
+In deze stap maak je gebruik van de `bij schudden`{:class="microbitinput"} mogelijkheid van je micro:bit om te voorkomen dat de melodieën spelen.
 
-### Shake to stop
+### Schud om te stoppen
 
 --- task ---
 
-From the `Input`{:class="microbitinput"} menu, drag an `on shake`{:class="microbitinput"} block and place it on the code editor panel.
+Vanuit het `Invoer`{:class="microbitinput"} menu, sleep je het `bij schudden`{:class="microbitinput"} blok naar het bewerkingspaneel.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -20,7 +20,7 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Logic`{:class="microbitlogic"} menu, drag an `if...else`{:class="microbitlogic"} block and place it inside the `on shake`{:class="microbitinput"} block.
+Vanuit het `Logisch`{:class="microbitlogic"} menu, sleep je een `als...anders`{:class="microbitlogic"} blok en plaats het in het `bij schudden`{:class="microbitinput"} blok.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -36,17 +36,17 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-Click on the `Logic`{:class="microbitlogic"} menu again and drag a comparison `0 = 0`{:class="microbitlogic"} block.
+Klik dan opnieuw op het `Logisch`{:class="microbitlogic"} menu en sleep een vergelijking `0 = 0`{:class="microbitlogic"} blok.
 
-Place it inside the `true`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
+Plaats dit in het `waar`{:class="microbitlogic"} gebied van het `als....anders`{:class="microbitlogic"} blok.
 
 --- /task ---
 
 --- task ---
 
-Click on the arrow next to the `=` on the comparison block.
+Klik op de pijl naast de `=` in het vergelijkingsblok.
 
-Choose the not equal to `≠` symbol.
+Kies het symbool niet gelijk aan `≠`.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -62,9 +62,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `tune`{:class="microbitvariables"} variable block.
+Sleep vanuit het menu `Variabelen`{:class="microbitvariables"} een blok `deuntje`{:class="microbitvariables"}.
 
-Place it in the first `0` on the `0 ≠ 0`{:class="microbitlogic"} block.
+Plaats het in de eerste `0` in het `0 ≠ 0`{:class="microbitlogic"} blok.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -81,9 +81,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} block menu, drag a `stop all sounds`{:class="microbitmusic"} block.
+Sleep vanuit het menu `Muziek`{:class="microbitmusic"} het blok `stop alle geluiden`{:class="microbitmusic"}.
 
-Place it inside the `if`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
+Plaats dit in het `als`{:class="microbitlogic"} gebied van het `als....anders`{:class="microbitlogic"} blok.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -100,9 +100,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-Click on the `Variables`{:class="microbitvariables"} menu and drag a `set [tune] to 0`{:class="microbitvariables"} block.
+Sleep vanuit het menu `Variabelen`{:class="microbitvariables"} een blok `stel [deuntje] in op 0`{:class="microbitvariables"}.
 
-Place it below the `stop all sounds`{:class="microbitmusic"} block.
+Plaats het onder het blok `stop alle geluiden`{:class="microbitmusic"}.
 
 ```microbit
 let tune = 0
@@ -118,17 +118,17 @@ input.onGesture(Gesture.Shake, function () {
 
 --- /task ---
 
-Now, when a melody is playing, you can shake the micro:bit and it will stop playing the melody.
+Als er nu een melodie speelt, kun je de micro:bit schudden en stopt hij met het spelen van de melodie.
 
-### Shake again to shuffle
+### Opnieuw schudden om te shuffelen
 
-You will now add a condition so the micro:bit plays a random melody from your chosen melodies. This is similar to the shuffle function on a music player app.
+Je voegt nu een voorwaarde toe zodat de micro:bit een willekeurige melodie speelt uit de door jou gekozen melodieën. Dit is vergelijkbaar met de shuffle-functie op een muziekspeler-app.
 
 --- task ---
 
-Click on the `Variables`{:class="microbitvariables"} block menu and drag the `set [tune] to 0`{:class="microbitvariables"} block.
+Klik op het blokmenu `Variabelen`{:class="microbitvariables"} en sleep het `stel [deuntje] in op`{:class="microbitvariables"} blok.
 
-Place it inside the `else`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
+Plaats dit in het `anders`{:class="microbitlogic"} gebied van het `als....anders`{:class="microbitlogic"} blok.
 
 ```microbit
 let tune = 0
@@ -146,9 +146,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Math`{:class="microbitmath"} menu, drag a `pick random`{:class="microbitmath"} block.
+Sleep vanuit het menu `Rekenen`{:class="microbitmath"} een blok `kies willekeurig 0 tot 10`{:class="microbitmath"}.
 
-Place it inside the `0` part of the `set tune`{:class="microbitvariables"} block.
+Plaats dit in het `0`{:class="microbitlogic"} deel van het `stel deuntje in op`{:class="microbitlogic"} blok.
 
 ```microbit
 let tune = 0
@@ -164,19 +164,19 @@ input.onGesture(Gesture.Shake, function () {
 
 --- /task ---
 
-The range on the random block is currently set to `0 to 10`, however, our melodies are set from `1 to 4`.
+Het bereik op het willekeurige blok is momenteel ingesteld op `0 tot 10`, maar onze melodieën zijn ingesteld van `1 tot 4`.
 
-You will need to update this range to match.
+Je moet dit bereik bijwerken zodat het overeenkomt met het aantal melodieën dat je hebt gekozen.
 
 --- task ---
 
-Change the `0` part of the `pick random`{:class="microbitmath"} block to `1`.
+Verander de `0` van het blok `kies willekeurig`{:class="microbitmath"} naar `1`.
 
-Change the `10` part of the `pick random`{:class="microbitmath"} block to `4`.
+Verander de `10` van het blok `kies willekeurig`{:class="microbitmath"} naar `4`.
 
 --- /task ---
 
-Your code should look like this:
+Je code zou er als volgt uit moeten zien:
 
 ```microbit
 let tune = 0
@@ -192,20 +192,20 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+Als je een wijziging aanbrengt in een codeblok in het bewerkingspaneel zal de simulator opnieuw starten.
 
 **Test**
 
-When the program runs, you should now be able to stop and shuffle by shaking the micro:bit.
+Wanneer het programma wordt uitgevoerd, moet je nu kunnen stoppen en shuffelen door de micro:bit te schudden.
 
 --- /task ---
 
 --- task ---
 
-Download your program onto your micro:bit!
+Download je programma naar de micro:bit!
 
 --- /task ---
 
 [[[download-to-microbit]]]
 
-Well done! You now have a fully working music player!
+Goed gedaan! Je hebt nu een volledig werkende muziekspeler!
