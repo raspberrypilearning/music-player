@@ -1,41 +1,41 @@
-## Allowing Choices
+## Keuzes toestaan
 
-### Create a variable
+### Maak een variabele
 
-Throughout the creation process for your music player, you will need to use variables.
+Om je muziekspeler te maken moet je variabelen gebruiken.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-What is a <span style="color: #0faeb0">variable?</span>
+Wat is een <span style="color: #0faeb0">variabele?</span>
 
-A variable is a way to label and store data in your programs. Your program can use and change the data stored in a variable when it runs.
+Een variabele is een manier om gegevens in je programma's te labelen en op te slaan. Je programma kan gegevens die zijn opgeslagen in een variabele gebruiken en wijzigen wanneer deze wordt uitgevoerd.
 
-Data stored in a variable might be a number like `10` or a word like `dinosaur`.</p>
+Gegevens die in een variabele zijn opgeslagen, kunnen een getal zijn zoals '10' of een woord zoals 'dinosaurus'.</p>
 
 --- task ---
 
-Open the `Variables`{:class="microbitvariables"} menu, and click **Make a Variable**.
+Open het `Variabelen`{:class="microbitvariables"} menu en klik op **Maak een variabele**.
 
-![The Variables menu with the 'Make a Variable' button highlighted.](images/variable-menu.png)
+![Het menu Variabelen met de knop 'Maak een variabele' gemarkeerd.](images/variable-menu.png)
 
 --- /task ---
 
 --- task ---
 
-Name the new variable `tune`{:class="microbitvariables"}, then click the **OK** button.
+Geef de nieuwe variabele de naam `deuntje`{:class="microbitvariables"} en klik dan op de **Ok** knop.
 
-<img src="images/variable-tune.png" alt="The 'New variable name' window, with the name 'tune' written in the box." width="450" />
+<img src="images/variable-tune.png" alt="Het dialoogvenster 'Voer een nieuwe variabelenaam in', met de naam 'deuntje' in het vak." width="450" />
 
 --- /task ---
 
-There will now be new blocks available that you can use to set, change, or use the value stored in the `tune`{:class="microbitvariables"} variable.
+Er zullen nu nieuwe blokken beschikbaar zijn die je kunt gebruiken om de waarde die is opgeslagen in de variabele `deuntje`{:class="microbitvariables"} in te stellen, te veranderen of te gebruiken.
 
-<img src="images/variableblocks-tune.png" alt="The Variables menu with new blocks to set, change, and use the value of the tune variable." width="350" />
+<img src="images/variableblocks-tune.png" alt="Het Variabelen menu met nieuwe blokken om de waarde van de deuntje variabele in te stellen, te wijzigen en te gebruiken." width="350" />
 
 --- task ---
 
-Drag the `set`{:class="microbitvariables"} block and place it inside the `on start`{:class="microbitbasic"} block.
+Sleep het `stel in op`{:class="microbitvariables"} blok naar het bewerkingspaneel en plaats deze in het `bij opstart`{:class="microbitbasic"} blok.
 
-Change the `0` to `1`.
+Verander de `0` naar `1`.
 
 ```microbit
 let tune = 1
@@ -43,25 +43,25 @@ let tune = 1
 
 --- /task ---
 
-### Use of if...then
+### Gebruik van als...dan
 
-For your music player to play different melody choices, you will need to make use of a logic block for each melody.
+Om je muziekspeler verschillende melodie keuzes te kunnen laten spelen, moet je voor elke melodie een logisch blok gebruiken.
 
 --- task ---
 
-From the `Logic`{:class="microbitlogic"} menu, choose the `if`{:class="microbitlogic"} block.
+Vanuit het `Logisch`{:class="microbitlogic"} menu, kies het `als`{:class="microbitlogic"} blok.
 
-<img src="images/if-block-location.png" alt="The Logic menu with the `if` block highlighted." width="350" />
+<img src="images/if-block-location.png" alt="Het geopende Logisch blokmenu met het 'als' blok gemarkeerd." width="350" />
 
 --- /task ---
 
 --- task ---
 
-Place the `if`{:class="microbitlogic"} block above the `show icon`{:class="microbitbasic"} block.
+Plaats het `als`{:class="microbitlogic"} boven het blok `toon pictogram`{:class="microbitbasic"}.
 
-Click on the `Logic`{:class="microbitlogic"} menu and drag a comparison `0 = 0`{:class="microbitlogic"} block.
+Klik op het `Logisch`{:class="microbitlogic"} menu en sleep een vergelijking `0 = 0`{:class="microbitlogic"} blok.
 
-Place this in the `true`{:class="microbitlogic"} area of the `if`{:class="microbitlogic"} block.
+Plaats dit in het `waar`{:class="microbitlogic"} gebied van het `als`{:class="microbitlogic"} blok.
 
 ```microbit
 basic.forever(function () {
@@ -77,11 +77,11 @@ basic.forever(function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag a `tune`{:class="microbitvariables"} block.
+Sleep vanuit het menu `Variabelen`{:class="microbitvariables"} een blok `deuntje`{:class="microbitvariables"}.
 
-Place it into the first `0` in the `0 = 0`{:class="microbitlogic"} block.
+Plaats het in de eerste `0` in het `0 = 0`{:class="microbitlogic"} blok.
 
-Change the second `0` to `1`.
+Verander de tweede `0` in `1`.
 
 ```microbit
 basic.forever(function () {
@@ -98,9 +98,9 @@ basic.forever(function () {
 
 --- task ---
 
-Move the `show icon`{:class="microbitbasic"} and `show melody`{:class="microbitmusic"} blocks inside the `if`{:class="microbitlogic"} block.
+Verplaats de `toon pictogram`{:class="microbitbasic"} en `play melody`{:class="microbitmusic"} blokken zo dat ze in het `als`{:class="microbitlogic"} blok komen te staan.
 
-**Tip:** Whenever you grab a block, all the blocks beneath it will move as well, so just drag the `show icon`{:class="microbitbasic"} block and the others will follow.
+**Tip:** Wanneer je een blok selecteert, zullen alle blokken eronder ook bewegen, dus sleep gewoon het `toon pictogram`{:class="microbitbasic"} blok en de anderen zullen volgen.
 
 ```microbit
 basic.forever(function () {
@@ -114,46 +114,46 @@ basic.forever(function () {
 
 --- /task ---
 
-To add more melody choices, you need to create more conditions in the `if`{:class="microbitlogic"} 
-block.
+Om meer melodie keuzes toe te voegen, moet je meer voorwaarden maken in het `als`{:class="microbitlogic"} 
+blok.
 
 --- task ---
 
-Click on the `+` symbol on the bottom left of the `if`{:class="microbitlogic"} block. This will create an `else`{:class="microbitlogic"} section.
+Klik op het `+` -symbool onderaan links van het `als`{:class="microbitlogic"} -blok. Hierdoor wordt een `anders`{:class="microbitlogic"} sectie aangemaakt.
 
 --- /task ---
 
 --- task ---
 
-Click on the `+` symbol below the `else`{:class="microbitlogic"} section.
+Klik op het `+` symbool onder de `anders`{:class="microbitlogic"} sectie.
 
-This will create an `else if`{:class="microbitlogic"} section.
+Hierdoor wordt een `anders als`{:class="microbitlogic"} sectie aangemaakt.
 
-Repeat this twice, so you have three `else if`{:class="microbitlogic"} sections and an `else`{:class="microbitlogic"} section.
-
---- /task ---
-
---- task ---
-
-Click on the `-` symbol next to the `else`{:class="microbitlogic"} section to remove the `else`{:class="microbitlogic"} section.
-
-<img src="images/elseif-blocks.gif" alt="An animation showing the + symbol being used to add three 'else if' sections. Finally, the 'else' is removed from the end by clicking the '-' symbol next to it." width="350" />
+Herhaal dit twee keer, zodat je drie `anders als`{:class="microbitlogic"} en een `anders`{:class="microbitlogic"} sectie hebt.
 
 --- /task ---
 
 --- task ---
 
-Right-click on the `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` block and duplicate it.
+Klik op het `-` symbool naast de `anders`{:class="microbitlogic"} om de `anders`{:class="microbitlogic"} sectie te verwijderen.
 
-<img src="images/duplicate-comparison.png" alt="The '=' comparison block highlighted, with the right click menu expanded showing options including 'Duplicate'." width="350" />
+<img src="images/elseif-blocks.gif" alt="Een animatie met het + symbool dat wordt gebruikt om drie 'anders als' secties toe te voegen. Tenslotte wordt de als verwijderd door op het - symbool ernaast te klikken." width="350" />
 
 --- /task ---
 
 --- task ---
 
-Place the duplicated `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` block between the first `else if`{:class="microbitlogic"} and `then`{:class="microbitlogic"}.
+Klik met de rechtermuisknop op het blok `deuntje`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` en dupliceer het.
 
-Duplicate two more comparison blocks and place them between the other `else if`{:class="microbitlogic"} and `then`{:class="microbitlogic"} parts.
+<img src="images/duplicate-comparison.png" alt="Het '='-vergelijkingsblok gemarkeerd, waarbij het rechtermuisknopmenu is uitgeklapt met opties, waaronder 'Dupliceren'." width="350" />
+
+--- /task ---
+
+--- task ---
+
+Plaats het gedupliceerde `deuntje`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` blok tussen de eerste `als`{:class="microbitlogic"} en `dan`{:class="microbitlogic"}.
+
+Dupliceer nog twee vergelijkingsblokken en plaats ze tussen de andere `anders als`{:class="microbitlogic"} en `dan`{:class="microbitlogic"} onderdelen.
 
 ```microbit
 basic.forever(function () {
@@ -175,11 +175,11 @@ basic.forever(function () {
 
 --- task ---
 
-Inside the first `else if`{:class="microbitlogic"} section, change the `1` to `2`.
+Binnen de eerste `anders als`{:class="microbitlogic"} sectie, verander de `1` naar `2`.
 
-For the second `else if`{:class="microbitlogic"} section, change the `1` to `3`.
+Voor de tweede `anders als`{:class="microbitlogic"} sectie, verander de `1` naar `3`.
 
-For the third `else if`{:class="microbitlogic"} section, change the `1` to `4`.
+Voor de derde `anders als`{:class="microbitlogic"} sectie, verander de `1` naar `4`.
 
 ```microbit
 basic.forever(function () {
@@ -199,23 +199,23 @@ basic.forever(function () {
 
 --- /task ---
 
-You now need to select a different melody for each `else if`{:class="microbitlogic"} section.
+Je moet nu een andere melodie selecteren voor elke `anders als`{:class="microbitlogic"} sectie.
 
-Each time the variable value is changed, a different melody will play.
+Elke keer dat waarde van de variabele wordt veranderd, wordt er een andere melodie gespeeld.
 
 --- task ---
 
-Duplicate the `play melody dadadum`{:class="microbitmusic"} block.
+Dupliceer het `play melody dadadum`{:class="microbitmusic"} blok.
 
-Place the duplicated block inside the first `else if`{:class="microbitlogic"} section.
+Plaats het gedupliceerde blok in de eerste `anders als`{:class="microbitlogic"} sectie.
 
-Click on the arrow next to `melody dadadum`{:class="microbitmusic"} to see more melody options.
+Klik op de pijl naast `melody dadadum`{:class="microbitmusic"} om meer opties te zien.
 
-Scroll to view all the melodies and choose one.
+Scroll om alle melodieën te bekijken en er een te kiezen.
 
-Repeat these steps for the second and third `else if`{:class="microbitlogic"} sections.
+Herhaal deze stappen voor de tweede en derde `anders als`{:class="microbitlogic"} secties.
 
-You should now have four melodies, one for each of the four conditions.
+Je zou nu vier melodieën moeten hebben, één voor elk van de vier voorwaarden.
 
 ```microbit
 basic.forever(function () {
@@ -235,33 +235,33 @@ basic.forever(function () {
 
 --- /task ---
 
-You also need to select some **icons** for each of your new songs.
+Je moet ook een ander **pictogram** selecteren voor elk van je nieuwe nummers.
 
-You can duplicate the `show icon`{:class="microbitbasic"} block.
+Je kan het `toon pictogram`{:class="microbitbasic"} blok dupliceren.
 
-You can also use the `show leds`{:class="microbitbasic"} block to draw your own!
+Je kunt ook het blok `toon lichtjes`{:class="microbitbasic"} gebruiken om je eigen afbeelding te tekenen!
 
 --- collapse ---
 
 ---
-title: The show leds block
+title: Gebruik het toon lichtjes blok
 ---
 
-Inside the `Basic`{:class="microbitbasic"} menu, find the `show leds`{:class="microbitbasic"} block and drag it inside an `else if`{:class="microbitlogic"} to use it.
+In het `Basis`{:class="microbitbasic"} menu, zoek het blok `toon lichtjes`{:class="microbitbasic"} en sleep het in een `anders als`{:class="microbitlogic"} sectie om het te gebruiken.
 
-<img src="images/show-leds.png" alt="The Basic menu with the 'show leds' block highlighted." width="350" />
+<img src="images/show-leds.png" alt="Het basis menu met het 'toon lichtjes'-blok gemarkeerd." width="350" />
 
-You can click on each of the squares to draw your picture. White squares will be lit on the micro:bit.
+Je kunt op elk van de vierkantjes klikken om je afbeelding te tekenen. Witte vierkantjes worden verlicht op de micro:bit.
 
-We drew a **birthday cake** for the `birthday` melody.
+We hebben een **verjaardagstaart** getekend voor de melodie `verjaardag`.
 
-<img src="images/draw-icon.png" alt="The 'show leds' block with a birthday cake with two candles created in white squares." width="350" />
+<img src="images/draw-icon.png" alt="Het 'toon lichtjes' blok met een verjaardagstaart met twee kaarsen gemaakt van witte vierkantjes." width="350" />
 
 --- /collapse ---
 
 --- task ---
 
-Add icons for each of your songs using either the `show icon`{:class="microbitbasic"} or `show leds`{:class="microbitbasic"} block.
+Voeg pictogrammen toe voor elk van je liedjes met behulp van het `toon pictogram`{:class="microbitbasic"} of `toon lichtjes`{:class="microbitbasic"} blok.
 
 ```microbit
 basic.forever(function () {
@@ -292,24 +292,24 @@ basic.forever(function () {
 
 --- task ---
 
-**Debug:** Ensure you have changed all the numbers in the comparisons after duplicating them.
+**Foutopsporing:** Zorg ervoor dat je alle getallen in de vergelijkingen hebt gewijzigd nadat ze zijn gedupliceerd.
 
-You should have `1` in the `if`{:class="microbitlogic"} section and then `2, 3, 4` in the `else if`{:class="microbitlogic"} sections.
+Je zou `1` moeten hebben in de `als`{:class="microbitlogic"} sectie en vervolgens `2, 3, 4` in de `anders als`{:class="microbitlogic"} secties.
 
 --- /task ---
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+Als je een wijziging aanbrengt in een codeblok in het bewerkingspaneel zal de simulator opnieuw starten.
 
-**Test your program**
+**Test je programma**
 
-+ Change the `set tune`{:class="microbitvariables"} from `1` to `2` on the `on start`{:class="microbitbasic"} block. The simulator will restart and play the melody for 2, and show that icon.
++ Verander de waarde van het `stel deuntje in op`{:class="microbitvariables"} blok van `1` in `2` in het `bij opstarten`{:class="microbitbasic"} blok. De simulator zal opnieuw opstarten en de melodie afspelen voor 2 en het bijbehorende pictogram tonen.
 
-+ Repeat the same steps for melodies 3 and 4.
++ Herhaal dezelfde stappen voor melodieën 3 en 4.
 
-+ Ensure you change the `set tune`{:class="microbitvariables"} back to `1` at the end of your tests.
++ Zorg ervoor dat je de waarde van de `stel deuntje in op`{:class="microbitvariables"} variabele terug verandert naar `1` aan het einde van je tests.
 
-Well done, you have chosen different melodies for your music player!
+Goed gedaan, je hebt verschillende melodieën gekozen voor je muziekspeler!
 
 --- /task ---
