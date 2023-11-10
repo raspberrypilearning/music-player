@@ -1,42 +1,42 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-When you have answered each question, click **Check my answer**.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-Which two blocks are always shown in the MakeCode editor when you load it for the first time?
+Welke twee blokken worden altijd weergegeven in de MakeCode-editor als je deze voor de eerste keer laadt?
 
 --- choices ---
 
-- ( ) `on start` and `on shake`
+- ( ) `bij opstarten` en `bij schudden`
 
   --- feedback ---
 
-`on start` is one of them, but `on shake` has to be dragged in manually.
+`bij opstarten` is er één van, maar `bij schudden` moet handmatig worden gesleept.
 
   --- /feedback ---
 
-- ( ) `on shake` and `forever`
+- ( ) `bij schudden` en `de hele tijd`
 
   --- feedback ---
 
-`forever` is one of them, but `on shake` has to be dragged in manually.
+`de hele tijd` is er één van, maar `bij schudden` moet handmatig worden gesleept.
 
   --- /feedback ---
 
-- (x) `on start` and `forever`
+- (x) `bij opstarten` en `de hele tijd`
 
   --- feedback ---
 
-Awesome! You have answered correctly, the `on start` and `forever` blocks are shown in the code editor panel every time you start a new project.
+Geweldig! Je hebt correct geantwoord, de `bij opstarten` en `de hele tijd` blokken worden elke keer dat je een nieuw project start in het bewerkingspaneel weergegeven.
 
   --- /feedback ---
 
