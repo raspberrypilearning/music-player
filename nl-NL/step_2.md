@@ -1,119 +1,119 @@
-## Play a tune
+## Speel een deuntje
 
-### Open MakeCode
+### MakeCode openen
 
-To start creating your micro:bit project, you need to open the MakeCode editor.
+Om je micro:bit-project te maken, moet je eerst de MakeCode-editor openen.
 
 --- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
+Open de MakeCode editor in [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 
 --- collapse ---
 
 ---
-title: Offline version of the editor
+title: Offline versie van de editor
 ---
 
-There is also a [downloadable version of the MakeCode editor](https://makecode.microbit.org/offline-app){:target="_blank"}.
+Er is ook een [downloadbare versie van de MakeCode editor](https://makecode.microbit.org/offline-app){:target="_blank"}.
 
 --- /collapse ---
 
 --- /task ---
 
-### First micro:bit project?
+### Eerste micro:bit-project?
 
 [[[makecode-tour]]]
 
-### Create your project
+### Maak je project
 
-Once the editor is open, you will need to create a new project and give your project a name.
+Zodra de editor is geopend, moet je een nieuw project aanmaken en je project een naam geven.
 
 --- task ---
 
-Click on the **New Project** button.
+Klik op de knop **Nieuw Project**.
 
-<img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250" />
+<img src="images/new-project-button.png" alt="De knop Nieuw project in MakeCode." width="250" />
 
 --- /task ---
 
 --- task ---
 
-Give your new project the name `music player` and click **Create**.
+Geef je nieuwe project de naam `muziekspeler` en klik op **Aanmaken**.
 
-<img src="images/music-player.png" alt="The name 'music player' written in the Create a Project dialogue box." width="400" />
+<img src="images/music-player.png" alt="De naam 'muziekspeler' geschreven in het dialoogvenster 'Een project maken'." width="400" />
 
-**Tip:** To make it easier to find your project later, give it a helpful name that relates to the activity you’re creating.
+**Tip:** Om het makkelijker te maken om je project later terug te vinden, geef het een logische naam die gerelateerd is aan de activiteit die je aan doen bent.
 
 --- /task ---
 
-### Play melody
+### Speel melodie
 
 
-You are going to use the `forever`{:class="microbitbasic"} block to make use of the speaker output on the micro:bit (V2 users only).
+Je gaat het `de hele tijd`{:class="microbitbasic"} blok gebruiken om gebruik te maken van de luidspreker uitvoer op de micro:bit (alleen voor V2 gebruikers).
 
 --- collapse ---
 ---
-title: V1 micro:bit users
+title: V1 micro:bit-gebruikers
 ---
 
-The speaker output is only available on the V2 micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
+Luidspreker output is alleen beschikbaar op de V2 micro:bit. Je moet externe koptelefoon/speakers aansluiten om geluid af te spelen op de V1. Je kunt het geluid wel afspelen op de simulator.
 
-There is a [guide to connecting headphones/speakers to the V1 micro:bit](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
+Er is een [gids voor het aansluiten van koptelefoon/speakers op de V1 micro:bit](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
 
 --- /collapse ---
 
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} menu, drag the `play melody dadadum`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
+Sleep vanuit het menu `Muziek`{:class="microbitmusic"} het blok `play melody dadadum`{:class="microbitmusic"} en plaats het in het blok `de hele tijd`{:class="microbitbasic"}.
 
-<img src="images/play-melody.png" alt="The Music menu open with the 'play melody dadadum' block highlighted." width="450" />
-
---- /task ---
-
---- task ---
-
-Click on the down arrow next to `in background` on the `play melody dadadum`{:class='microbitmusic'} block.
-
-Choose `until done`.
-
-<img src="images/melody-untildone.gif" alt="The melody drop-down menu with the 'until done' button selected." width="400" />
-
---- /task ---
-
-### Style your song
-
-As well as playing a melody, you can add a picture to the LED display to add some more style!
-
---- task ---
-
-Open the `Basic`{:class="microbitbasic"} menu and find the `show icon`{:class="microbitbasic"} block.
-
-<img src="images/show-icon-location.png" alt="The Basic menu with the 'show icon' block highlighted." width="350" />
+<img src="images/play-melody.png" alt="Het Muziekmenu met het blok 'play melody dadadum' gemarkeerd." width="450" />
 
 --- /task ---
 
 --- task ---
 
-Drag the `show icon`{:class="microbitbasic"} block into the code editor.
+Klik op de pijl omlaag naast `in background` op het `play melody dadadum`{:class='microbitmusic'} blok.
 
-Place it inside the `forever`{:class="microbitbasic"} block **above** your `melody`{:class="microbitmusic"} block.
+Kies `tot het klaar is`.
+
+<img src="images/melody-untildone.gif" alt="Het keuze menu van het blok play melody met de optie 'tot het klaar is' geselecteerd." width="400" />
+
+--- /task ---
+
+### Geef je liedje meer stijl
+
+Naast het spelen van een melodie kun je ook een foto aan het LED-scherm toevoegen om wat meer stijl toe te voegen!
+
+--- task ---
+
+Open het menu `Basis`{:class="microbitbasic"} en zoek het blok `toon pictogram`{:class="microbitbasic"}.
+
+<img src="images/show-icon-location.png" alt="Het basis blok menu met het 'toon pictogram' blok gemarkeerd." width="350" />
 
 --- /task ---
 
 --- task ---
 
-MakeCode has pre-programmed icons that display on the LED panel.
+Sleep het `toon pictogram`{:class="microbitbasic"} blok in de code editor.
 
-The default is a **heart** icon.
+Plaats het in het `de hele tijd`{:class="microbitbasic"} blok **boven** je `play melody`{:class="microbitmusic"} blok.
 
-**Click** on the heart to see the other options.
+--- /task ---
 
-**Choose** an icon that represents your melody.
+--- task ---
 
-<img src="images/choose-icon.gif" alt="The show icon block is expanded to show the multiple options for icons. After a bit of scrolling the duck is selected from the list." width="400" />
+MakeCode heeft vooraf geprogrammeerde pictogrammen die worden weergegeven op het LED-scherm.
 
-We have chosen this little duck!
+De standaardinstelling is een **hart**-pictogram.
+
+**Klik** op het hart om de andere opties te zien.
+
+**Kies** een pictogram dat je melodie vertegenwoordigt.
+
+<img src="images/choose-icon.gif" alt="Het toon pictogram blok is uitgeklapt om de meerdere opties voor pictogrammen te tonen. Na een beetje scrollen wordt de eend uit de lijst geselecteerd." width="400" />
+
+Wij hebben deze kleine eend gekozen!
 
 ```microbit
 basic.forever(function () {
@@ -126,13 +126,13 @@ basic.forever(function () {
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+Als je een wijziging aanbrengt in een codeblok in het bewerkingspaneel zal de simulator opnieuw starten.
 
-**Test your program**
+**Test je programma**
 
-+ You should now hear the melody playing until it is done (and then looping because of the forever loop)
-+ You should also see the icon you picked displayed on the LEDs
++ Je zou nu de melodie moeten horen spelen totdat deze klaar is (en dan herhalend vanwege de lus door het de hele tijd blok)
++ Je zou ook het pictogram moeten zien dat je hebt gekozen op de LED's
 
 --- /task ---
 
-Well done, you have created your first music program on a micro:bit!
+Goed gedaan, je hebt je eerste muziekprogramma op een micro:bit gemaakt!
