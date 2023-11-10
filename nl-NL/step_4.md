@@ -1,57 +1,57 @@
-## Use the buttons to skip tunes
+## Gebruik de knoppen om de deuntjes over te slaan
 
-Instead of changing the melody by changing the `tune` variable value in the `on start` block, you can use buttons to change the value (and, therefore, the melody).
+In plaats van de melodie te veranderen door de `deuntje` variabele waarde in de `bij opstarten` blok te veranderen, kun je knoppen gebruiken om de waarde te veranderen (en dus de melodie).
 
-In this step, you will create code to skip tracks using the micro:bit's event handlers.
+In deze stap maak je code om nummers over te slaan met behulp van micro:bit's event handlers.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-What is an <span style="color: #0faeb0">event handler</span>?
+Wat is een <span style="color: #0faeb0">event handler</span>?
 
-An event handler is code that will run when a particular event happens, such as “button A pressed”.
+Een event-handler is code die wordt uitgevoerd wanneer een bepaalde gebeurtenis plaatsvindt, zoals "knop A ingedrukt".
 
 </p>
 
-### Add button controls
+### Bediening van knoppen toevoegen
 
-The micro:bit has a Button `A` and a Button `B`.
+De micro:bit heeft een knop `A` en een knop `B`.
 
-You can use an event to control what happens when a button is pressed.
+Je kunt een event gebruiken om te bepalen wat er gebeurt als er op een knop wordt gedrukt.
 
-### Skip to the next track
+### Ga naar het volgende nummer
 
-Button B is on the right of the micro:bit, so use this button to skip to the next track.
+Knop B zit rechts op de micro:bit, we gebruiken dus deze knop om naar het volgende nummer te gaan.
 
-To do this, you need to change the value of the `tune`{:class="microbitvariables"} variable by `1`.
+Om dit te doen, moet je de waarde van de `deuntje`{:class="microbitvariables"} variabele wijzigen met `1`.
 
 --- task ---
 
-From the `Input`{:class="microbitinput"} menu, drag the `on button`{:class="microbitinput"} block to the code editor panel.
+Vanuit het `Invoer`{:class="microbitinput"} menu, sleep je het `wanneer knop wordt ingedrukt`{:class="microbitinput"} blok naar het bewerkingspaneel.
 
-![The Input block menu with the 'on button A pressed' block highlighted.](images/input-on-ButtonA.png)
+![Het invoerblokmenu met het blok 'Wanneer knop A wordt ingedrukt' gemarkeerd.](images/input-on-ButtonA.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the arrow next to `A`{:class="microbitinput"} on the `on button`{:class="microbitinput"} block.
+Klik op het pijltje naast `A`{:class="microbitinput"} op het `wanneer knop wordt ingedrukt`{:class="microbitinput"} blok.
 
-Change the `A`{:class="microbitinput"} to a `B`{:class="microbitinput"}
+Verander de `A`{:class="microbitinput"} in een `B`{:class="microbitinput"}
 
-![The down arrow menu on the 'on button A pressed' block with B highlighted.](images/buttonA-arrow.png)
+![Het menu op het blok 'wanneer knop A wordt ingedrukt' met B gemarkeerd.](images/buttonA-arrow.png)
 
 --- /task ---
 
-#### Stop all sounds!
+#### Stop alle geluiden!
 
-Now, you need to stop the current tune.
+Nu moet je het huidige deuntje stoppen.
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} menu, drag the `stop all sounds`{:class="microbitmusic"} block.
+Sleep vanuit het menu `Muziek`{:class="microbitmusic"} het blok `stop alle geluiden`{:class="microbitmusic"}.
 
-Place it in the `on button [B]`{:class="microbitinput"} block in the code editor panel.
+Plaats het in het `wanneer knop [B] wordt ingedrukt`{:class="microbitinput"} blok in het bewerkingspaneel.
 
-![The Music block menu with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
+![Het Muziekblok menu met het blok 'stop alle geluiden' gemarkeerd.](images/stop-all-sounds.png)
 
 ```microbit
 input.onButtonPressed(Button.B, function () {
@@ -63,11 +63,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `change`{:class="microbitvariables"} block.
+Sleep vanuit het menu `Variabelen`{:class="microbitvariables"} een blok `verander met`{:class="microbitvariables"}.
 
-Place it below the `stop all sounds`{:class="microbitmusic"} block.
+Plaats het onder het blok `stop alle geluiden`{:class="microbitmusic"}.
 
-![The Variables block menu with the 'change tune by 1' block highlighted.](images/change-tune-by-1.png)
+![Het Variabelenblok menu met het blok 'verander deuntje met 1' blok gemarkeerd.](images/change-tune-by-1.png)
 
 ```microbit
 let tune = 0
@@ -79,13 +79,13 @@ input.onButtonPressed(Button.B, function () {
 
 --- /task ---
 
-#### Dealing with 'out of range'
+#### Omgaan met 'buiten bereik'
 
-If the value of the variable is `4`, then changing it by `1` will make the value `5`.
+Als de waarde van de variabele `4`is, zal het wijzigen ervan met `1` de waarde `5`maken.
 
-🚨 But there is no melody associated with the value `5`! 🚨
+🚨 Maar er is geen melodie gekoppeld aan de waarde `5`! 🚨
 
-Because you only have four melodies, if the variable changes to 5, you need to go back to the first melody.
+Omdat je maar vier melodieën hebt, moet je, als de variabele naar 5 verandert, teruggaan naar de eerste melodie.
 
 ```microbit
 basic.forever(function () {
@@ -114,9 +114,9 @@ basic.forever(function () {
 
 --- task ---
 
-From the `Logic`{:class="microbitlogic"} menu, drag the `if`{:class="microbitlogic"} block.
+Vanuit het `Logisch`{:class="microbitlogic"} menu, sleep het `als`{:class="microbitlogic"} blok.
 
-Place it below the `change tune`{:class="microbitvariables"} block in your code.
+Plaats het onder het `verander deuntje met`{:class="microbitvariables"} blok in je code.
 
 ```microbit
 let tune = 0
@@ -133,11 +133,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-Also from the `Logic`{:class="microbitlogic"} menu, drag a `0 < 0`{:class="microbitlogic"} block.
+Sleep ook vanuit het menu `Logisch`{:class="microbitlogic"} een blok `0 < 0`{:class="microbitlogic"}.
 
-Place it inside the `true` part of the `if`{:class="microbitlogic"} block.
+Plaats dit in het `waar` deel van het `als`{:class="microbitlogic"} blok.
 
-Change the `<` (less than) to `>` (greater than) by clicking on the arrow next to the `<` symbol.
+Verander de `<` (kleiner dan) in `>` (groter dan) door op de pijl naast het `<` -symbool te klikken.
 
 ```microbit
 let tune = 0
@@ -154,9 +154,9 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `tune`{:class="microbitvariables"} variable  block.
+Sleep vanuit het menu `Variabelen`{:class="microbitvariables"} een blok `deuntje`{:class="microbitvariables"}.
 
-Place it on the first `0` in the `0 > 0`{:class="microbitlogic"} block.
+Plaats het in de eerste `0` in het `0 > 0`{:class="microbitlogic"} blok.
 
 ```microbit
 let tune = 0
@@ -169,7 +169,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-Change the second `0` to `4`.
+Verander de tweede `0` in `4`.
 
 ```microbit
 let tune = 0
@@ -186,11 +186,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `set`{:class="microbitvariables"} block.
+Sleep vanuit het menu `Variabelen`{:class="microbitvariables"} een blok `stel in op`{:class="microbitvariables"}.
 
-Place it inside the `if`{:class="microbitlogic"} block in your code.
+Plaats het in het `als`{:class="microbitlogic"} blok in je code.
 
-Change the `0` to `1`.
+Verander de `0` naar `1`.
 
 ```microbit
 let tune = 0
@@ -206,23 +206,23 @@ input.onButtonPressed(Button.B, function () {
 --- /task ---
 
 
-#### Skip to the previous track
+#### Ga naar het vorige nummer
 
-Button A is on the left of the micro:bit, so use this button to skip to the previous track.
+Knop A zit links op de micro:bit, we gebruiken dus deze knop om naar het vorige nummer te gaan.
 
-To do this, you need to change the value of the `tune`{:class="microbitvariables"} variable by `-1`.
+Om dit te doen, moet je de waarde van de `deuntje`{:class="microbitvariables"} variabele wijzigen met `-1`.
 
-You can re-use the code you created to control what happens when Button B is pressed.
+Je kunt de code die je hebt gemaakt om te bepalen wat er gebeurt wanneer knop B wordt ingedrukt opnieuw gebruiken.
 
 --- task ---
 
-**Right-click** on the top part of the `on button B pressed`{:class="microbitinput"} block that you now have in the code editor panel.
+**Klik met de rechtermuisknop** op het bovenste deel van het `wanneer knop B wordt ingedrukt`{:class="microbitinput"} blok dat je nu hebt in het bewerkingspaneel.
 
-Click **Duplicate** to make a copy of the whole block.
+Klik op **Dupliceren** om een kopie van het hele blok te maken.
 
-You should now have a second `on button`{:class="microbitinput"} block that will be 'greyed out'.
+Je zou nu een tweede `wanneer knop wordt ingedrukt`{:class="microbitinput"} blok moeten hebben dat 'grijs' wordt weergegeven.
 
-Change the button from `B` to `A`. This will stop the block from being greyed out.
+Wijzig de knop van `B` naar `A`. Hierdoor wordt voorkomen dat het blok grijs wordt weergegeven.
 
 ```microbit
 let tune = 0
@@ -244,22 +244,22 @@ input.onButtonPressed(Button.B, function () {
 
 --- /task ---
 
---- task --- Make these changes to the `on button A pressed`{:class="microbitinput"} block:
+--- task --- Breng deze wijzigingen aan in het blok `wanneer knop A wordt ingedrukt`{:class="microbitinput"}:
 
-Change the `1` to `-1` in the `change`{:class="microbitvariables"} block.
+Verander de `1` in `-1` in het `verander`{:class="microbitvariables"} blok.
 
-In the comparison block:
+In het vergelijkingsblok:
 
-+ Change the `<` to `>`
++ Verander de `<` naar `>`
 
-+ Change the `1` to `4`
++ Verander de `1` naar `4`
 
-Change the `1` to `4` in the `set`{:class="microbitvariables"} block.
+Wijzig de `1` in `4` in het `stel in op`{:class="microbitvariables"} blok.
 
 --- /task ---
 
 
-You should now have an `on button A pressed`{:class="microbitinput"} block of code and an `on button B pressed`{:class="microbitinput"} block of code:
+Je zou nu een `wanneer knop A wordt ingedrukt`{:class="microbitinput"} codeblok moeten hebben en een `wanneer knop B wordt ingedrukt`{:class="microbitinput"} codeblok:
 
 ```microbit
 let tune = 0
@@ -281,23 +281,23 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-**Debug:** Make sure you have changed the correct values in the blocks used to change the value of the variables.
+**Foutopsporing:** Zorg ervoor dat je de juiste waarden hebt gewijzigd in de blokken die worden gebruikt om de waarde van de variabelen te veranderen.
 
-For example: `Button A` should change the variable by `-1` and Button B should change the variable value by `1`.
+Bijvoorbeeld: `Knop A` zou de variabele moeten veranderen met `-1` en Knop B zou de waarde van de variabele moeten veranderen met `1`.
 
 --- /task ---
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+Als je een wijziging aanbrengt in een codeblok in het bewerkingspaneel zal de simulator opnieuw starten.
 
-**Test your program**
+**Test je programma**
 
-+ Press Button A to skip to the previous track
++ Druk op knop A om naar het vorige nummer te gaan
 
-+ Press Button B to skip to the next track
++ Druk op knop B om naar het volgende nummer te gaan
 
 --- /task ---
 
 
-Well done, you can now skip your tracks back and forth!
+Goed gedaan, je kunt nu nummers overslaan en naar de volgende of vorige nummers gaan!
