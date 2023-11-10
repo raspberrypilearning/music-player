@@ -1,28 +1,28 @@
 ---
-title: Music player
+title: Muziekspeler
 hero_image: images/banner.png
-description: Create a music box so you can choose some tunes to relax to
+description: Maak een muziekdoos, zodat je een aantal deuntjes kunt kiezen om bij te ontspannen
 version: 4
 listed: false
 copyedit: false
 last_tested: '2023-08-08'
 steps:
   - 
-    title: You will make
+    title: Wat ga je maken
   - 
-    title: Play a tune
+    title: Speel een deuntje
     completion:
       - engaged
   - 
-    title: Choose some tunes
+    title: Kies wat deuntjes
   - 
-    title: Skip tunes
+    title: Sla deuntjes over
   - 
-    title: Stop or shuffle
+    title: Stop of shuffle
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,6 +31,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Verbeter je project
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
