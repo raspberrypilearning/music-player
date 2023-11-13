@@ -251,9 +251,9 @@ Change the `1` to `-1` in the `change`{:class="microbitvariables"} block.
 
 In the comparison block:
 
-+ Change the `<` to `>` 
++ Change the `>` to `<` 
 
-+ Change the `1` to `4`
++ Change the `4` to `1`
 
 Change the `1` to `4` in the `set`{:class="microbitvariables"} block.
 
