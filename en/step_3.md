@@ -98,7 +98,7 @@ basic.forever(function () {
 
 --- task ---
 
-Move the `show icon`{:class="microbitbasic"} and `show melody`{:class="microbitmusic"} blocks inside the `if`{:class="microbitlogic"} block.
+Move the `show icon`{:class="microbitbasic"} and `play melody`{:class="microbitmusic"} blocks inside the `if`{:class="microbitlogic"} block.
 
 **Tip:** Whenever you grab a block, all the blocks beneath it will move as well, so just drag the `show icon`{:class="microbitbasic"} block and the others will follow.
 
