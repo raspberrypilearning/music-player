@@ -98,7 +98,7 @@ basic.forever(function () {
 
 --- task ---
 
-Verplaats de `toon pictogram`{:class="microbitbasic"} en `play melody`{:class="microbitmusic"} blokken zo dat ze in het `als`{:class="microbitlogic"} blok komen te staan.
+Move the `show icon`{:class="microbitbasic"} and `play melody`{:class="microbitmusic"} blocks inside the `if`{:class="microbitlogic"} block.
 
 **Tip:** Wanneer je een blok selecteert, zullen alle blokken eronder ook bewegen, dus sleep gewoon het `toon pictogram`{:class="microbitbasic"} blok en de anderen zullen volgen.
 
