@@ -250,9 +250,9 @@ Verander de `1` in `-1` in het `verander`{:class="microbitvariables"} blok.
 
 In het vergelijkingsblok:
 
-+ Verander de `<` naar `>`
++ Change the `>` to `<`
 
-+ Verander de `1` naar `4`
++ Change the `4` to `1`
 
 Wijzig de `1` in `4` in het `stel in op`{:class="microbitvariables"} blok.
 
