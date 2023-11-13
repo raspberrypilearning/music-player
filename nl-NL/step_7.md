@@ -24,8 +24,6 @@ Goed gedaan! Je hebt je micro:bit muziekspeler gemaakt. Hier zijn enkele ideeën
 
 [[[microbit-share]]]
 
-Nu is het tijd om te kijken wat je hebt geleerd!
-
 --- collapse ---
 
 ---
