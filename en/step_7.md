@@ -24,8 +24,6 @@ Great work! You have created your micro:bit music player. Here are some ideas to
 
 [[[microbit-share]]]
 
-Next, it is time to check what you have learnt!
-
 --- collapse ---
 
 ---
