@@ -209,3 +209,5 @@ Download your program onto your micro:bit!
 [[[download-to-microbit]]]
 
 Well done! You now have a fully working music player!
+
+Next, it is time to check what you have learnt!
