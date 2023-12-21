@@ -33,7 +33,7 @@ Er zullen nu nieuwe blokken beschikbaar zijn die je kunt gebruiken om de waarde 
 
 --- task ---
 
-Sleep het `stel in op`{:class="microbitvariables"} blok naar het bewerkingspaneel en plaats deze in het `bij opstart`{:class="microbitbasic"} blok.
+Sleep het `stel in op`{:class="microbitvariables"} blok naar het bewerkingspaneel en plaats deze in het `bij opstarten`{:class="microbitbasic"} blok.
 
 Verander de `0` naar `1`.
 
@@ -98,7 +98,7 @@ basic.forever(function () {
 
 --- task ---
 
-Move the `show icon`{:class="microbitbasic"} and `play melody`{:class="microbitmusic"} blocks inside the `if`{:class="microbitlogic"} block.
+Verplaats de `toon pictogram`{:class="microbitbasic"} en `play melody`{:class="microbitmusic"} blokken zo dat ze in het `als`{:class="microbitlogic"} blok komen te staan.
 
 **Tip:** Wanneer je een blok selecteert, zullen alle blokken eronder ook bewegen, dus sleep gewoon het `toon pictogram`{:class="microbitbasic"} blok en de anderen zullen volgen.
 
