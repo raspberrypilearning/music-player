@@ -81,7 +81,7 @@ input.onButtonPressed(Button.B, function () {
 
 #### Omgaan met 'buiten bereik'
 
-Als de waarde van de variabele `4`is, zal het wijzigen ervan met `1` de waarde `5`maken.
+Als de waarde van de variabele `4` is, zal het wijzigen ervan met `1` de waarde `5` maken.
 
 🚨 Maar er is geen melodie gekoppeld aan de waarde `5`! 🚨
 
@@ -250,9 +250,9 @@ Verander de `1` in `-1` in het `verander`{:class="microbitvariables"} blok.
 
 In het vergelijkingsblok:
 
-+ Change the `>` to `<`
++ Verander de `>` naar `<`
 
-+ Change the `4` to `1`
++ Verander de `4` naar `1`
 
 Wijzig de `1` in `4` in het `stel in op`{:class="microbitvariables"} blok.
 
