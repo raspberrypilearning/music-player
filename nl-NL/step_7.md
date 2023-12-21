@@ -16,7 +16,7 @@ Goed gedaan! Je hebt je micro:bit muziekspeler gemaakt. Hier zijn enkele ideeën
 
 <div>
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
- <span style="color: #0faeb0">Mental Health Awareness week</span> is een campagne om het begrip voor geestelijke gezondheidsproblemen te vergroten, het bevordert het welzijn en pakt stigmatisering rond psychische aandoeningen aan. Dit evenement is in verschillende landen erkend en wordt in Mei in het Verenigd Koninkrijk gevierd.
+ <span style="color: #0faeb0">Mental Health Awareness week</span> is een campagne om het begrip voor geestelijke gezondheidsproblemen te vergroten, het bevordert het welzijn en pakt stigmatisering rond psychische aandoeningen aan. Dit evenement is in verschillende landen erkend en wordt in mei in het Verenigd Koninkrijk gevierd.
 </p>
 </div>
 
@@ -32,5 +32,5 @@ Nu is het tijd om te kijken wat je hebt geleerd!
 title: Voltooid project
 ---
 
-Je kunt het [voltooide project hier](https://makecode.microbit.org/S59475-60684-36313-64616){:target="_blank"} bekijken.
+Je kunt het [voltooide project hier](https://makecode.microbit.org/_5bFMMXWwjL6W){:target="_blank"} bekijken.
 --- /collapse ---

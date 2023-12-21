@@ -209,3 +209,5 @@ Download je programma naar de micro:bit!
 [[[download-to-microbit]]]
 
 Goed gedaan! Je hebt nu een volledig werkende muziekspeler!
+
+Nu is het tijd om te kijken wat je hebt geleerd!

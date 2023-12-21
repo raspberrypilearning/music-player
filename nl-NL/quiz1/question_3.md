@@ -57,15 +57,15 @@ Welke melodie wordt afgespeeld als knop `B` wordt ingedrukt?
 
   --- feedback ---
 
-Niet helemaal. Knop B slaat de volgende track over en voegt een toe aan de variabele waarde, wat betekent dat `deuntje` wordt ingesteld op `2`, die wordt geassocieerd met de `punchline` melodie.
+Niet helemaal. Knop B slaat de volgende track over en voegt een toe aan de variabele waarde, wat betekent dat `deuntje` wordt ingesteld op `2`, die wordt geassocieerd met de `clou` melodie.
 
   --- /feedback ---
 
-- (x) `punchline`
+- (x) `clou`
 
   --- feedback ---
 
-Geweldig! Knop B voegt een toe aan de variabele waarde, wat betekent dat `deuntje` wordt ingesteld op `2`, die wordt geassocieerd met de `punchline` melodie.
+Geweldig! Knop B voegt een toe aan de variabele waarde, wat betekent dat `deuntje` wordt ingesteld op `2`, die wordt geassocieerd met de `clou` melodie.
 
   --- /feedback ---
 
