@@ -210,4 +210,4 @@ Download je programma naar de micro:bit!
 
 Goed gedaan! Je hebt nu een volledig werkende muziekspeler!
 
-Next, it is time to check what you have learnt!
+Nu is het tijd om te kijken wat je hebt geleerd!
