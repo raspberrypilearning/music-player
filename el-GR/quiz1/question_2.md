@@ -2,34 +2,34 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-In programming, what is a variable?
+Στον προγραμματισμό, τι είναι μια μεταβλητή;
 
 --- choices ---
 
-- (x) A special box to store various pieces of information
+- (x) Ένα ειδικό κουτί για την αποθήκευση διαφόρων πληροφοριών
 
   --- feedback ---
 
-  Great effort! A variable is a concept used across all programming languages. It is a storage box that can store data including text, integers, and true/false values.
+  Σπουδαία προσπάθεια! Μια μεταβλητή είναι μια έννοια που χρησιμοποιείται σε όλες τις γλώσσες προγραμματισμού. Είναι ένα κουτί αποθήκευσης που μπορεί να αποθηκεύσει δεδομένα, συμπεριλαμβανομένων κειμένου, ακεραίων και τιμών αληθές/ψευδές.
 
   --- /feedback ---
 
-- ( ) A logic condition that controls what happens in a logic block
+- ( ) Μια λογική συνθήκη που ελέγχει τι συμβαίνει σε ένα λογικό μπλοκ
 
   --- feedback ---
 
-Not quite. A condition can be used to compare a variable value with something else.
+Περίπου. Μια συνθήκη μπορεί να χρησιμοποιηθεί για να συγκρίνει μια τιμή μεταβλητής με κάτι άλλο.
 
   --- /feedback ---
 
-- ( ) A melody block that can change and play a different melody
+- ( ) Ένα μπλοκ μελωδίας που μπορεί να αλλάξει και να παίξει μια διαφορετική μελωδία
 
   --- feedback ---
 
-Not quite. Although you can have different melodies in a melody block, the term variable has a different meaning.
+Όχι ακριβώς. Αν και μπορείς να έχεις διαφορετικές μελωδίες σε ένα μπλοκ μελωδίας, ο όρος μεταβλητή έχει διαφορετική σημασία.
 
   --- /feedback ---
 
