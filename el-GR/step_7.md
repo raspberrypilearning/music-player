@@ -1,22 +1,22 @@
-## Upgrade your project
+## Αναβάθμιση του έργου σου
 
-Great work! You have created your micro:bit music player. Here are some ideas to upgrade your project and create a more advanced music player app:
+Εξαιρετική δουλειά! Έχεις δημιουργήσει το δικό σου πρόγραμμα αναπαραγωγής μουσικής micro:bit. Ακολουθούν μερικές ιδέες για να αναβαθμίσεις το έργο σου και να δημιουργήσεις μια πιο προηγμένη εφαρμογή αναπαραγωγής μουσικής:
 
-+ Add more melodies and increase the range on the shuffle
-+ Use the Logo button (or button A+B on the V1) to stop all sounds, leaving Shake to just control the shuffle
-+ Use the Logo button (or button A+B on the V1) to play a favourite melody
++ Πρόσθεσε περισσότερες μελωδίες και αύξησε το εύρος της τυχαίας αναπαραγωγής
++ Χρησιμοποίησε το κουμπί του λογότυπου (ή το κουμπί A+B στο V1) για να σταματήσεις όλους τους ήχους, αφήνοντας την ανακίνηση να ελέγχει απλώς την τυχαία αναπαραγωγή
++ Χρησιμοποιήσε το κουμπί του λογότυπου (ή το κουμπί A+B στο V1) για να παίξεις μια αγαπημένη μελωδία
 
-### Play ▶️
+### Δοκίμασέ το ▶️
 
-+ Use the logo at the top to select a favourite song
-+ How many tunes are there?
-+ What happens if you press the logo after registering a favourite and changing the tune?
++ Χρησιμοποίησε το λογότυπο στο επάνω μέρος για να επιλέξεις ένα αγαπημένο τραγούδι
++ Πόσες μελωδίες υπάρχουν;
++ Τι συμβαίνει αν πατήσεις το λογότυπο αφού δηλώσεις ένα αγαπημένο τραγούδι και αλλάξει τη μελωδία;
 
 <div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_0HqXVg8uq7rA" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 <div>
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
- <span style="color: #0faeb0">Mental Health Awareness week</span> is a campaign to raise understanding of mental health issues, promote good well-being, and break down stigma surrounding mental illness. This event has been recognised in various countries and is celebrated in May in the UK.
+ <span style="color: #0faeb0">Η Εβδομάδα Ευαισθητοποίησης για την Ψυχική Υγεία</span> είναι μια εκστρατεία για την ενίσχυση της κατανόησης των θεμάτων ψυχικής υγείας, την προώθηση της ευζωίας και την εξάλειψη του στίγματος γύρω από τις ψυχικές ασθένειες. Αυτό το γεγονός έχει αναγνωριστεί σε διάφορες χώρες και γιορτάζεται τον Μάιο στο Ηνωμένο Βασίλειο.
 </p>
 </div>
 
@@ -27,9 +27,9 @@ Great work! You have created your micro:bit music player. Here are some ideas to
 --- collapse ---
 
 ---
-title: Completed project
+title: Ολοκληρωμένο έργο
 ---
 
-You can view the [completed project here](https://makecode.microbit.org/_5bFMMXWwjL6W){:target="_blank"}.
+Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://makecode.microbit.org/_5bFMMXWwjL6W){:target="_blank"}.
 
 --- /collapse ---
