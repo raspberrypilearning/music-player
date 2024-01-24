@@ -1,119 +1,119 @@
-## Play a tune
+## Παίξε μια μελωδία
 
-### Open MakeCode
+### Άνοιξε το MakeCode
 
-To start creating your micro:bit project, you need to open the MakeCode editor.
+Για να ξεκινήσεις τη δημιουργία του έργου σου με το micro:bit, πρέπει να ανοίξεις το πρόγραμμα επεξεργασίας MakeCode.
 
 --- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
+Άνοιξε το πρόγραμμα επεξεργασίας MakeCode στη διεύθυνση [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 
 --- collapse ---
 
 ---
-title: Offline version of the editor
+title: Εκτός σύνδεσης έκδοση του επεξεργαστή
 ---
 
-There is also a [downloadable version of the MakeCode editor](https://makecode.microbit.org/offline-app){:target="_blank"}.
+Υπάρχει επίσης μια έκδοση με [δυνατότητα λήψης του προγράμματος επεξεργασίας MakeCode](https://makecode.microbit.org/offline-app)"{:target="_blank"}.
 
 --- /collapse ---
 
 --- /task ---
 
-### First micro:bit project?
+### Πρώτο έργο micro:bit;
 
 [[[makecode-tour]]]
 
-### Create your project
+### Δημιούργησε το έργο σου
 
-Once the editor is open, you will need to create a new project and give your project a name.
+Μόλις ανοίξει το πρόγραμμα επεξεργασίας, θα χρειαστεί να δημιουργήσεις ένα νέο έργο και να δώσεις ένα όνομα στο έργο σου.
 
 --- task ---
 
-Click on the **New Project** button.
+Κάνε κλικ στο κουμπί **Νέο έργο**.
 
-<img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250" />
+<img src="images/new-project-button.png" alt="Το κουμπί Νέο Έργο στο MakeCode." width="250" />
 
 --- /task ---
 
 --- task ---
 
-Give your new project the name `music player` and click **Create**.
+Δώσε στο νέο σου έργο το όνομα `Πρόγραμμα αναπαραγωγής μουσικής` και κάνε κλικ στο **Δημιουργία**.
 
-<img src="images/music-player.png" alt="The name 'music player' written in the Create a Project dialogue box." width="400" />
+<img src="images/music-player.png" alt="Το όνομα 'Πρόγραμμα αναπαραγωγής μουσικής' γραμμένο στο πλαίσιο διαλόγου Δημιουργία έργου." width="400" />
 
-**Tip:** To make it easier to find your project later, give it a helpful name that relates to the activity you’re creating.
+**Συμβουλή:** Για να γίνει πιο εύκολη η εύρεση του έργου σου αργότερα, δώσε του ένα όνομα που να σχετίζεται με τη δραστηριότητα που δημιουργείς.
 
 --- /task ---
 
-### Play melody
+### Παίξε μελωδία
 
 
-You are going to use the `forever`{:class="microbitbasic"} block to make use of the speaker output on the micro:bit (V2 users only).
+Θα χρησιμοποιήσεις το μπλοκ `για πάντα`{:class="microbitbasic"} για να χρησιμοποιήσεις την έξοδο ηχείου στο micro:bit (μόνο για χρήστες V2).
 
 --- collapse ---
 ---
-title: V1 micro:bit users
+title: Χρήστες του micro:bit V1
 ---
 
-The speaker output is only available on the V2 micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
+Η έξοδος ηχείου είναι διαθέσιμη μόνο στο micro:bit V2. Θα χρειαστεί να συνδέσεις εξωτερικά ακουστικά/ηχεία για αναπαραγωγή ήχου στο V1. Θα είσαι ακόμα σε θέση να παίξεις τον ήχο στον προσομοιωτή.
 
-There is a [guide to connecting headphones/speakers to the V1 micro:bit](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
+Υπάρχει ένας οδηγός [για τη σύνδεση ακουστικών/ηχείων στο V1 micro:bit](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
 
 --- /collapse ---
 
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} menu, drag the `play melody dadadum`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
+Από το μενού `Μουσική`{:class="microbitmusic"}, σύρε το μπλοκ `play melody dadadum`{:class="microbitmusic"} και τοποθέτησέ το μέσα στο μπλοκ `για πάντα`{:class="microbitbasic"}.
 
-<img src="images/play-melody.png" alt="The Music menu open with the 'play melody dadadum' block highlighted." width="450" />
-
---- /task ---
-
---- task ---
-
-Click on the down arrow next to `in background` on the `play melody dadadum`{:class='microbitmusic'} block.
-
-Choose `until done`.
-
-<img src="images/melody-untildone.gif" alt="The melody drop-down menu with the 'until done' button selected." width="400" />
-
---- /task ---
-
-### Style your song
-
-As well as playing a melody, you can add a picture to the LED display to add some more style!
-
---- task ---
-
-Open the `Basic`{:class="microbitbasic"} menu and find the `show icon`{:class="microbitbasic"} block.
-
-<img src="images/show-icon-location.png" alt="The Basic menu with the 'show icon' block highlighted." width="350" />
+<img src="images/play-melody.png" alt="Το μενού Μουσική ανοίγει με τονισμένο το μπλοκ &quot;play melody dadadum&quot;." width="450" />
 
 --- /task ---
 
 --- task ---
 
-Drag the `show icon`{:class="microbitbasic"} block into the code editor.
+Κάνε κλικ στο κάτω βέλος δίπλα στο `στο φόντο` στο μπλοκ `play melody dadadum`{:class='microbitmusic'}.
 
-Place it inside the `forever`{:class="microbitbasic"} block **above** your `melody`{:class="microbitmusic"} block.
+Επίλεξε `until done`.
+
+<img src="images/melody-untildone.gif" alt="Το αναπτυσσόμενο μενού μελωδίας με επιλεγμένο το κουμπί «until done»." width="400" />
+
+--- /task ---
+
+### Δώσε στυλ στο τραγούδι σου
+
+Εκτός από την αναπαραγωγή μιας μελωδίας, μπορείς να προσθέσεις μια εικόνα στην οθόνη LED για να προσθέσεις λίγο περισσότερο στυλ!
+
+--- task ---
+
+Άνοιξε το μενού `Βασικά`{:class="microbitbasic"} και βρες το μπλοκ `εμφάνιση εικονιδίου`{:class="microbitbasic"}.
+
+<img src="images/show-icon-location.png" alt="Το μενού Βασικά με τονισμένο το μπλοκ &quot;εμφάνιση εικονιδίου&quot;." width="350" />
 
 --- /task ---
 
 --- task ---
 
-MakeCode has pre-programmed icons that display on the LED panel.
+Σύρε το μπλοκ `εμφάνιση εικονιδίου`{:class="microbitbasic"} στο πρόγραμμα επεξεργασίας κώδικα.
 
-The default is a **heart** icon.
+Τοποθέτησέ το μέσα στο `για πάντα`{:class="microbitbasic"} **πάνω από το** μπλοκ της `μελωδίας`{:class="microbitmusic"}.
 
-**Click** on the heart to see the other options.
+--- /task ---
 
-**Choose** an icon that represents your melody.
+--- task ---
 
-<img src="images/choose-icon.gif" alt="The show icon block is expanded to show the multiple options for icons. After a bit of scrolling the duck is selected from the list." width="400" />
+Το MakeCode έχει προ-προγραμματισμένα εικονίδια που εμφανίζονται στον πίνακα LED.
 
-We have chosen this little duck!
+Η προεπιλογή είναι ένα εικονίδιο **καρδιά**.
+
+**Κάνε κλικ** στην καρδιά για να δεις τις άλλες επιλογές.
+
+**Επίλεξε** ένα εικονίδιο που αντιπροσωπεύει τη μελωδία σου.
+
+<img src="images/choose-icon.gif" alt="Το μπλοκ εμφάνιση εικονιδίου επεκτείνεται για να εμφανίσει τις πολλαπλές επιλογές για εικονίδια. Μετά από λίγη κύλιση, η πάπια επιλέγεται από τη λίστα." width="400" />
+
+Διαλέξαμε αυτό το παπάκι!
 
 ```microbit
 basic.forever(function () {
@@ -126,13 +126,13 @@ basic.forever(function () {
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+Όταν κάνεις μια αλλαγή σε ένα μπλοκ στο πρόγραμμα επεξεργασίας κώδικα, ο προσομοιωτής θα επανεκκινήσει.
 
-**Test your program**
+**Δοκίμασε το έργο σου**
 
-+ You should now hear the melody playing until it is done (and then looping because of the forever loop)
-+ You should also see the icon you picked displayed on the LEDs
++ Θα πρέπει τώρα να ακούσεις τη μελωδία να παίζει μέχρι να ολοκληρωθεί (και στη συνέχεια να ακούγεται λόγω του βρόχου για πάντα)
++ Θα πρέπει επίσης να δεις το εικονίδιο που επέλεξες να εμφανίζεται στα LED
 
 --- /task ---
 
-Well done, you have created your first music program on a micro:bit!
+Μπράβο, δημιουργήσες το πρώτο σου μουσικό πρόγραμμα σε micro:bit!
