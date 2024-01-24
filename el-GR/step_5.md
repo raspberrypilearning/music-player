@@ -1,14 +1,14 @@
-## Stop and shuffle
+## Διακοπή και ανακάτεμα
 
-Great job so far! You have chosen melodies to play and you have programmed the `A` and `B` buttons to skip through tracks. What happens if you want to stop the tunes from playing?
+Φοβερή δουλειά μέχρι στιγμής! Έχεις επιλέξει μελωδίες για να ακούσεις και έχεις προγραμματίσει τα κουμπιά `A` και `B` ώστε να επιλέγεις τραγούδια. Τι θα συμβεί αν θέλεις να σταματήσεις την αναπαραγωγή των τραγουδιών;
 
-In this step, you will make use of the `on shake`{:class="microbitinput"} gesture to stop the tunes from playing.
+Σε αυτό το βήμα, θα χρησιμοποιήσετε την κίνηση `στο κούνημα`{:class="microbitinput"} για να σταματήσεις την αναπαραγωγή των τραγουδιών.
 
-### Shake to stop
+### Ανακίνηση για να σταματήσει
 
 --- task ---
 
-From the `Input`{:class="microbitinput"} menu, drag an `on shake`{:class="microbitinput"} block and place it on the code editor panel.
+Από το μενού `Είσοδος`{:class="microbitinput"}, σύρε το μπλοκ `στο κούνημα`{:class="microbitinput"} στον πίνακα επεξεργασίας κώδικα.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -20,7 +20,7 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Logic`{:class="microbitlogic"} menu, drag an `if...else`{:class="microbitlogic"} block and place it inside the `on shake`{:class="microbitinput"} block.
+Από το μενού `Λογική`{:class="microbitlogic"}, σύρε ένα μπλοκ `εάν...αλλιώς`{:class="microbitlogic"} και τοποθέτησέ το μέσα στο μπλοκ `στο κούνημα`{:class="microbitinput"}.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -36,17 +36,17 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-Click on the `Logic`{:class="microbitlogic"} menu again and drag a comparison `0 = 0`{:class="microbitlogic"} block.
+Κάνε κλικ στο μενού `Λογική`{:class="microbitlogic"} ξανά και σύρε ένα μπλοκ σύγκρισης `0 = 0`{:class="microbitlogic"}.
 
-Place it inside the `true`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
+Τοποθέτησε το στην περιοχή `αληθές`{:class="microbitlogic"} του μπλοκ `εάν...αλλιώς`{:class="microbitlogic"}.
 
 --- /task ---
 
 --- task ---
 
-Click on the arrow next to the `=` on the comparison block.
+Κάνε κλικ στο βέλος δίπλα στο `=` στο μπλοκ σύγκρισης.
 
-Choose the not equal to `≠` symbol.
+Επίλεξε το σύμβολο όχι ίσο με `≠`.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -62,9 +62,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `tune`{:class="microbitvariables"} variable block.
+Από το μενού `Μεταβλητές`{:class="microbitvariables"}, σύρε το μπλοκ μεταβλητής `μελωδία`{:class="microbitvariables"}.
 
-Place it in the first `0` on the `0 ≠ 0`{:class="microbitlogic"} block.
+Τοποθέτησέ το μέσα στο πρώτο `0` στο μπλοκ `0 ≠ 0`{:class="microbitlogic"}.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -81,9 +81,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} block menu, drag a `stop all sounds`{:class="microbitmusic"} block.
+Από το μενού μπλοκ `Μουσική`{:class="microbitmusic"}, σύρε ένα μπλοκ `stop all sounds`{:class="microbitmusic"}.
 
-Place it inside the `if`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
+Τοποθέτησε το στην περιοχή `έαν`{:class="microbitlogic"} του μπλοκ `εάν...αλλιώς`{:class="microbitlogic"}.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -100,9 +100,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-Click on the `Variables`{:class="microbitvariables"} menu and drag a `set [tune] to 0`{:class="microbitvariables"} block.
+Κάνε κλικ στο μενού `Μεταβλητές`{:class="microbitvariables"} και σύρε ένα μπλοκ `ορισμός μελωδία`{:class="microbitvariables"}.
 
-Place it below the `stop all sounds`{:class="microbitmusic"} block.
+Τοποθέτησέ το κάτω από το μπλοκ `stop all sounds`{:class="microbitmusic"}.
 
 ```microbit
 let tune = 0
@@ -118,17 +118,17 @@ input.onGesture(Gesture.Shake, function () {
 
 --- /task ---
 
-Now, when a melody is playing, you can shake the micro:bit and it will stop playing the melody.
+Τώρα, όταν παίζει μια μελωδία, μπορείς να ανακινήσεις το micro:bit και θα σταματήσει να παίζει τη μελωδία.
 
-### Shake again to shuffle
+### Ανακίνηση ξανά για να ανακατευτούν τα τραγούδια
 
-You will now add a condition so the micro:bit plays a random melody from your chosen melodies. This is similar to the shuffle function on a music player app.
+Τώρα θα προσθέσεις μια συνθήκη ώστε το micro:bit να παίζει μια τυχαία μελωδία από τις επιλεγμένες μελωδίες σου. Αυτή είναι παρόμοια με τη λειτουργία τυχαίας αναπαραγωγής σε μια εφαρμογή αναπαραγωγής μουσικής.
 
 --- task ---
 
-Click on the `Variables`{:class="microbitvariables"} block menu and drag the `set [tune] to 0`{:class="microbitvariables"} block.
+Κάνε κλικ στο μενού μπλοκ `Μεταβλητές`{:class="microbitvariables"} και σύρε το μπλοκ `ορισμός μελωδία`{:class="microbitvariables"}.
 
-Place it inside the `else`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
+Τοποθέτησε το στην περιοχή `αλλιώς`{:class="microbitlogic"} του μπλοκ `εάν...αλλιώς`{:class="microbitlogic"}.
 
 ```microbit
 let tune = 0
@@ -146,9 +146,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Math`{:class="microbitmath"} menu, drag a `pick random`{:class="microbitmath"} block.
+Από το μενού `Μαθηματικά`{:class="microbitmath"}, σύρε ένα μπλοκ `τυχαία επιλογή`{:class="microbitmath"}.
 
-Place it inside the `0` part of the `set tune`{:class="microbitvariables"} block.
+Τοποθέτησέ το μέσα στο τμήμα `0` του μπλοκ `ορισμός μελωδία`{:class="microbitvariables"}.
 
 ```microbit
 let tune = 0
@@ -164,19 +164,19 @@ input.onGesture(Gesture.Shake, function () {
 
 --- /task ---
 
-The range on the random block is currently set to `0 to 10`, however, our melodies are set from `1 to 4`.
+Το εύρος στο μπλοκ για την τυχαιότητα έχει οριστεί αυτή τη στιγμή από `0 έως 10`, όμως, οι μελωδίες μας έχουν οριστεί από `1 έως 4`.
 
-You will need to update this range to match.
+Θα χρειαστεί να ενημερώσεις αυτό το εύρος ώστε να ταιριάζει με τις επιλογές μας.
 
 --- task ---
 
-Change the `0` part of the `pick random`{:class="microbitmath"} block to `1`.
+Άλλαξε το τμήμα `0` του μπλοκ `τυχαία επιλογή`{:class="microbitmath"} σε `1`.
 
-Change the `10` part of the `pick random`{:class="microbitmath"} block to `4`.
+Άλλαξε το τμήμα `10` του μπλοκ `τυχαία επιλογή`{:class="microbitmath"} σε `4`.
 
 --- /task ---
 
-Your code should look like this:
+Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
 
 ```microbit
 let tune = 0
@@ -192,22 +192,22 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+Όταν κάνεις μια αλλαγή σε ένα μπλοκ στο πρόγραμμα επεξεργασίας κώδικα, ο προσομοιωτής θα επανεκκινήσει.
 
-**Test**
+**Δοκιμή**
 
-When the program runs, you should now be able to stop and shuffle by shaking the micro:bit.
+Όταν εκτελείται το πρόγραμμα, θα πρέπει τώρα να μπορείς να σταματήσεις και να κάνεις τυχαία αναπαραγωγή ανακινώντας το micro:bit.
 
 --- /task ---
 
 --- task ---
 
-Download your program onto your micro:bit!
+Κατέβασε το πρόγραμμά σου στο micro:bit!
 
 --- /task ---
 
 [[[download-to-microbit]]]
 
-Well done! You now have a fully working music player!
+Συγχαρητήρια! Τώρα έχεις ένα πλήρως λειτουργικό πρόγραμμα αναπαραγωγής μουσικής!
 
-Next, it is time to check what you have learnt!
+Στη συνέχεια, ήρθε η ώρα να ελέγξεις τι έχεις μάθει!
