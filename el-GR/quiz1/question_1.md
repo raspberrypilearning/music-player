@@ -1,42 +1,42 @@
-## Quick quiz
+## Γρήγορο Κουίζ
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Απάντησε στις τρεις ερωτήσεις. Υπάρχουν στοιχεία που θα σε οδηγήσουν στη σωστή απάντηση.
 
-When you have answered each question, click **Check my answer**.
+Όταν έχεις απαντήσει σε κάθε ερώτηση, πάτησε στο ** Έλεγξε την απάντησή μου**.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
-Which two blocks are always shown in the MakeCode editor when you load it for the first time?
+Ποια δύο μπλοκ εμφανίζονται πάντα στο πρόγραμμα επεξεργασίας MakeCode όταν το φορτώνεις για πρώτη φορά;
 
 --- choices ---
 
-- ( ) `on start` and `on shake`
+- ( ) `κατά την έναρξη` and `στο κούνημα`
 
   --- feedback ---
 
-`on start` is one of them, but `on shake` has to be dragged in manually.
+Το `κατά την έναρξη` είναι ένα από αυτά, αλλά το `στο κούνημα` πρέπει να συρθεί χειροκίνητα.
 
   --- /feedback ---
 
-- ( ) `on shake` and `forever`
+- ( ) `στο κούνημα` και `για πάντα`
 
   --- feedback ---
 
-`forever` is one of them, but `on shake` has to be dragged in manually.
+Το `για πάντα` είναι ένα από αυτά, αλλά το `στο κούνημα` πρέπει να συρθεί χειροκίνητα.
 
   --- /feedback ---
 
-- (x) `on start` and `forever`
+- (x) `κατά την έναρξη` και `για πάντα`
 
   --- feedback ---
 
-Awesome! You have answered correctly, the `on start` and `forever` blocks are shown in the code editor panel every time you start a new project.
+Φοβερό! Απάντησες σωστά, τα μπλοκ `κατά την έναρξη` και `για πάντα` εμφανίζονται στον πίνακα επεξεργασίας κώδικα κάθε φορά που ξεκινάς ένα νέο έργο.
 
   --- /feedback ---
 
