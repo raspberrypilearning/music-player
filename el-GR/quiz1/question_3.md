@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Ερώτηση 3 από 3
 ---
 
-Here is the code for the music player program.
+Εδώ είναι ο κώδικας για το πρόγραμμα αναπαραγωγής μουσικής.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -46,9 +46,9 @@ basic.forever(function () {
 })
 ```
 
-The `tune` variable is currently set to `1`.
+Η μεταβλητή `μελωδία` έχει οριστεί αυτήν τη στιγμή σε `1`.
 
-Which melody will play when Button `B` is pressed?
+Ποια μελωδία θα παίξει όταν πατηθεί το κουμπί `B`;
 
 
 --- choices ---
@@ -57,7 +57,7 @@ Which melody will play when Button `B` is pressed?
 
   --- feedback ---
 
-Not quite. Button B skips the track forward and will add one to the variable value, meaning `tune` will be set to `2`, which is associated with the `punchline` melody.
+Όχι ακριβώς. Με το κουμπί Β γίνεται μετάβαση στο επόμενο τραγούδι και θα προστεθεί ένα στην τιμή της μεταβλητής, που σημαίνει ότι η `μελωδία` θα οριστεί σε `2`, η οποία σχετίζεται με τη μελωδία `punchline`.
 
   --- /feedback ---
 
@@ -65,7 +65,7 @@ Not quite. Button B skips the track forward and will add one to the variable val
 
   --- feedback ---
 
-Great! Pressing Button B will add one to the variable value, meaning `tune` will be set to `2`, which is associated with the `punchline` melody.
+Εξαιρετικά! Πατώντας το κουμπί Β θα προστεθεί ένα στην τιμή της μεταβλητής, που σημαίνει ότι η `μελωδία` θα οριστεί σε `2`, η οποία σχετίζεται με τη μελωδία `punchline`.
 
   --- /feedback ---
 
@@ -73,7 +73,7 @@ Great! Pressing Button B will add one to the variable value, meaning `tune` will
 
   --- feedback ---
 
-Not quite. The variable value is `1` and Button B adds `1` to the variable value, meaning the melody associated with value 1 (`dadadum`) will no longer play.
+Περίπου. Η τιμή της μεταβλητής είναι `1` και το κουμπί B προσθέτει `1` στην τιμή της μεταβλητής, που σημαίνει ότι η μελωδία που σχετίζεται με την τιμή 1 (`dadadum`) δεν θα παίζει πλέον.
 
   --- /feedback ---
 
