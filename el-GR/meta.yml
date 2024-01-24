@@ -1,0 +1,28 @@
+---
+title: Πρόγραμμα αναπαραγωγής μουσικής
+hero_image: images/banner.png
+description: Δημιούργησε ένα μουσικό κουτί για να μπορείς να επιλέξεις μελωδίες για να χαλαρώσεις
+version: 4
+listed: true
+copyedit: true
+last_tested: '2023-08-08'
+steps:
+  - title: Τι θα φτιάξεις
+  - title: Παίξε μια μελωδία
+    completion:
+      - engaged
+  - title: Επίλεξε μελωδίες
+  - title: Παράλειψε μελωδίες
+  - title: Σταμάτησε ή ανακάτεψε
+    completion:
+      - internal
+  - title: Γρήγορο κουίζ
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Αναβάθμισε το έργο σου
+  - title: Και τώρα;
