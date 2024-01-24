@@ -1,28 +1,28 @@
 ---
-title: Music player
+title: Πρόγραμμα αναπαραγωγής μουσικής
 hero_image: images/banner.png
-description: Create a music box so you can choose some tunes to relax to
+description: Δημιούργησε ένα μουσικό κουτί για να μπορείς να επιλέξεις μελωδίες για να χαλαρώσεις
 version: 4
 listed: true
 copyedit: true
 last_tested: '2023-08-08'
 steps:
   - 
-    title: You will make
+    title: Τι θα φτιάξεις
   - 
-    title: Play a tune
+    title: Παίξε μια μελωδία
     completion:
       - engaged
   - 
-    title: Choose some tunes
+    title: Επίλεξε μελωδίες
   - 
-    title: Skip tunes
+    title: Παράλειψε μελωδίες
   - 
-    title: Stop or shuffle
+    title: Σταμάτησε ή ανακάτεψε
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Γρήγορο κουίζ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,6 +31,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Αναβάθμισε το έργο σου
   - 
-    title: What next?
+    title: Και τώρα;
