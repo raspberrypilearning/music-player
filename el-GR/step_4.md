@@ -1,57 +1,57 @@
-## Use the buttons to skip tunes
+## Χρησιμοποίησε τα κουμπιά για να παραλείψεις μελωδίες
 
-Instead of changing the melody by changing the `tune` variable value in the `on start` block, you can use buttons to change the value (and, therefore, the melody).
+Αντί να αλλάξεις τη μελωδία αλλάζοντας την τιμή μεταβλητής `μελωδία` στο μπλοκ `κατά την έναρξη`, μπορείς να χρησιμοποιήσεις κουμπιά για να αλλάξεις την τιμή (και, επομένως, τη μελωδία).
 
-In this step, you will create code to skip tracks using the micro:bit's event handlers.
+Σε αυτό το βήμα, θα δημιουργήσεις κώδικα για να παραλείψεις κομμάτια χρησιμοποιώντας τους χειριστές συμβάντων του micro:bit.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-What is an <span style="color: #0faeb0">event handler</span>?
+Τι είναι ένα <span style="color: #0faeb0">χειριστής συμβάντων</span>;
 
-An event handler is code that will run when a particular event happens, such as “button A pressed”.
+Ένας χειριστής συμβάντων είναι κώδικας που εκτελείται όταν συμβεί ένα συγκεκριμένο συμβάν, όπως "όταν πιεστεί το πλήκτρο button A".
 
 </p>
 
-### Add button controls
+### Προσθήκη κουμπιών ελέγχου
 
-The micro:bit has a Button `A` and a Button `B`.
+Το micro:bit έχει ένα κουμπί `A` και ένα κουμπί `B`.
 
-You can use an event to control what happens when a button is pressed.
+Μπορείς να χρησιμοποιήσεις ένα συμβάν για να ελέγξεις τι συμβαίνει όταν πατιέται ένα κουμπί.
 
-### Skip to the next track
+### Μετάβαση στο επόμενο κομμάτι
 
-Button B is on the right of the micro:bit, so use this button to skip to the next track.
+Το κουμπί B βρίσκεται στα δεξιά του micro:bit, επομένως χρησιμοποίησε αυτό το κουμπί για να μεταβείς στο επόμενο κομμάτι.
 
-To do this, you need to change the value of the `tune`{:class="microbitvariables"} variable by `1`.
+Για να το κάνεις αυτό, πρέπει να αλλάξεις την τιμή της μεταβλητής `μελωδία`{:class="microbitvariables"} κατά `1`.
 
 --- task ---
 
-From the `Input`{:class="microbitinput"} menu, drag the `on button`{:class="microbitinput"} block to the code editor panel.
+Από το μενού `Είσοδος`{:class="microbitinput"}, σύρε το μπλοκ `όταν πιεστεί το πλήκτρο button`{:class="microbitinput"} στον πίνακα επεξεργασίας κώδικα.
 
-![The Input block menu with the 'on button A pressed' block highlighted.](images/input-on-ButtonA.png)
+![Το μενού μπλοκ Είσοδος με τονισμένο το μπλοκ "όταν πιεστεί το πλήκτρο button A'".](images/input-on-ButtonA.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the arrow next to `A`{:class="microbitinput"} on the `on button`{:class="microbitinput"} block.
+Κάνε κλικ στο βέλος δίπλα στο `A`{:class="microbitinput"} στο μπλοκ `όταν πιεστεί το πλήκτρο button`{:class="microbitinput"}.
 
-Change the `A`{:class="microbitinput"} to a `B`{:class="microbitinput"}
+Άλλαξε το `A`{:class='microbitinput'} σε `B`{:class='microbitinput"}
 
-![The down arrow menu on the 'on button A pressed' block with B highlighted.](images/buttonA-arrow.png)
+![Το μενού με το κάτω βέλος στο μπλοκ «όταν πιεστεί το πλήκτρο button A» με τονισμένο το Β.](images/buttonA-arrow.png)
 
 --- /task ---
 
-#### Stop all sounds!
+#### Διακοπή όλων των ήχων!
 
-Now, you need to stop the current tune.
+Τώρα, πρέπει να σταματήσεις την τρέχουσα μελωδία.
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} menu, drag the `stop all sounds`{:class="microbitmusic"} block.
+Από το μενού `Μουσική`{:class="microbitmusic"}, σύρε το μπλοκ `stop all sounds`{:class="microbitmusic"}.
 
-Place it in the `on button [B]`{:class="microbitinput"} block in the code editor panel.
+Τοποθέτησέ το στο μπλοκ `όταν πιεστεί το κουμπί button [B]`{:class="microbitinput"} στον πίνακα επεξεργασίας κώδικα.
 
-![The Music block menu with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
+![Το μενού μπλοκ Μουσική με τονισμένο το μπλοκ "stop all sounds".](images/stop-all-sounds.png)
 
 ```microbit
 input.onButtonPressed(Button.B, function () {
@@ -63,11 +63,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `change`{:class="microbitvariables"} block.
+Από το μενού `Μεταβλητές`{:class="microbitvariables"}, σύρε ένα μπλοκ `άλλαξε`{:class="microbitvariables"}.
 
-Place it below the `stop all sounds`{:class="microbitmusic"} block.
+Τοποθέτησέ το κάτω από το μπλοκ `stop all sounds`{:class="microbitmusic"}.
 
-![The Variables block menu with the 'change tune by 1' block highlighted.](images/change-tune-by-1.png)
+![Το μενού μπλοκ Μεταβλητές με τονισμένο το μπλοκ "άλλαξε μελωδία κατά 1".](images/change-tune-by-1.png)
 
 ```microbit
 let tune = 0
@@ -79,13 +79,13 @@ input.onButtonPressed(Button.B, function () {
 
 --- /task ---
 
-#### Dealing with 'out of range'
+#### Αντιμετώπιση του προβλήματος τιμών «εκτός εμβέλειας»
 
-If the value of the variable is `4`, then changing it by `1` will make the value `5`.
+Εάν η τιμή της μεταβλητής είναι `4`, τότε αλλάζοντας την κατά `1` θα γίνει η τιμή `5`.
 
-🚨 But there is no melody associated with the value `5`! 🚨
+🚨 Αλλά δεν υπάρχει μελωδία που να σχετίζεται με την τιμή `5`! 🚨
 
-Because you only have four melodies, if the variable changes to 5, you need to go back to the first melody.
+Επειδή έχεις μόνο τέσσερις μελωδίες, εάν η μεταβλητή αλλάξει σε 5, πρέπει να επιστρέψεις στην πρώτη μελωδία.
 
 ```microbit
 basic.forever(function () {
@@ -114,9 +114,9 @@ basic.forever(function () {
 
 --- task ---
 
-From the `Logic`{:class="microbitlogic"} menu, drag the `if`{:class="microbitlogic"} block.
+Από το μενού `Λογική`{:class="microbitlogic"} σύρε το μπλοκ `εάν`{:class="microbitlogic"}.
 
-Place it below the `change tune`{:class="microbitvariables"} block in your code.
+Τοποθέτησέ το κάτω από το μπλοκ `άλλαξε μελωδία`{:class='microbitvariables'} στον κώδικά σου.
 
 ```microbit
 let tune = 0
@@ -133,11 +133,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-Also from the `Logic`{:class="microbitlogic"} menu, drag a `0 < 0`{:class="microbitlogic"} block.
+Επίσης, από το μενού `Λογική`{:class="microbitlogic"}, σύρε ένα μπλοκ `0 < 0`{:class="microbitlogic"}.
 
-Place it inside the `true` part of the `if`{:class="microbitlogic"} block.
+Τοποθέτησέ το μέσα στο `αληθές` μέσα στο μπλοκ `εάν`{:class='microbitlogic'}.
 
-Change the `<` (less than) to `>` (greater than) by clicking on the arrow next to the `<` symbol.
+Άλλαξε το `<` (λιγότερο από) σε `>` (μεγαλύτερο από) κάνοντας κλικ στο βέλος δίπλα στο σύμβολο `<`.
 
 ```microbit
 let tune = 0
@@ -154,9 +154,9 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `tune`{:class="microbitvariables"} variable  block.
+Από το μενού `Μεταβλητές`{:class="microbitvariables"}, σύρε το μπλοκ μεταβλητής `μελωδία`{:class="microbitvariables"}.
 
-Place it on the first `0` in the `0 > 0`{:class="microbitlogic"} block.
+Τοποθέτησέ το στο πρώτο `0` στο μπλοκ `0 > 0`{:class="microbitlogic"}.
 
 ```microbit
 let tune = 0
@@ -169,7 +169,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-Change the second `0` to `4`.
+Άλλαξε το δεύτερο `0` σε `4`.
 
 ```microbit
 let tune = 0
@@ -186,11 +186,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `set`{:class="microbitvariables"} block.
+Από το μενού `Μεταβλητές`{:class="microbitvariables"}, σύρε ένα μπλοκ `άλλαξε`{:class="microbitvariables"}.
 
-Place it inside the `if`{:class="microbitlogic"} block in your code.
+Τοποθέτησέ το μέσα στο μπλοκ `εάν`{:class="microbitlogic"} στον κώδικά σου.
 
-Change the `0` to `1`.
+Άλλαξε το `0` σε `1`.
 
 ```microbit
 let tune = 0
@@ -206,23 +206,23 @@ input.onButtonPressed(Button.B, function () {
 --- /task ---
 
 
-#### Skip to the previous track
+#### Μετάβαση στο προηγούμενο κομμάτι
 
-Button A is on the left of the micro:bit, so use this button to skip to the previous track.
+Το κουμπί A βρίσκεται στα αριστερά του micro:bit, επομένως χρησιμοποίησε αυτό το κουμπί για να μεταβείς στο προηγούμενο κομμάτι.
 
-To do this, you need to change the value of the `tune`{:class="microbitvariables"} variable by `-1`.
+Για να το κάνεις αυτό, πρέπει να αλλάξεις την τιμή της μεταβλητής `μελωδία`{:class="microbitvariables"} κατά `-1`.
 
-You can re-use the code you created to control what happens when Button B is pressed.
+Μπορείς να επαναχρησιμοποιήσεις τον κώδικα που δημιούργησες για να ελέγξεις τι συμβαίνει όταν πατηθεί το κουμπί B.
 
 --- task ---
 
-**Right-click** on the top part of the `on button B pressed`{:class="microbitinput"} block that you now have in the code editor panel.
+**Κάνε δεξί κλικ στο** στο επάνω μέρος του κουμπιού `όταν πιεστεί το πλήκτρο button B`{:class="microbitinput"} μπλοκ που έχεις τώρα στον πίνακα επεξεργασίας κώδικα.
 
-Click **Duplicate** to make a copy of the whole block.
+Κάνε κλικ στο **Αντίγραφο** για να δημιουργήσεις ένα αντίγραφό του.
 
-You should now have a second `on button`{:class="microbitinput"} block that will be 'greyed out'.
+Θα πρέπει τώρα να έχεις ένα δεύτερο `όταν πιεστεί το πλήκτρο button`{:class="microbitinput"} που θα είναι "γκρίζο".
 
-Change the button from `B` to `A`. This will stop the block from being greyed out.
+Άλλαξε το κουμπί από `B` σε `A`. Αυτή η ενέργεια θα επαναφέρει το χρώμα του μπλοκ, αντί να είναι γκρι.
 
 ```microbit
 let tune = 0
@@ -244,22 +244,22 @@ input.onButtonPressed(Button.B, function () {
 
 --- /task ---
 
---- task --- Make these changes to the `on button A pressed`{:class="microbitinput"} block:
+--- task --- Πραγματοποίησε αυτές τις αλλαγές στο μπλοκ `όταν πιεστεί το πλήκτρο button A`{:class="microbitinput"}:
 
-Change the `1` to `-1` in the `change`{:class="microbitvariables"} block.
+Άλλαξε το `1` σε `-1` στο μπλοκ `άλλαξε`{:class="microbitvariables"}.
 
-In the comparison block:
+Στο μπλοκ σύγκρισης:
 
-+ Change the `>` to `<`
++ Άλλαξε το `>` σε `<`
 
-+ Change the `4` to `1`
++ Άλλαξε το `4` σε `1`
 
-Change the `1` to `4` in the `set`{:class="microbitvariables"} block.
+Άλλαξε το `1` σε `4` στο μπλοκ `ορισμός`{:class="microbitvariables"}.
 
 --- /task ---
 
 
-You should now have an `on button A pressed`{:class="microbitinput"} block of code and an `on button B pressed`{:class="microbitinput"} block of code:
+Θα πρέπει τώρα να έχεις ένα μπλοκ κώδικα `όταν πιεστεί το κουμπί button A`{:class="microbitinput"} κι ένα μπλοκ κώδικα `όταν πιεστεί το κουμπί button B`{:class="microbitinput"}:
 
 ```microbit
 let tune = 0
@@ -281,23 +281,23 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-**Debug:** Make sure you have changed the correct values in the blocks used to change the value of the variables.
+**Εντοπισμός σφαλμάτων:** Βεβαιώσου ότι έχεις αλλάξει τις σωστές τιμές στα μπλοκ που χρησιμοποιούνται για την αλλαγή της τιμής των μεταβλητών.
 
-For example: `Button A` should change the variable by `-1` and Button B should change the variable value by `1`.
+Για παράδειγμα: Το `κουμπί A` πρέπει να αλλάζει τη μεταβλητή κατά `-1` και το κουμπί B πρέπει να αλλάζει την τιμή της μεταβλητής κατά `1`.
 
 --- /task ---
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+Όταν κάνεις μια αλλαγή σε ένα μπλοκ στο πρόγραμμα επεξεργασίας κώδικα, ο προσομοιωτής θα επανεκκινήσει.
 
-**Test your program**
+**Δοκίμασε το έργο σου**
 
-+ Press Button A to skip to the previous track
++ Πάτησε το κουμπί A για να μεταβείς στο προηγούμενο κομμάτι
 
-+ Press Button B to skip to the next track
++ Πάτησε το κουμπί B για να μεταβείς στο επόμενο κομμάτι
 
 --- /task ---
 
 
-Well done, you can now skip your tracks back and forth!
+Μπράβο, τώρα μπορείς να μετακινηθείς στη λίστα των τραγουδιών σου εμπρός και πίσω!
