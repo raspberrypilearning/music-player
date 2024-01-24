@@ -1,41 +1,41 @@
-## Allowing Choices
+## Επιτρέποντας επιλογές
 
-### Create a variable
+### Δημιούργησε μία μεταβλητή
 
-Throughout the creation process for your music player, you will need to use variables.
+Σε όλη τη διαδικασία δημιουργίας του προγράμματος σου αναπαραγωγής μουσικής, θα πρέπει να χρησιμοποιήσεις μεταβλητές.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-What is a <span style="color: #0faeb0">variable?</span>
+Τι είναι μια <span style="color: #0faeb0">μεταβλητή;</span>
 
-A variable is a way to label and store data in your programs. Your program can use and change the data stored in a variable when it runs.
+Μια μεταβλητή είναι ένας τρόπος επισήμανσης και αποθήκευσης δεδομένων στα προγράμματά σου. Το πρόγραμμά σου μπορεί να χρησιμοποιήσει και να αλλάξει τα δεδομένα που είναι αποθηκευμένα σε μια μεταβλητή όταν εκτελείται.
 
-Data stored in a variable might be a number like `10` or a word like `dinosaur`.</p>
+Τα δεδομένα που είναι αποθηκευμένα σε μια μεταβλητή μπορεί να είναι ένας αριθμός όπως "10" ή μια λέξη όπως "δεινόσαυρος".</p>
 
 --- task ---
 
-Open the `Variables`{:class="microbitvariables"} menu, and click **Make a Variable**.
+Άνοιξε το μενού `Μεταβλητές`{:class="microbitvariables"} και κάνε κλικ στο κουμπί **Δημιουργία μεταβλητής**.
 
-![The Variables menu with the 'Make a Variable' button highlighted.](images/variable-menu.png)
+![Το μενού Μεταβλητές με τονισμένο το κουμπί "Δημιουργία Μεταβλητής".](images/variable-menu.png)
 
 --- /task ---
 
 --- task ---
 
-Name the new variable `tune`{:class="microbitvariables"}, then click the **OK** button.
+Ονόμασε τη νέα μεταβλητή `μελωδία`{:class="microbitvariables"} και, στη συνέχεια, κάνε κλικ στο κουμπί **OK**.
 
-<img src="images/variable-tune.png" alt="The 'New variable name' window, with the name 'tune' written in the box." width="450" />
+<img src="images/variable-tune.png" alt="Το παράθυρο &quot;Όνομα νέας μεταβλητής&quot;, με το όνομα &quot;μελωδία&quot; γραμμένο στο πλαίσιο." width="450" />
 
 --- /task ---
 
-There will now be new blocks available that you can use to set, change, or use the value stored in the `tune`{:class="microbitvariables"} variable.
+Θα υπάρχουν πλέον διαθέσιμα νέα μπλοκ που μπορείς να χρησιμοποιήσεις για να ορίσεις, να αλλάξεις ή να χρησιμοποιήσεις την τιμή που είναι αποθηκευμένη στη μεταβλητή `μελωδία`{:class="microbitvariables"}.
 
-<img src="images/variableblocks-tune.png" alt="The Variables menu with new blocks to set, change, and use the value of the tune variable." width="350" />
+<img src="images/variableblocks-tune.png" alt="Το μενού Μεταβλητές με νέα μπλοκ για να ορίσεις, να αλλάξεις και να χρησιμοποιήσεις την τιμή της μεταβλητής μελωδίας." width="350" />
 
 --- task ---
 
-Drag the `set`{:class="microbitvariables"} block and place it inside the `on start`{:class="microbitbasic"} block.
+Σύρε το μπλοκ `ορισμός`{:class="microbitvariables"} και τοποθέτησέ το μέσα στο μπλοκ `κατά την έναρξη`{:class="microbitbasic"}.
 
-Change the `0` to `1`.
+Άλλαξε το `0` σε `1`.
 
 ```microbit
 let tune = 1
@@ -43,25 +43,25 @@ let tune = 1
 
 --- /task ---
 
-### Use of if...then
+### Χρήση του εάν... τότε
 
-For your music player to play different melody choices, you will need to make use of a logic block for each melody.
+Για να μπορεί το πρόγραμμα αναπαραγωγής μουσικής να παίζει διαφορετικές επιλογές μελωδίας, θα χρειαστεί να χρησιμοποιήσεις ένα μπλοκ λογικής για κάθε μελωδία.
 
 --- task ---
 
-From the `Logic`{:class="microbitlogic"} menu, choose the `if`{:class="microbitlogic"} block.
+Από το μενού `Λογική`{:class="microbitlogic"} επίλεξε το μπλοκ `εάν`{:class="microbitlogic"}.
 
-<img src="images/if-block-location.png" alt="The Logic menu with the `if` block highlighted." width="350" />
+<img src="images/if-block-location.png" alt="Το μενού Λογική με τονισμένο το μπλοκ «εάν»." width="350" />
 
 --- /task ---
 
 --- task ---
 
-Place the `if`{:class="microbitlogic"} block above the `show icon`{:class="microbitbasic"} block.
+Τοποθέτησε το μπλοκ `εάν`{:class="microbitlogic"} πάνω από το μπλοκ `εμφάνιση εικονιδίου`{:class="microbitbasic"}.
 
-Click on the `Logic`{:class="microbitlogic"} menu and drag a comparison `0 = 0`{:class="microbitlogic"} block.
+Κάνε κλικ στο μενού `Λογική`{:class="microbitlogic"} και σύρε ένα μπλοκ σύγκρισης `0 = 0`{:class="microbitlogic"}.
 
-Place this in the `true`{:class="microbitlogic"} area of the `if`{:class="microbitlogic"} block.
+Τοποθέτησε το στην περιοχή `αληθές`{:class="microbitlogic"} του μπλοκ `εάν`{:class="microbitlogic"}.
 
 ```microbit
 basic.forever(function () {
@@ -77,11 +77,11 @@ basic.forever(function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag a `tune`{:class="microbitvariables"} block.
+Από το μενού `Μεταβλητές`{:class="microbitvariables"}, σύρε ένα μπλοκ `μελωδία`{:class="microbitvariables"}.
 
-Place it into the first `0` in the `0 = 0`{:class="microbitlogic"} block.
+Τοποθέτησέ το στο πρώτο `0` στο μπλοκ `0 = 0`{:class="microbitlogic"}.
 
-Change the second `0` to `1`.
+Άλλαξε το δεύτερο `0` σε `1`.
 
 ```microbit
 basic.forever(function () {
@@ -98,9 +98,9 @@ basic.forever(function () {
 
 --- task ---
 
-Move the `show icon`{:class="microbitbasic"} and `play melody`{:class="microbitmusic"} blocks inside the `if`{:class="microbitlogic"} block.
+Μετακίνησε το εικονίδιο `εμφάνιση εικονιδίου`{:class="microbitbasic"} και `play melody`{:class="microbitmusic"} μέσα στο μπλοκ `εάν`{:class="microbitlogic"}.
 
-**Tip:** Whenever you grab a block, all the blocks beneath it will move as well, so just drag the `show icon`{:class="microbitbasic"} block and the others will follow.
+**Συμβουλή:** Κάθε φορά που πιάνεις ένα μπλοκ, όλα τα μπλοκ κάτω από αυτό θα μετακινούνται επίσης, επομένως απλώς σύρε το μπλοκ `εμφάνιση εικονιδίου`{:class="microbitbasic"} και τα άλλα θα ακολουθήσουν.
 
 ```microbit
 basic.forever(function () {
@@ -114,46 +114,45 @@ basic.forever(function () {
 
 --- /task ---
 
-To add more melody choices, you need to create more conditions in the `if`{:class="microbitlogic"} 
-block.
+Για να προσθέσεις περισσότερες επιλογές μελωδίας, πρέπει να δημιουργήσεις περισσότερες συνθήκες στο μπλοκ `εάν`{:class="microbitlogic"}.
 
 --- task ---
 
-Click on the `+` symbol on the bottom left of the `if`{:class="microbitlogic"} block. This will create an `else`{:class="microbitlogic"} section.
+Κάνε κλικ στο σύμβολο `+` κάτω αριστερά από το μπλοκ `εάν`{:class='microbitlogic'}. Αυτό θα δημιουργήσει μια ενότητα `αλλιώς`{:class='microbitlogic'}.
 
 --- /task ---
 
 --- task ---
 
-Click on the `+` symbol below the `else`{:class="microbitlogic"} section.
+Κάνε κλικ στο σύμβολο `+` κάτω από την ενότητα `αλλιώς`{:class='microbitlogic'}.
 
-This will create an `else if`{:class="microbitlogic"} section.
+Αυτό θα δημιουργήσει μια ενότητα `αλλιώς έαν`{:class='microbitlogic'}.
 
-Repeat this twice, so you have three `else if`{:class="microbitlogic"} sections and an `else`{:class="microbitlogic"} section.
-
---- /task ---
-
---- task ---
-
-Click on the `-` symbol next to the `else`{:class="microbitlogic"} section to remove the `else`{:class="microbitlogic"} section.
-
-<img src="images/elseif-blocks.gif" alt="An animation showing the + symbol being used to add three 'else if' sections. Finally, the 'else' is removed from the end by clicking the '-' symbol next to it." width="350" />
+Επανάλαβέ το δύο φορές, ώστε να έχεις τρεις ενότητες `αλλιώς εάν`{:class="microbitlogic"} και μια ενότητα `αλλιώς`{:class="microbitlogic"}.
 
 --- /task ---
 
 --- task ---
 
-Right-click on the `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` block and duplicate it.
+Κάνε κλικ στο σύμβολο `-` δίπλα στην ενότητα `αλλιώς`{:class="microbitlogic"} για να καταργήσεις την ενότητα `αλλιώς`{:class="microbitlogic"}.
 
-<img src="images/duplicate-comparison.png" alt="The '=' comparison block highlighted, with the right click menu expanded showing options including 'Duplicate'." width="350" />
+<img src="images/elseif-blocks.gif" alt="Μια κινούμενη εικόνα που δείχνει το σύμβολο + που χρησιμοποιείς για να προσθέσεις τρεις ενότητες 'αλλιώς εάν'. Στο τέλος, το 'αλλιώς' αφαιρείται από το τέλος κάνοντας κλικ στο σύμβολο '-' δίπλα του." width="350" />
 
 --- /task ---
 
 --- task ---
 
-Place the duplicated `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` block between the first `else if`{:class="microbitlogic"} and `then`{:class="microbitlogic"}.
+Κάνε δεξί κλικ στο μπλοκ `μελωδία`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` και αντίγραψέ το.
 
-Duplicate two more comparison blocks and place them between the other `else if`{:class="microbitlogic"} and `then`{:class="microbitlogic"} parts.
+<img src="images/duplicate-comparison.png" alt="Το μπλοκ σύγκρισης '=' τονισμένο, με το μενού από το δεξί κλικ να έχει αναπτυχθεί και να εμφανίζει επιλογές συμπεριλαμβανομένου του 'Διπλασιασμού'." width="350" />
+
+--- /task ---
+
+--- task ---
+
+Τοποθέτησε το διπλότυπο μπλοκ `μελωδία`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` μεταξύ των πρώτων `αλλιώς εάν`{:class="microbitlogic"} και `τότε`{: class="microbitlogic"}.
+
+Αντίγραψε δύο ακόμη μπλοκ σύγκρισης και τοποθετησέ τα μεταξύ των άλλων ενοτήτων `αλλιώς εάν`{:class="microbitlogic"} και `τότε`{:class="microbitlogic"}.
 
 ```microbit
 basic.forever(function () {
@@ -175,11 +174,11 @@ basic.forever(function () {
 
 --- task ---
 
-Inside the first `else if`{:class="microbitlogic"} section, change the `1` to `2`.
+Μέσα στην πρώτη ενότητα `αλλιώς εάν`{:class="microbitlogic"}, άλλαξε το `1` σε `2`.
 
-For the second `else if`{:class="microbitlogic"} section, change the `1` to `3`.
+Για τη δεύτερη ενότητα `αλλιώς εάν`{:class="microbitlogic"}, άλλαξε το `1` σε `3`.
 
-For the third `else if`{:class="microbitlogic"} section, change the `1` to `4`.
+Για την τρίτη ενότητα `αλλιώς εάν`{:class="microbitlogic"}, άλλαξε το `1` σε `4`.
 
 ```microbit
 basic.forever(function () {
@@ -199,23 +198,23 @@ basic.forever(function () {
 
 --- /task ---
 
-You now need to select a different melody for each `else if`{:class="microbitlogic"} section.
+Τώρα πρέπει να επιλέξεις μια διαφορετική μελωδία για κάθε ενότητα `αλλιώς εάν`{:class="microbitlogic"}.
 
-Each time the variable value is changed, a different melody will play.
+Κάθε φορά που αλλάζει η τιμή της μεταβλητής, θα παίζει και μία διαφορετική μελωδία.
 
 --- task ---
 
-Duplicate the `play melody dadadum`{:class="microbitmusic"} block.
+Διπλασίασε το μπλοκ `play melody dadadum`{:class="microbitmusic"}.
 
-Place the duplicated block inside the first `else if`{:class="microbitlogic"} section.
+Τοποθέτησε το διπλότυπο μπλοκ μέσα στην πρώτη ενότητα `αλλιώς εάν`{:class="microbitlogic"}.
 
-Click on the arrow next to `melody dadadum`{:class="microbitmusic"} to see more melody options.
+Κάνε κλικ στο βέλος δίπλα στο `melody dadadum`{:class="microbitmusic"} για να δεις περισσότερες επιλογές μελωδίας.
 
-Scroll to view all the melodies and choose one.
+Κάνε κύλιση για να δεις όλες τις μελωδίες και επίλεξε μία.
 
-Repeat these steps for the second and third `else if`{:class="microbitlogic"} sections.
+Επανάλαβε αυτά τα βήματα για τη δεύτερη και την τρίτη ενότητα `αλλιώς εάν`{:class="microbitlogic"}.
 
-You should now have four melodies, one for each of the four conditions.
+Θα πρέπει τώρα να έχεις τέσσερις μελωδίες, μία για καθεμία από τις τέσσερις συνθήκες.
 
 ```microbit
 basic.forever(function () {
@@ -235,33 +234,33 @@ basic.forever(function () {
 
 --- /task ---
 
-You also need to select some **icons** for each of your new songs.
+Πρέπει επίσης να επιλέξεις **εικονίδια** για κάθε ένα από τα νέα σου τραγούδια.
 
-You can duplicate the `show icon`{:class="microbitbasic"} block.
+Μπορείς να αντιγράψεις το μπλοκ `εμφάνιση εικονιδίου`{:class="microbitbasic"}.
 
-You can also use the `show leds`{:class="microbitbasic"} block to draw your own!
+Μπορείς επίσης να χρησιμοποιήσεις το μπλοκ `show leds`{:class="microbitbasic"} για να σχεδιάσεις το δικό σου!
 
 --- collapse ---
 
 ---
-title: The show leds block
+title: Το μπλοκ show leds
 ---
 
-Inside the `Basic`{:class="microbitbasic"} menu, find the `show leds`{:class="microbitbasic"} block and drag it inside an `else if`{:class="microbitlogic"} to use it.
+Μέσα στο μενού `Βασικά`{:class="microbitbasic"}, βρες το μπλοκ `show leds`{:class="microbitbasic"} και σύρε το μέσα σε ένα `αλλιώς εάν`{:class="microbitlogic"} για να το χρησιμοποιήσεις.
 
-<img src="images/show-leds.png" alt="The Basic menu with the 'show leds' block highlighted." width="350" />
+<img src="images/show-leds.png" alt="Το μενού Βασικά με τονισμένο το μπλοκ &quot;show leds&quot;." width="350" />
 
-You can click on each of the squares to draw your picture. White squares will be lit on the micro:bit.
+Μπορείς να κάνεις κλικ σε καθένα από τα τετράγωνα για να σχεδιάσεις την εικόνα σου. Τα λευκά τετράγωνα θα είναι αναμμένα στο micro:bit.
 
-We drew a **birthday cake** for the `birthday` melody.
+Σχεδιάσαμε μια **τούρτα γενεθλίων** για τη μελωδία `γενεθλίων`.
 
-<img src="images/draw-icon.png" alt="The 'show leds' block with a birthday cake with two candles created in white squares." width="350" />
+<img src="images/draw-icon.png" alt="Το μπλοκ 'show leds' με μία τούρτα γενεθλιών με δύο κεριά που δημιουργήθηκε σε λευκά τετράγωνα." width="350" />
 
 --- /collapse ---
 
 --- task ---
 
-Add icons for each of your songs using either the `show icon`{:class="microbitbasic"} or `show leds`{:class="microbitbasic"} block.
+Πρόσθεσε εικονίδια για κάθε τραγούδι σου χρησιμοποιώντας είτε το μπλοκ `εμφάνιση εικονιδίου`{:class="microbitbasic"} είτε το μπλοκ `show leds`{:class="microbitbasic"}.
 
 ```microbit
 basic.forever(function () {
@@ -292,24 +291,24 @@ basic.forever(function () {
 
 --- task ---
 
-**Debug:** Ensure you have changed all the numbers in the comparisons after duplicating them.
+**Εντοπισμός σφαλμάτων:** Βεβαιώσου ότι έχεις αλλάξει όλους τους αριθμούς στις συγκρίσεις μετά τον διπλασιασμό τους.
 
-You should have `1` in the `if`{:class="microbitlogic"} section and then `2, 3, 4` in the `else if`{:class="microbitlogic"} sections.
+Θα πρέπει να έχεις `1` στην ενότητα `εάν`{:class="microbitlogic"} και μετά `2, 3, 4` στις ενότητες `αλλιώς εάν`{:class="microbitlogic"}.
 
 --- /task ---
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+Όταν κάνεις μια αλλαγή σε ένα μπλοκ στο πρόγραμμα επεξεργασίας κώδικα, ο προσομοιωτής θα επανεκκινήσει.
 
-**Test your program**
+**Δοκίμασε το έργο σου**
 
-+ Change the `set tune`{:class="microbitvariables"} from `1` to `2` on the `on start`{:class="microbitbasic"} block. The simulator will restart and play the melody for 2, and show that icon.
++ Άλλαξε το `ορισμός μελωδία`{:class="microbitvariables"} από `1` σε `2` στο μπλοκ `κατά την έναρξη`{:class="microbitbasic"}. Ο προσομοιωτής θα επανεκκινήσει και θα παίξει τη μελωδία για 2 και θα δείξει αυτό το εικονίδιο.
 
-+ Repeat the same steps for melodies 3 and 4.
++ Επανάλαβε τα ίδια βήματα για τις μελωδίες 3 και 4.
 
-+ Ensure you change the `set tune`{:class="microbitvariables"} back to `1` at the end of your tests.
++ Βεβαιώσου ότι άλλαξες το `ορισμός μελωδία`{:class="microbitvariables"} σε `1` στο τέλος των δοκιμών σου.
 
-Well done, you have chosen different melodies for your music player!
+Μπράβο, επέλεξες διαφορετικές μελωδίες για το πρόγραμμα αναπαραγωγής της μουσικής σου!
 
 --- /task ---
