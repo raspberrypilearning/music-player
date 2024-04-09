@@ -1,6 +1,8 @@
 ## New to the micro:bit?
 
-You can try out our amazing `Discover` projects:
+See our [Getting Started Guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-microbit) to learn all about the micro:bit!
+
+You can also try out our amazing `Discover` projects:
 - [Hobby selector](https://projects.raspberrypi.org/en/projects/hobby-selector)
 - [Silly reminder](https://projects.raspberrypi.org/en/projects/silly-reminder)
 
