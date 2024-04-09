@@ -41,4 +41,5 @@ What happens if you click the A or B buttons?
 </div>
 
 --- /task ---
+
 --- /no-print ---
