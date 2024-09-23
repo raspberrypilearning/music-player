@@ -1,6 +1,8 @@
 ## Gebruik je de micro:bit voor de eerste keer?
 
-Je kunt onze geweldige `Ontdek` projecten uitproberen:
+See our [Getting Started Guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-microbit) to learn all about the micro:bit!
+
+You can also try out our amazing `Discover` projects:
 - [Kies een hobby](https://projects.raspberrypi.org/en/projects/hobby-selector)
 - [Tijd voor gekkigheid](https://projects.raspberrypi.org/en/projects/silly-reminder)
 
@@ -38,4 +40,6 @@ Wat gebeurt er als je op de A of B knoppen klikt?
 </div>
 </div>
 
---- /task --- --- /no-print ---
+--- /task ---
+
+--- /no-print ---
