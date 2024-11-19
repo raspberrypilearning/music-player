@@ -1,28 +1,28 @@
 ---
-title: Music player
+title: 音楽プレーヤー
 hero_image: images/banner.png
-description: Create a music box so you can choose some tunes to relax to
+description: 音楽ボックスを作成して、リラックスする曲を選択できるようにします
 version: 4
 listed: true
 copyedit: true
 last_tested: '2023-08-08'
 steps:
   - 
-    title: You will make
+    title: はじめに
   - 
-    title: Play a tune
+    title: 曲を再生
     completion:
       - engaged
   - 
-    title: Choose some tunes
+    title: 曲を選ぶ
   - 
-    title: Skip tunes
+    title: 曲をスキップする
   - 
-    title: Stop or shuffle
+    title: 停止またはシャッフル
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: ふりかえり
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,6 +31,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: プロジェクトをアップグレードする
   - 
-    title: What next?
+    title: 次は何をしますか？
