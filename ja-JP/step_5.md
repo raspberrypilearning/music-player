@@ -1,14 +1,14 @@
-## Stop and shuffle
+## 停止してシャッフル
 
-Great job so far! You have chosen melodies to play and you have programmed the `A` and `B` buttons to skip through tracks. What happens if you want to stop the tunes from playing?
+これまでのところ素晴らしい仕事です! 再生するメロディーを選択し、 `A` と `B` ボタンでトラックをスキップするようにプログラムしました。 曲の再生を停止したい場合はどうなりますか?
 
-In this step, you will make use of the `on shake`{:class="microbitinput"} gesture to stop the tunes from playing.
+このステップでは、`ゆさぶられたとき`{:class="microbitinput"} ジェスチャで を使用して、曲の再生を停止します。
 
-### Shake to stop
+### 振って止める
 
 --- task ---
 
-From the `Input`{:class="microbitinput"} menu, drag an `on shake`{:class="microbitinput"} block and place it on the code editor panel.
+`入力`{:class="microbitinput"} メニューから、 `ゆさぶられたとき`{:class="microbitinput"} ブロックをドラッグし、コード エディター パネルに配置します。
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -20,7 +20,7 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Logic`{:class="microbitlogic"} menu, drag an `if...else`{:class="microbitlogic"} block and place it inside the `on shake`{:class="microbitinput"} block.
+`論理`{:class="microbitlogic"} メニューから、 `もし...でなけらば`{:class="microbitlogic"} ブロックをドラッグし、 `ゆさぶられたとき`{:class="microbitinput"} ブロック内に配置します。
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -36,17 +36,17 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-Click on the `Logic`{:class="microbitlogic"} menu again and drag a comparison `0 = 0`{:class="microbitlogic"} block.
+`論理`{:class="microbitlogic"} メニューをもう一度クリックし、くらべる `0 = 0`{:class="microbitlogic"} ブロックをドラッグします。
 
-Place it inside the `true`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
+それを `もし...でなければ`{:class="microbitlogic"} ブロックの `真` 部分内に配置します。
 
 --- /task ---
 
 --- task ---
 
-Click on the arrow next to the `=` on the comparison block.
+くらべるブロックの `=` の横にある矢印をクリックします。
 
-Choose the not equal to `≠` symbol.
+等しくないを意味する`≠` 記号を選択します。
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -62,9 +62,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `tune`{:class="microbitvariables"} variable block.
+`変数`{:class="microbitvariables"} メニューから、 `tune`{:class="microbitvariables"} 変数ブロックをドラッグします。
 
-Place it in the first `0` on the `0 ≠ 0`{:class="microbitlogic"} block.
+それを `0 ≠ 0`{:class="microbitlogic"} ブロックの最初の `0` に配置します。
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -81,9 +81,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} block menu, drag a `stop all sounds`{:class="microbitmusic"} block.
+`音楽`{:class="microbitmusic"} ブロックメニューから、 `すべての音を停止する`{:class="microbitmusic"} ブロックをドラッグします。
 
-Place it inside the `if`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
+それを `もし...でなければ`{:class="microbitlogic"} ブロックの `もし` 部分内に配置します。
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
@@ -100,9 +100,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-Click on the `Variables`{:class="microbitvariables"} menu and drag a `set [tune] to 0`{:class="microbitvariables"} block.
+`変数`{:class="microbitvariables"} メニューをクリックし、 `変数[tune] を 0 にする`{:class="microbitvariables"} ブロックをドラッグします。
 
-Place it below the `stop all sounds`{:class="microbitmusic"} block.
+`すべての音を停止する`{:class="microbitmusic"} ブロックの下に配置します。
 
 ```microbit
 let tune = 0
@@ -118,17 +118,17 @@ input.onGesture(Gesture.Shake, function () {
 
 --- /task ---
 
-Now, when a melody is playing, you can shake the micro:bit and it will stop playing the melody.
+これで、メロディーの再生中に micro:bit を振るとメロディーの再生が停止します。
 
-### Shake again to shuffle
+### もう一度振ってシャッフル
 
-You will now add a condition so the micro:bit plays a random melody from your chosen melodies. This is similar to the shuffle function on a music player app.
+ここで、micro:bit が選択したメロディーからランダムにメロディーを再生するように条件を追加します。 これは音楽プレーヤーアプリのシャッフル機能に似ています。
 
 --- task ---
 
-Click on the `Variables`{:class="microbitvariables"} block menu and drag the `set [tune] to 0`{:class="microbitvariables"} block.
+`変数`{:class="microbitvariables"} ブロックメニューをクリックし、 `変数[tune] を 0 にする`{:class="microbitvariables"} ブロックをドラッグします。
 
-Place it inside the `else`{:class="microbitlogic"} part of the `if...else`{:class="microbitlogic"} block.
+それを `もし...でなければ`{:class="microbitlogic"} ブロックの `でなければ` 部分内に配置します。
 
 ```microbit
 let tune = 0
@@ -146,9 +146,9 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-From the `Math`{:class="microbitmath"} menu, drag a `pick random`{:class="microbitmath"} block.
+`計算`{:class="microbitmath"} メニューから、 `...から...までの乱数`{:class="microbitmath"} ブロックをドラッグします。
 
-Place it inside the `0` part of the `set tune`{:class="microbitvariables"} block.
+それを `変数[tune]を0にする`{:class="microbitvariables"} ブロックの `0` の部分内に配置します。
 
 ```microbit
 let tune = 0
@@ -164,19 +164,19 @@ input.onGesture(Gesture.Shake, function () {
 
 --- /task ---
 
-The range on the random block is currently set to `0 to 10`, however, our melodies are set from `1 to 4`.
+ランダム ブロックの範囲は現在 `0 から 10`に設定されていますが、メロディーは `1 から 4`に設定されています。
 
-You will need to update this range to match.
+この範囲を一致させるには更新する必要があります。
 
 --- task ---
 
-Change the `0` part of the `pick random`{:class="microbitmath"} block to `1`.
+`...から...までの乱数`{:class="microbitmath"} ブロックの `0` の部分を `1`に変更します。
 
-Change the `10` part of the `pick random`{:class="microbitmath"} block to `4`.
+`...から...までの乱数`{:class="microbitmath"} ブロックの `10` の部分を `4`に変更します。
 
 --- /task ---
 
-Your code should look like this:
+コードは以下のようになります：
 
 ```microbit
 let tune = 0
@@ -192,22 +192,22 @@ input.onGesture(Gesture.Shake, function () {
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+コード エディター パネルでコード ブロックを変更すると、シミュレーターが再起動します。
 
-**Test**
+**テスト**
 
-When the program runs, you should now be able to stop and shuffle by shaking the micro:bit.
+プログラムを実行すると、micro:bit を振ることで停止したりシャッフルしたりできるようになります。
 
 --- /task ---
 
 --- task ---
 
-Download your program onto your micro:bit!
+プログラムをmicro:bitにダウンロードしましょう！
 
 --- /task ---
 
 [[[download-to-microbit]]]
 
-Well done! You now have a fully working music player!
+よくできました！ これで完全に機能する音楽プレーヤーが完成しました。
 
-Next, it is time to check what you have learnt!
+次に、学んだ内容を確認します。
