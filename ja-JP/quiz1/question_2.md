@@ -2,34 +2,34 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: 質問2/3
 ---
 
-In programming, what is a variable?
+プログラミングにおいて、変数とは何でしょうか?
 
 --- choices ---
 
-- (x) A special box to store various pieces of information
+- (x) さまざまな情報を保管するための特別なボックス
 
   --- feedback ---
 
-  Great effort! A variable is a concept used across all programming languages. It is a storage box that can store data including text, integers, and true/false values.
+  素晴らしい努力ですね！ 変数は、すべてのプログラミング言語で使用される考え方です。 テキスト、整数、真偽値などのデータを保存できる入れ物です。
 
   --- /feedback ---
 
-- ( ) A logic condition that controls what happens in a logic block
+- ( ) 論理ブロック内で何が起こるかを決める条件
 
   --- feedback ---
 
-Not quite. A condition can be used to compare a variable value with something else.
+不正解です。 条件は、変数の値を他の値と比較するために使用できます。
 
   --- /feedback ---
 
-- ( ) A melody block that can change and play a different melody
+- ( ) メロディを変えて演奏できる音楽ブロック
 
   --- feedback ---
 
-Not quite. Although you can have different melodies in a melody block, the term variable has a different meaning.
+不正解です。 音楽ブロックには異なるメロディーを含めることができますが、変数という用語には異なる意味があります。
 
   --- /feedback ---
 
