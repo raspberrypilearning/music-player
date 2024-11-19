@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: 質問3/3
 ---
 
-Here is the code for the music player program.
+以下は音楽プレーヤー プログラムのコードです。
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -46,9 +46,9 @@ basic.forever(function () {
 })
 ```
 
-The `tune` variable is currently set to `1`.
+変数`tune` は現在 `1`に設定されています。
 
-Which melody will play when Button `B` is pressed?
+ボタン `B` を押すとどのメロディーが再生されますか?
 
 
 --- choices ---
@@ -57,23 +57,23 @@ Which melody will play when Button `B` is pressed?
 
   --- feedback ---
 
-Not quite. Button B skips the track forward and will add one to the variable value, meaning `tune` will be set to `2`, which is associated with the `punchline` melody.
+不正解です。 ボタン B はトラックを先にスキップし、変数値に 1 を追加します。つまり、 `tune` は `2`に設定され、これは `ちゃんちゃん♩` のメロディーに関連付けられます。
 
   --- /feedback ---
 
-- (x) `punchline`
+- (x) `ちゃんちゃん♩`
 
   --- feedback ---
 
-Great! Pressing Button B will add one to the variable value, meaning `tune` will be set to `2`, which is associated with the `punchline` melody.
+素晴らしい！ ボタン B を押すと変数値に 1 を追加します。つまり、 `tune` は `2`に設定され、これは `ちゃんちゃん♩` のメロディーに関連付けられます。
 
   --- /feedback ---
 
-- ( ) `dadadum`
+- ( ) `ダダダム`
 
   --- feedback ---
 
-Not quite. The variable value is `1` and Button B adds `1` to the variable value, meaning the melody associated with value 1 (`dadadum`) will no longer play.
+不正解です。 変数値は `1` であり、ボタン B は変数値に `1` を追加します。つまり、値 1 (`ダダダム`) に関連付けられたメロディーは再生されなくなります。
 
   --- /feedback ---
 
