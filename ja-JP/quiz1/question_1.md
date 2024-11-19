@@ -1,42 +1,42 @@
-## Quick quiz
+## ふくしゅう
 
-Answer the three questions. There are hints to guide you to the correct answer.
+3つの質問に答えてください。 必要に応じて、ヒントを見てください。
 
-When you have answered each question, click **Check my answer**.
+各質問に回答したら、**答えを確認する**をクリックしてください。
 
-Have fun!
+お楽しみください！
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: 質問1/3
 ---
 
-Which two blocks are always shown in the MakeCode editor when you load it for the first time?
+MakeCode エディターを初めてロードしたときに常に表示される 2 つのブロックはどれですか?
 
 --- choices ---
 
-- ( ) `on start` and `on shake`
+- ( ) `最初だけ` と `ゆさぶられたとき`
 
   --- feedback ---
 
-`on start` is one of them, but `on shake` has to be dragged in manually.
+`最初だけ` はそのうちの1つですが、 `ゆさぶられたとき` は手動でドラッグする必要があります。
 
   --- /feedback ---
 
-- ( ) `on shake` and `forever`
+- ( ) `ゆさぶられたとき` と `ずっと`
 
   --- feedback ---
 
-`forever` is one of them, but `on shake` has to be dragged in manually.
+`ずっと` はそのうちの1つですが、 `ゆさぶられたとき` は手動でドラッグする必要があります。
 
   --- /feedback ---
 
-- (x) `on start` and `forever`
+- (x) `最初だけ`と`ずっと`
 
   --- feedback ---
 
-Awesome! You have answered correctly, the `on start` and `forever` blocks are shown in the code editor panel every time you start a new project.
+素晴らしい！ 正解です。新しいプロジェクトを開始するたびに、コード エディター パネルに `最初だけ` と `ずっと` ブロックが表示されます。
 
   --- /feedback ---
 
