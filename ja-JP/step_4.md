@@ -1,57 +1,57 @@
-## Use the buttons to skip tunes
+## ボタンを使用して曲をスキップ
 
-Instead of changing the melody by changing the `tune` variable value in the `on start` block, you can use buttons to change the value (and, therefore, the melody).
+`最初だけ` ブロック内の `tune` 変数値を変更してメロディーを変更する代わりに、ボタンを使用して値 (およびメロディー) を変更できます。
 
-In this step, you will create code to skip tracks using the micro:bit's event handlers.
+このステップでは、micro:bit のイベント ハンドラーを使用してトラックをスキップするコードを作成します。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-What is an <span style="color: #0faeb0">event handler</span>?
+<span style="color: #0faeb0">イベント ハンドラー</span>とは何ですか?
 
-An event handler is code that will run when a particular event happens, such as “button A pressed”.
+イベント ハンドラーは、「ボタン A が押された」などの特定のイベントが発生したときに実行されるコードです。
 
 </p>
 
-### Add button controls
+### ボタンコントロールを追加する
 
-The micro:bit has a Button `A` and a Button `B`.
+micro:bit には、ボタン `A` とボタン `B`があります。
 
-You can use an event to control what happens when a button is pressed.
+イベントを使用して、ボタンが押されたときに何が起こるかを制御できます。
 
-### Skip to the next track
+### 次のトラックへスキップ
 
-Button B is on the right of the micro:bit, so use this button to skip to the next track.
+ボタン B は micro:bit の右側にあるので、このボタンを使用して次のトラックにスキップします。
 
-To do this, you need to change the value of the `tune`{:class="microbitvariables"} variable by `1`.
+これを行うには、 `tune`{:class="microbitvariables"} の変数の値を `1`ずつ変更する必要があります。
 
 --- task ---
 
-From the `Input`{:class="microbitinput"} menu, drag the `on button`{:class="microbitinput"} block to the code editor panel.
+`入力`{:class="microbitinput"} メニューから、 `ボタン`{:class="microbitinput"} ブロックをコード エディター パネルにドラッグします。
 
-![The Input block menu with the 'on button A pressed' block highlighted.](images/input-on-ButtonA.png)
+![「ボタン A が押されたとき」ブロックが強調表示された入力ブロック メニュー。](images/input-on-ButtonA.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the arrow next to `A`{:class="microbitinput"} on the `on button`{:class="microbitinput"} block.
+`ボタン`{:class="microbitinput"} ブロックの `A`{:class="microbitinput"} の横にある矢印をクリックします。
 
-Change the `A`{:class="microbitinput"} to a `B`{:class="microbitinput"}
+`A`{:class="microbitinput"} を `B`{:class="microbitinput"} に変更します。
 
-![The down arrow menu on the 'on button A pressed' block with B highlighted.](images/buttonA-arrow.png)
+![「ボタン A が押されたとき」ブロックの下矢印メニューで、B が強調表示されています。](images/buttonA-arrow.png)
 
 --- /task ---
 
-#### Stop all sounds!
+#### すべての音を停止
 
-Now, you need to stop the current tune.
+現在の曲を停止する必要があります。
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} menu, drag the `stop all sounds`{:class="microbitmusic"} block.
+`音楽`{:class="microbitmusic"} メニューから、 `すべての音を停止する`{:class="microbitmusic"} ブロックをドラッグします。
 
-Place it in the `on button [B]`{:class="microbitinput"} block in the code editor panel.
+コード エディター パネルの`ボタン [B]`{:class="microbitinput"} ブロックの中に配置します。
 
-![The Music block menu with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
+![「すべての音を停止する」ブロックが強調表示された音楽ブロック メニュー。](images/stop-all-sounds.png)
 
 ```microbit
 input.onButtonPressed(Button.B, function () {
@@ -63,11 +63,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `change`{:class="microbitvariables"} block.
+`変数`{:class="microbitvariables"} メニューから、 `変数を〜だけ増やす`{:class="microbitvariables"} ブロックをドラッグします。
 
-Place it below the `stop all sounds`{:class="microbitmusic"} block.
+`すべての音を停止する`{:class="microbitmusic"} ブロックの下に配置します。
 
-![The Variables block menu with the 'change tune by 1' block highlighted.](images/change-tune-by-1.png)
+![「変数tuneを 1だけ増やす」ブロックが強調表示された変数ブロック メニュー。](images/change-tune-by-1.png)
 
 ```microbit
 let tune = 0
@@ -79,13 +79,13 @@ input.onButtonPressed(Button.B, function () {
 
 --- /task ---
 
-#### Dealing with 'out of range'
+#### 「範囲外」への対処
 
-If the value of the variable is `4`, then changing it by `1` will make the value `5`.
+変数の値が `4`の場合、それを `1` 増やすと、値は `5`になります。
 
-🚨 But there is no melody associated with the value `5`! 🚨
+🚨 しかし、値 `5`に関連付けられたメロディーはありません。 🚨
 
-Because you only have four melodies, if the variable changes to 5, you need to go back to the first melody.
+メロディーは 4 つしかないため、変数が 5 に変わった場合は、最初のメロディーに戻る必要があります。
 
 ```microbit
 basic.forever(function () {
@@ -114,9 +114,9 @@ basic.forever(function () {
 
 --- task ---
 
-From the `Logic`{:class="microbitlogic"} menu, drag the `if`{:class="microbitlogic"} block.
+`論理`{:class="microbitlogic"} メニューから、 `もし`{:class="microbitlogic"} ブロックをドラッグします。
 
-Place it below the `change tune`{:class="microbitvariables"} block in your code.
+コード内の `変数を〜だけ増やす`{:class="microbitvariables"} ブロックの下に配置します。
 
 ```microbit
 let tune = 0
@@ -133,11 +133,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-Also from the `Logic`{:class="microbitlogic"} menu, drag a `0 < 0`{:class="microbitlogic"} block.
+また、`論理`{:class="microbitlogic"}メニューから、 `0 < 0`{:class="microbitlogic"} ブロックをドラッグします。
 
-Place it inside the `true` part of the `if`{:class="microbitlogic"} block.
+それを `もし`{:class="microbitlogic"} ブロックの `真` 部分内に配置します。
 
-Change the `<` (less than) to `>` (greater than) by clicking on the arrow next to the `<` symbol.
+`<` 記号の横にある矢印をクリックして、 `<` (より小さい) を `>` (より大きい) に変更します。
 
 ```microbit
 let tune = 0
@@ -154,9 +154,9 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `tune`{:class="microbitvariables"} variable  block.
+`変数`{:class="microbitvariables"} メニューから、 `tune`{:class="microbitvariables"} 変数ブロックをドラッグします。
 
-Place it on the first `0` in the `0 > 0`{:class="microbitlogic"} block.
+それを `0 > 0`{:class="microbitlogic"} ブロックの最初の `0` に配置します。
 
 ```microbit
 let tune = 0
@@ -169,7 +169,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-Change the second `0` to `4`.
+2番目の `0` を `4`に変更します。
 
 ```microbit
 let tune = 0
@@ -186,11 +186,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `set`{:class="microbitvariables"} block.
+`変数`{:class="microbitvariables"} メニューから、 `変数を〜にする`{:class="microbitvariables"} ブロックをドラッグします。
 
-Place it inside the `if`{:class="microbitlogic"} block in your code.
+コード内の `もし`{:class="microbitlogic"} ブロック内に配置します。
 
-Change the `0` to `1`.
+`0` を `1`に変更します。
 
 ```microbit
 let tune = 0
@@ -206,23 +206,23 @@ input.onButtonPressed(Button.B, function () {
 --- /task ---
 
 
-#### Skip to the previous track
+#### 前のトラックへスキップ
 
-Button A is on the left of the micro:bit, so use this button to skip to the previous track.
+ボタン A は micro:bit の左側にあるので、このボタンを使用して前のトラックにスキップします。
 
-To do this, you need to change the value of the `tune`{:class="microbitvariables"} variable by `-1`.
+これを行うには、 変数`tune`{:class="microbitvariables"} の値を `-1`だけ変更する必要があります。
 
-You can re-use the code you created to control what happens when Button B is pressed.
+作成したコードを再利用して、ボタン B が押されたときに何が起こるかを制御できます。
 
 --- task ---
 
-**Right-click** on the top part of the `on button B pressed`{:class="microbitinput"} block that you now have in the code editor panel.
+コード エディター パネルに表示されている `ボタン B が押されたとき`{:class="microbitinput"} ブロックの上部を**右クリック** します。
 
-Click **Duplicate** to make a copy of the whole block.
+**複製** をクリックして、ブロック全体のコピーを作成します。
 
-You should now have a second `on button`{:class="microbitinput"} block that will be 'greyed out'.
+これで、`ボタン`{:class="microbitinput"} ブロックが２つ目となるため灰色表示となるはずです。
 
-Change the button from `B` to `A`. This will stop the block from being greyed out.
+ボタンを `B` から `A`に変更します。 これにより、ブロックが灰色表示ではなくなります。
 
 ```microbit
 let tune = 0
@@ -244,22 +244,22 @@ input.onButtonPressed(Button.B, function () {
 
 --- /task ---
 
---- task --- Make these changes to the `on button A pressed`{:class="microbitinput"} block:
+--- task --- `ボタン A が押されたとき`{:class="microbitinput"} ブロックに次の変更を加えます:
 
-Change the `1` to `-1` in the `change`{:class="microbitvariables"} block.
+`変更を〜だけ増やす`{:class="microbitvariables"} ブロックで、 `1` を `-1` に変更します。
 
-In the comparison block:
+くらべるブロック内:
 
-+ Change the `>` to `<`
++ `>` を `<`に変更します。
 
-+ Change the `4` to `1`
++ `4` を `1`に変更します。
 
-Change the `1` to `4` in the `set`{:class="microbitvariables"} block.
+`変数を〜にする`{:class="microbitvariables"} ブロックの `1` を `4` に変更します。
 
 --- /task ---
 
 
-You should now have an `on button A pressed`{:class="microbitinput"} block of code and an `on button B pressed`{:class="microbitinput"} block of code:
+これで、 `ボタン A が押されたとき`{:class="microbitinput"} のコード ブロックと、`ボタン B が押されたとき`{:class="microbitinput"} のコード ブロックが作成されます。
 
 ```microbit
 let tune = 0
@@ -281,23 +281,23 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-**Debug:** Make sure you have changed the correct values in the blocks used to change the value of the variables.
+**デバッグ:** 変数の値を変更するために使用されたブロックで正しい値を変更したことを確認します。
 
-For example: `Button A` should change the variable by `-1` and Button B should change the variable value by `1`.
+たとえば、 `ボタン A` は変数を `-1` だけ変更し、ボタン B は変数の値を `1`だけ変更します。
 
 --- /task ---
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+コード エディター パネルでコード ブロックを変更すると、シミュレーターが再起動します。
 
-**Test your program**
+**プログラムを試してみましょう。**
 
-+ Press Button A to skip to the previous track
++ ボタンAを押すと前のトラックにスキップします
 
-+ Press Button B to skip to the next track
++ ボタンBを押すと次のトラックに進みます
 
 --- /task ---
 
 
-Well done, you can now skip your tracks back and forth!
+よくできました。これでトラックを前後にスキップできるようになりました。
