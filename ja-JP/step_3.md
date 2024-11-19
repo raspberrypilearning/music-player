@@ -1,41 +1,41 @@
-## Allowing Choices
+## 選択を可能にする
 
-### Create a variable
+### 変数を作成する
 
-Throughout the creation process for your music player, you will need to use variables.
+音楽プレーヤーの作成作業全体を通して、変数を使用する必要があります。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-What is a <span style="color: #0faeb0">variable?</span>
+<span style="color: #0faeb0">変数</span>とは何ですか?
 
-A variable is a way to label and store data in your programs. Your program can use and change the data stored in a variable when it runs.
+変数は、プログラム内でデータにラベルを付けて保存する方法です。 プログラムは、実行時に変数に保存されているデータを使用し、変更することができます。
 
-Data stored in a variable might be a number like `10` or a word like `dinosaur`.</p>
+変数に格納されているデータは、`10`のような数字だったり、`恐竜`のような単語であるかもしれません。</p>
 
 --- task ---
 
-Open the `Variables`{:class="microbitvariables"} menu, and click **Make a Variable**.
+`変数`{:class="microbitvariables"} メニューを開き、 **変数を追加する**をクリックします。
 
-![The Variables menu with the 'Make a Variable' button highlighted.](images/variable-menu.png)
+![「変数を追加する」ボタンが強調表示された変数メニュー。](images/variable-menu.png)
 
 --- /task ---
 
 --- task ---
 
-Name the new variable `tune`{:class="microbitvariables"}, then click the **OK** button.
+新しい変数に `tune`{:class="microbitvariables"} という名前を付け、 **OK** ボタンをクリックします。
 
-<img src="images/variable-tune.png" alt="The 'New variable name' window, with the name 'tune' written in the box." width="450" />
+<img src="images/variable-tune.png" alt="「作成する変数の名前」ウィンドウ。ボックスに「tune」という名前が書かれています。" width="450" />
 
 --- /task ---
 
-There will now be new blocks available that you can use to set, change, or use the value stored in the `tune`{:class="microbitvariables"} variable.
+新しいブロックが利用できるようになり、設定や変更を行うことができます。 または、 変数`tune`{:class="microbitvariables"}に格納されている値を使用できます。
 
-<img src="images/variableblocks-tune.png" alt="The Variables menu with new blocks to set, change, and use the value of the tune variable." width="350" />
+<img src="images/variableblocks-tune.png" alt="変数のtuneの値を設定、変更、使用するための新しいブロックを含む変数メニュー。" width="350" />
 
 --- task ---
 
-Drag the `set`{:class="microbitvariables"} block and place it inside the `on start`{:class="microbitbasic"} block.
+`変数を〜に設定する`{:class="microbitvariables"}ブロックをドラッグして、 `最初だけ`{:class="microbitbasic"}ブロック内に配置します。
 
-Change the `0` to `1`.
+`0` を `1`に変更します。
 
 ```microbit
 let tune = 1
@@ -43,25 +43,25 @@ let tune = 1
 
 --- /task ---
 
-### Use of if...then
+### もし...ならの使用
 
-For your music player to play different melody choices, you will need to make use of a logic block for each melody.
+音楽プレーヤーでさまざまなメロディーの選択肢を再生するには、メロディーごとに論理 ブロックを使用する必要があります。
 
 --- task ---
 
-From the `Logic`{:class="microbitlogic"} menu, choose the `if`{:class="microbitlogic"} block.
+`論理`{:class="microbitlogic"} メニューから、 `もし`{:class="microbitlogic"} ブロックを選択します。
 
-<img src="images/if-block-location.png" alt="The Logic menu with the `if` block highlighted." width="350" />
+<img src="images/if-block-location.png" alt="`もし` ブロックが強調表示された論理 メニュー。" width="350" />
 
 --- /task ---
 
 --- task ---
 
-Place the `if`{:class="microbitlogic"} block above the `show icon`{:class="microbitbasic"} block.
+`もし`{:class="microbitlogic"} ブロックを `アイコンを表示`{:class="microbitbasic"} ブロックの上に配置します。
 
-Click on the `Logic`{:class="microbitlogic"} menu and drag a comparison `0 = 0`{:class="microbitlogic"} block.
+`論理`{:class="microbitlogic"} メニューをクリックし、くらべるの `0 = 0`{:class="microbitlogic"} ブロックをドラッグします。
 
-Place this in the `true`{:class="microbitlogic"} area of the `if`{:class="microbitlogic"} block.
+これを、 `もし`{:class="microbitlogic"} ブロックの `真`{:class="microbitlogic"} 領域に配置します。
 
 ```microbit
 basic.forever(function () {
@@ -77,11 +77,11 @@ basic.forever(function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag a `tune`{:class="microbitvariables"} block.
+`変数`{:class="microbitvariables"} メニューから、 `tune`{:class="microbitvariables"} ブロックをドラッグします。
 
-Place it into the first `0` in the `0 = 0`{:class="microbitlogic"} block.
+それを `0 = 0`{:class="microbitlogic"} ブロックの最初の `0` に配置します。
 
-Change the second `0` to `1`.
+2番目の `0` を `1`に変更します。
 
 ```microbit
 basic.forever(function () {
@@ -98,9 +98,9 @@ basic.forever(function () {
 
 --- task ---
 
-Move the `show icon`{:class="microbitbasic"} and `play melody`{:class="microbitmusic"} blocks inside the `if`{:class="microbitlogic"} block.
+`アイコンを表示`{:class="microbitbasic"} ブロックと `鳴らす メロディ`{:class="microbitmusic"} ブロックを `もし`{:class="microbitlogic"} ブロック内に移動します。
 
-**Tip:** Whenever you grab a block, all the blocks beneath it will move as well, so just drag the `show icon`{:class="microbitbasic"} block and the others will follow.
+**ヒント:** ブロックをつかむと、その下にあるすべてのブロックも移動するので、 `アイコンを表示`{:class="microbitbasic"} ブロックをドラッグしたら、他のブロックもついてきます。
 
 ```microbit
 basic.forever(function () {
@@ -114,46 +114,46 @@ basic.forever(function () {
 
 --- /task ---
 
-To add more melody choices, you need to create more conditions in the `if`{:class="microbitlogic"} 
-block.
+メロディーの選択肢をさらに追加するには、 `もし`{:class="microbitlogic"} 
+ブロックにさらに条件を作成する必要があります。
 
 --- task ---
 
-Click on the `+` symbol on the bottom left of the `if`{:class="microbitlogic"} block. This will create an `else`{:class="microbitlogic"} section.
+`もし`{:class="microbitlogic"} ブロックの左下にある `+` シンボルをクリックします。 これにより、 `でなければ`{:class="microbitlogic"} セクションが作成されます。
 
 --- /task ---
 
 --- task ---
 
-Click on the `+` symbol below the `else`{:class="microbitlogic"} section.
+`でなければ`{:class="microbitlogic"} セクションの下にある `+` シンボルをクリックします。
 
-This will create an `else if`{:class="microbitlogic"} section.
+これにより、 `でなければもし`{:class="microbitlogic"} セクションが作成されます。
 
-Repeat this twice, so you have three `else if`{:class="microbitlogic"} sections and an `else`{:class="microbitlogic"} section.
-
---- /task ---
-
---- task ---
-
-Click on the `-` symbol next to the `else`{:class="microbitlogic"} section to remove the `else`{:class="microbitlogic"} section.
-
-<img src="images/elseif-blocks.gif" alt="An animation showing the + symbol being used to add three 'else if' sections. Finally, the 'else' is removed from the end by clicking the '-' symbol next to it." width="350" />
+これを 2 回繰り返すと、3 つの `でなければもし`{:class="microbitlogic"} セクションと 1 つの `でなければ`{:class="microbitlogic"} セクションが作成されます。
 
 --- /task ---
 
 --- task ---
 
-Right-click on the `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` block and duplicate it.
+`でなければ`{:class="microbitlogic"} セクションの横にある `-` シンボルをクリックして、 `でなければ`{:class="microbitlogic"} セクションを取り除きます。
 
-<img src="images/duplicate-comparison.png" alt="The '=' comparison block highlighted, with the right click menu expanded showing options including 'Duplicate'." width="350" />
+<img src="images/elseif-blocks.gif" alt="+ 記号を使用して 3 つの「でなければもし」セクションを追加する様子を示すアニメーション。 最後に、その横にある「-」記号をクリックして、「でなければ」を一番下から削除します。" width="350" />
 
 --- /task ---
 
 --- task ---
 
-Place the duplicated `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` block between the first `else if`{:class="microbitlogic"} and `then`{:class="microbitlogic"}.
+`tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` ブロックを右クリックして複製します。
 
-Duplicate two more comparison blocks and place them between the other `else if`{:class="microbitlogic"} and `then`{:class="microbitlogic"} parts.
+<img src="images/duplicate-comparison.png" alt="「=」比較ブロックが強調表示され、右クリック メニューが展開されて「複製」などのオプションが表示されます。" width="350" />
+
+--- /task ---
+
+--- task ---
+
+複製された `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` ブロックを最初の `でなければ`{:class="microbitlogic"} と `なら`{:class="microbitlogic"} の間に配置します。
+
+さらに 2 つの比較ブロックを複製し、他の `でなければもし`{:class="microbitlogic"} と `なら`{:class="microbitlogic"} の部分の間に配置します。
 
 ```microbit
 basic.forever(function () {
@@ -175,11 +175,11 @@ basic.forever(function () {
 
 --- task ---
 
-Inside the first `else if`{:class="microbitlogic"} section, change the `1` to `2`.
+最初の `でなければもし`{:class="microbitlogic"} セクションで、 `1` を `2`に変更します。
 
-For the second `else if`{:class="microbitlogic"} section, change the `1` to `3`.
+2 番目の `でなければもし`{:class="microbitlogic"} セクションで、 `1` を `3`に変更します。
 
-For the third `else if`{:class="microbitlogic"} section, change the `1` to `4`.
+3 番目の `でなければもし`{:class="microbitlogic"} セクションで、 `1` を `4`に変更します。
 
 ```microbit
 basic.forever(function () {
@@ -199,23 +199,23 @@ basic.forever(function () {
 
 --- /task ---
 
-You now need to select a different melody for each `else if`{:class="microbitlogic"} section.
+ここで、各 `でなければもし`{:class="microbitlogic"} セクションごとに異なるメロディーを選択する必要があります。
 
-Each time the variable value is changed, a different melody will play.
+変数の値が変更されるたびに、異なるメロディーが再生されます。
 
 --- task ---
 
-Duplicate the `play melody dadadum`{:class="microbitmusic"} block.
+`鳴らす メロディ ダダダム`{:class="microbitmusic"} ブロックを複製します。
 
-Place the duplicated block inside the first `else if`{:class="microbitlogic"} section.
+複製したブロックを最初の `でなければもし`{:class="microbitlogic"} セクション内に配置します。
 
-Click on the arrow next to `melody dadadum`{:class="microbitmusic"} to see more melody options.
+その他のメロディー オプションを表示するには、 `メロディ ダダダム`{:class="microbitmusic"} の横にある矢印をクリックします。
 
-Scroll to view all the melodies and choose one.
+スクロールしてすべてのメロディーを表示し、いずれかを選択します。
 
-Repeat these steps for the second and third `else if`{:class="microbitlogic"} sections.
+2 番目と 3 番目の `でなければもし`{:class="microbitlogic"} セクションでもこれらの手順を繰り返します。
 
-You should now have four melodies, one for each of the four conditions.
+これで、4 つの条件ごとに 1 つずつ、計 4 つのメロディーができたはずです。
 
 ```microbit
 basic.forever(function () {
@@ -235,33 +235,33 @@ basic.forever(function () {
 
 --- /task ---
 
-You also need to select some **icons** for each of your new songs.
+また、新しい曲ごとに **アイコン** を選択する必要があります。
 
-You can duplicate the `show icon`{:class="microbitbasic"} block.
+`アイコンを表示`{:class="microbitbasic"} ブロックを複製できます。
 
-You can also use the `show leds`{:class="microbitbasic"} block to draw your own!
+`LED画面に表示`{:class="microbitbasic"} ブロックを使用して独自のものを描画することもできます。
 
 --- collapse ---
 
 ---
-title: The show leds block
+title: LED画面に表示ブロック
 ---
 
-Inside the `Basic`{:class="microbitbasic"} menu, find the `show leds`{:class="microbitbasic"} block and drag it inside an `else if`{:class="microbitlogic"} to use it.
+`基本`{:class="microbitbasic"} メニュー内で、 `LED画面に表示`{:class="microbitbasic"} ブロックを見つけて、 `でなければもし`{:class="microbitlogic"} 内にドラッグして使用します。
 
-<img src="images/show-leds.png" alt="The Basic menu with the 'show leds' block highlighted." width="350" />
+<img src="images/show-leds.png" alt="「LED画面に表示」ブロックが強調表示された基本メニュー。" width="350" />
 
-You can click on each of the squares to draw your picture. White squares will be lit on the micro:bit.
+それぞれの四角形をクリックすると絵が描けます。 micro:bitでは白い四角形が点灯します。
 
-We drew a **birthday cake** for the `birthday` melody.
+`ハッピーバースデー` メロディーのために **誕生日ケーキ** を描きました。
 
-<img src="images/draw-icon.png" alt="The 'show leds' block with a birthday cake with two candles created in white squares." width="350" />
+<img src="images/draw-icon.png" alt="白い四角で 2 本のろうそくが描かれた誕生日ケーキの「LED画面に表示」ブロック。" width="350" />
 
 --- /collapse ---
 
 --- task ---
 
-Add icons for each of your songs using either the `show icon`{:class="microbitbasic"} or `show leds`{:class="microbitbasic"} block.
+`アイコンを表示`{:class="microbitbasic"} または `LED画面に表示`{:class="microbitbasic"} ブロックを使用して、各曲のアイコンを追加します。
 
 ```microbit
 basic.forever(function () {
@@ -292,24 +292,24 @@ basic.forever(function () {
 
 --- task ---
 
-**Debug:** Ensure you have changed all the numbers in the comparisons after duplicating them.
+**デバッグ:** くらべるを複製した後、すべての数値が変更されていることを確認します。
 
-You should have `1` in the `if`{:class="microbitlogic"} section and then `2, 3, 4` in the `else if`{:class="microbitlogic"} sections.
+`もし`{:class="microbitlogic"} セクションに `1` があり、 `でなければもし`{:class="microbitlogic"} セクションに `2, 3, 4` があるはずです。
 
 --- /task ---
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+コード エディター パネルでコード ブロックを変更すると、シミュレーターが再起動します。
 
-**Test your program**
+**プログラムを試してみましょう。**
 
-+ Change the `set tune`{:class="microbitvariables"} from `1` to `2` on the `on start`{:class="microbitbasic"} block. The simulator will restart and play the melody for 2, and show that icon.
++ `最初だけ`{:class="microbitbasic"} ブロックの、 `変数tune`{:class="microbitvariables"} を `1` から `2` に変更します。 シミュレータは再起動し、2のメロディを再生し、そのアイコンを表示します。
 
-+ Repeat the same steps for melodies 3 and 4.
++ メロディー3と4についても同じ手順を繰り返します。
 
-+ Ensure you change the `set tune`{:class="microbitvariables"} back to `1` at the end of your tests.
++ テストの最後に、 `変数tune`{:class="microbitvariables"} を `1` に戻してください。
 
-Well done, you have chosen different melodies for your music player!
+よくできました。音楽プレーヤーにさまざまなメロディーを選択しました！
 
 --- /task ---
