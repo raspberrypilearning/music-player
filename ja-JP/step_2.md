@@ -1,119 +1,119 @@
-## Play a tune
+## 曲を再生
 
-### Open MakeCode
+### MakeCodeを開く
 
-To start creating your micro:bit project, you need to open the MakeCode editor.
+micro:bit プロジェクトの作成を開始するには、MakeCode エディターを開く必要があります。
 
 --- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
+[makecode.microbit.org](https://makecode.microbit.org){:target="_blank"} で MakeCode エディターを開きます。
 
 --- collapse ---
 
 ---
-title: Offline version of the editor
+title: エディタのオフラインバージョン
 ---
 
-There is also a [downloadable version of the MakeCode editor](https://makecode.microbit.org/offline-app){:target="_blank"}.
+[MakeCode エディターのダウンロード可能なバージョン](https://makecode.microbit.org/offline-app){:target="_blank"}もあります。
 
 --- /collapse ---
 
 --- /task ---
 
-### First micro:bit project?
+### 最初の micro:bit プロジェクトですか?
 
 [[[makecode-tour]]]
 
-### Create your project
+### プロジェクトを作成する
 
-Once the editor is open, you will need to create a new project and give your project a name.
+エディターが開いたら、新しいプロジェクトを作成し、プロジェクトに名前を付ける必要があります。
 
 --- task ---
 
-Click on the **New Project** button.
+**新しいプロジェクト** ボタンをクリックします。
 
-<img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250" />
+<img src="images/new-project-button.png" alt="MakeCode 内の「新規プロジェクト」ボタン。" width="250" />
 
 --- /task ---
 
 --- task ---
 
-Give your new project the name `music player` and click **Create**.
+新しいプロジェクトに「 `音楽プレーヤー` 」という名前を付け、「 **作成**」をクリックします。
 
-<img src="images/music-player.png" alt="The name 'music player' written in the Create a Project dialogue box." width="400" />
+<img src="images/music-player.png" alt="「プロジェクトの作成」のダイアログボックスに入力された名前「音楽プレーヤー」。" width="400" />
 
-**Tip:** To make it easier to find your project later, give it a helpful name that relates to the activity you’re creating.
+**ヒント:** 後でプロジェクトを見つけやすくするために、作成しているものに関連するわかりやすい名前を付けましょう。
 
 --- /task ---
 
-### Play melody
+### メロディーを演奏する
 
 
-You are going to use the `forever`{:class="microbitbasic"} block to make use of the speaker output on the micro:bit (V2 users only).
+`ずっと`{:class="microbitbasic"}ブロックを使ってmicro:bitのスピーカー出力を利用します(V2ユーザーのみ)。
 
 --- collapse ---
 ---
-title: V1 micro:bit users
+title: V1 micro:bit ユーザー
 ---
 
-The speaker output is only available on the V2 micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
+スピーカー出力は V2 micro:bit でのみ利用可能です。 V1 でサウンドを再生するには、外部のヘッドフォン/スピーカーを接続する必要があります。 シミュレーターでサウンドを再生することは可能です。
 
-There is a [guide to connecting headphones/speakers to the V1 micro:bit](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
+[V1 micro:bit にヘッドフォン/スピーカーを接続するための ガイド](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}があります。
 
 --- /collapse ---
 
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} menu, drag the `play melody dadadum`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
+`音楽`{:class="microbitmusic"} メニューから、 `鳴らす メロディ ダダダム`{:class="microbitmusic"} ブロックをドラッグし、 `ずっと`{:class="microbitbasic"} ブロック内に配置します。
 
-<img src="images/play-melody.png" alt="The Music menu open with the 'play melody dadadum' block highlighted." width="450" />
-
---- /task ---
-
---- task ---
-
-Click on the down arrow next to `in background` on the `play melody dadadum`{:class='microbitmusic'} block.
-
-Choose `until done`.
-
-<img src="images/melody-untildone.gif" alt="The melody drop-down menu with the 'until done' button selected." width="400" />
-
---- /task ---
-
-### Style your song
-
-As well as playing a melody, you can add a picture to the LED display to add some more style!
-
---- task ---
-
-Open the `Basic`{:class="microbitbasic"} menu and find the `show icon`{:class="microbitbasic"} block.
-
-<img src="images/show-icon-location.png" alt="The Basic menu with the 'show icon' block highlighted." width="350" />
+<img src="images/play-melody.png" alt="音楽メニューは、ハイライトされた「鳴らす メロディ ダダダム」ブロックで開きます。" width="450" />
 
 --- /task ---
 
 --- task ---
 
-Drag the `show icon`{:class="microbitbasic"} block into the code editor.
+`鳴らす メロディ ダダダム`{:class='microbitmusic'} ブロックの` バックグラウンドで一度だけ `の横にある下矢印をクリックします。
 
-Place it inside the `forever`{:class="microbitbasic"} block **above** your `melody`{:class="microbitmusic"} block.
+`終わるまで`を選択します。
+
+<img src="images/melody-untildone.gif" alt="「終わるまで」ボタンが選択されたメロディドロップダウンメニュー。" width="400" />
+
+--- /task ---
+
+### 曲のスタイルを決める
+
+メロディーを演奏するだけでなく、LED ディスプレイに画像を追加して、さらにスタイリッシュに演出できます。
+
+--- task ---
+
+`基本`{:class="microbitbasic"} メニューを開き、 `アイコンを表示`{:class="microbitbasic"} ブロックを見つけます。
+
+<img src="images/show-icon-location.png" alt="「アイコンを表示」ブロックが強調表示された基本メニュー。" width="350" />
 
 --- /task ---
 
 --- task ---
 
-MakeCode has pre-programmed icons that display on the LED panel.
+`アイコンを表示`{:class="microbitbasic"} ブロックをコード エディターにドラッグします。
 
-The default is a **heart** icon.
+あなたの `鳴らす`{:class="microbitmusic"} ブロックの **上** にある `ずっと`{:class="microbitbasic"} ブロックの中にそれを配置します。
 
-**Click** on the heart to see the other options.
+--- /task ---
 
-**Choose** an icon that represents your melody.
+--- task ---
 
-<img src="images/choose-icon.gif" alt="The show icon block is expanded to show the multiple options for icons. After a bit of scrolling the duck is selected from the list." width="400" />
+MakeCodeは、LEDパネルに表示する事前にプログラムされたアイコンがあります。
 
-We have chosen this little duck!
+デフォルトは **ハート** アイコンです。
+
+他のオプションを表示するには、ハートを**クリック**します。
+
+あなたのメロディーを表すアイコンを**選択**します。
+
+<img src="images/choose-icon.gif" alt="アイコン表示ブロックが展開され、アイコンの複数のオプションが表示されます。 少しスクロールすると、リストからアヒルが選択されます。" width="400" />
+
+私たちはこの小さなアヒルを選びました！
 
 ```microbit
 basic.forever(function () {
@@ -126,13 +126,13 @@ basic.forever(function () {
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+コード エディター パネルでコード ブロックを変更すると、シミュレーターが再起動します。
 
-**Test your program**
+**プログラムを試してみましょう。**
 
-+ You should now hear the melody playing until it is done (and then looping because of the forever loop)
-+ You should also see the icon you picked displayed on the LEDs
++ メロディーが終わるまで再生されるはずです(その後、ずっとループのおかげでループし続けます)。
++ また、選択したアイコンがLEDに表示されるはずです。
 
 --- /task ---
 
-Well done, you have created your first music program on a micro:bit!
+よくできました。micro:bit で最初の音楽プログラムを作成しました。
