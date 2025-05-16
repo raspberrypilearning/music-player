@@ -1,0 +1,28 @@
+---
+title: 音楽プレーヤー
+hero_image: images/banner.png
+description: 音楽ボックスを作成して、リラックスする曲を選択できるようにします
+version: 4
+listed: true
+copyedit: true
+last_tested: '2023-08-08'
+steps:
+  - title: はじめに
+  - title: 曲を再生
+    completion:
+      - engaged
+  - title: 曲を選ぶ
+  - title: 曲をスキップする
+  - title: 停止またはシャッフル
+    completion:
+      - internal
+  - title: ふりかえり
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: プロジェクトをアップグレードする
+  - title: 次は何をしますか？
