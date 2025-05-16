@@ -2,34 +2,34 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Question 2 sur 3
 ---
 
-In programming, what is a variable?
+En programmation, qu'est-ce qu'une variable ?
 
 --- choices ---
 
-- (x) A special box to store various pieces of information
+- (x) Une boîte spéciale pour stocker diverses informations
 
   --- feedback ---
 
-  Great effort! A variable is a concept used across all programming languages. It is a storage box that can store data including text, integers, and true/false values.
+  Bien joué ! Une variable est un concept utilisé dans tous les langages de programmation. Il s'agit d'une boîte de stockage qui peut stocker des données, notamment du texte, des nombres entiers et des valeurs vrai/faux.
 
   --- /feedback ---
 
-- ( ) A logic condition that controls what happens in a logic block
+- ( ) Une condition logique qui contrôle ce qui se passe dans un bloc logique
 
   --- feedback ---
 
-Not quite. A condition can be used to compare a variable value with something else.
+Pas tout à fait. Une condition peut être utilisée pour comparer une valeur de variable avec autre chose.
 
   --- /feedback ---
 
-- ( ) A melody block that can change and play a different melody
+- ( ) Un bloc mélodie qui peut changer et jouer une mélodie différente
 
   --- feedback ---
 
-Not quite. Although you can have different melodies in a melody block, the term variable has a different meaning.
+Pas tout à fait. Bien que tu puisses avoir différentes mélodies dans un bloc mélodie, le terme variable a une signification différente.
 
   --- /feedback ---
 
