@@ -1,39 +1,39 @@
-## New to the micro:bit?
+## C'est la première fois sur le micro:bit ?
 
-See our [Getting Started Guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-microbit) to learn all about the micro:bit!
+Consulte notre [Guide de démarrage](https://projects.raspberrypi.org/en/projects/getting-started-guide-microbit) pour tout savoir sur le micro:bit !
 
-You can also try out our amazing `Discover` projects:
-- [Hobby selector](https://projects.raspberrypi.org/en/projects/hobby-selector)
-- [Silly reminder](https://projects.raspberrypi.org/en/projects/silly-reminder)
+Tu peux aussi essayer nos merveilleux projets `Découvrir` :
+- [Sélecteur de loisirs](https://projects.raspberrypi.org/en/projects/hobby-selector)
+- [Rappel idiot](https://projects.raspberrypi.org/en/projects/silly-reminder)
 
-## You will make
+## Ce que tu vas faire
 
-Do you listen to music on Spotify, Apple music, Alexa, or any other app? What if you could do the same on your micro:bit by creating your own music app?
+Écoutes-tu de la musique sur Spotify, Apple Music, Alexa ou une autre application ? Et si tu pouvais faire la même chose sur ton micro:bit en créant ta propre appli musicale ?
 
-In this project, you are going to make a music player that lets you choose different tunes to suit your mood.
+Dans ce projet, tu vas créer un lecteur de musique qui te permet de choisir différentes musiques en fonction de ton humeur.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Listening to music can improve your <span style="color: #0faeb0">mood</span> and make you feel happier! When you listen to music you enjoy, your brain releases a special 'feel-good' chemical. So, the next time you feel a little down, try putting on your favorite tunes and let the music boost your mood!
+Écouter de la musique peut améliorer ton <span style="color: #0faeb0">humeur</span> et te rendre plus heureux·se ! Lorsque tu écoutes de la musique que tu aimes, ton cerveau libère une substance chimique spéciale qui te procure une sensation de bien-être. Alors, la prochaine fois que tu te sens un peu déprimé·e, écoute tes musiques préférées pour te remonter le moral !
 </p>
 
-You will:
-+ Use your micro:bit to play music
-+ Use variables and logic to allow for a choice of melody
-+ Use input buttons and gestures to control the playback
-+ Share your project with others so they can try it out and you can get feedback
+Tu vas :
++ Utiliser ton micro:bit pour écouter de la musique
++ Utiliser les variables et la logique pour choisir une mélodie
++ Utiliser les boutons d'entrée et les gestes pour contrôler la lecture
++ Partager ton projet avec d'autres personnes afin qu'elles puissent l'essayer et que tu puisses recevoir leur avis
 
 --- no-print ---
 
-### Play ▶️
+### Joue ▶️
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Click on the embedded project.
+Clique sur le projet intégré.
 
-What happens if you shake the micro:bit?
-What happens if you click the A or B buttons?
+Que se passe-t-il si tu secoues le micro:bit ?
+Que se passe-t-il si tu cliques sur les boutons A ou B ?
 
 <div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_MwPes879654M" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
