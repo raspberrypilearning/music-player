@@ -1,57 +1,57 @@
-## Use the buttons to skip tunes
+## Utiliser les boutons pour passer les musiques
 
-Instead of changing the melody by changing the `tune` variable value in the `on start` block, you can use buttons to change the value (and, therefore, the melody).
+Au lieu de changer la mélodie en changeant la valeur de la variable `musique` dans le bloc `au démarrage`, tu peux utiliser des boutons pour changer la valeur (et donc la mélodie).
 
-In this step, you will create code to skip tracks using the micro:bit's event handlers.
+Dans cette étape, tu vas créer du code pour passer des pistes en utilisant les gestionnaires d'événements du micro:bit.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-What is an <span style="color: #0faeb0">event handler</span>?
+Qu'est-ce qu'un <span style="color: #0faeb0">gestionnaire d'événements</span> ?
 
-An event handler is code that will run when a particular event happens, such as “button A pressed”.
+Un gestionnaire d'événements est un code qui s'exécutera lorsqu'un événement particulier se produit, tel que « le bouton A est pressé ».
 
 </p>
 
-### Add button controls
+### Ajouter des boutons de contrôle
 
-The micro:bit has a Button `A` and a Button `B`.
+Le micro:bit possède un bouton `A` et un bouton `B`.
 
-You can use an event to control what happens when a button is pressed.
+Tu peux utiliser un événement pour déterminer ce qui se passe lorsque tu appuies sur un bouton.
 
-### Skip to the next track
+### Passer à la piste suivante
 
-Button B is on the right of the micro:bit, so use this button to skip to the next track.
+Le bouton B se trouve à droite du micro:bit, utilise donc ce bouton pour passer à la piste suivante.
 
-To do this, you need to change the value of the `tune`{:class="microbitvariables"} variable by `1`.
+Pour cela, tu dois modifier la valeur de la variable `musique`{:class="microbitvariables"} par `1`.
 
 --- task ---
 
-From the `Input`{:class="microbitinput"} menu, drag the `on button`{:class="microbitinput"} block to the code editor panel.
+Dans le menu `Entrée`{:class="microbitinput"}, fais glisser le bloc `lorsque le bouton`{:class="microbitinput"} vers le panneau de l'éditeur de code.
 
-![The Input block menu with the 'on button A pressed' block highlighted.](images/input-on-ButtonA.png)
+![Le menu des blocs Entrée avec le bloc "lorsque le bouton A est pressé" en surbrillance.](images/input-on-ButtonA.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the arrow next to `A`{:class="microbitinput"} on the `on button`{:class="microbitinput"} block.
+Clique sur la flèche à côté de `A`{:class="microbitinput"} sur le bloc `lorsque le bouton`{:class="microbitinput"}.
 
-Change the `A`{:class="microbitinput"} to a `B`{:class="microbitinput"}
+Remplace le `A`{:class='microbitinput'} par `B`{:class='microbitinput"}
 
-![The down arrow menu on the 'on button A pressed' block with B highlighted.](images/buttonA-arrow.png)
+![Le menu des flèches vers le bas du bloc "lorsque le bouton A est pressé" avec B en surbrillance.](images/buttonA-arrow.png)
 
 --- /task ---
 
-#### Stop all sounds!
+#### Arrêter tous les sons !
 
-Now, you need to stop the current tune.
+Maintenant, tu dois arrêter la musique en cours.
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} menu, drag the `stop all sounds`{:class="microbitmusic"} block.
+Dans le menu `Musique`{:class="microbitmusic"}, fais glisser le bloc `arrêter tous les sons`{:class="microbitmusic"}.
 
-Place it in the `on button [B]`{:class="microbitinput"} block in the code editor panel.
+Place-le dans le bloc `lorsque le bouton [B]`{:class="microbitinput"} dans le panneau de l'éditeur de code.
 
-![The Music block menu with the 'stop all sounds' block highlighted.](images/stop-all-sounds.png)
+![Le menu des blocs Musique avec le bloc "arrêter tous les sons" en surbrillance.](images/stop-all-sounds.png)
 
 ```microbit
 input.onButtonPressed(Button.B, function () {
@@ -63,11 +63,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `change`{:class="microbitvariables"} block.
+Dans le menu `Variables`{:class="microbitvariables"}, fais glisser le bloc `modifier`{:class="microbitvariables"}.
 
-Place it below the `stop all sounds`{:class="microbitmusic"} block.
+Place-le sous le bloc `arrêter tous les sons`{:class="microbitmusic"}.
 
-![The Variables block menu with the 'change tune by 1' block highlighted.](images/change-tune-by-1.png)
+![Le menu des blocs Variables avec le bloc "modifier musique de 1" en surbrillance.](images/change-tune-by-1.png)
 
 ```microbit
 let tune = 0
@@ -79,13 +79,13 @@ input.onButtonPressed(Button.B, function () {
 
 --- /task ---
 
-#### Dealing with 'out of range'
+#### Gérer les « out of range »
 
-If the value of the variable is `4`, then changing it by `1` will make the value `5`.
+Si la valeur de la variable est `4`, la modifier par `1` rendra la valeur `5`.
 
-🚨 But there is no melody associated with the value `5`! 🚨
+🚨 Mais il n'y a pas de mélodie associée à la valeur `5`! 🚨
 
-Because you only have four melodies, if the variable changes to 5, you need to go back to the first melody.
+Parce que tu n'as que quatre mélodies, si la variable passe à 5, tu dois revenir à la première mélodie.
 
 ```microbit
 basic.forever(function () {
@@ -114,9 +114,9 @@ basic.forever(function () {
 
 --- task ---
 
-From the `Logic`{:class="microbitlogic"} menu, drag the `if`{:class="microbitlogic"} block.
+Dans le menu `Logique`{:class="microbitlogic"}, fais glisser le bloc `si`{:class="microbitlogic"}.
 
-Place it below the `change tune`{:class="microbitvariables"} block in your code.
+Place-le sous le bloc `modifier musique`{:class='microbitvariables'} dans ton code.
 
 ```microbit
 let tune = 0
@@ -133,11 +133,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-Also from the `Logic`{:class="microbitlogic"} menu, drag a `0 < 0`{:class="microbitlogic"} block.
+Également dans le menu `Logique`{:class="microbitlogic"}, fais glisser un bloc `0 < 0`{:class="microbitlogic"}.
 
-Place it inside the `true` part of the `if`{:class="microbitlogic"} block.
+Place-le à l'intérieur de la partie `vrai` du bloc `si`{:class="microbitlogic"}.
 
-Change the `<` (less than) to `>` (greater than) by clicking on the arrow next to the `<` symbol.
+Modifie le `<` (inférieur à) par `>` (supérieur) en cliquant sur la flèche à côté du symbole `<`.
 
 ```microbit
 let tune = 0
@@ -154,9 +154,9 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `tune`{:class="microbitvariables"} variable  block.
+Dans le menu `Variables`{:class="microbitvariables"}, fais glisser le bloc variable `musique`{:class="microbitvariables"}.
 
-Place it on the first `0` in the `0 > 0`{:class="microbitlogic"} block.
+Place-le sur le premier bloc `0` dans le `0 > 0`{:class="microbitlogic"}.
 
 ```microbit
 let tune = 0
@@ -169,7 +169,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-Change the second `0` to `4`.
+Modifie le deuxième `0` par `4`.
 
 ```microbit
 let tune = 0
@@ -186,11 +186,11 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-From the `Variables`{:class="microbitvariables"} menu, drag the `set`{:class="microbitvariables"} block.
+Dans le menu `Variables`{:class="microbitvariables"}, fais glisser le bloc `définir`{:class="microbitvariables"}.
 
-Place it inside the `if`{:class="microbitlogic"} block in your code.
+Place-le à l'intérieur du bloc `si`{:class="microbitlogic"} dans ton code.
 
-Change the `0` to `1`.
+Modifie le `0` par `1`.
 
 ```microbit
 let tune = 0
@@ -206,23 +206,23 @@ input.onButtonPressed(Button.B, function () {
 --- /task ---
 
 
-#### Skip to the previous track
+#### Passer à la piste précédente
 
-Button A is on the left of the micro:bit, so use this button to skip to the previous track.
+Le bouton A est à gauche du micro:bit, alors utilise ce bouton pour passer à la piste précédente.
 
-To do this, you need to change the value of the `tune`{:class="microbitvariables"} variable by `-1`.
+Pour cela, tu dois modifier la valeur de la variable `musique`{:class="microbitvariables"} par `-1`.
 
-You can re-use the code you created to control what happens when Button B is pressed.
+Tu peux réutiliser le code que tu as créé pour contrôler ce qui se passe lorsque le bouton B est pressé.
 
 --- task ---
 
-**Right-click** on the top part of the `on button B pressed`{:class="microbitinput"} block that you now have in the code editor panel.
+**Fais un clic droit** sur la partie supérieure du bloc `lorsque le bouton B est pressé`{:class="microbitinput"} que tu as maintenant dans le panneau de l'éditeur de code.
 
-Click **Duplicate** to make a copy of the whole block.
+Clique sur **Reproduire** pour faire une copie de l'ensemble du bloc.
 
-You should now have a second `on button`{:class="microbitinput"} block that will be 'greyed out'.
+Tu devrais maintenant avoir un deuxième bloc `lorsque le bouton est pressé`{:class="microbitinput"} qui est « grisé ».
 
-Change the button from `B` to `A`. This will stop the block from being greyed out.
+Modifie le bouton de `B` par `A`. Cela empêchera le bloc d'être grisé.
 
 ```microbit
 let tune = 0
@@ -244,22 +244,22 @@ input.onButtonPressed(Button.B, function () {
 
 --- /task ---
 
---- task --- Make these changes to the `on button A pressed`{:class="microbitinput"} block:
+--- task --- Effectue ces modifications au bloc `lorsque le bouton A est pressé`{:class="microbitinput"} :
 
-Change the `1` to `-1` in the `change`{:class="microbitvariables"} block.
+Modifie le bloc `1` par `-1` dans le bloc `modifier`{:class="microbitvariables"}.
 
-In the comparison block:
+Dans le bloc de comparaison :
 
-+ Change the `>` to `<`
++ Modifie le `>` par `<`
 
-+ Change the `4` to `1`
++ Modifie le `4` par `1`
 
-Change the `1` to `4` in the `set`{:class="microbitvariables"} block.
+Modifie le bloc `1` par `4` dans le bloc `définir`{:class="microbitvariables"}.
 
 --- /task ---
 
 
-You should now have an `on button A pressed`{:class="microbitinput"} block of code and an `on button B pressed`{:class="microbitinput"} block of code:
+Tu devrais maintenant avoir un bloc de code `lorsque le bouton A est pressé`{:class="microbitinput"} et un bloc de code `lorsque le bouton B est pressé`{:class="microbitinput"} :
 
 ```microbit
 let tune = 0
@@ -281,23 +281,23 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-**Debug:** Make sure you have changed the correct values in the blocks used to change the value of the variables.
+**Débogage :** assure-toi d'avoir modifié les valeurs correctes dans les blocs utilisés pour modifier la valeur des variables.
 
-For example: `Button A` should change the variable by `-1` and Button B should change the variable value by `1`.
+Par exemple : `Bouton A` doit modifier la variable par `-1` et le Bouton B doit modifier la valeur de la variable par `1`.
 
 --- /task ---
 
 --- task ---
 
-When you make a change to a code block in the code editor panel, the simulator will restart.
+Lorsque tu modifies un bloc de code dans le panneau de l'éditeur de code, le simulateur redémarrera.
 
-**Test your program**
+**Teste ton programme**
 
-+ Press Button A to skip to the previous track
++ Appuie sur le bouton A pour passer à la piste précédente
 
-+ Press Button B to skip to the next track
++ Appuie sur le bouton B pour passer à la piste suivante
 
 --- /task ---
 
 
-Well done, you can now skip your tracks back and forth!
+Bravo, tu peux maintenant passer tes pistes d'avant en arrière !
