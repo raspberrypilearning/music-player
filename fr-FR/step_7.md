@@ -1,22 +1,22 @@
-## Upgrade your project
+## Améliorer ton projet
 
-Great work! You have created your micro:bit music player. Here are some ideas to upgrade your project and create a more advanced music player app:
+Excellent travail ! Tu as créé ton lecteur de musique micro:bit. Voici quelques idées pour améliorer ton projet et créer une appli de lecteur de musique plus avancée :
 
-+ Add more melodies and increase the range on the shuffle
-+ Use the Logo button (or button A+B on the V1) to stop all sounds, leaving Shake to just control the shuffle
-+ Use the Logo button (or button A+B on the V1) to play a favourite melody
++ Ajoute plus de mélodies et augmente la portée de la lecture aléatoire
++ Utilise le bouton Logo (ou le bouton A+B sur le V1) pour arrêter tous les sons, laissant Secouer pour simplement contrôler la lecture aléatoire
++ Utilise le bouton Logo (ou le bouton A+B sur le V1) pour jouer une mélodie préférée
 
-### Play ▶️
+### Joue ▶️
 
-+ Use the logo at the top to select a favourite song
-+ How many tunes are there?
-+ What happens if you press the logo after registering a favourite and changing the tune?
++ Utilise le logo en haut pour sélectionner une chanson préférée
++ Combien y a-t-il de musiques ?
++ Que se passe-t-il si tu appuies sur le logo après avoir enregistré un favori et changé la musique ?
 
 <div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_0HqXVg8uq7rA" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
 <div>
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
- <span style="color: #0faeb0">Mental Health Awareness week</span> is a campaign to raise understanding of mental health issues, promote good well-being, and break down stigma surrounding mental illness. This event has been recognised in various countries and is celebrated in May in the UK.
+ <span style="color: #0faeb0">La semaine de sensibilisation à la santé mentale</span> est une campagne visant à mieux comprendre les problèmes de santé mentale, promouvoir le bien-être et briser la stigmatisation entourant la maladie mentale. Cet événement a été reconnu dans différents pays et est célébré en mai au Royaume-Uni.
 </p>
 </div>
 
@@ -27,9 +27,9 @@ Great work! You have created your micro:bit music player. Here are some ideas to
 --- collapse ---
 
 ---
-title: Completed project
+title: Projet terminé
 ---
 
-You can view the [completed project here](https://makecode.microbit.org/_5bFMMXWwjL6W){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://makecode.microbit.org/_5bFMMXWwjL6W){:target="_blank"}.
 
 --- /collapse ---
