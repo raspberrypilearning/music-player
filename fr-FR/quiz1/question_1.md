@@ -1,42 +1,42 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Question 1 sur 3
 ---
 
-Which two blocks are always shown in the MakeCode editor when you load it for the first time?
+Quels sont les deux blocs toujours affichés dans l'éditeur MakeCode lorsque tu le charges pour la première fois ?
 
 --- choices ---
 
-- ( ) `on start` and `on shake`
+- ( ) `au démarrage` et `lorsque secouer`
 
   --- feedback ---
 
-`on start` is one of them, but `on shake` has to be dragged in manually.
+`au démarrage` en fait partie, mais `lorsque secouer` doit être glissé manuellement.
 
   --- /feedback ---
 
-- ( ) `on shake` and `forever`
+- ( ) `lorsque secouer` et `toujours`
 
   --- feedback ---
 
-`forever` is one of them, but `on shake` has to be dragged in manually.
+`toujours` en fait partie, mais `lorsque secouer` doit être glissé manuellement.
 
   --- /feedback ---
 
-- (x) `on start` and `forever`
+- (x) `au démarrage` et `toujours`
 
   --- feedback ---
 
-Awesome! You have answered correctly, the `on start` and `forever` blocks are shown in the code editor panel every time you start a new project.
+Super ! Tu as répondu correctement, les blocs `au démarrage` et `toujours` sont affichés dans le panneau de l'éditeur de code à chaque fois que tu démarres un nouveau projet.
 
   --- /feedback ---
 
