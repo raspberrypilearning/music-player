@@ -1,28 +1,28 @@
 ---
-title: Music player
+title: Lecteur de musique
 hero_image: images/banner.png
-description: Create a music box so you can choose some tunes to relax to
+description: Crée une boîte à musique pour pouvoir choisir des mélodies relaxantes
 version: 4
 listed: true
 copyedit: true
 last_tested: '2023-08-08'
 steps:
   - 
-    title: You will make
+    title: Ce que tu vas faire
   - 
-    title: Play a tune
+    title: Jouer une musique
     completion:
       - engaged
   - 
-    title: Choose some tunes
+    title: Choisir des musiques
   - 
-    title: Skip tunes
+    title: Passer les musiques
   - 
-    title: Stop or shuffle
+    title: Arrêter ou lecture aléatoire
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,6 +31,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: What next?
+    title: Et ensuite ?
