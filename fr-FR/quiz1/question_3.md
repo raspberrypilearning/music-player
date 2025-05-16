@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Question 3 sur 3
 ---
 
-Here is the code for the music player program.
+Voici le code du programme du lecteur de musique.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -46,9 +46,9 @@ basic.forever(function () {
 })
 ```
 
-The `tune` variable is currently set to `1`.
+La variable `musique` est actuellement définie sur `1`.
 
-Which melody will play when Button `B` is pressed?
+Quelle mélodie sera jouée lorsque le bouton `B` est pressé ?
 
 
 --- choices ---
@@ -57,7 +57,7 @@ Which melody will play when Button `B` is pressed?
 
   --- feedback ---
 
-Not quite. Button B skips the track forward and will add one to the variable value, meaning `tune` will be set to `2`, which is associated with the `punchline` melody.
+Pas tout à fait. Le bouton B permet d'avancer d'une piste et d'ajouter un à la valeur de la variable, ce qui signifie que `musique` sera défini sur `2`, qui est associé à la mélodie `punchline`.
 
   --- /feedback ---
 
@@ -65,7 +65,7 @@ Not quite. Button B skips the track forward and will add one to the variable val
 
   --- feedback ---
 
-Great! Pressing Button B will add one to the variable value, meaning `tune` will be set to `2`, which is associated with the `punchline` melody.
+Super ! Appuyer sur le bouton B ajoutera un à la valeur de la variable, ce qui signifie que `musique` sera défini sur `2`, qui est associé à la mélodie `punchline` .
 
   --- /feedback ---
 
@@ -73,7 +73,7 @@ Great! Pressing Button B will add one to the variable value, meaning `tune` will
 
   --- feedback ---
 
-Not quite. The variable value is `1` and Button B adds `1` to the variable value, meaning the melody associated with value 1 (`dadadum`) will no longer play.
+Pas tout à fait. La valeur de la variable est `1` et le bouton B ajoute `1` à la valeur de la variable, ce qui signifie que la mélodie associée à la valeur 1 (`dadadum`) ne sera plus jouée.
 
   --- /feedback ---
 
