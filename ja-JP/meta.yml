@@ -7,16 +7,22 @@ listed: true
 copyedit: true
 last_tested: '2023-08-08'
 steps:
-  - title: はじめに
-  - title: 曲を再生
+  - 
+    title: はじめに
+  - 
+    title: 曲を再生
     completion:
       - engaged
-  - title: 曲を選ぶ
-  - title: 曲をスキップする
-  - title: 停止またはシャッフル
+  - 
+    title: 曲を選ぶ
+  - 
+    title: 曲をスキップする
+  - 
+    title: 停止またはシャッフル
     completion:
       - internal
-  - title: ふりかえり
+  - 
+    title: ふりかえり
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -24,4 +30,7 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: プロジェクトをアップグレードする
+  - 
+    title: プロジェクトをアップグレードする
+  - 
+    title: 次は何をしますか？
