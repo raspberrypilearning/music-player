@@ -32,7 +32,7 @@ title: エディタのオフラインバージョン
 
 **新しいプロジェクト** ボタンをクリックします。
 
-<img src="images/new-project-button.png" alt="MakeCode 内の「新規プロジェクト」ボタン。" width="250"/>
+<img src="images/new-project-button.png" alt="MakeCode 内の「新規プロジェクト」ボタン。" width="250" />
 
 --- /task ---
 
@@ -40,7 +40,7 @@ title: エディタのオフラインバージョン
 
 新しいプロジェクトに「 `音楽プレーヤー` 」という名前を付け、「 **作成**」をクリックします。
 
-<img src="images/music-player.png" alt="「プロジェクトの作成」のダイアログボックスに入力された名前「音楽プレーヤー」。" width="400"/>
+<img src="images/music-player.png" alt="「プロジェクトの作成」のダイアログボックスに入力された名前「音楽プレーヤー」。" width="400" />
 
 **ヒント:** 後でプロジェクトを見つけやすくするために、作成しているものに関連するわかりやすい名前を付けましょう。
 
@@ -67,17 +67,17 @@ title: V1 micro:bit ユーザー
 
 `音楽`{:class="microbitmusic"} メニューから、 `鳴らす メロディ ダダダム`{:class="microbitmusic"} ブロックをドラッグし、 `ずっと`{:class="microbitbasic"} ブロック内に配置します。
 
-<img src="images/play-melody.png" alt="音楽メニューは、ハイライトされた「鳴らす メロディ ダダダム」ブロックで開きます。" width="450"/>
+<img src="images/play-melody.png" alt="音楽メニューは、ハイライトされた「鳴らす メロディ ダダダム」ブロックで開きます。" width="450" />
 
 --- /task ---
 
 --- task ---
 
-`鳴らす メロディ ダダダム`{:class='microbitmusic'} ブロックの`バックグラウンドで一度だけ`の横にある下矢印をクリックします。
+`鳴らす メロディ ダダダム`{:class='microbitmusic'} ブロックの` バックグラウンドで一度だけ `の横にある下矢印をクリックします。
 
 `終わるまで`を選択します。
 
-<img src="images/melody-untildone.gif" alt="「終わるまで」ボタンが選択されたメロディドロップダウンメニュー。" width="400"/>
+<img src="images/melody-untildone.gif" alt="「終わるまで」ボタンが選択されたメロディドロップダウンメニュー。" width="400" />
 
 --- /task ---
 
@@ -89,7 +89,7 @@ title: V1 micro:bit ユーザー
 
 `基本`{:class="microbitbasic"} メニューを開き、 `アイコンを表示`{:class="microbitbasic"} ブロックを見つけます。
 
-<img src="images/show-icon-location.png" alt="「アイコンを表示」ブロックが強調表示された基本メニュー。" width="350"/>
+<img src="images/show-icon-location.png" alt="「アイコンを表示」ブロックが強調表示された基本メニュー。" width="350" />
 
 --- /task ---
 
@@ -133,6 +133,6 @@ basic.forever(function () {
 + メロディーが終わるまで再生されるはずです(その後、ずっとループのおかげでループし続けます)。
 + また、選択したアイコンがLEDに表示されるはずです。
 
---- /task ---    
+--- /task ---
 
 よくできました。micro:bit で最初の音楽プログラムを作成しました。

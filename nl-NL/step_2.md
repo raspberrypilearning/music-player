@@ -32,7 +32,7 @@ Zodra de editor is geopend, moet je een nieuw project aanmaken en je project een
 
 Klik op de knop **Nieuw Project**.
 
-<img src="images/new-project-button.png" alt="De knop Nieuw project in MakeCode." width="250"/>
+<img src="images/new-project-button.png" alt="De knop Nieuw project in MakeCode." width="250" />
 
 --- /task ---
 
@@ -40,7 +40,7 @@ Klik op de knop **Nieuw Project**.
 
 Geef je nieuwe project de naam `muziekspeler` en klik op **Aanmaken**.
 
-<img src="images/music-player.png" alt="De naam 'muziekspeler' geschreven in het dialoogvenster 'Een project maken'." width="400"/>
+<img src="images/music-player.png" alt="De naam 'muziekspeler' geschreven in het dialoogvenster 'Een project maken'." width="400" />
 
 **Tip:** Om het makkelijker te maken om je project later terug te vinden, geef het een logische naam die gerelateerd is aan de activiteit die je aan doen bent.
 
@@ -67,7 +67,7 @@ Er is een [gids voor het aansluiten van koptelefoon/speakers op de V1 micro:bit]
 
 Sleep vanuit het menu `Muziek`{:class="microbitmusic"} het blok `play melody dadadum`{:class="microbitmusic"} en plaats het in het blok `de hele tijd`{:class="microbitbasic"}.
 
-<img src="images/play-melody.png" alt="Het Muziekmenu met het blok 'play melody dadadum' gemarkeerd." width="450"/>
+<img src="images/play-melody.png" alt="Het Muziekmenu met het blok 'play melody dadadum' gemarkeerd." width="450" />
 
 --- /task ---
 
@@ -77,7 +77,7 @@ Klik op de pijl omlaag naast `in background` op het `play melody dadadum`{:class
 
 Kies `tot het klaar is`.
 
-<img src="images/melody-untildone.gif" alt="Het keuze menu van het blok play melody met de optie 'tot het klaar is' geselecteerd." width="400"/>
+<img src="images/melody-untildone.gif" alt="Het keuze menu van het blok play melody met de optie 'tot het klaar is' geselecteerd." width="400" />
 
 --- /task ---
 
@@ -89,7 +89,7 @@ Naast het spelen van een melodie kun je ook een foto aan het LED-scherm toevoege
 
 Open het menu `Basis`{:class="microbitbasic"} en zoek het blok `toon pictogram`{:class="microbitbasic"}.
 
-<img src="images/show-icon-location.png" alt="Het basis blok menu met het 'toon pictogram' blok gemarkeerd." width="350"/>
+<img src="images/show-icon-location.png" alt="Het basis blok menu met het 'toon pictogram' blok gemarkeerd." width="350" />
 
 --- /task ---
 
@@ -111,7 +111,7 @@ De standaardinstelling is een **hart**-pictogram.
 
 **Kies** een pictogram dat je melodie vertegenwoordigt.
 
-<img src="images/choose-icon.gif" alt="Het toon pictogram blok is uitgeklapt om de meerdere opties voor pictogrammen te tonen. Na een beetje scrollen wordt de eend uit de lijst geselecteerd." width="400"/>
+<img src="images/choose-icon.gif" alt="Het toon pictogram blok is uitgeklapt om de meerdere opties voor pictogrammen te tonen. Na een beetje scrollen wordt de eend uit de lijst geselecteerd." width="400" />
 
 Wij hebben deze kleine eend gekozen!
 
@@ -133,6 +133,6 @@ Als je een wijziging aanbrengt in een codeblok in het bewerkingspaneel zal de si
 + Je zou nu de melodie moeten horen spelen totdat deze klaar is (en dan herhalend vanwege de lus door het de hele tijd blok)
 + Je zou ook het pictogram moeten zien dat je hebt gekozen op de LED's
 
---- /task ---    
+--- /task ---
 
 Goed gedaan, je hebt je eerste muziekprogramma op een micro:bit gemaakt!
