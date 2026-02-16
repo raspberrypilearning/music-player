@@ -1,8 +1,10 @@
 ## Νέος/νέα στο micro:bit;
 
-Μπορείς να δοκιμάσεις τα εκπληκτικά έργα μας στο `Ανακάλυψε`:
-- [Επιλογέας χόμπι](https://projects.raspberrypi.org/el-GR/projects/hobby-selector)
-- [Υπενθύμιση διασκέδασης](https://projects.raspberrypi.org/el-GR/projects/silly-reminder)
+See our [Getting Started Guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-microbit) to learn all about the micro:bit!
+
+You can also try out our amazing `Discover` projects:
+- [Επιλογέας χόμπι](https://projects.raspberrypi.org/en/projects/hobby-selector)
+- [Υπενθύμιση διασκέδασης](https://projects.raspberrypi.org/en/projects/silly-reminder)
 
 ## Τι θα φτιάξεις
 
@@ -39,4 +41,5 @@
 </div>
 
 --- /task ---
+
 --- /no-print ---
