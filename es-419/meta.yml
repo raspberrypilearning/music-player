@@ -1,0 +1,36 @@
+---
+title: Reproductor de música
+hero_image: images/banner.png
+description: Crea una caja de música para que puedas elegir algunas melodías para relajarte
+version: 4
+listed: true
+copyedit: true
+last_tested: '2023-08-08'
+steps:
+  - 
+    title: Tu harás
+  - 
+    title: Reproduce una melodía
+    completion:
+      - engaged
+  - 
+    title: Elige algunas melodías
+  - 
+    title: Saltar melodías
+  - 
+    title: Detener o mezclar
+    completion:
+      - internal
+  - 
+    title: Prueba rápida
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Mejora tu proyecto
+  - 
+    title: '¿Qué sigue?'

@@ -7,16 +7,22 @@ listed: true
 copyedit: true
 last_tested: '2023-08-08'
 steps:
-  - title: Τι θα φτιάξεις
-  - title: Παίξε μια μελωδία
+  - 
+    title: Τι θα φτιάξεις
+  - 
+    title: Παίξε μια μελωδία
     completion:
       - engaged
-  - title: Επίλεξε μελωδίες
-  - title: Παράλειψε μελωδίες
-  - title: Σταμάτησε ή ανακάτεψε
+  - 
+    title: Επίλεξε μελωδίες
+  - 
+    title: Παράλειψε μελωδίες
+  - 
+    title: Σταμάτησε ή ανακάτεψε
     completion:
       - internal
-  - title: Γρήγορο κουίζ
+  - 
+    title: Γρήγορο κουίζ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -24,4 +30,7 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Αναβάθμισε το έργο σου
+  - 
+    title: Αναβάθμισε το έργο σου
+  - 
+    title: Και τώρα;
