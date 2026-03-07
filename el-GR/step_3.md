@@ -23,13 +23,13 @@
 
 Ονόμασε τη νέα μεταβλητή `μελωδία`{:class="microbitvariables"} και, στη συνέχεια, κάνε κλικ στο κουμπί **OK**.
 
-<img src="images/variable-tune.png" alt="Το παράθυρο &quot;Όνομα νέας μεταβλητής&quot;, με το όνομα &quot;μελωδία&quot; γραμμένο στο πλαίσιο." width="450"/>
+<img src="images/variable-tune.png" alt="Το παράθυρο &quot;Όνομα νέας μεταβλητής&quot;, με το όνομα &quot;μελωδία&quot; γραμμένο στο πλαίσιο." width="450" />
 
 --- /task ---
 
 Θα υπάρχουν πλέον διαθέσιμα νέα μπλοκ που μπορείς να χρησιμοποιήσεις για να ορίσεις, να αλλάξεις ή να χρησιμοποιήσεις την τιμή που είναι αποθηκευμένη στη μεταβλητή `μελωδία`{:class="microbitvariables"}.
 
-<img src="images/variableblocks-tune.png" alt="Το μενού Μεταβλητές με νέα μπλοκ για να ορίσεις, να αλλάξεις και να χρησιμοποιήσεις την τιμή της μεταβλητής μελωδίας." width="350"/>
+<img src="images/variableblocks-tune.png" alt="Το μενού Μεταβλητές με νέα μπλοκ για να ορίσεις, να αλλάξεις και να χρησιμοποιήσεις την τιμή της μεταβλητής μελωδίας." width="350" />
 
 --- task ---
 
@@ -38,7 +38,7 @@
 Άλλαξε το `0` σε `1`.
 
 ```microbit
-let μελωδία = 1
+let tune = 1
 ```
 
 --- /task ---
@@ -51,7 +51,7 @@ let μελωδία = 1
 
 Από το μενού `Λογική`{:class="microbitlogic"} επίλεξε το μπλοκ `εάν`{:class="microbitlogic"}.
 
-<img src="images/if-block-location.png" alt="Το μενού Λογική με τονισμένο το μπλοκ «εάν»." width="350"/>
+<img src="images/if-block-location.png" alt="Το μενού Λογική με τονισμένο το μπλοκ «εάν»." width="350" />
 
 --- /task ---
 
@@ -85,8 +85,8 @@ basic.forever(function () {
 
 ```microbit
 basic.forever(function () {
-    let μελωδία = 0
-    if (μελωδία == 1) {
+    let tune = 0
+    if (tune == 1) {
 
     }
     basic.showIcon(IconNames.Duck)
@@ -104,8 +104,8 @@ basic.forever(function () {
 
 ```microbit
 basic.forever(function () {
-    let μελωδία = 0
-    if (μελωδία == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
     }
@@ -136,7 +136,7 @@ basic.forever(function () {
 
 Κάνε κλικ στο σύμβολο `-` δίπλα στην ενότητα `αλλιώς`{:class="microbitlogic"} για να καταργήσεις την ενότητα `αλλιώς`{:class="microbitlogic"}.
 
-<img src="images/elseif-blocks.gif" alt="Μια κινούμενη εικόνα που δείχνει το σύμβολο + που χρησιμοποιείς για να προσθέσεις τρεις ενότητες 'αλλιώς εάν'. Στο τέλος, το 'αλλιώς' αφαιρείται από το τέλος κάνοντας κλικ στο σύμβολο '-' δίπλα του." width="350"/>
+<img src="images/elseif-blocks.gif" alt="Μια κινούμενη εικόνα που δείχνει το σύμβολο + που χρησιμοποιείς για να προσθέσεις τρεις ενότητες 'αλλιώς εάν'. Στο τέλος, το 'αλλιώς' αφαιρείται από το τέλος κάνοντας κλικ στο σύμβολο '-' δίπλα του." width="350" />
 
 --- /task ---
 
@@ -144,27 +144,27 @@ basic.forever(function () {
 
 Κάνε δεξί κλικ στο μπλοκ `μελωδία`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` και αντίγραψέ το.
 
-<img src="images/duplicate-comparison.png" alt="Το μπλοκ σύγκρισης '=' τονισμένο, με το μενού από το δεξί κλικ να έχει αναπτυχθεί και να εμφανίζει επιλογές συμπεριλαμβανομένου του 'Διπλασιασμού'." width="350"/>
+<img src="images/duplicate-comparison.png" alt="Το μπλοκ σύγκρισης '=' τονισμένο, με το μενού από το δεξί κλικ να έχει αναπτυχθεί και να εμφανίζει επιλογές συμπεριλαμβανομένου του 'Διπλασιασμού'." width="350" />
 
 --- /task ---
 
 --- task ---
 
-Τοποθέτησε το διπλότυπο μπλοκ `μελωδία`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` μεταξύ των πρώτων `αλλιώς εάν`{:class="microbitlogic"} και `τότε`{:class="microbitlogic"}.
+Τοποθέτησε το διπλότυπο μπλοκ `μελωδία`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` μεταξύ των πρώτων `αλλιώς εάν`{:class="microbitlogic"} και `τότε`{: class="microbitlogic"}.
 
 Αντίγραψε δύο ακόμη μπλοκ σύγκρισης και τοποθετησέ τα μεταξύ των άλλων ενοτήτων `αλλιώς εάν`{:class="microbitlogic"} και `τότε`{:class="microbitlogic"}.
 
 ```microbit
 basic.forever(function () {
-    let μελωδία = 0
-    if (μελωδία == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 1) {
+    } else if (tune == 1) {
 
-    } else if (μελωδία == 1) {
+    } else if (tune == 1) {
 
-    } else if (μελωδία == 1) {
+    } else if (tune == 1) {
 
     }
 })
@@ -182,15 +182,15 @@ basic.forever(function () {
 
 ```microbit
 basic.forever(function () {
-    let μελωδία = 0
-    if (μελωδία == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 2) {
+    } else if (tune == 2) {
 
-    } else if (μελωδία == 3) {
+    } else if (tune == 3) {
 
-    } else if (μελωδία == 4) {
+    } else if (tune == 4) {
 
     }
 })
@@ -218,15 +218,15 @@ basic.forever(function () {
 
 ```microbit
 basic.forever(function () {
-    let μελωδία = 0
-    if (μελωδία == 1) {
+    let tune = 0
+    if (tune == 1) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
         basic.showIcon(IconNames.Duck)
-    } else if (μελωδία == 2) {
+    } else if (tune == 2) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 3) {
+    } else if (tune == 3) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 4) {
+    } else if (tune == 4) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
     }
 })
@@ -248,13 +248,13 @@ title: Το μπλοκ show leds
 
 Μέσα στο μενού `Βασικά`{:class="microbitbasic"}, βρες το μπλοκ `show leds`{:class="microbitbasic"} και σύρε το μέσα σε ένα `αλλιώς εάν`{:class="microbitlogic"} για να το χρησιμοποιήσεις.
 
-<img src="images/show-leds.png" alt="Το μενού Βασικά με τονισμένο το μπλοκ &quot;show leds&quot;." width="350"/>
+<img src="images/show-leds.png" alt="Το μενού Βασικά με τονισμένο το μπλοκ &quot;show leds&quot;." width="350" />
 
 Μπορείς να κάνεις κλικ σε καθένα από τα τετράγωνα για να σχεδιάσεις την εικόνα σου. Τα λευκά τετράγωνα θα είναι αναμμένα στο micro:bit.
 
 Σχεδιάσαμε μια **τούρτα γενεθλίων** για τη μελωδία `γενεθλίων`.
 
-<img src="images/draw-icon.png" alt="Το μπλοκ 'show leds' με μία τούρτα γενεθλιών με δύο κεριά που δημιουργήθηκε σε λευκά τετράγωνα." width="350"/>
+<img src="images/draw-icon.png" alt="Το μπλοκ 'show leds' με μία τούρτα γενεθλιών με δύο κεριά που δημιουργήθηκε σε λευκά τετράγωνα." width="350" />
 
 --- /collapse ---
 
@@ -264,14 +264,14 @@ title: Το μπλοκ show leds
 
 ```microbit
 basic.forever(function () {
-    let μελωδία = 0
-    if (μελωδία == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 2) {
+    } else if (tune == 2) {
         basic.showIcon(IconNames.Silly)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 3) {
+    } else if (tune == 3) {
         basic.showLeds(`
             . # . # .
             . # . # .
@@ -280,7 +280,7 @@ basic.forever(function () {
             # # # # #
             `)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 4) {
+    } else if (tune == 4) {
         basic.showIcon(IconNames.Skull)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
     }
