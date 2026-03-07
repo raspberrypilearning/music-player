@@ -1,6 +1,6 @@
 ## Et ensuite ?
 
-Si tu suis le parcours [Introduction à micro:bit](https://projects.raspberrypi.org/fr-FR/raspberrypi/microbit-intro), tu peux passer au projet [Sonomètre](https://projects.raspberrypi.org/fr-FR/projects/sound-meter). Dans ce projet, tu utiliseras le capteur de son ou de lumière pour mesurer l'environnement autour de toi, tu créeras également une alarme pour t'avertir si les niveaux sonores deviennent trop élevés.
+Si tu suis le parcours [Introduction à micro:bit](https://projects.raspberrypi.org/en/raspberrypi/microbit-intro), tu peux passer au projet [Sonomètre](https://projects.raspberrypi.org/en/projects/sound-meter). Dans ce projet, tu utiliseras le capteur de son ou de lumière pour mesurer l'environnement autour de toi, tu créeras également une alarme pour t'avertir si les niveaux sonores deviennent trop élevés.
 
 Clique sur le projet intégré.
 
@@ -10,13 +10,4 @@ Clique sur le projet intégré.
 
 <div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_h86K9q8Yb49s" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
-Si tu souhaites t'amuser encore plus en explorant micro:bit, tu peux essayer l'un de ces [projets](https://projects.raspberrypi.org/fr-FR/projects?hardware%5B%5D=microbit).
-
-***
-
-Ce projet a été traduit par des bénévoles:
-
-Jonathan Vannieuwkerke
-Michel Arnols
-
-Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).
+Si tu souhaites t'amuser encore plus en explorant micro:bit, tu peux essayer l'un de ces [projets](https://projects.raspberrypi.org/en/projects?hardware%5B%5D=microbit).
