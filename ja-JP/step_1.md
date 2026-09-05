@@ -1,10 +1,10 @@
 ## micro:bitは初めてですか？
 
-micro:bitについて学ぶには、 [入門ガイド](https://projects.raspberrypi.org/ja-JP/projects/getting-started-guide-microbit) をご覧ください。
+micro:bitについて学ぶには、 [入門ガイド](https://projects.raspberrypi.org/en/projects/getting-started-guide-microbit) をご覧ください。
 
 `Discover` プロジェクトもお試しいただけます：
-- [趣味の選択](https://projects.raspberrypi.org/ja-JP/projects/hobby-selector)
-- [おかしなアラーム](https://projects.raspberrypi.org/ja-JP/projects/silly-reminder)
+- [趣味の選択](https://projects.raspberrypi.org/en/projects/hobby-selector)
+- [おかしなアラーム](https://projects.raspberrypi.org/en/projects/silly-reminder)
 
 ## はじめに
 

@@ -9,7 +9,7 @@ Wat is een <span style="color: #0faeb0">variabele?</span>
 
 Een variabele is een manier om gegevens in je programma's te labelen en op te slaan. Je programma kan gegevens die zijn opgeslagen in een variabele gebruiken en wijzigen wanneer deze wordt uitgevoerd.
 
-Gegevens die in een variabele zijn opgeslagen, kunnen een getal zijn zoals `10` of een woord zoals `dinosaurus`.</p>
+Gegevens die in een variabele zijn opgeslagen, kunnen een getal zijn zoals '10' of een woord zoals 'dinosaurus'.</p>
 
 --- task ---
 
@@ -23,22 +23,22 @@ Open het `Variabelen`{:class="microbitvariables"} menu en klik op **Maak een var
 
 Geef de nieuwe variabele de naam `deuntje`{:class="microbitvariables"} en klik dan op de **Ok** knop.
 
-<img src="images/variable-tune.png" alt="Het dialoogvenster 'Voer een nieuwe variabelenaam in', met de naam 'deuntje' in het vak." width="450"/>
+<img src="images/variable-tune.png" alt="Het dialoogvenster 'Voer een nieuwe variabelenaam in', met de naam 'deuntje' in het vak." width="450" />
 
 --- /task ---
 
 Er zullen nu nieuwe blokken beschikbaar zijn die je kunt gebruiken om de waarde die is opgeslagen in de variabele `deuntje`{:class="microbitvariables"} in te stellen, te veranderen of te gebruiken.
 
-<img src="images/variableblocks-tune.png" alt="Het Variabelen menu met nieuwe blokken om de waarde van de deuntje variabele in te stellen, te wijzigen en te gebruiken." width="350"/>
+<img src="images/variableblocks-tune.png" alt="Het Variabelen menu met nieuwe blokken om de waarde van de deuntje variabele in te stellen, te wijzigen en te gebruiken." width="350" />
 
 --- task ---
 
-Sleep het `stel in op`{:class="microbitvariables"} blok naar het bewerkingspaneel en plaats deze in het `bij opstart`{:class="microbitbasic"} blok.
+Sleep het `stel in op`{:class="microbitvariables"} blok naar het bewerkingspaneel en plaats deze in het `bij opstarten`{:class="microbitbasic"} blok.
 
 Verander de `0` naar `1`.
 
 ```microbit
-let deuntje = 1
+let tune = 1
 ```
 
 --- /task ---
@@ -85,8 +85,8 @@ Verander de tweede `0` in `1`.
 
 ```microbit
 basic.forever(function () {
-    let deuntje = 0
-    if (deuntje == 1) {
+    let tune = 0
+    if (tune == 1) {
 
     }
     basic.showIcon(IconNames.Duck)
@@ -104,8 +104,8 @@ Verplaats de `toon pictogram`{:class="microbitbasic"} en `play melody`{:class="m
 
 ```microbit
 basic.forever(function () {
-    let deuntje = 0
-    if (deuntje == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
     }
@@ -145,7 +145,7 @@ Klik op het `-` symbool naast de `anders`{:class="microbitlogic"} om de `anders`
 
 Klik met de rechtermuisknop op het blok `deuntje`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` en dupliceer het.
 
-<img src="images/duplicate-comparison.png" alt="Het '='-vergelijkingsblok gemarkeerd, waarbij het rechtermuisknopmenu is uitgeklapt met opties, waaronder 'Dupliceren'." width="350"/>
+<img src="images/duplicate-comparison.png" alt="Het '='-vergelijkingsblok gemarkeerd, waarbij het rechtermuisknopmenu is uitgeklapt met opties, waaronder 'Dupliceren'." width="350" />
 
 --- /task ---
 
@@ -157,15 +157,15 @@ Dupliceer nog twee vergelijkingsblokken en plaats ze tussen de andere `anders al
 
 ```microbit
 basic.forever(function () {
-    let deuntje = 0
-    if (deuntje == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 1) {
+    } else if (tune == 1) {
 
-    } else if (deuntje == 1) {
+    } else if (tune == 1) {
 
-    } else if (deuntje == 1) {
+    } else if (tune == 1) {
 
     }
 })
@@ -183,15 +183,15 @@ Voor de derde `anders als`{:class="microbitlogic"} sectie, verander de `1` naar 
 
 ```microbit
 basic.forever(function () {
-    let deuntje = 0
-    if (deuntje == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 2) {
+    } else if (tune == 2) {
 
-    } else if (deuntje == 3) {
+    } else if (tune == 3) {
 
-    } else if (deuntje == 4) {
+    } else if (tune == 4) {
 
     }
 })
@@ -219,15 +219,15 @@ Je zou nu vier melodieën moeten hebben, één voor elk van de vier voorwaarden.
 
 ```microbit
 basic.forever(function () {
-    let deuntje = 0
-    if (deuntje == 1) {
+    let tune = 0
+    if (tune == 1) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
         basic.showIcon(IconNames.Duck)
-    } else if (deuntje == 2) {
+    } else if (tune == 2) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 3) {
+    } else if (tune == 3) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 4) {
+    } else if (tune == 4) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
     }
 })
@@ -249,13 +249,13 @@ title: Gebruik het toon lichtjes blok
 
 In het `Basis`{:class="microbitbasic"} menu, zoek het blok `toon lichtjes`{:class="microbitbasic"} en sleep het in een `anders als`{:class="microbitlogic"} sectie om het te gebruiken.
 
-<img src="images/show-leds.png" alt="Het basis menu met het 'toon lichtjes'-blok gemarkeerd." width="350"/>
+<img src="images/show-leds.png" alt="Het basis menu met het 'toon lichtjes'-blok gemarkeerd." width="350" />
 
 Je kunt op elk van de vierkantjes klikken om je afbeelding te tekenen. Witte vierkantjes worden verlicht op de micro:bit.
 
 We hebben een **verjaardagstaart** getekend voor de melodie `verjaardag`.
 
-<img src="images/draw-icon.png" alt="Het 'toon lichtjes' blok met een verjaardagstaart met twee kaarsen gemaakt van witte vierkantjes." width="350"/>
+<img src="images/draw-icon.png" alt="Het 'toon lichtjes' blok met een verjaardagstaart met twee kaarsen gemaakt van witte vierkantjes." width="350" />
 
 --- /collapse ---
 
@@ -265,14 +265,14 @@ Voeg pictogrammen toe voor elk van je liedjes met behulp van het `toon pictogram
 
 ```microbit
 basic.forever(function () {
-    let deuntje = 0
-    if (deuntje == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 2) {
+    } else if (tune == 2) {
         basic.showIcon(IconNames.Silly)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 3) {
+    } else if (tune == 3) {
         basic.showLeds(`
             . # . # .
             . # . # .
@@ -281,7 +281,7 @@ basic.forever(function () {
             # # # # #
             `)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 4) {
+    } else if (tune == 4) {
         basic.showIcon(IconNames.Skull)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
     }
