@@ -68,8 +68,8 @@ Place-le dans le premier bloc `0` sur le bloc `0 ≠ 0`{:class="microbitlogic"}.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
-    let musique = 0
-    if (musique != 0) {
+    let tune = 0
+    if (tune != 0) {
 
     } else {
 
@@ -87,8 +87,8 @@ Place-le à l'intérieur du bloc `si`{:class="microbitlogic"} de la partie du bl
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
-    let musique = 0
-    if (musique != 0) {
+    let tune = 0
+    if (tune != 0) {
         music.stopAllSounds()
     } else {
 
@@ -105,11 +105,11 @@ Clique sur le menu `Variables`{:class="microbitvariables"} et fais glisser un bl
 Place-le sous le bloc `arrêter tous les sons`{:class="microbitmusic"}.
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onGesture(Gesture.Shake, function () {
-    if (musique != 0) {
+    if (tune != 0) {
         music.stopAllSounds()
-        musique = 0
+        tune = 0
     } else {
 
     }
@@ -131,13 +131,13 @@ Clique sur le menu bloc `Variables`{:class="microbitvariables"} et fais glisser 
 Place-le à l'intérieur du bloc `sinon`{:class="microbitlogic"} de la partie du bloc `si...sinon`{:class="microbitlogic"}.
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onGesture(Gesture.Shake, function () {
-    if (musique != 0) {
+    if (tune != 0) {
         music.stopAllSounds()
-        musique = 0
+        tune = 0
     } else {
-        musique = 0
+        tune = 0
     }
 })
 ```
@@ -151,13 +151,13 @@ Dans le menu `Maths`{:class="microbitmath"}, fais glisser un bloc `choisir au ha
 Place-le à l'intérieur de la partie `0` du bloc `définir musique`{:class="microbitvariables"}.
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onGesture(Gesture.Shake, function () {
-    if (musique != 0) {
+    if (tune != 0) {
         music.stopAllSounds()
-        musique = 0
+        tune = 0
     } else {
-        musique = randint(0, 10)
+        tune = randint(0, 10)
     }
 })
 ```
@@ -179,13 +179,13 @@ Modifie la partie `10` du bloc `choisir au hasard`{:class="microbitmath"} par `4
 Ton code devrait ressembler à ceci :
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onGesture(Gesture.Shake, function () {
-    if (musique != 0) {
+    if (tune != 0) {
         music.stopAllSounds()
-        musique = 0
+        tune = 0
     } else {
-        musique = randint(1, 4)
+        tune = randint(1, 4)
     }
 })
 ```
