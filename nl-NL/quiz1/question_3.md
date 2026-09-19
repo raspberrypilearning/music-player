@@ -10,36 +10,36 @@ Hier is de code voor het programma voor de muziekspeler.
 ```microbit
 input.onButtonPressed(Button.A, function () {
     music.stopAllSounds()
-    deuntje += -1
-    if (deuntje < 1) {
-        deuntje = 4
+    tune += -1
+    if (tune < 1) {
+        tune = 4
     }
 })
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    deuntje += 1
-    if (deuntje > 4) {
-        deuntje = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 input.onGesture(Gesture.Shake, function () {
-    if (deuntje != 0) {
+    if (tune != 0) {
         music.stopAllSounds()
-        deuntje = 0
+        tune = 0
     } else {
-        deuntje = randint(1, 4)
+        tune = randint(1, 4)
     }
 })
-let deuntje = 0
-deuntje = 1
+let tune = 0
+tune = 1
 basic.forever(function () {
-    if (deuntje == 1) {
+    if (tune == 1) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 2) {
+    } else if (tune == 2) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 3) {
+    } else if (tune == 3) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.JumpDown), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 4) {
+    } else if (tune == 4) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Wawawawaa), music.PlaybackMode.UntilDone)
     }
     basic.pause(200)
