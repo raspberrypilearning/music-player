@@ -68,8 +68,8 @@ input.onGesture(Gesture.Shake, function () {
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
-    let μελωδία = 0
-    if (μελωδία != 0) {
+    let tune = 0
+    if (tune != 0) {
 
     } else {
 
@@ -87,8 +87,8 @@ input.onGesture(Gesture.Shake, function () {
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
-    let μελωδία = 0
-    if (μελωδία != 0) {
+    let tune = 0
+    if (tune != 0) {
         music.stopAllSounds()
     } else {
 
@@ -105,11 +105,11 @@ input.onGesture(Gesture.Shake, function () {
 Τοποθέτησέ το κάτω από το μπλοκ `stop all sounds`{:class="microbitmusic"}.
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onGesture(Gesture.Shake, function () {
-    if (μελωδία != 0) {
+    if (tune != 0) {
         music.stopAllSounds()
-        μελωδία = 0
+        tune = 0
     } else {
 
     }
@@ -131,13 +131,13 @@ input.onGesture(Gesture.Shake, function () {
 Τοποθέτησε το στην περιοχή `αλλιώς`{:class="microbitlogic"} του μπλοκ `εάν...αλλιώς`{:class="microbitlogic"}.
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onGesture(Gesture.Shake, function () {
-    if (μελωδία != 0) {
+    if (tune != 0) {
         music.stopAllSounds()
-        μελωδία = 0
+        tune = 0
     } else {
-        μελωδία = 0
+        tune = 0
     }
 })
 ```
@@ -151,13 +151,13 @@ input.onGesture(Gesture.Shake, function () {
 Τοποθέτησέ το μέσα στο τμήμα `0` του μπλοκ `ορισμός μελωδία`{:class="microbitvariables"}.
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onGesture(Gesture.Shake, function () {
-    if (μελωδία != 0) {
+    if (tune != 0) {
         music.stopAllSounds()
-        μελωδία = 0
+        tune = 0
     } else {
-        μελωδία = randint(0, 10)
+        tune = randint(0, 10)
     }
 })
 ```
@@ -179,13 +179,13 @@ input.onGesture(Gesture.Shake, function () {
 Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onGesture(Gesture.Shake, function () {
-    if (μελωδία != 0) {
+    if (tune != 0) {
         music.stopAllSounds()
-        μελωδία = 0
+        tune = 0
     } else {
-        μελωδία = randint(1, 4)
+        tune = randint(1, 4)
     }
 })
 ```
