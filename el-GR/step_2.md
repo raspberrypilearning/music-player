@@ -14,7 +14,7 @@
 title: Εκτός σύνδεσης έκδοση του επεξεργαστή
 ---
 
-Υπάρχει επίσης μια έκδοση με [δυνατότητα λήψης του προγράμματος επεξεργασίας MakeCode](https://makecode.microbit.org/offline-app){:target="_blank"}.
+Υπάρχει επίσης μια έκδοση με [δυνατότητα λήψης του προγράμματος επεξεργασίας MakeCode](https://makecode.microbit.org/offline-app)"{:target="_blank"}.
 
 --- /collapse ---
 
@@ -32,7 +32,7 @@ title: Εκτός σύνδεσης έκδοση του επεξεργαστή
 
 Κάνε κλικ στο κουμπί **Νέο έργο**.
 
-<img src="images/new-project-button.png" alt="Το κουμπί Νέο Έργο στο MakeCode." width="250"/>
+<img src="images/new-project-button.png" alt="Το κουμπί Νέο Έργο στο MakeCode." width="250" />
 
 --- /task ---
 
@@ -40,7 +40,7 @@ title: Εκτός σύνδεσης έκδοση του επεξεργαστή
 
 Δώσε στο νέο σου έργο το όνομα `Πρόγραμμα αναπαραγωγής μουσικής` και κάνε κλικ στο **Δημιουργία**.
 
-<img src="images/music-player.png" alt="Το όνομα 'Πρόγραμμα αναπαραγωγής μουσικής' γραμμένο στο πλαίσιο διαλόγου Δημιουργία έργου." width="400"/>
+<img src="images/music-player.png" alt="Το όνομα 'Πρόγραμμα αναπαραγωγής μουσικής' γραμμένο στο πλαίσιο διαλόγου Δημιουργία έργου." width="400" />
 
 **Συμβουλή:** Για να γίνει πιο εύκολη η εύρεση του έργου σου αργότερα, δώσε του ένα όνομα που να σχετίζεται με τη δραστηριότητα που δημιουργείς.
 
@@ -67,7 +67,7 @@ title: Χρήστες του micro:bit V1
 
 Από το μενού `Μουσική`{:class="microbitmusic"}, σύρε το μπλοκ `play melody dadadum`{:class="microbitmusic"} και τοποθέτησέ το μέσα στο μπλοκ `για πάντα`{:class="microbitbasic"}.
 
-<img src="images/play-melody.png" alt="Το μενού Μουσική ανοίγει με τονισμένο το μπλοκ &quot;play melody dadadum&quot;." width="450"/>
+<img src="images/play-melody.png" alt="Το μενού Μουσική ανοίγει με τονισμένο το μπλοκ &quot;play melody dadadum&quot;." width="450" />
 
 --- /task ---
 
@@ -77,7 +77,7 @@ title: Χρήστες του micro:bit V1
 
 Επίλεξε `until done`.
 
-<img src="images/melody-untildone.gif" alt="Το αναπτυσσόμενο μενού μελωδίας με επιλεγμένο το κουμπί «until done»." width="400"/>
+<img src="images/melody-untildone.gif" alt="Το αναπτυσσόμενο μενού μελωδίας με επιλεγμένο το κουμπί «until done»." width="400" />
 
 --- /task ---
 
@@ -89,7 +89,7 @@ title: Χρήστες του micro:bit V1
 
 Άνοιξε το μενού `Βασικά`{:class="microbitbasic"} και βρες το μπλοκ `εμφάνιση εικονιδίου`{:class="microbitbasic"}.
 
-<img src="images/show-icon-location.png" alt="Το μενού Βασικά με τονισμένο το μπλοκ &quot;εμφάνιση εικονιδίου&quot;." width="350"/>
+<img src="images/show-icon-location.png" alt="Το μενού Βασικά με τονισμένο το μπλοκ &quot;εμφάνιση εικονιδίου&quot;." width="350" />
 
 --- /task ---
 
@@ -133,6 +133,6 @@ basic.forever(function () {
 + Θα πρέπει τώρα να ακούσεις τη μελωδία να παίζει μέχρι να ολοκληρωθεί (και στη συνέχεια να ακούγεται λόγω του βρόχου για πάντα)
 + Θα πρέπει επίσης να δεις το εικονίδιο που επέλεξες να εμφανίζεται στα LED
 
---- /task ---    
+--- /task ---
 
 Μπράβο, δημιουργήσες το πρώτο σου μουσικό πρόγραμμα σε micro:bit!
