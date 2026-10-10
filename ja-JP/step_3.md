@@ -23,13 +23,13 @@
 
 新しい変数に `tune`{:class="microbitvariables"} という名前を付け、 **OK** ボタンをクリックします。
 
-<img src="images/variable-tune.png" alt="「作成する変数の名前」ウィンドウ。ボックスに「tune」という名前が書かれています。" width="450"/>
+<img src="images/variable-tune.png" alt="「作成する変数の名前」ウィンドウ。ボックスに「tune」という名前が書かれています。" width="450" />
 
 --- /task ---
 
 新しいブロックが利用できるようになり、設定や変更を行うことができます。 または、 変数`tune`{:class="microbitvariables"}に格納されている値を使用できます。
 
-<img src="images/variableblocks-tune.png" alt="変数のtuneの値を設定、変更、使用するための新しいブロックを含む変数メニュー。" width="350"/>
+<img src="images/variableblocks-tune.png" alt="変数のtuneの値を設定、変更、使用するための新しいブロックを含む変数メニュー。" width="350" />
 
 --- task ---
 
@@ -51,7 +51,7 @@ let tune = 1
 
 `論理`{:class="microbitlogic"} メニューから、 `もし`{:class="microbitlogic"} ブロックを選択します。
 
-<img src="images/if-block-location.png" alt="`もし` ブロックが強調表示された論理 メニュー。" width="350"/>
+<img src="images/if-block-location.png" alt="`もし` ブロックが強調表示された論理 メニュー。" width="350" />
 
 --- /task ---
 
@@ -137,7 +137,7 @@ basic.forever(function () {
 
 `でなければ`{:class="microbitlogic"} セクションの横にある `-` シンボルをクリックして、 `でなければ`{:class="microbitlogic"} セクションを取り除きます。
 
-<img src="images/elseif-blocks.gif" alt="+ 記号を使用して 3 つの「でなければもし」セクションを追加する様子を示すアニメーション。 最後に、その横にある「-」記号をクリックして、「でなければ」を一番下から削除します。" width="350"/>
+<img src="images/elseif-blocks.gif" alt="+ 記号を使用して 3 つの「でなければもし」セクションを追加する様子を示すアニメーション。 最後に、その横にある「-」記号をクリックして、「でなければ」を一番下から削除します。" width="350" />
 
 --- /task ---
 
@@ -145,7 +145,7 @@ basic.forever(function () {
 
 `tune`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` ブロックを右クリックして複製します。
 
-<img src="images/duplicate-comparison.png" alt="「=」比較ブロックが強調表示され、右クリック メニューが展開されて「複製」などのオプションが表示されます。" width="350"/>
+<img src="images/duplicate-comparison.png" alt="「=」比較ブロックが強調表示され、右クリック メニューが展開されて「複製」などのオプションが表示されます。" width="350" />
 
 --- /task ---
 
@@ -249,13 +249,13 @@ title: LED画面に表示ブロック
 
 `基本`{:class="microbitbasic"} メニュー内で、 `LED画面に表示`{:class="microbitbasic"} ブロックを見つけて、 `でなければもし`{:class="microbitlogic"} 内にドラッグして使用します。
 
-<img src="images/show-leds.png" alt="「LED画面に表示」ブロックが強調表示された基本メニュー。" width="350"/>
+<img src="images/show-leds.png" alt="「LED画面に表示」ブロックが強調表示された基本メニュー。" width="350" />
 
 それぞれの四角形をクリックすると絵が描けます。 micro:bitでは白い四角形が点灯します。
 
 `ハッピーバースデー` メロディーのために **誕生日ケーキ** を描きました。
 
-<img src="images/draw-icon.png" alt="白い四角で 2 本のろうそくが描かれた誕生日ケーキの「LED画面に表示」ブロック。" width="350"/>
+<img src="images/draw-icon.png" alt="白い四角で 2 本のろうそくが描かれた誕生日ケーキの「LED画面に表示」ブロック。" width="350" />
 
 --- /collapse ---
 
