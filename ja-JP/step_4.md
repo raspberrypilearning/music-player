@@ -244,8 +244,7 @@ input.onButtonPressed(Button.B, function () {
 
 --- /task ---
 
---- task ---
-`ボタン A が押されたとき`{:class="microbitinput"} ブロックに次の変更を加えます:
+--- task --- `ボタン A が押されたとき`{:class="microbitinput"} ブロックに次の変更を加えます:
 
 `変更を〜だけ増やす`{:class="microbitvariables"} ブロックで、 `1` を `-1` に変更します。
 
