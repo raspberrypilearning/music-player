@@ -32,7 +32,7 @@ Une fois que l'éditeur est ouvert, tu devras créer un nouveau projet et lui do
 
 Clique sur le bouton **Nouveau projet**.
 
-<img src="images/new-project-button.png" alt="Le bouton Nouveau projet dans MakeCode." width="250"/>
+<img src="images/new-project-button.png" alt="Le bouton Nouveau projet dans MakeCode." width="250" />
 
 --- /task ---
 
@@ -40,7 +40,7 @@ Clique sur le bouton **Nouveau projet**.
 
 Nomme-le `lecteur de musique` et clique sur **Créer**.
 
-<img src="images/music-player.png" alt="Le nom &quot;lecteur de musique&quot; écrit dans la boîte de dialogue Créer un projet." width="400"/>
+<img src="images/music-player.png" alt="Le nom &quot;lecteur de musique&quot; écrit dans la boîte de dialogue Créer un projet." width="400" />
 
 **Astuce :** pour faciliter la recherche de ton projet plus tard, donne-lui un nom utile qui se rapporte à l'activité que tu crées.
 
@@ -67,7 +67,7 @@ Il y a un guide [pour connecter des écouteurs/haut-parleurs avec le micro:bit 
 
 Dans le menu `Musique`{:class="microbitmusic"}, fais glisser le bloc `jouer mélodie dadadum`{:class="microbitmusic"} et place-le à l'intérieur du bloc `toujours`{:class="microbitbasic"}.
 
-<img src="images/play-melody.png" alt="Le menu Musique s'ouvre avec le bloc &quot;jouer mélodie dadadum&quot; en surbrillance." width="450"/>
+<img src="images/play-melody.png" alt="Le menu Musique s'ouvre avec le bloc &quot;jouer mélodie dadadum&quot; en surbrillance." width="450" />
 
 --- /task ---
 
@@ -77,7 +77,7 @@ Clique sur la flèche vers le bas à côté de `en arrière-plan` sur le bloc `j
 
 Choisis `jusqu'à la fin`.
 
-<img src="images/melody-untildone.gif" alt="Le menu déroulant de la mélodie avec le bouton &quot;jusqu'à la fin&quot; sélectionné." width="400"/>
+<img src="images/melody-untildone.gif" alt="Le menu déroulant de la mélodie avec le bouton &quot;jusqu'à la fin&quot; sélectionné." width="400" />
 
 --- /task ---
 
@@ -89,7 +89,7 @@ En plus de jouer une mélodie, tu peux ajouter une image à l'écran LED pour aj
 
 Ouvre le menu `Base`{:class="microbitbasic"} et trouve le bloc `montrer l'icône`{:class="microbitbasic"}.
 
-<img src="images/show-icon-location.png" alt="Le menu de base avec le bloc &quot;montrer l'icône&quot; en surbrillance." width="350"/>
+<img src="images/show-icon-location.png" alt="Le menu de base avec le bloc &quot;montrer l'icône&quot; en surbrillance." width="350" />
 
 --- /task ---
 
@@ -111,7 +111,7 @@ La valeur par défaut est une icône **cœur**.
 
 **Choisis** une icône qui représente ta mélodie.
 
-<img src="images/choose-icon.gif" alt="Le bloc montrer l'icône est développé pour afficher les multiples options pour les icônes. Après un peu de défilement, le canard est sélectionné dans la liste." width="400"/>
+<img src="images/choose-icon.gif" alt="Le bloc montrer l'icône est développé pour afficher les multiples options pour les icônes. Après un peu de défilement, le canard est sélectionné dans la liste." width="400" />
 
 Nous avons choisi ce petit canard !
 
@@ -133,6 +133,6 @@ Lorsque tu modifies un bloc de code dans le panneau de l'éditeur de code, le si
 + Tu devrais maintenant entendre la mélodie jouer jusqu'à la fin (et ensuite en boucle à cause de la boucle toujours)
 + Tu devrais également voir l’icône que tu as choisie affichée sur les LEDs
 
---- /task ---    
+--- /task ---
 
 Bravo, tu as créé ton premier programme musical sur un micro:bit !
