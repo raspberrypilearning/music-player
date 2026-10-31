@@ -9,7 +9,7 @@ Wat is een variabele bij het programmeren?
 
 --- choices ---
 
-- (x) Een speciale plaats voor het opslaan van verschillende stukken informatie
+- (x) een speciale plaats voor het opslaan van verschillende stukken informatie
 
   --- feedback ---
 
