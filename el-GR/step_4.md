@@ -70,10 +70,10 @@ input.onButtonPressed(Button.B, function () {
 ![Το μενού μπλοκ Μεταβλητές με τονισμένο το μπλοκ "άλλαξε μελωδία κατά 1".](images/change-tune-by-1.png)
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    μελωδία += 1
+    tune += 1
 })
 ```
 
@@ -89,14 +89,14 @@ input.onButtonPressed(Button.B, function () {
 
 ```microbit
 basic.forever(function () {
-    let μελωδία = 0
-    if (μελωδία == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 2) {
+    } else if (tune == 2) {
         basic.showIcon(IconNames.Silly)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 3) {
+    } else if (tune == 3) {
         basic.showLeds(`
             . # . # .
             . # . # .
@@ -105,7 +105,7 @@ basic.forever(function () {
             # # # # #
             `)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 4) {
+    } else if (tune == 4) {
         basic.showIcon(IconNames.Skull)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
     }
@@ -119,10 +119,10 @@ basic.forever(function () {
 Τοποθέτησέ το κάτω από το μπλοκ `άλλαξε μελωδία`{:class='microbitvariables'} στον κώδικά σου.
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    μελωδία += 1
+    tune += 1
     if (true) {
 
     }
@@ -140,10 +140,10 @@ input.onButtonPressed(Button.B, function () {
 Άλλαξε το `<` (λιγότερο από) σε `>` (μεγαλύτερο από) κάνοντας κλικ στο βέλος δίπλα στο σύμβολο `<`.
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    μελωδία += 1
+    tune += 1
     if (0 > 0) {
 
     }
@@ -159,11 +159,11 @@ input.onButtonPressed(Button.B, function () {
 Τοποθέτησέ το στο πρώτο `0` στο μπλοκ `0 > 0`{:class="microbitlogic"}.
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    μελωδία += 1
-    if (μελωδία > 0) {
+    tune += 1
+    if (tune > 0) {
 
     }
 })
@@ -172,11 +172,11 @@ input.onButtonPressed(Button.B, function () {
 Άλλαξε το δεύτερο `0` σε `4`.
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    μελωδία += 1
-    if (μελωδία > 4) {
+    tune += 1
+    if (tune > 4) {
 
     }
 })
@@ -193,12 +193,12 @@ input.onButtonPressed(Button.B, function () {
 Άλλαξε το `0` σε `1`.
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    μελωδία += 1
-    if (μελωδία > 4) {
-        μελωδία = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 ```
@@ -225,27 +225,26 @@ input.onButtonPressed(Button.B, function () {
 Άλλαξε το κουμπί από `B` σε `A`. Αυτή η ενέργεια θα επαναφέρει το χρώμα του μπλοκ, αντί να είναι γκρι.
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onButtonPressed(Button.A, function () {
     music.stopAllSounds()
-    μελωδία += 1
-    if (μελωδία > 4) {
-        μελωδία = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    μελωδία += 1
-    if (μελωδία > 4) {
-        μελωδία = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 ```
 
 --- /task ---
 
---- task ---
-Πραγματοποίησε αυτές τις αλλαγές στο μπλοκ `όταν πιεστεί το πλήκτρο button A`{:class="microbitinput"}:
+--- task --- Πραγματοποίησε αυτές τις αλλαγές στο μπλοκ `όταν πιεστεί το πλήκτρο button A`{:class="microbitinput"}:
 
 Άλλαξε το `1` σε `-1` στο μπλοκ `άλλαξε`{:class="microbitvariables"}.
 
@@ -263,19 +262,19 @@ input.onButtonPressed(Button.B, function () {
 Θα πρέπει τώρα να έχεις ένα μπλοκ κώδικα `όταν πιεστεί το κουμπί button A`{:class="microbitinput"} κι ένα μπλοκ κώδικα `όταν πιεστεί το κουμπί button B`{:class="microbitinput"}:
 
 ```microbit
-let μελωδία = 0
+let tune = 0
 input.onButtonPressed(Button.A, function () {
     music.stopAllSounds()
-    μελωδία += -1
-    if (μελωδία < 1) {
-        μελωδία = 4
+    tune += -1
+    if (tune < 1) {
+        tune = 4
     }
 })
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    μελωδία += 1
-    if (μελωδία > 4) {
-        μελωδία = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 ```
