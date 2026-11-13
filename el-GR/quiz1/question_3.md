@@ -10,36 +10,36 @@ legend: Ερώτηση 3 από 3
 ```microbit
 input.onButtonPressed(Button.A, function () {
     music.stopAllSounds()
-    μελωδία += -1
-    if (μελωδία < 1) {
-        μελωδία = 4
+    tune += -1
+    if (tune < 1) {
+        tune = 4
     }
 })
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    μελωδία += 1
-    if (μελωδία > 4) {
-        μελωδία = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 input.onGesture(Gesture.Shake, function () {
-    if (μελωδία != 0) {
+    if (tune != 0) {
         music.stopAllSounds()
-        μελωδία = 0
+        tune = 0
     } else {
-        μελωδία = randint(1, 4)
+        tune = randint(1, 4)
     }
 })
-let μελωδία = 0
-μελωδία = 1
+let tune = 0
+tune = 1
 basic.forever(function () {
-    if (μελωδία == 1) {
+    if (tune == 1) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 2) {
+    } else if (tune == 2) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 3) {
+    } else if (tune == 3) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.JumpDown), music.PlaybackMode.UntilDone)
-    } else if (μελωδία == 4) {
+    } else if (tune == 4) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Wawawawaa), music.PlaybackMode.UntilDone)
     }
     basic.pause(200)

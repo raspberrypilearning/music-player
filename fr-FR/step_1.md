@@ -1,10 +1,10 @@
 ## C'est la première fois sur le micro:bit ?
 
-Consulte notre [Guide de démarrage](https://projects.raspberrypi.org/fr-FR/projects/getting-started-guide-microbit) pour tout savoir sur le micro:bit !
+Consulte notre [Guide de démarrage](https://projects.raspberrypi.org/en/projects/getting-started-guide-microbit) pour tout savoir sur le micro:bit !
 
 Tu peux aussi essayer nos merveilleux projets `Découvrir` :
-- [Sélecteur de loisirs](https://projects.raspberrypi.org/fr-FR/projects/hobby-selector)
-- [Rappel idiot](https://projects.raspberrypi.org/fr-FR/projects/silly-reminder)
+- [Sélecteur de loisirs](https://projects.raspberrypi.org/en/projects/hobby-selector)
+- [Rappel idiot](https://projects.raspberrypi.org/en/projects/silly-reminder)
 
 ## Ce que tu vas faire
 
