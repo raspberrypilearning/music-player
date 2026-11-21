@@ -35,7 +35,7 @@ Dans le menu `Entrée`{:class="microbitinput"}, fais glisser le bloc `lorsque le
 
 Clique sur la flèche à côté de `A`{:class="microbitinput"} sur le bloc `lorsque le bouton`{:class="microbitinput"}.
 
-Remplace le `A`{:class="microbitinput"} par `B`{:class="microbitinput"}
+Remplace le `A`{:class='microbitinput'} par `B`{:class='microbitinput"}
 
 ![Le menu des flèches vers le bas du bloc "lorsque le bouton A est pressé" avec B en surbrillance.](images/buttonA-arrow.png)
 
@@ -70,10 +70,10 @@ Place-le sous le bloc `arrêter tous les sons`{:class="microbitmusic"}.
 ![Le menu des blocs Variables avec le bloc "modifier musique de 1" en surbrillance.](images/change-tune-by-1.png)
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    musique += 1
+    tune += 1
 })
 ```
 
@@ -89,14 +89,14 @@ Parce que tu n'as que quatre mélodies, si la variable passe à 5, tu dois reven
 
 ```microbit
 basic.forever(function () {
-    let musique = 0
-    if (musique == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (musique == 2) {
+    } else if (tune == 2) {
         basic.showIcon(IconNames.Silly)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (musique == 3) {
+    } else if (tune == 3) {
         basic.showLeds(`
             . # . # .
             . # . # .
@@ -105,7 +105,7 @@ basic.forever(function () {
             # # # # #
             `)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
-    } else if (musique == 4) {
+    } else if (tune == 4) {
         basic.showIcon(IconNames.Skull)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
     }
@@ -116,13 +116,13 @@ basic.forever(function () {
 
 Dans le menu `Logique`{:class="microbitlogic"}, fais glisser le bloc `si`{:class="microbitlogic"}.
 
-Place-le sous le bloc `modifier musique`{:class="microbitvariables"} dans ton code.
+Place-le sous le bloc `modifier musique`{:class='microbitvariables'} dans ton code.
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    musique += 1
+    tune += 1
     if (true) {
 
     }
@@ -140,10 +140,10 @@ Place-le à l'intérieur de la partie `vrai` du bloc `si`{:class="microbitlogic"
 Modifie le `<` (inférieur à) par `>` (supérieur) en cliquant sur la flèche à côté du symbole `<`.
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    musique += 1
+    tune += 1
     if (0 > 0) {
 
     }
@@ -159,11 +159,11 @@ Dans le menu `Variables`{:class="microbitvariables"}, fais glisser le bloc varia
 Place-le sur le premier bloc `0` dans le `0 > 0`{:class="microbitlogic"}.
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    musique += 1
-    if (musique > 0) {
+    tune += 1
+    if (tune > 0) {
 
     }
 })
@@ -172,11 +172,11 @@ input.onButtonPressed(Button.B, function () {
 Modifie le deuxième `0` par `4`.
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    musique += 1
-    if (musique > 4) {
+    tune += 1
+    if (tune > 4) {
 
     }
 })
@@ -193,12 +193,12 @@ Place-le à l'intérieur du bloc `si`{:class="microbitlogic"} dans ton code.
 Modifie le `0` par `1`.
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    musique += 1
-    if (musique > 4) {
-        musique = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 ```
@@ -225,27 +225,26 @@ Tu devrais maintenant avoir un deuxième bloc `lorsque le bouton est pressé`{:c
 Modifie le bouton de `B` par `A`. Cela empêchera le bloc d'être grisé.
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onButtonPressed(Button.A, function () {
     music.stopAllSounds()
-    musique += 1
-    if (musique > 4) {
-        musique = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    musique += 1
-    if (musique > 4) {
-        musique = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 ```
 
 --- /task ---
 
---- task ---
-Effectue ces modifications au bloc `lorsque le bouton A est pressé`{:class="microbitinput"} :
+--- task --- Effectue ces modifications au bloc `lorsque le bouton A est pressé`{:class="microbitinput"} :
 
 Modifie le bloc `1` par `-1` dans le bloc `modifier`{:class="microbitvariables"}.
 
@@ -263,19 +262,19 @@ Modifie le bloc `1` par `4` dans le bloc `définir`{:class="microbitvariables"}.
 Tu devrais maintenant avoir un bloc de code `lorsque le bouton A est pressé`{:class="microbitinput"} et un bloc de code `lorsque le bouton B est pressé`{:class="microbitinput"} :
 
 ```microbit
-let musique = 0
+let tune = 0
 input.onButtonPressed(Button.A, function () {
     music.stopAllSounds()
-    musique += -1
-    if (musique < 1) {
-        musique = 4
+    tune += -1
+    if (tune < 1) {
+        tune = 4
     }
 })
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    musique += 1
-    if (musique > 4) {
-        musique = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 ```
