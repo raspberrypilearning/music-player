@@ -70,10 +70,10 @@ Plaats het onder het blok `stop alle geluiden`{:class="microbitmusic"}.
 ![Het Variabelenblok menu met het blok 'verander deuntje met 1' blok gemarkeerd.](images/change-tune-by-1.png)
 
 ```microbit
-let deuntje = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    deuntje += 1
+    tune += 1
 })
 ```
 
@@ -81,7 +81,7 @@ input.onButtonPressed(Button.B, function () {
 
 #### Omgaan met 'buiten bereik'
 
-Als de waarde van de variabele `4`is, zal het wijzigen ervan met `1` de waarde `5`maken.
+Als de waarde van de variabele `4` is, zal het wijzigen ervan met `1` de waarde `5` maken.
 
 🚨 Maar er is geen melodie gekoppeld aan de waarde `5`! 🚨
 
@@ -89,14 +89,14 @@ Omdat je maar vier melodieën hebt, moet je, als de variabele naar 5 verandert, 
 
 ```microbit
 basic.forever(function () {
-    let deuntje = 0
-    if (deuntje == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 2) {
+    } else if (tune == 2) {
         basic.showIcon(IconNames.Silly)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 3) {
+    } else if (tune == 3) {
         basic.showLeds(`
             . # . # .
             . # . # .
@@ -105,7 +105,7 @@ basic.forever(function () {
             # # # # #
             `)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
-    } else if (deuntje == 4) {
+    } else if (tune == 4) {
         basic.showIcon(IconNames.Skull)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
     }
@@ -119,10 +119,10 @@ Vanuit het `Logisch`{:class="microbitlogic"} menu, sleep het `als`{:class="micro
 Plaats het onder het `verander deuntje met`{:class="microbitvariables"} blok in je code.
 
 ```microbit
-let deuntje = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    deuntje += 1
+    tune += 1
     if (true) {
 
     }
@@ -140,10 +140,10 @@ Plaats dit in het `waar` deel van het `als`{:class="microbitlogic"} blok.
 Verander de `<` (kleiner dan) in `>` (groter dan) door op de pijl naast het `<` -symbool te klikken.
 
 ```microbit
-let deuntje = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    deuntje += 1
+    tune += 1
     if (0 > 0) {
 
     }
@@ -159,11 +159,11 @@ Sleep vanuit het menu `Variabelen`{:class="microbitvariables"} een blok `deuntje
 Plaats het in de eerste `0` in het `0 > 0`{:class="microbitlogic"} blok.
 
 ```microbit
-let deuntje = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    deuntje += 1
-    if (deuntje > 0) {
+    tune += 1
+    if (tune > 0) {
 
     }
 })
@@ -172,11 +172,11 @@ input.onButtonPressed(Button.B, function () {
 Verander de tweede `0` in `4`.
 
 ```microbit
-let deuntje = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    deuntje += 1
-    if (deuntje > 4) {
+    tune += 1
+    if (tune > 4) {
 
     }
 })
@@ -193,12 +193,12 @@ Plaats het in het `als`{:class="microbitlogic"} blok in je code.
 Verander de `0` naar `1`.
 
 ```microbit
-let deuntje = 0
+let tune = 0
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    deuntje += 1
-    if (deuntje > 4) {
-        deuntje = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 ```
@@ -225,35 +225,34 @@ Je zou nu een tweede `wanneer knop wordt ingedrukt`{:class="microbitinput"} blok
 Wijzig de knop van `B` naar `A`. Hierdoor wordt voorkomen dat het blok grijs wordt weergegeven.
 
 ```microbit
-let deuntje = 0
+let tune = 0
 input.onButtonPressed(Button.A, function () {
     music.stopAllSounds()
-    deuntje += 1
-    if (deuntje > 4) {
-        deuntje = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    deuntje += 1
-    if (deuntje > 4) {
-        deuntje = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 ```
 
 --- /task ---
 
---- task ---
-Breng deze wijzigingen aan in het blok `wanneer knop A wordt ingedrukt`{:class="microbitinput"}:
+--- task --- Breng deze wijzigingen aan in het blok `wanneer knop A wordt ingedrukt`{:class="microbitinput"}:
 
 Verander de `1` in `-1` in het `verander`{:class="microbitvariables"} blok.
 
 In het vergelijkingsblok:
 
-+ Verander de `<` naar `>`
++ Verander de `>` naar `<`
 
-+ Verander de `1` naar `4`
++ Verander de `4` naar `1`
 
 Wijzig de `1` in `4` in het `stel in op`{:class="microbitvariables"} blok.
 
@@ -263,19 +262,19 @@ Wijzig de `1` in `4` in het `stel in op`{:class="microbitvariables"} blok.
 Je zou nu een `wanneer knop A wordt ingedrukt`{:class="microbitinput"} codeblok moeten hebben en een `wanneer knop B wordt ingedrukt`{:class="microbitinput"} codeblok:
 
 ```microbit
-let deuntje = 0
+let tune = 0
 input.onButtonPressed(Button.A, function () {
     music.stopAllSounds()
-    deuntje += -1
-    if (deuntje < 1) {
-        deuntje = 4
+    tune += -1
+    if (tune < 1) {
+        tune = 4
     }
 })
 input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
-    deuntje += 1
-    if (deuntje > 4) {
-        deuntje = 1
+    tune += 1
+    if (tune > 4) {
+        tune = 1
     }
 })
 ```
