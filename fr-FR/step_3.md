@@ -23,13 +23,13 @@ Ouvre le menu `Variables`{:class="microbitvariables"} et clique sur **Créer une
 
 Nomme la nouvelle variable `musique`{:class="microbitvariables"}, puis clique sur le bouton **OK**.
 
-<img src="images/variable-tune.png" alt="La fenêtre &quot;Nom de la nouvelle variable&quot; avec le nom '&quot;musique&quot; écrit dans la boîte." width="450"/>
+<img src="images/variable-tune.png" alt="La fenêtre &quot;Nom de la nouvelle variable&quot; avec le nom '&quot;musique&quot; écrit dans la boîte." width="450" />
 
 --- /task ---
 
 De nouveaux blocs sont désormais disponibles pour définir, modifier ou utiliser la valeur stockée dans la variable `musique`{:class="microbitvariables"}.
 
-<img src="images/variableblocks-tune.png" alt="Le menu Variables avec de nouveaux blocs définir, modifier et utiliser la valeur de la variable musique." width="350"/>
+<img src="images/variableblocks-tune.png" alt="Le menu Variables avec de nouveaux blocs définir, modifier et utiliser la valeur de la variable musique." width="350" />
 
 --- task ---
 
@@ -38,7 +38,7 @@ Fais glisser le bloc `définir`{:class="microbitvariables"} et place-le à l'int
 Remplace `0` par `1`.
 
 ```microbit
-let musique = 1
+let tune = 1
 ```
 
 --- /task ---
@@ -51,7 +51,7 @@ Pour que ton lecteur de musique puisse jouer différents choix de mélodies, tu 
 
 Dans le menu `Logique`{:class="microbitlogic"}, choisis le bloc `si`{:class="microbitlogic"}.
 
-<img src="images/if-block-location.png" alt="Le menu Logique avec le bloc &quot;si&quot; en surbrillance." width="350"/>
+<img src="images/if-block-location.png" alt="Le menu Logique avec le bloc &quot;si&quot; en surbrillance." width="350" />
 
 --- /task ---
 
@@ -85,8 +85,8 @@ Remplace le deuxième `0` par `1`.
 
 ```microbit
 basic.forever(function () {
-    let musique = 0
-    if (musique == 1) {
+    let tune = 0
+    if (tune == 1) {
 
     }
     basic.showIcon(IconNames.Duck)
@@ -104,8 +104,8 @@ Déplace les blocs `montrer l'icône`{:class="microbitbasic"} et `jouer mélodie
 
 ```microbit
 basic.forever(function () {
-    let musique = 0
-    if (musique == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
     }
@@ -136,7 +136,7 @@ Répète cette opération deux fois, de manière à obtenir trois sections `sino
 
 Clique sur le symbole `-` à côté de la section `sinon`{:class="microbitlogic"} pour supprimer la section `sinon`{:class="microbitlogic"}.
 
-<img src="images/elseif-blocks.gif" alt="Une animation montrant le symbole + utilisé pour ajouter trois sections &quot;sinon si&quot;. Enfin, le &quot;sinon&quot; est supprimé de la fin en cliquant sur le symbole &quot;-&quot; à côté." width="350"/>
+<img src="images/elseif-blocks.gif" alt="Une animation montrant le symbole + utilisé pour ajouter trois sections &quot;sinon si&quot;. Enfin, le &quot;sinon&quot; est supprimé de la fin en cliquant sur le symbole &quot;-&quot; à côté." width="350" />
 
 --- /task ---
 
@@ -144,7 +144,7 @@ Clique sur le symbole `-` à côté de la section `sinon`{:class="microbitlogic"
 
 Fais un clic droit sur le bloc `musique`{:class="microbitvariables"} `=`{:class="microbitlogic"} `1` et duplique-le.
 
-<img src="images/duplicate-comparison.png" alt="Le bloc de comparaison &quot;=&quot; en surbrillance, avec le menu du clic droit étendu affichant les options telles que &quot;Reproduire&quot;." width="350"/>
+<img src="images/duplicate-comparison.png" alt="Le bloc de comparaison &quot;=&quot; en surbrillance, avec le menu du clic droit étendu affichant les options telles que &quot;Reproduire&quot;." width="350" />
 
 --- /task ---
 
@@ -156,15 +156,15 @@ Duplique deux blocs de comparaison supplémentaires et place-les entre les autre
 
 ```microbit
 basic.forever(function () {
-    let musique = 0
-    if (musique == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (musique == 1) {
+    } else if (tune == 1) {
 
-    } else if (musique == 1) {
+    } else if (tune == 1) {
 
-    } else if (musique == 1) {
+    } else if (tune == 1) {
 
     }
 })
@@ -182,15 +182,15 @@ Pour la troisième section `sinon si`{:class="microbitlogic"}, remplace `1` par 
 
 ```microbit
 basic.forever(function () {
-    let musique = 0
-    if (musique == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (musique == 2) {
+    } else if (tune == 2) {
 
-    } else if (musique == 3) {
+    } else if (tune == 3) {
 
-    } else if (musique == 4) {
+    } else if (tune == 4) {
 
     }
 })
@@ -218,15 +218,15 @@ Tu devrais maintenant avoir quatre mélodies, une pour chacune des quatre condit
 
 ```microbit
 basic.forever(function () {
-    let musique = 0
-    if (musique == 1) {
+    let tune = 0
+    if (tune == 1) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
         basic.showIcon(IconNames.Duck)
-    } else if (musique == 2) {
+    } else if (tune == 2) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (musique == 3) {
+    } else if (tune == 3) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
-    } else if (musique == 4) {
+    } else if (tune == 4) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
     }
 })
@@ -248,13 +248,13 @@ title: Le bloc monter LEDs
 
 À l'intérieur du menu `Base`{:class="microbitbasic"}, trouve le bloc `montrer LEDs`{:class="microbitbasic"} et fais-le glisser à l'intérieur d'un `sinon si`{:class="microbitlogic"} pour l'utiliser.
 
-<img src="images/show-leds.png" alt="Le menu Base avec le bloc &quot;montrer LEDs&quot; en surbrillance." width="350"/>
+<img src="images/show-leds.png" alt="Le menu Base avec le bloc &quot;montrer LEDs&quot; en surbrillance." width="350" />
 
 Tu peux cliquer sur chacun des carrés pour dessiner ton image. Des carrés blancs seront allumés sur le micro:bit.
 
 Nous avons dessiné un **gâteau d'anniversaire** pour la mélodie `anniversaire`.
 
-<img src="images/draw-icon.png" alt="Le bloc &quot;montrer LEDs&quot; avec un gâteau d'anniversaire avec deux bougies créées dans des carrés blancs." width="350"/>
+<img src="images/draw-icon.png" alt="Le bloc &quot;montrer LEDs&quot; avec un gâteau d'anniversaire avec deux bougies créées dans des carrés blancs." width="350" />
 
 --- /collapse ---
 
@@ -264,14 +264,14 @@ Ajoute des icônes pour chacune de tes chansons en utilisant le bloc `montrer l'
 
 ```microbit
 basic.forever(function () {
-    let musique = 0
-    if (musique == 1) {
+    let tune = 0
+    if (tune == 1) {
         basic.showIcon(IconNames.Duck)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
-    } else if (musique == 2) {
+    } else if (tune == 2) {
         basic.showIcon(IconNames.Silly)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
-    } else if (musique == 3) {
+    } else if (tune == 3) {
         basic.showLeds(`
             . # . # .
             . # . # .
@@ -280,7 +280,7 @@ basic.forever(function () {
             # # # # #
             `)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
-    } else if (musique == 4) {
+    } else if (tune == 4) {
         basic.showIcon(IconNames.Skull)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
     }
